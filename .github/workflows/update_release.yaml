@@ -17,14 +17,15 @@ jobs:
       - name: Build
         run: dart run build_runner build -d
       - name: Check git status
+        id: status
         run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            exit 1
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "STATUS=changed" >> $GITHUB_OUTPUT
           fi
-      - if: success()
-        run: echo NOT CLEAN -- UPDATE
-      - if: success()
+      - if: "${{ steps.status.outputs.STATUS == 'changed' }}"
         run: dart analyze
+      - if: "${{ steps.status.outputs.STATUS == 'changed' }}"
+        run: echo UPDATE ME
       # - run: dart test
       # - uses: EndBug/add-and-commit@v9
       #   with:
