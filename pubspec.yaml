@@ -1,0 +1,32 @@
+name: bahai_writings
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  badi_date: ^1.0.4
+  collection: any
+  dart_mappable: ^4.2.2
+  diacritic: ^0.1.5
+  intl: ^0.19.0
+
+dev_dependencies:
+  beautiful_soup_dart: ^0.3.0
+  build: ^2.4.1
+  build_runner: ^2.4.11
+  dart_mappable_builder: ^4.2.3
+  dart_style: ^2.3.6
+  http: ^1.2.1
+  lints: ^3.0.0
+  path: ^1.9.0
+  test: ^1.24.0
+
+# dart pub global activate script_runner
+# scr [command]
+script_runner:
+  scripts:
+    - fix: dart fix --apply && dart format .
+    - watch: dart tools/watch.dart
