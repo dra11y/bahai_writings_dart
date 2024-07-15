@@ -19,10 +19,12 @@ jobs:
       - name: Check git status
         run: |
           if [ -z "$(git status --porcelain)" ]; then
-            exit 0
+            exit 1
           fi
-      - run: echo NOT CLEAN -- UPDATE
-      - run: dart analyze
+      - if: success()
+        run: echo NOT CLEAN -- UPDATE
+      - if: success()
+        run: dart analyze
       # - run: dart test
       # - uses: EndBug/add-and-commit@v9
       #   with:
