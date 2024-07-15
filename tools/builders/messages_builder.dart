@@ -43,8 +43,8 @@ class MessagesBuilder implements Builder {
     final DateFormat dateFormat = DateFormat('d MMMM yyyy');
     final DateFormat monthFormat = DateFormat('MMMM yyyy');
     final datePattern = RegExp(
-      r'Naw-Rúz ((?<nawRuzYear>\d{4})|(?<nawRuzBE>\d{3}))'
-      r'|Riḍván ((?<ridvanYear>\d{4})|(?<ridvanBE>\d{3}))'
+      r'Naw-Rúz ((?<nawRuzCE>\d{4})|(?<nawRuzBE>\d{3}))'
+      r'|Riḍván ((?<ridvanCE>\d{4})|(?<ridvanBE>\d{3}))'
       r'|(?<date>\d\d? [a-z]{3,} \d{4})'
       r'|(?<month>[a-z]{3,} \d{4})'
       '|(?<baha154>Bahá 154 B.E.)',
@@ -92,9 +92,9 @@ class MessagesBuilder implements Builder {
 
         final MessageBase message;
         switch (name) {
-          case 'nawRuzYear':
+          case 'nawRuzCE':
             message = NawRuzMessage(
-              year: int.parse(text),
+              ce: int.parse(text),
               title: title,
               summary: summary,
               url: url,
@@ -106,9 +106,9 @@ class MessagesBuilder implements Builder {
               summary: summary,
               url: url,
             );
-          case 'ridvanYear':
+          case 'ridvanCE':
             message = RidvanMessage(
-              year: int.parse(text),
+              ce: int.parse(text),
               title: title,
               summary: summary,
               url: url,
@@ -167,18 +167,18 @@ class MessagesBuilder implements Builder {
           'be${message.badiDate.yyyMMdd()}$letter',
           if (message is NawRuzMessage) ...{
             'nawRuz${message.be}$letter',
-            'nawRuz${message.year}$letter',
+            'nawRuz${message.ce}$letter',
           },
           if (message is RidvanMessage) ...{
             'ridvan${message.be}$letter',
-            'ridvan${message.year}$letter',
+            'ridvan${message.ce}$letter',
           },
         };
 
         all.putIfAbsent(message.be, () => {});
-        all.putIfAbsent(message.year, () => {});
+        all.putIfAbsent(message.ce, () => {});
         all[message.be]!.add('be${message.badiDate.yyyMMdd()}$letter');
-        all[message.year]!.add('ce${message.date.yyyyMMdd()}$letter');
+        all[message.ce]!.add('ce${message.date.yyyyMMdd()}$letter');
 
         switch (message) {
           case NawRuzMessage():
@@ -215,12 +215,12 @@ class MessagesBuilder implements Builder {
       code.writeln(
           'static final Set<MessageBase> all$be = {${all[be]!.join(',')},};');
     }
-    for (final year in all.keys.where((k) => k > 1000)) {
+    for (final ce in all.keys.where((k) => k > 1000)) {
       code.writeln();
       code.writeln(
-          '/// All Selected $year C.E. Universal House of Justice Messages');
+          '/// All Selected $ce C.E. Universal House of Justice Messages');
       code.writeln(
-          'static final Set<MessageBase> all$year = {${all[year]!.join(',')},};');
+          'static final Set<MessageBase> all$ce = {${all[ce]!.join(',')},};');
     }
 
     code.writeln();

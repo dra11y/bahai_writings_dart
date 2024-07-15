@@ -13,8 +13,8 @@ extension DateTimeExtension on DateTime {
   String toCode({bool time = false}) => [
         'DateTime(',
         '$year',
-        if (month != 1) ', $month',
-        if (day != 1) ', $day',
+        ', $month',
+        ', $day',
         if (time) ', $hour, $minute, $second',
         ')',
       ].join();

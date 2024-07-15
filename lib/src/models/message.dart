@@ -22,20 +22,20 @@ class Message extends MessageBase {
 class NawRuzMessage extends MessageBase {
   NawRuzMessage({
     int? be,
-    int? year,
+    int? ce,
     required super.title,
     required super.summary,
     required super.url,
-  })  : assert((be == null) != (year == null)),
+  })  : assert((be == null) != (ce == null)),
         super(
-          badiDate: BadiDate(year: be ?? year! - 1843, day: 1, month: 1),
+          badiDate: BadiDate(year: be ?? ce! - 1843, day: 1, month: 1),
           isBadiDate: be != null,
         );
 
   @override
   String toCode() => [
         '$runtimeType(',
-        isBadiDate ? 'be: $be' : 'year: $year',
+        isBadiDate ? 'be: $be' : 'ce: $ce',
         ", title: '${title.escapeSingle()}'",
         if (summary != null) ", summary: '${summary!.escapeSingle()}'",
         ", url: '$url'",
@@ -46,20 +46,20 @@ class NawRuzMessage extends MessageBase {
 class RidvanMessage extends MessageBase {
   RidvanMessage({
     int? be,
-    int? year,
+    int? ce,
     required super.title,
     required super.summary,
     required super.url,
-  })  : assert((be == null) != (year == null)),
+  })  : assert((be == null) != (ce == null)),
         super(
-          badiDate: BadiDate(year: be ?? year! - 1843, day: 13, month: 2),
+          badiDate: BadiDate(year: be ?? ce! - 1843, day: 13, month: 2),
           isBadiDate: be != null,
         );
 
   @override
   String toCode() => [
         '$runtimeType(',
-        isBadiDate ? 'be: $be' : 'year: $year',
+        isBadiDate ? 'be: $be' : 'ce: $ce',
         ", title: '${title.escapeSingle()}'",
         if (summary != null) ", summary: '${summary!.escapeSingle()}'",
         ", url: '$url'",
@@ -86,7 +86,7 @@ sealed class MessageBase implements WritingsBase {
         badiDate = badiDate ?? BadiDate.fromDate(date!);
 
   int get be => badiDate.year;
-  int get year => date.year;
+  int get ce => date.year;
   final bool isBadiDate;
   final BadiDate badiDate;
   final DateTime date;
