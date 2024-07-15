@@ -1,3 +1,5 @@
+name: Update from bahai.org and release
+
 on:
   schedule:
     - cron: "0 4 * * *"
