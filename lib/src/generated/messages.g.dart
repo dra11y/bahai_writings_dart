@@ -2,7 +2,6 @@
 import '/src/models/writings_base.dart';
 
 /// Selected Messages of the Universal House of Justice
-/// Generated on: 15 Jul 2024
 /// Source: https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/
 class Messages {
   const Messages._();

@@ -64,7 +64,6 @@ class MessagesBuilder implements Builder {
       ..writeln('// GENERATED CODE - DO NOT MODIFY BY HAND')
       ..writeln("import '/src/models/writings_base.dart';")
       ..writeln('/// Selected Messages of the Universal House of Justice')
-      ..writeln('/// Generated on: ${DateTime.now().dMMMyyyy()}')
       ..writeln('/// Source: $messagesUri')
       ..writeln('class Messages {')
       ..writeln('const Messages._();');
