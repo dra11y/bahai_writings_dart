@@ -15,7 +15,9 @@ jobs:
         with:
           ref: autorelease
       - uses: dart-lang/setup-dart@v1
-      - run: git rebase main
+      - run: |
+          git fetch origin main --depth 1
+          git rebase main
       - run: dart pub get
       - name: Build
         run: dart run build_runner build -d
