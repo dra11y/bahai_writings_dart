@@ -12,7 +12,10 @@ jobs:
       fail-fast: true
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: autorelease
       - uses: dart-lang/setup-dart@v1
+      - run: git rebase main
       - run: dart pub get
       - name: Build
         run: dart run build_runner build -d
@@ -22,11 +25,20 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             echo "STATUS=changed" >> $GITHUB_OUTPUT
           fi
-      - if: "${{ steps.status.outputs.STATUS == 'changed' }}"
-        run: dart analyze
-      - if: "${{ steps.status.outputs.STATUS == 'changed' }}"
-        run: echo UPDATE ME
-      # - run: dart test
-      # - uses: EndBug/add-and-commit@v9
-      #   with:
-      #     default_author: github_actions
+      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+        run: dart analyze # && dart test
+      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+        uses: stikkyapp/update-pubspec-version@v2
+        id: pubspec
+        with:
+          strategy: none
+          bump-build: true
+          path: './pubspec.yaml'
+      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+        run: |
+          VERSION="v${{ steps.pubspec.outputs.new-version }}"
+          git add .
+          git commit -m "auto update from bahai.org to ${VERSION}"
+          git tag "${VERSION}"
+          git push origin autorelease
+          git push origin --tags
