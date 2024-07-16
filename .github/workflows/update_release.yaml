@@ -42,5 +42,5 @@ jobs:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
           commit_prefix: "[AUTO]"
           commit_message: "auto update from bahai.org to ${{ steps.pubspec.outputs.new-version }}"
-          force: false
+          force: true
           target_branch: autorelease
