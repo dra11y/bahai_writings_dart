@@ -37,10 +37,10 @@ jobs:
           bump-build: true
           path: './pubspec.yaml'
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
-        run: |
-          VERSION="v${{ steps.pubspec.outputs.new-version }}"
-          git add .
-          git commit -m "auto update from bahai.org to ${VERSION}"
-          git tag "${VERSION}"
-          git push origin autorelease
-          git push origin --tags
+        uses: devops-infra/action-commit-push@v0.9.2
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          commit_prefix: "[AUTO]"
+          commit_message: "auto update from bahai.org to ${{ steps.pubspec.outputs.new-version }}"
+          force: false
+          target_branch: autorelease
