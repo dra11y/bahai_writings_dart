@@ -1,6 +1,6 @@
 name: bahai_writings
 description: A starting point for Dart libraries or applications.
-version: 0.1.0+240524
+version: 0.1.0+240525
 repository: https://github.com/dra11y/bahai_writings_dart
 
 environment:
