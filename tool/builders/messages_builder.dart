@@ -244,9 +244,20 @@ class MessagesBuilder implements Builder {
       code.toString(),
     ].join('\n');
 
-    /// Create an idempotent build ID based on the latest publication date.
+    /// Create an idempotent build ID based on the latest publication date
+    /// and count of publications on that date.
     /// This way, we can use both SemVer and CalVer!
-    final buildId = DateFormat('yyMMdd').format(latest);
+    final latestCount = seenDates[latest]!;
+
+    /// First publication build ID of a date will not end with a
+    /// disambiguation letter. Second will end with `b`, third with `c`, etc.
+    /// Letters should only appear when there are multiple publications
+    /// on the latest date.
+    /// Letters may be skipped on pub.dev.
+    final buildLetter =
+        latestCount == 1 ? '' : String.fromCharCode(latestCount + 96);
+
+    final buildId = DateFormat('yyMMdd').format(latest) + buildLetter;
 
     final pubspec = PubSpec.load();
     final sv = pubspec.version.semVersion;

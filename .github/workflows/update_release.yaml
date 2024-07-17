@@ -40,7 +40,7 @@ jobs:
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
         name: Check Publish Warnings
         run: dart pub publish --dry-run
-      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
-        name: Publish Package
-        run: dart pub publish -f
+      # - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+      #   name: Publish Package
+      #   run: dart pub publish -f
   
