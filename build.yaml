@@ -6,7 +6,7 @@ targets:
 
 builders:
   messages_builder:
-    import: "tools/builders/messages_builder.dart"
+    import: "tool/builders/messages_builder.dart"
     builder_factories: ["messagesBuilder"]
     build_extensions: {"$lib$": ["src/generated/messages.g.dart"]}
     build_to: source

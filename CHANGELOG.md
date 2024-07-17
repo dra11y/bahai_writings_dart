@@ -1,6 +1,10 @@
+# Changelog
+
 (See notes on [Versioning](#versioning).)
 
-# 0.1.0
+## [0.1.0+240524] - 2024-07-16
+
+### Added
 
 - Initial release.
 

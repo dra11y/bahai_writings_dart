@@ -1,134 +1,132 @@
 part of 'writings_base.dart';
 
+String badiDateToString(BadiDate badiDate) =>
+    'BadiDate(year: ${badiDate.year}, month: ${badiDate.month}, day: ${badiDate.day})';
+
 class Message extends MessageBase {
   Message({
-    required super.date,
     required super.title,
+    required super.date,
+    required super.badiDate,
     required super.summary,
     required super.url,
   });
-
-  @override
-  String toCode() => [
-        '$runtimeType(',
-        'date: ${date.toCode()}',
-        ", title: '${title.escapeSingle()}'",
-        if (summary != null) ", summary: '${summary!.escapeSingle()}'",
-        ", url: '$url'",
-        ',)',
-      ].join();
-}
-
-class NawRuzMessage extends MessageBase {
-  NawRuzMessage({
-    int? be,
-    int? ce,
-    required super.title,
-    required super.summary,
-    required super.url,
-  })  : assert((be == null) != (ce == null)),
-        super(
-          badiDate: BadiDate(year: be ?? ce! - 1843, day: 1, month: 1),
-          isBadiDate: be != null,
-        );
-
-  @override
-  String toCode() => [
-        '$runtimeType(',
-        isBadiDate ? 'be: $be' : 'ce: $ce',
-        ", title: '${title.escapeSingle()}'",
-        if (summary != null) ", summary: '${summary!.escapeSingle()}'",
-        ", url: '$url'",
-        ',)',
-      ].join();
 }
 
 class RidvanMessage extends MessageBase {
   RidvanMessage({
-    int? be,
-    int? ce,
     required super.title,
+    required super.date,
+    required super.badiDate,
     required super.summary,
     required super.url,
-  })  : assert((be == null) != (ce == null)),
-        super(
-          badiDate: BadiDate(year: be ?? ce! - 1843, day: 13, month: 2),
-          isBadiDate: be != null,
-        );
+  });
+}
 
-  @override
-  String toCode() => [
-        '$runtimeType(',
-        isBadiDate ? 'be: $be' : 'ce: $ce',
-        ", title: '${title.escapeSingle()}'",
-        if (summary != null) ", summary: '${summary!.escapeSingle()}'",
-        ", url: '$url'",
-        ',)',
-      ].join();
+class NawRuzMessage extends MessageBase {
+  NawRuzMessage({
+    required super.title,
+    required super.date,
+    required super.badiDate,
+    required super.summary,
+    required super.url,
+  });
+}
+
+class PromiseOfWorldPeaceMessage extends MessageBase {
+  PromiseOfWorldPeaceMessage({
+    required super.title,
+    required super.date,
+    required super.badiDate,
+    required super.summary,
+    required super.url,
+  });
 }
 
 /// ------------------------------------------------------------
 /// Messages of the Universal House of Justice
 /// ------------------------------------------------------------
 sealed class MessageBase implements WritingsBase {
-  MessageBase({
-    BadiDate? badiDate,
-    DateTime? date,
-    bool? isBadiDate,
+  const MessageBase({
     required this.title,
-    required this.url,
+    required this.date,
+    required this.badiDate,
     required this.summary,
-  })  : sortTitle = title,
-        isCompilation = false,
-        assert((badiDate == null) != (date == null)),
-        isBadiDate = isBadiDate ?? badiDate != null,
-        date = date ?? badiDate!.startDateTime.beginningOfDay,
-        badiDate = badiDate ?? BadiDate.fromDate(date!);
+    required this.url,
+  }) : sortTitle = title;
 
-  int get be => badiDate.year;
-  int get ce => date.year;
-  final bool isBadiDate;
+  @override
+  final String title;
+
+  String get formattedDate => switch (this) {
+        RidvanMessage() => 'Riḍván ${date.year} (${badiDate.year} B.E.)',
+        NawRuzMessage() => 'Naw-Rúz ${date.year} (${badiDate.year} B.E.)',
+        PromiseOfWorldPeaceMessage() =>
+          DateFormat('MMMM yyyy').format(date.dateTime),
+        Message() => '${date.dMMMyyyy()} (${badiDate.dMMMMyyyBE()})',
+      };
+
+  /// The publication date of the message.
+  final Date date;
+
+  /// The [BadiDate] of the publication date of the message.
   final BadiDate badiDate;
-  final DateTime date;
+
+  @override
+  final String summary;
+
+  /// The URL of the source text of the message.
   final String url;
 
   @override
   final Set<Institution> authors = const {UHJ()};
 
   @override
-  Institution? get singleAuthor => authors.singleOrNull;
-
-  @override
-  final String title;
+  final Institution singleAuthor = const UHJ();
 
   @override
   final String sortTitle;
 
   @override
-  String? get subtitle => null;
+  final String? subtitle = null;
 
   @override
-  final String? summary;
-
-  @override
-  final bool isCompilation;
+  final bool isCompilation = false;
 
   @override
   int compareTo(WritingsBase other) => switch (other) {
-        MessageBase() => date.compareTo(other.date),
+        MessageBase() => [
+              date.compareTo(other.date),
+              sortTitle.compareTo(other.sortTitle),
+            ].firstWhereOrNull((c) => c != 0) ??
+            0,
         WritingsAuthorTitleComparable() => compareTo(other),
       };
 
-  String toCode();
-
   @override
-  String toString() => [
+  String toString() => toCode();
+
+  String toCode() => [
         '$runtimeType(',
-        '    title: $title,',
-        '    date: $date,',
-        '    badiDate: $badiDate,',
-        '    summary: $summary,',
-        '    url: $url,',
+        "    title: '${title.escapeSingle()}',",
+        '    date: ${date.toCode()},',
+        '    badiDate: ${badiDateToString(badiDate)},',
+        "    summary: '${summary.escapeSingle()}',",
+        "    url: '${url.escapeSingle()}',",
         ')',
       ].join('\n');
+
+  @override
+  int get hashCode =>
+      Object.hash(runtimeType, title, date, badiDate, url, summary);
+
+  @override
+  bool operator ==(Object other) =>
+      other is MessageBase &&
+      other.runtimeType == runtimeType &&
+      other.title == title &&
+      other.date == date &&
+      other.badiDate == badiDate &&
+      other.summary == summary &&
+      other.url == url;
 }

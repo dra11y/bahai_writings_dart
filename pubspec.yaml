@@ -1,6 +1,6 @@
 name: bahai_writings
 description: A starting point for Dart libraries or applications.
-version: 0.1.0+240524
+version: 0.1.0+240525
 repository: https://github.com/dra11y/bahai_writings_dart
 
 environment:
@@ -17,6 +17,7 @@ dev_dependencies:
   beautiful_soup_dart: ^0.3.0
   build: ^2.4.1
   build_runner: ^2.4.11
+  change: ^0.7.3
   dart_mappable_builder: ^4.2.3
   dart_style: ^2.3.6
   http: ^1.2.1

@@ -1,8 +1,11 @@
 import 'package:badi_date/badi_date.dart';
+import 'package:bahai_writings/src/extensions/badi_date_extension.dart';
 import 'package:collection/collection.dart';
+import 'package:intl/intl.dart';
 
 import '../extensions/extensions.dart';
 import 'author.dart';
+import 'date.dart';
 
 part 'guardian_writings.dart';
 part 'message.dart';
@@ -32,13 +35,13 @@ mixin WritingsAuthorTitleComparable implements Comparable<WritingsBase> {
   String get sortTitle;
 
   @override
-  int compareTo(WritingsBase other) =>
-      [
-        authors
-            .map((a) => a.sortIndex)
-            .minOrNull
-            ?.compareTo(other.authors.map((a) => a.sortIndex).minOrNull ?? 0),
-        sortTitle.compareTo(other.sortTitle),
-      ].nonNulls.firstWhereOrNull((c) => c != 0) ??
-      0;
+  int compareTo(WritingsBase other) => switch (other) {
+        MessageBase() => compareTo(other),
+        WritingsAuthorTitleComparable() => [
+              authors.map((a) => a.sortIndex).minOrNull?.compareTo(
+                  other.authors.map((a) => a.sortIndex).minOrNull ?? 0),
+              sortTitle.compareTo(other.sortTitle),
+            ].nonNulls.firstWhereOrNull((c) => c != 0) ??
+            0,
+      };
 }
