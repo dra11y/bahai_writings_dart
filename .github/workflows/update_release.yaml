@@ -39,8 +39,8 @@ jobs:
           echo "$PUB_DEV_CREDENTIALS" > $HOME/.config/dart/pub-credentials.json
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
         name: Check Publish Warnings
-        run: pub publish --dry-run
+        run: dart pub publish --dry-run
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
         name: Publish Package
-        run: pub publish -f
+        run: dart pub publish -f
   
