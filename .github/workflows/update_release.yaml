@@ -12,12 +12,7 @@ jobs:
       fail-fast: true
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: dart-lang/setup-dart@v1
-      - run: |
-          git checkout autorelease
-          git rebase main
       - run: dart pub get
       - name: Build
         run: dart run build_runner build -d
@@ -30,16 +25,22 @@ jobs:
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
         run: dart analyze # && dart test
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
-        uses: stikkyapp/update-pubspec-version@v2
-        id: pubspec
+        uses: peter-evans/create-pull-request@v6
         with:
-          strategy: none
-          bump-build: true
-          path: './pubspec.yaml'
+          title: Auto-update from bahai.org
+          commit-message: Auto-update from bahai.org
+          branch: autorelease
       - if: ${{ steps.status.outputs.STATUS == 'changed' }}
-        uses: devops-infra/action-commit-push@v0.9.2
-        with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
-          commit_prefix: "[AUTO]"
-          commit_message: "auto update from bahai.org to ${{ steps.pubspec.outputs.new-version }}"
-          force: false
+        name: Setup pub.dev credentials
+        env:
+          PUB_DEV_CREDENTIALS: ${{ secrets.PUB_DEV_CREDENTIALS }}
+        run: |
+          mkdir -p $HOME/.config/dart
+          echo "$PUB_DEV_CREDENTIALS" > $HOME/.config/dart/pub-credentials.json
+      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+        name: Check Publish Warnings
+        run: pub publish --dry-run
+      - if: ${{ steps.status.outputs.STATUS == 'changed' }}
+        name: Publish Package
+        run: pub publish -f
+  

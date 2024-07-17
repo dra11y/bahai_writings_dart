@@ -5,10 +5,12 @@ import 'package:bahai_writings/src/extensions/date_time_extension.dart';
 import 'package:bahai_writings/src/models/writings_base.dart';
 import 'package:beautiful_soup_dart/beautiful_soup.dart';
 import 'package:build/build.dart';
+import 'package:collection/collection.dart';
 import 'package:dart_style/dart_style.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:path/path.dart' as path;
+import 'package:pubspec_manager/pubspec_manager.dart';
 
 Builder messagesBuilder(BuilderOptions _) => MessagesBuilder();
 
@@ -61,10 +63,6 @@ class MessagesBuilder implements Builder {
     }
 
     final code = StringBuffer()
-      ..writeln('// GENERATED CODE - DO NOT MODIFY BY HAND')
-      ..writeln("import '/src/models/writings_base.dart';")
-      ..writeln('/// Selected Messages of the Universal House of Justice')
-      ..writeln('/// Source: $messagesUri')
       ..writeln('class Messages {')
       ..writeln('const Messages._();');
 
@@ -235,7 +233,28 @@ class MessagesBuilder implements Builder {
 
     code.writeln('}');
 
-    final output = DartFormatter().format(code.toString());
+    final latest = seenDates.keys.max;
+
+    final codeWithHeader = [
+      '// GENERATED CODE - DO NOT MODIFY BY HAND',
+      "import '/src/models/writings_base.dart';",
+      '/// Selected Messages of the Universal House of Justice',
+      '/// Latest: ${latest.dMMMyyyy()}',
+      '/// Source: $messagesUri',
+      code.toString(),
+    ].join('\n');
+
+    /// Create an idempotent build ID based on the latest publication date.
+    /// This way, we can use both SemVer and CalVer!
+    final buildId = DateFormat('yyMMdd').format(latest);
+
+    final pubspec = PubSpec.load();
+    final sv = pubspec.version.semVersion;
+    final version = '${sv.major}.${sv.minor}.${sv.patch}+$buildId';
+    pubspec.version.set(version);
+    pubspec.save();
+
+    final output = DartFormatter().format(codeWithHeader);
 
     return buildStep.writeAsString(assetId(buildStep), output);
   }
