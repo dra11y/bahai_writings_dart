@@ -4,6 +4,7 @@ import 'package:collection/collection.dart';
 import 'package:intl/intl.dart';
 
 import '../extensions/extensions.dart';
+import '../generated/messages_content.g.dart';
 import 'author.dart';
 import 'date.dart';
 

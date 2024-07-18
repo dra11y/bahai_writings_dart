@@ -6,6 +6,10 @@ final _iso8601 = DateFormat('yyyy-MM-dd');
 
 /// Constantable, comparable class for naive Gregorian dates.
 class Date implements Comparable<Date> {
+  Date get beginningOfYear => Date(year, 1, 1);
+
+  Date get endOfYear => Date(year, 12, 31);
+
   const Date(this.year, this.month, this.day)
       // Perform very basic sanity checks.
       : assert(year >= 1582 && year <= 3000, 'invalid year'),
@@ -68,4 +72,11 @@ class Date implements Comparable<Date> {
   String toString() => toCode();
 
   String toCode() => 'Date($year, $month, $day)';
+
+  Date copyWith({
+    int? year,
+    int? month,
+    int? day,
+  }) =>
+      Date(year ?? this.year, month ?? this.month, day ?? this.day);
 }

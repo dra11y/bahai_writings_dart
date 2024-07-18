@@ -1,10 +1,8 @@
 part of 'writings_base.dart';
 
-String badiDateToString(BadiDate badiDate) =>
-    'BadiDate(year: ${badiDate.year}, month: ${badiDate.month}, day: ${badiDate.day})';
-
-class Message extends MessageBase {
+class Message extends MessageBase with MessageContentMixin {
   Message({
+    required super.id,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -13,8 +11,9 @@ class Message extends MessageBase {
   });
 }
 
-class RidvanMessage extends MessageBase {
+class RidvanMessage extends MessageBase with MessageContentMixin {
   RidvanMessage({
+    required super.id,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -23,8 +22,9 @@ class RidvanMessage extends MessageBase {
   });
 }
 
-class NawRuzMessage extends MessageBase {
+class NawRuzMessage extends MessageBase with MessageContentMixin {
   NawRuzMessage({
+    required super.id,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -33,8 +33,9 @@ class NawRuzMessage extends MessageBase {
   });
 }
 
-class PromiseOfWorldPeaceMessage extends MessageBase {
+class PromiseOfWorldPeaceMessage extends MessageBase with MessageContentMixin {
   PromiseOfWorldPeaceMessage({
+    required super.id,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -48,6 +49,7 @@ class PromiseOfWorldPeaceMessage extends MessageBase {
 /// ------------------------------------------------------------
 sealed class MessageBase implements WritingsBase {
   const MessageBase({
+    required this.id,
     required this.title,
     required this.date,
     required this.badiDate,
@@ -55,8 +57,14 @@ sealed class MessageBase implements WritingsBase {
     required this.url,
   }) : sortTitle = title;
 
+  final String id;
+
   @override
   final String title;
+
+  String get content;
+
+  String get formattedDateTitle => '$formattedDate: $title';
 
   String get formattedDate => switch (this) {
         RidvanMessage() => 'Riḍván ${date.year} (${badiDate.year} B.E.)',
@@ -108,9 +116,10 @@ sealed class MessageBase implements WritingsBase {
 
   String toCode() => [
         '$runtimeType(',
+        "    id: '$id',",
         "    title: '${title.escapeSingle()}',",
         '    date: ${date.toCode()},',
-        '    badiDate: ${badiDateToString(badiDate)},',
+        '    badiDate: ${badiDate.toCode()},',
         "    summary: '${summary.escapeSingle()}',",
         "    url: '${url.escapeSingle()}',",
         ')',
@@ -118,12 +127,13 @@ sealed class MessageBase implements WritingsBase {
 
   @override
   int get hashCode =>
-      Object.hash(runtimeType, title, date, badiDate, url, summary);
+      Object.hash(runtimeType, id, title, date, badiDate, url, summary);
 
   @override
   bool operator ==(Object other) =>
       other is MessageBase &&
       other.runtimeType == runtimeType &&
+      other.id == id &&
       other.title == title &&
       other.date == date &&
       other.badiDate == badiDate &&

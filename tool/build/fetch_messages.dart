@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:badi_date/badi_date.dart';
 import 'package:bahai_writings/src/extensions/date_time_extension.dart';
@@ -8,7 +9,7 @@ import 'package:beautiful_soup_dart/beautiful_soup.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 
-import 'logger.dart';
+import '../logger.dart';
 
 enum _MessageType {
   nawRuz,
@@ -33,7 +34,8 @@ Future<List<MessageBase>> fetchMessages() async {
         'Failed to load UHJ Messages: body is empty from $messagesUri');
   }
   logger.info('Parsing HTML ...');
-  final BeautifulSoup bs = BeautifulSoup(response.body);
+  final body = utf8.decode(response.bodyBytes);
+  final BeautifulSoup bs = BeautifulSoup(body);
   final table = bs.find('table');
   if (table == null) {
     throw Exception('Could not find <table> element');
@@ -125,6 +127,7 @@ Future<List<MessageBase>> fetchMessages() async {
       switch (type) {
         case _MessageType.nawRuz:
           messages.add(NawRuzMessage(
+              id: row.id,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -132,6 +135,7 @@ Future<List<MessageBase>> fetchMessages() async {
               url: url));
         case _MessageType.ridvan:
           messages.add(RidvanMessage(
+              id: row.id,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -139,6 +143,7 @@ Future<List<MessageBase>> fetchMessages() async {
               url: url));
         case _MessageType.message:
           messages.add(Message(
+              id: row.id,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -146,6 +151,7 @@ Future<List<MessageBase>> fetchMessages() async {
               url: url));
         case _MessageType.pwp:
           messages.add(PromiseOfWorldPeaceMessage(
+              id: row.id,
               title: title,
               date: date,
               badiDate: badiDate,

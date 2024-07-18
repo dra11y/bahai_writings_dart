@@ -15,7 +15,7 @@ import 'package:markdown/markdown.dart';
 import 'package:pubspec_manager/pubspec_manager.dart';
 
 import 'build/fetch_messages.dart';
-import 'build/logger.dart';
+import 'logger.dart';
 
 Future<void> main() async {
   final messages = await fetchMessages();

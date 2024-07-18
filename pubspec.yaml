@@ -1,6 +1,6 @@
 name: bahai_writings
 description: Statically referenced Sacred Writings and Authoritative Guidance of the Bahá’í Faith, from the Works of Bahá’u’lláh, The Báb, ‘Abdu’l-Bahá, Shoghi Effendi, and the Universal House of Justice
-version: 0.1.0+20240525
+version: 0.1.0+20240525b
 repository: https://github.com/dra11y/bahai_writings_dart
 
 environment:
@@ -17,9 +17,11 @@ dev_dependencies:
   beautiful_soup_dart: ^0.3.0
   build_runner: ^2.4.11
   change: ^0.7.3
+  code_builder: ^4.10.0
   color_logger: ^1.0.2
   dart_mappable_builder: ^4.2.3
   dart_style: ^2.3.6
+  html2md: ^1.3.2
   http: ^1.2.1
   lints: ^4.0.0
   markdown: ^7.2.2
@@ -34,5 +36,7 @@ script_runner:
     - fix: dart fix --apply && dart format .
     # build_runner watch (for DartMappable)
     - watch: dart tool/watch.dart
-    # build (fetch new content from bahai.org)
+    # build (fetch list of new content from bahai.org)
     - build: dart tool/build.dart
+    # fetch (fetch new content texts from bahai.org)
+    - fetch: dart tool/fetch.dart
