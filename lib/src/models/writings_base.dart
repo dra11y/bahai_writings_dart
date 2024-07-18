@@ -1,5 +1,5 @@
 import 'package:badi_date/badi_date.dart';
-import 'package:bahai_writings/src/extensions/badi_date_extension.dart';
+import 'package:bahai_writings/src/extensions/badi_date_extensions.dart';
 import 'package:collection/collection.dart';
 import 'package:intl/intl.dart';
 

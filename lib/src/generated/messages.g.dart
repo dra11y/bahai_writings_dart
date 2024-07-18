@@ -1,11 +1,12 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
+
+// DO NOT DELETE THIS FILE because tool/build.dart depends on it!
+
 import 'package:badi_date/badi_date.dart';
+import 'package:collection/collection.dart';
+import '/src/extensions/badi_date_extensions.dart';
 import '/src/models/date.dart';
 import '/src/models/writings_base.dart';
-
-test() {
-  Messages.ridvan2024;
-}
 
 /// Selected Messages of the Universal House of Justice
 /// Latest in this build: 25 May 2024
@@ -8248,1972 +8249,968 @@ class Messages {
   /// Statement to the first Bahá’í World Congress
   static final be1200303 = ce19630430;
 
-  /// All Selected Universal House of Justice Messages
-  static final Set<MessageBase> all = {
-    ce19630430,
-    ce19630507,
-    ce19630825,
-    ce19631001,
-    ce19631006,
-    ce19631119,
-    ce19631125,
-    ce19631218,
-    ce19640401,
-    ce19640701,
-    ce19640713,
-    ce19640901,
-    ce19641101,
-    ce19641101b,
-    ce19650309,
-    ce19650420,
-    ce19660128,
-    ce19660202,
-    ce19660420,
-    ce19660527,
-    ce19660610,
-    ce19670420,
-    ce19670702,
-    ce19671015,
-    ce19671208,
-    ce19680509,
-    ce19680621,
-    ce19680624,
-    ce19680801,
-    ce19681009,
-    ce19690420,
-    ce19690526,
-    ce19691001,
-    ce19691116,
-    ce19691207,
-    ce19700208,
-    ce19700306,
-    ce19700420,
-    ce19700801,
-    ce19710101,
-    ce19710101b,
-    ce19710420,
-    ce19710501,
-    ce19710501b,
-    ce19710712,
-    ce19710901,
-    ce19710901b,
-    ce19720420,
-    ce19720424,
-    ce19720607,
-    ce19720713,
-    ce19720730,
-    ce19721126,
-    ce19730315,
-    ce19730420,
-    ce19730507,
-    ce19730605,
-    ce19730608,
-    ce19731007,
-    ce19731204,
-    ce19740207,
-    ce19740320,
-    ce19740320b,
-    ce19740428,
-    ce19740609,
-    ce19740722,
-    ce19740729,
-    ce19741119,
-    ce19750106,
-    ce19750114,
-    ce19750304,
-    ce19750325,
-    ce19750404,
-    ce19750514,
-    ce19750525,
-    ce19750605,
-    ce19750724,
-    ce19760318,
-    ce19760324,
-    ce19760701,
-    ce19760701b,
-    ce19760707,
-    ce19760801,
-    ce19760926,
-    ce19761101,
-    ce19761202,
-    ce19770101,
-    ce19770101b,
-    ce19770201,
-    ce19770306,
-    ce19770324,
-    ce19770821,
-    ce19780327,
-    ce19780420,
-    ce19781011,
-    ce19781215,
-    ce19790103,
-    ce19790112,
-    ce19790226,
-    ce19790320,
-    ce19790320b,
-    ce19790508,
-    ce19790510,
-    ce19790523,
-    ce19790615,
-    ce19790629,
-    ce19790909,
-    ce19791017,
-    ce19800210,
-    ce19800320,
-    ce19800507,
-    ce19800911,
-    ce19800923,
-    ce19800924,
-    ce19801103,
-    ce19801222,
-    ce19801228,
-    ce19810301,
-    ce19810416,
-    ce19810417,
-    ce19810527,
-    ce19810722,
-    ce19811017,
-    ce19811022,
-    ce19811228,
-    ce19820103,
-    ce19820126,
-    ce19820309,
-    ce19820420,
-    ce19820602,
-    ce19820603,
-    ce19820802,
-    ce19820806,
-    ce19820819,
-    ce19820902,
-    ce19820902b,
-    ce19830202,
-    ce19830420,
-    ce19830519,
-    ce19830619,
-    ce19830623,
-    ce19830704,
-    ce19830901,
-    ce19830913,
-    ce19831019,
-    ce19831020,
-    ce19831107,
-    ce19831207,
-    ce19831213,
-    ce19840103,
-    ce19840420,
-    ce19840513,
-    ce19840521,
-    ce19840612,
-    ce19840725,
-    ce19840806,
-    ce19840812,
-    ce19840823,
-    ce19841025,
-    ce19850103,
-    ce19850123,
-    ce19850131,
-    ce19850314,
-    ce19850411,
-    ce19850420,
-    ce19850508,
-    ce19850721,
-    ce19850805,
-    ce19850807,
-    ce19850919,
-    ce198510,
-    ce19851024,
-    ce19851217,
-    ce19851227,
-    ce19860102,
-    ce19860105,
-    ce19860205,
-    ce19860225,
-    ce19860317,
-    ce19860420,
-    ce19860512,
-    ce19860525,
-    ce19861012,
-    ce19861027,
-    ce19861029,
-    ce19861106,
-    ce19861126,
-    ce19870309,
-    ce19870310,
-    ce19870325,
-    ce19870420,
-    ce19870430,
-    ce19870615,
-    ce19870619,
-    ce19870621,
-    ce19870628,
-    ce19870715,
-    ce19870820,
-    ce19870831,
-    ce19871022,
-    ce19871214,
-    ce19880114,
-    ce19880204,
-    ce19880420,
-    ce19880531,
-    ce19880616,
-    ce19880725,
-    ce19880930,
-    ce19881213,
-    ce19881229,
-    ce19890420,
-    ce19890622,
-    ce19890710,
-    ce19890827,
-    ce19890828,
-    ce19890925,
-    ce19891109,
-    ce19891120,
-    ce19900123,
-    ce19900208,
-    ce19900212,
-    ce19900420,
-    ce19900420b,
-    ce19900524,
-    ce19901121,
-    ce19910102,
-    ce19910403,
-    ce19910420,
-    ce19910501,
-    ce19910620,
-    ce19911028,
-    ce19911030,
-    ce19911118,
-    ce19911126,
-    ce19911209,
-    ce19920408,
-    ce19920420,
-    ce19920607,
-    ce19920624,
-    ce19920625,
-    ce19920903,
-    ce19920907,
-    ce19920910,
-    ce19920930,
-    ce19920930b,
-    ce19921015,
-    ce19921028,
-    ce19921123,
-    ce19921126,
-    ce19930124,
-    ce19930305,
-    ce19930420,
-    ce19930624,
-    ce19930630,
-    ce19930701,
-    ce19930704,
-    ce19930902,
-    ce19931019,
-    ce19940104,
-    ce19940311,
-    ce19940420,
-    ce19940517,
-    ce19940519,
-    ce19940725,
-    ce19940801,
-    ce19941215,
-    ce19950420,
-    ce19950427,
-    ce19950519,
-    ce19951226,
-    ce19951226b,
-    ce19951231,
-    ce19960314,
-    ce19960420,
-    ce19960420b,
-    ce19960420c,
-    ce19960420d,
-    ce19960420e,
-    ce19960420f,
-    ce19960420g,
-    ce19960420h,
-    ce19960420i,
-    ce19960422,
-    ce19960513,
-    ce19960614,
-    ce19960701,
-    ce19960806,
-    ce19960818,
-    ce19960916,
-    ce19970320,
-    ce19970324,
-    ce19970330,
-    ce19970420,
-    ce19970530,
-    ce19970811,
-    ce19970818,
-    ce19980106,
-    ce19980106b,
-    ce19980217,
-    ce19980304,
-    ce19980420,
-    ce19980503,
-    ce19980521,
-    ce19980601,
-    ce19980610,
-    ce19980616,
-    ce19980702,
-    ce19980722,
-    ce19980804,
-    ce19980812,
-    ce19980827,
-    ce19980924,
-    ce19980929,
-    ce19981001,
-    ce19981006,
-    ce19981201,
-    ce19981214,
-    ce19990202,
-    ce19990225,
-    ce19990406,
-    ce19990407,
-    ce19990415,
-    ce19990420,
-    ce19990504,
-    ce19990630,
-    ce19990704,
-    ce19990704b,
-    ce19990805,
-    ce19990824,
-    ce19991109,
-    ce19991126,
-    ce19991228,
-    ce20000108,
-    ce20000119,
-    ce20000126,
-    ce20000223,
-    ce20000312,
-    ce20000416,
-    ce20000420,
-    ce20000516,
-    ce20000712,
-    ce20000718,
-    ce20000720,
-    ce20000720b,
-    ce20000727,
-    ce20000809,
-    ce20000924,
-    ce20001126,
-    ce20010109,
-    ce20010114,
-    ce20010116,
-    ce20010208,
-    ce20010419,
-    ce20010420,
-    ce20010524,
-    ce20010628,
-    ce20020117,
-    ce20020401,
-    ce20020420,
-    ce20030117,
-    ce20030420,
-    ce20031126,
-    ce20040112,
-    ce20040420,
-    ce20050420,
-    ce20051227,
-    ce20051228,
-    ce20051231,
-    ce20060322,
-    ce20060420,
-    ce20061221,
-    ce20070325,
-    ce20070420,
-    ce20070909,
-    ce20071126,
-    ce20071225,
-    ce20080420,
-    ce20080512,
-    ce20080519,
-    ce20080603,
-    ce20080620,
-    ce20080728,
-    ce20081020,
-    ce20081031,
-    ce20081223,
-    ce20090209,
-    ce20090305,
-    ce20090318,
-    ce20090321,
-    ce20090326,
-    ce20090420,
-    ce20090514,
-    ce20090517,
-    ce20090519,
-    ce20090611,
-    ce20090623,
-    ce20091124,
-    ce20091215,
-    ce20100110,
-    ce20100122,
-    ce20100321,
-    ce20100402,
-    ce20100420,
-    ce20100829,
-    ce20101228,
-    ce20110101,
-    ce20110321,
-    ce20110412,
-    ce20110420,
-    ce20110514,
-    ce20110617,
-    ce20111212,
-    ce20120301,
-    ce20120320,
-    ce20120420,
-    ce20120511,
-    ce20120627,
-    ce20121126,
-    ce20130102,
-    ce20130208,
-    ce20130302,
-    ce20130320,
-    ce20130420,
-    ce20130501,
-    ce20130510,
-    ce20130627,
-    ce20130701,
-    ce20130717,
-    ce20130724,
-    ce20130827,
-    ce20131205,
-    ce20140420,
-    ce20140710,
-    ce20140801,
-    ce20150420,
-    ce20151009,
-    ce20151229,
-    ce20160102,
-    ce20160221,
-    ce20160326,
-    ce20160326b,
-    ce20160419,
-    ce20161014,
-    ce20161125,
-    ce20170301,
-    ce20170419,
-    ce20170427,
-    ce20170901,
-    ce20171001,
-    ce20171031,
-    ce20171129,
-    ce20171227,
-    ce20180420,
-    ce20180722,
-    ce20181109,
-    ce20181126,
-    ce20190118,
-    ce20190420,
-    ce20190507,
-    ce20191001,
-    ce20191108,
-    ce20191201,
-    ce20200319,
-    ce20200419,
-    ce20200722,
-    ce20201125,
-    ce20210402,
-    ce20210419,
-    ce20210523,
-    ce20211108,
-    ce20211113,
-    ce20211125,
-    ce20211127,
-    ce20211201,
-    ce20211230,
-    ce20220101,
-    ce20220103,
-    ce20220104,
-    ce20220408,
-    ce20220414,
-    ce20220420,
-    ce20220704,
-    ce20221101,
-    ce20230325,
-    ce20230420,
-    ce20231128,
-    ce20240419,
-    ce20240525,
-  };
-
-  /// All Selected 120 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all120 = {
-    be1200303,
-    be1200310,
-    be1200906,
-    be1201105,
-    be1201110,
-    be1201316,
-    be1201403,
-    be1201507,
-  };
-
-  /// All Selected 121 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all121 = {
-    be1210112,
-    be1210608,
-    be1210701,
-    be1210913,
-    be1211217,
-    be1211217b,
-    be1211908,
-  };
-
-  /// All Selected 122 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all122 = {
-    be1220213,
-    be1221710,
-    be1221715,
-  };
-
-  /// All Selected 123 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all123 = {
-    be1230213,
-    be1230411,
-    be1230506,
-  };
-
-  /// All Selected 124 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all124 = {
-    be1240213,
-    be1240609,
-    be1241119,
-    be1241416,
-  };
-
-  /// All Selected 125 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all125 = {
-    be1250312,
-    be1250517,
-    be1250601,
-    be1250801,
-    be1251113,
-  };
-
-  /// All Selected 126 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all126 = {
-    be1260213,
-    be1260410,
-    be1261105,
-    be1261313,
-    be1261415,
-    be1261802,
-    be1261905,
-  };
-
-  /// All Selected 127 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all127 = {
-    be1270213,
-    be1270801,
-    be1271602,
-    be1271602b,
-  };
-
-  /// All Selected 128 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all128 = {
-    be1280213,
-    be1280304,
-    be1280304b,
-    be1280619,
-    be1280913,
-    be1280913b,
-  };
-
-  /// All Selected 129 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all129 = {
-    be1290213,
-    be1290216,
-    be1290503,
-    be1290701,
-    be1290718,
-    be1291404,
-    be1291914,
-  };
-
-  /// All Selected 130 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all130 = {
-    be1300213,
-    be1300310,
-    be1300501,
-    be1300504,
-    be1301111,
-    be1301412,
-    be1301801,
-  };
-
-  /// All Selected 131 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all131 = {
-    be1310101,
-    be1310101b,
-    be1310301,
-    be1310505,
-    be1310710,
-    be1310717,
-    be1311316,
-    be1311607,
-    be1311615,
-    be1311903,
-  };
-
-  /// All Selected 132 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all132 = {
-    be1320105,
-    be1320115,
-    be1320317,
-    be1320409,
-    be1320501,
-    be1320712,
-    be1321917,
-  };
-
-  /// All Selected 133 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all133 = {
-    be1330104,
-    be1330608,
-    be1330608b,
-    be1330614,
-    be1330801,
-    be1331019,
-    be1331217,
-    be1331410,
-    be1331602,
-    be1331602b,
-    be1331714,
-    be1331905,
-  };
-
-  /// All Selected 134 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all134 = {
-    be1340104,
-    be1340902,
-  };
-
-  /// All Selected 135 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all135 = {
-    be1350107,
-    be1350213,
-    be1351115,
-    be1351504,
-    be1351604,
-    be1351613,
-    be1350001,
-  };
-
-  /// All Selected 136 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all136 = {
-    be1360101,
-    be1360101b,
-    be1360311,
-    be1360313,
-    be1360407,
-    be1360511,
-    be1360606,
-    be1361002,
-    be1361202,
-    be1361804,
-  };
-
-  /// All Selected 137 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all137 = {
-    be1370101,
-    be1370310,
-    be1371004,
-    be1371016,
-    be1371017,
-    be1371219,
-    be1371511,
-    be1371517,
-    be1370004,
-  };
-
-  /// All Selected 138 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all138 = {
-    be1380208,
-    be1380209,
-    be1380411,
-    be1380710,
-    be1381202,
-    be1381207,
-    be1381517,
-    be1381604,
-    be1381708,
-    be1381908,
-  };
-
-  /// All Selected 139 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all139 = {
-    be1390213,
-    be1390417,
-    be1390418,
-    be1390802,
-    be1390806,
-    be1390819,
-    be1390914,
-    be1390914b,
-    be1391715,
-  };
-
-  /// All Selected 140 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all140 = {
-    be1400213,
-    be1400403,
-    be1400515,
-    be1400519,
-    be1400611,
-    be1400913,
-    be1401006,
-    be1401204,
-    be1401205,
-    be1401304,
-    be1401415,
-    be1401502,
-    be1401604,
-  };
-
-  /// All Selected 141 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all141 = {
-    be1410213,
-    be1410316,
-    be1410405,
-    be1410508,
-    be1410713,
-    be1410806,
-    be1410812,
-    be1410904,
-    be1411210,
-    be1411604,
-    be1411705,
-    be1411713,
-    be1411913,
-  };
-
-  /// All Selected 142 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all142 = {
-    be1420203,
-    be1420213,
-    be1420311,
-    be1420709,
-    be1420805,
-    be1420807,
-    be1421012,
-    ce198510,
-    be1421209,
-    be1421506,
-    be1421516,
-    be1421603,
-    be1421606,
-    be1421718,
-    be1421819,
-    be1421916,
-  };
-
-  /// All Selected 143 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all143 = {
-    be1430213,
-    be1430315,
-    be1430409,
-    be1431116,
-    be1431212,
-    be1431214,
-    be1431303,
-    be1431404,
-    be1431908,
-    be1431909,
-  };
-
-  /// All Selected 144 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all144 = {
-    be1440105,
-    be1440213,
-    be1440303,
-    be1440511,
-    be1440515,
-    be1440517,
-    be1440605,
-    be1440703,
-    be1440901,
-    be1440912,
-    be1441207,
-    be1441503,
-    be1441615,
-    be1441717,
-  };
-
-  /// All Selected 145 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all145 = {
-    be1450213,
-    be1450415,
-    be1450512,
-    be1450713,
-    be1451104,
-    be1451502,
-    be1451518,
-  };
-
-  /// All Selected 146 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all146 = {
-    be1460213,
-    be1460518,
-    be1460617,
-    be1460908,
-    be1460909,
-    be1461018,
-    be1461306,
-    be1461317,
-    be1461705,
-    be1461802,
-    be1461806,
-  };
-
-  /// All Selected 147 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all147 = {
-    be1470212,
-    be1470213b,
-    be1470408,
-    be1471318,
-    be1471603,
-  };
-
-  /// All Selected 148 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all148 = {
-    be1480114,
-    be1480213,
-    be1480304,
-    be1480516,
-    be1481213,
-    be1481215,
-    be1481315,
-    be1481404,
-    be1481417,
-  };
-
-  /// All Selected 149 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all149 = {
-    be1490119,
-    be1490213,
-    be1490503,
-    be1490601,
-    be1490602,
-    be1490915,
-    be1490919,
-    be1491003,
-    be1491104,
-    be1491104b,
-    be1491119,
-    be1491213,
-    be1491401,
-    be1491404,
-    be1491706,
-    be1491904,
-  };
-
-  /// All Selected 150 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all150 = {
-    be1500213,
-    be1500601,
-    be1500607,
-    be1500608,
-    be1500611,
-    be1500914,
-    be1501204,
-    be1501605,
-    be1501910,
-  };
-
-  /// All Selected 151 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all151 = {
-    be1510213,
-    be1510401,
-    be1510403,
-    be1510713,
-    be1510801,
-    be1511504,
-  };
-
-  /// All Selected 152 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all152 = {
-    be1520213,
-    be1520219,
-    be1520403,
-    be1521515,
-    be1521515b,
-    be1521601,
-    be1521913,
-  };
-
-  /// All Selected 153 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all153 = {
-    be1530213,
-    be1530213b,
-    be1530213c,
-    be1530213d,
-    be1530213e,
-    be1530213f,
-    be1530213g,
-    be1530213h,
-    be1530213i,
-    be1530214,
-    be1530316,
-    be1530510,
-    be1530608,
-    be1530806,
-    be1530818,
-    be1531009,
-  };
-
-  /// All Selected 154 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all154 = {
-    be1540101,
-    be1540104,
-    be1540110,
-    be1540213,
-    be1540414,
-    be1540811,
-    be1540818,
-    be1541607,
-    be1541607b,
-    be1541811,
-    be1541903,
-  };
-
-  /// All Selected 155 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all155 = {
-    be1550213,
-    be1550306,
-    be1550405,
-    be1550416,
-    be1550506,
-    be1550512,
-    be1550609,
-    be1550710,
-    be1550804,
-    be1550812,
-    be1550908,
-    be1551017,
-    be1551103,
-    be1551105,
-    be1551110,
-    be1551409,
-    be1551503,
-    be1551715,
-    be1551819,
-  };
-
-  /// All Selected 156 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all156 = {
-    be1560117,
-    be1560118,
-    be1560207,
-    be1560213,
-    be1560307,
-    be1560607,
-    be1560611,
-    be1560611b,
-    be1560805,
-    be1560905,
-    be1561306,
-    be1561404,
-    be1561517,
-    be1561609,
-    be1561701,
-    be1561708,
-    be1561817,
-    be1561911,
-  };
-
-  /// All Selected 157 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all157 = {
-    be1570208,
-    be1570213,
-    be1570319,
-    be1570619,
-    be1570706,
-    be1570708,
-    be1570708b,
-    be1570715,
-    be1570809,
-    be1571017,
-    be1571404,
-    be1571610,
-    be1571615,
-    be1571617,
-    be1571802,
-  };
-
-  /// All Selected 158 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all158 = {
-    be1580211,
-    be1580213,
-    be1580408,
-    be1580605,
-    be1581618,
-  };
-
-  /// All Selected 159 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all159 = {
-    be1590112,
-    be1590213,
-    be1591618,
-  };
-
-  /// All Selected 160 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all160 = {
-    be1600213,
-    be1601404,
-    be1601613,
-  };
-
-  /// All Selected 161 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all161 = {
-    be1610213,
-  };
-
-  /// All Selected 162 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all162 = {
-    be1620213,
-    be1621516,
-    be1621517,
-    be1621601,
-  };
-
-  /// All Selected 163 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all163 = {
-    be1630102,
-    be1630213,
-    be1631510,
-  };
-
-  /// All Selected 164 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all164 = {
-    be1640105,
-    be1640213,
-    be1641002,
-    be1641404,
-    be1641514,
-  };
-
-  /// All Selected 165 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all165 = {
-    be1650213,
-    be1650315,
-    be1650403,
-    be1650418,
-    be1650516,
-    be1650716,
-    be1651205,
-    be1651216,
-    be1651512,
-    be1651803,
-    be1651904,
-    be1651917,
-  };
-
-  /// All Selected 166 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all166 = {
-    be1660101,
-    be1660106,
-    be1660213,
-    be1660317,
-    be1660401,
-    be1660403,
-    be1660507,
-    be1660519,
-    be1661402,
-    be1661504,
-    be1661611,
-    be1661704,
-  };
-
-  /// All Selected 167 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all167 = {
-    be1670101,
-    be1670113,
-    be1670213,
-    be1670910,
-    be1671517,
-    be1671602,
-  };
-
-  /// All Selected 168 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all168 = {
-    be1680101,
-    be1680204,
-    be1680213,
-    be1680317,
-    be1680513,
-    be1681501,
-    be1680005,
-  };
-
-  /// All Selected 169 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all169 = {
-    be1690101,
-    be1690213,
-    be1690314,
-    be1690604,
-    be1691404,
-    be1691603,
-    be1691802,
-    be1691901,
-  };
-
-  /// All Selected 170 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all170 = {
-    be1700101,
-    be1700213,
-    be1700304,
-    be1700313,
-    be1700604,
-    be1700608,
-    be1700705,
-    be1700712,
-    be1700908,
-    be1701413,
-  };
-
-  /// All Selected 171 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all171 = {
-    be1710213,
-    be1710617,
-    be1710801,
-  };
-
-  /// All Selected 172 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all172 = {
-    be1720213,
-    be1721113,
-    be1721518,
-    be1721603,
-    be1721815,
-  };
-
-  /// All Selected 173 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all173 = {
-    be1730107,
-    be1730107b,
-    be1730213,
-    be1731119,
-    be1731404,
-    be1731901,
-  };
-
-  /// All Selected 174 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all174 = {
-    be1740213,
-    be1740301,
-    be1740914,
-    be1741106,
-    be1741217,
-    be1741408,
-    be1741517,
-  };
-
-  /// All Selected 175 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all175 = {
-    be1750213,
-    be1750710,
-    be1751306,
-    be1751404,
-    be1751619,
-  };
-
-  /// All Selected 176 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all176 = {
-    be1760213,
-    be1760310,
-    be1761105,
-    be1761305,
-    be1761409,
-  };
-
-  /// All Selected 177 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all177 = {
-    be1770101,
-    be1770213,
-    be1770711,
-    be1771404,
-  };
-
-  /// All Selected 178 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all178 = {
-    be1780114,
-    be1780213,
-    be1780408,
-    be1781306,
-    be1781311,
-    be1781404,
-    be1781406,
-    be1781410,
-    be1781601,
-    be1781603,
-    be1781605,
-    be1781606,
-  };
-
-  /// All Selected 179 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all179 = {
-    be1790119,
-    be1790206,
-    be1790213,
-    be1790611,
-    be1791217,
-  };
-
-  /// All Selected 180 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all180 = {
-    be1800105,
-    be1800213,
-    be1801406,
-  };
-
-  /// All Selected 181 B.E. Universal House of Justice Messages
-  static final Set<MessageBase> all181 = {
-    be1810213,
-    be1810410,
-  };
-
-  /// All Selected 1963 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1963 = {
-    ce19630430,
-    ce19630507,
-    ce19630825,
-    ce19631001,
-    ce19631006,
-    ce19631119,
-    ce19631125,
-    ce19631218,
-  };
-
-  /// All Selected 1964 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1964 = {
-    ce19640401,
-    ce19640701,
-    ce19640713,
-    ce19640901,
-    ce19641101,
-    ce19641101b,
-  };
-
-  /// All Selected 1965 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1965 = {
-    ce19650309,
-    ce19650420,
-  };
-
-  /// All Selected 1966 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1966 = {
-    ce19660128,
-    ce19660202,
-    ce19660420,
-    ce19660527,
-    ce19660610,
-  };
-
-  /// All Selected 1967 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1967 = {
-    ce19670420,
-    ce19670702,
-    ce19671015,
-    ce19671208,
-  };
-
-  /// All Selected 1968 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1968 = {
-    ce19680509,
-    ce19680621,
-    ce19680624,
-    ce19680801,
-    ce19681009,
-  };
-
-  /// All Selected 1969 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1969 = {
-    ce19690420,
-    ce19690526,
-    ce19691001,
-    ce19691116,
-    ce19691207,
-  };
-
-  /// All Selected 1970 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1970 = {
-    ce19700208,
-    ce19700306,
-    ce19700420,
-    ce19700801,
-  };
-
-  /// All Selected 1971 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1971 = {
-    ce19710101,
-    ce19710101b,
-    ce19710420,
-    ce19710501,
-    ce19710501b,
-    ce19710712,
-    ce19710901,
-    ce19710901b,
-  };
-
-  /// All Selected 1972 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1972 = {
-    ce19720420,
-    ce19720424,
-    ce19720607,
-    ce19720713,
-    ce19720730,
-    ce19721126,
-  };
-
-  /// All Selected 1973 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1973 = {
-    ce19730315,
-    ce19730420,
-    ce19730507,
-    ce19730605,
-    ce19730608,
-    ce19731007,
-    ce19731204,
-  };
-
-  /// All Selected 1974 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1974 = {
-    ce19740207,
-    ce19740320,
-    ce19740320b,
-    ce19740428,
-    ce19740609,
-    ce19740722,
-    ce19740729,
-    ce19741119,
-  };
-
-  /// All Selected 1975 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1975 = {
-    ce19750106,
-    ce19750114,
-    ce19750304,
-    ce19750325,
-    ce19750404,
-    ce19750514,
-    ce19750525,
-    ce19750605,
-    ce19750724,
-  };
-
-  /// All Selected 1976 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1976 = {
-    ce19760318,
-    ce19760324,
-    ce19760701,
-    ce19760701b,
-    ce19760707,
-    ce19760801,
-    ce19760926,
-    ce19761101,
-    ce19761202,
-  };
-
-  /// All Selected 1977 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1977 = {
-    ce19770101,
-    ce19770101b,
-    ce19770201,
-    ce19770306,
-    ce19770324,
-    ce19770821,
-  };
-
-  /// All Selected 1978 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1978 = {
-    ce19780327,
-    ce19780420,
-    ce19781011,
-    ce19781215,
-  };
-
-  /// All Selected 1979 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1979 = {
-    ce19790103,
-    ce19790112,
-    ce19790226,
-    ce19790320,
-    ce19790320b,
-    ce19790508,
-    ce19790510,
-    ce19790523,
-    ce19790615,
-    ce19790629,
-    ce19790909,
-    ce19791017,
-  };
-
-  /// All Selected 1980 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1980 = {
-    ce19800210,
-    ce19800320,
-    ce19800507,
-    ce19800911,
-    ce19800923,
-    ce19800924,
-    ce19801103,
-    ce19801222,
-    ce19801228,
-  };
-
-  /// All Selected 1981 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1981 = {
-    ce19810301,
-    ce19810416,
-    ce19810417,
-    ce19810527,
-    ce19810722,
-    ce19811017,
-    ce19811022,
-    ce19811228,
-  };
-
-  /// All Selected 1982 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1982 = {
-    ce19820103,
-    ce19820126,
-    ce19820309,
-    ce19820420,
-    ce19820602,
-    ce19820603,
-    ce19820802,
-    ce19820806,
-    ce19820819,
-    ce19820902,
-    ce19820902b,
-  };
-
-  /// All Selected 1983 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1983 = {
-    ce19830202,
-    ce19830420,
-    ce19830519,
-    ce19830619,
-    ce19830623,
-    ce19830704,
-    ce19830901,
-    ce19830913,
-    ce19831019,
-    ce19831020,
-    ce19831107,
-    ce19831207,
-    ce19831213,
-  };
-
-  /// All Selected 1984 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1984 = {
-    ce19840103,
-    ce19840420,
-    ce19840513,
-    ce19840521,
-    ce19840612,
-    ce19840725,
-    ce19840806,
-    ce19840812,
-    ce19840823,
-    ce19841025,
-  };
-
-  /// All Selected 1985 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1985 = {
-    ce19850103,
-    ce19850123,
-    ce19850131,
-    ce19850314,
-    ce19850411,
-    ce19850420,
-    ce19850508,
-    ce19850721,
-    ce19850805,
-    ce19850807,
-    ce19850919,
-    ce198510,
-    ce19851024,
-    ce19851217,
-    ce19851227,
-  };
-
-  /// All Selected 1986 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1986 = {
-    ce19860102,
-    ce19860105,
-    ce19860205,
-    ce19860225,
-    ce19860317,
-    ce19860420,
-    ce19860512,
-    ce19860525,
-    ce19861012,
-    ce19861027,
-    ce19861029,
-    ce19861106,
-    ce19861126,
-  };
-
-  /// All Selected 1987 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1987 = {
-    ce19870309,
-    ce19870310,
-    ce19870325,
-    ce19870420,
-    ce19870430,
-    ce19870615,
-    ce19870619,
-    ce19870621,
-    ce19870628,
-    ce19870715,
-    ce19870820,
-    ce19870831,
-    ce19871022,
-    ce19871214,
-  };
-
-  /// All Selected 1988 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1988 = {
-    ce19880114,
-    ce19880204,
-    ce19880420,
-    ce19880531,
-    ce19880616,
-    ce19880725,
-    ce19880930,
-    ce19881213,
-    ce19881229,
-  };
-
-  /// All Selected 1989 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1989 = {
-    ce19890420,
-    ce19890622,
-    ce19890710,
-    ce19890827,
-    ce19890828,
-    ce19890925,
-    ce19891109,
-    ce19891120,
-  };
-
-  /// All Selected 1990 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1990 = {
-    ce19900123,
-    ce19900208,
-    ce19900212,
-    ce19900420,
-    ce19900420b,
-    ce19900524,
-    ce19901121,
-  };
-
-  /// All Selected 1991 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1991 = {
-    ce19910102,
-    ce19910403,
-    ce19910420,
-    ce19910501,
-    ce19910620,
-    ce19911028,
-    ce19911030,
-    ce19911118,
-    ce19911126,
-    ce19911209,
-  };
-
-  /// All Selected 1992 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1992 = {
-    ce19920408,
-    ce19920420,
-    ce19920607,
-    ce19920624,
-    ce19920625,
-    ce19920903,
-    ce19920907,
-    ce19920910,
-    ce19920930,
-    ce19920930b,
-    ce19921015,
-    ce19921028,
-    ce19921123,
-    ce19921126,
-  };
-
-  /// All Selected 1993 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1993 = {
-    ce19930124,
-    ce19930305,
-    ce19930420,
-    ce19930624,
-    ce19930630,
-    ce19930701,
-    ce19930704,
-    ce19930902,
-    ce19931019,
-  };
-
-  /// All Selected 1994 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1994 = {
-    ce19940104,
-    ce19940311,
-    ce19940420,
-    ce19940517,
-    ce19940519,
-    ce19940725,
-    ce19940801,
-    ce19941215,
-  };
-
-  /// All Selected 1995 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1995 = {
-    ce19950420,
-    ce19950427,
-    ce19950519,
-    ce19951226,
-    ce19951226b,
-    ce19951231,
-  };
-
-  /// All Selected 1996 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1996 = {
-    ce19960314,
-    ce19960420,
-    ce19960420b,
-    ce19960420c,
-    ce19960420d,
-    ce19960420e,
-    ce19960420f,
-    ce19960420g,
-    ce19960420h,
-    ce19960420i,
-    ce19960422,
-    ce19960513,
-    ce19960614,
-    ce19960701,
-    ce19960806,
-    ce19960818,
-    ce19960916,
-  };
-
-  /// All Selected 1997 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1997 = {
-    ce19970320,
-    ce19970324,
-    ce19970330,
-    ce19970420,
-    ce19970530,
-    ce19970811,
-    ce19970818,
-  };
-
-  /// All Selected 1998 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1998 = {
-    ce19980106,
-    ce19980106b,
-    ce19980217,
-    ce19980304,
-    ce19980420,
-    ce19980503,
-    ce19980521,
-    ce19980601,
-    ce19980610,
-    ce19980616,
-    ce19980702,
-    ce19980722,
-    ce19980804,
-    ce19980812,
-    ce19980827,
-    ce19980924,
-    ce19980929,
-    ce19981001,
-    ce19981006,
-    ce19981201,
-    ce19981214,
-  };
-
-  /// All Selected 1999 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all1999 = {
-    ce19990202,
-    ce19990225,
-    ce19990406,
-    ce19990407,
-    ce19990415,
-    ce19990420,
-    ce19990504,
-    ce19990630,
-    ce19990704,
-    ce19990704b,
-    ce19990805,
-    ce19990824,
-    ce19991109,
-    ce19991126,
-    ce19991228,
-  };
-
-  /// All Selected 2000 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2000 = {
-    ce20000108,
-    ce20000119,
-    ce20000126,
-    ce20000223,
-    ce20000312,
-    ce20000416,
-    ce20000420,
-    ce20000516,
-    ce20000712,
-    ce20000718,
-    ce20000720,
-    ce20000720b,
-    ce20000727,
-    ce20000809,
-    ce20000924,
-    ce20001126,
-  };
-
-  /// All Selected 2001 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2001 = {
-    ce20010109,
-    ce20010114,
-    ce20010116,
-    ce20010208,
-    ce20010419,
-    ce20010420,
-    ce20010524,
-    ce20010628,
-  };
-
-  /// All Selected 2002 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2002 = {
-    ce20020117,
-    ce20020401,
-    ce20020420,
-  };
-
-  /// All Selected 2003 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2003 = {
-    ce20030117,
-    ce20030420,
-    ce20031126,
-  };
-
-  /// All Selected 2004 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2004 = {
-    ce20040112,
-    ce20040420,
-  };
-
-  /// All Selected 2005 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2005 = {
-    ce20050420,
-    ce20051227,
-    ce20051228,
-    ce20051231,
-  };
-
-  /// All Selected 2006 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2006 = {
-    ce20060322,
-    ce20060420,
-    ce20061221,
-  };
-
-  /// All Selected 2007 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2007 = {
-    ce20070325,
-    ce20070420,
-    ce20070909,
-    ce20071126,
-    ce20071225,
-  };
-
-  /// All Selected 2008 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2008 = {
-    ce20080420,
-    ce20080512,
-    ce20080519,
-    ce20080603,
-    ce20080620,
-    ce20080728,
-    ce20081020,
-    ce20081031,
-    ce20081223,
-  };
-
-  /// All Selected 2009 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2009 = {
-    ce20090209,
-    ce20090305,
-    ce20090318,
-    ce20090321,
-    ce20090326,
-    ce20090420,
-    ce20090514,
-    ce20090517,
-    ce20090519,
-    ce20090611,
-    ce20090623,
-    ce20091124,
-    ce20091215,
-  };
-
-  /// All Selected 2010 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2010 = {
-    ce20100110,
-    ce20100122,
-    ce20100321,
-    ce20100402,
-    ce20100420,
-    ce20100829,
-    ce20101228,
-  };
-
-  /// All Selected 2011 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2011 = {
-    ce20110101,
-    ce20110321,
-    ce20110412,
-    ce20110420,
-    ce20110514,
-    ce20110617,
-    ce20111212,
-  };
-
-  /// All Selected 2012 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2012 = {
-    ce20120301,
-    ce20120320,
-    ce20120420,
-    ce20120511,
-    ce20120627,
-    ce20121126,
-  };
-
-  /// All Selected 2013 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2013 = {
-    ce20130102,
-    ce20130208,
-    ce20130302,
-    ce20130320,
-    ce20130420,
-    ce20130501,
-    ce20130510,
-    ce20130627,
-    ce20130701,
-    ce20130717,
-    ce20130724,
-    ce20130827,
-    ce20131205,
-  };
-
-  /// All Selected 2014 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2014 = {
-    ce20140420,
-    ce20140710,
-    ce20140801,
-  };
-
-  /// All Selected 2015 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2015 = {
-    ce20150420,
-    ce20151009,
-    ce20151229,
-  };
-
-  /// All Selected 2016 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2016 = {
-    ce20160102,
-    ce20160221,
-    ce20160326,
-    ce20160326b,
-    ce20160419,
-    ce20161014,
-    ce20161125,
-  };
-
-  /// All Selected 2017 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2017 = {
-    ce20170301,
-    ce20170419,
-    ce20170427,
-    ce20170901,
-    ce20171001,
-    ce20171031,
-    ce20171129,
-    ce20171227,
-  };
-
-  /// All Selected 2018 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2018 = {
-    ce20180420,
-    ce20180722,
-    ce20181109,
-    ce20181126,
-  };
-
-  /// All Selected 2019 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2019 = {
-    ce20190118,
-    ce20190420,
-    ce20190507,
-    ce20191001,
-    ce20191108,
-    ce20191201,
-  };
-
-  /// All Selected 2020 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2020 = {
-    ce20200319,
-    ce20200419,
-    ce20200722,
-    ce20201125,
-  };
-
-  /// All Selected 2021 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2021 = {
-    ce20210402,
-    ce20210419,
-    ce20210523,
-    ce20211108,
-    ce20211113,
-    ce20211125,
-    ce20211127,
-    ce20211201,
-    ce20211230,
-  };
-
-  /// All Selected 2022 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2022 = {
-    ce20220101,
-    ce20220103,
-    ce20220104,
-    ce20220408,
-    ce20220414,
-    ce20220420,
-    ce20220704,
-    ce20221101,
-  };
-
-  /// All Selected 2023 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2023 = {
-    ce20230325,
-    ce20230420,
-    ce20231128,
-  };
-
-  /// All Selected 2024 C.E. Universal House of Justice Messages
-  static final Set<MessageBase> all2024 = {
-    ce20240419,
-    ce20240525,
-  };
+  /// All Selected Universal House of Justice Messages by Gregorian Date
+  static final UnmodifiableMapView<Date, Set<MessageBase>> allCE =
+      UnmodifiableMapView({
+    Date(1963, 4, 30): {ce19630430},
+    Date(1963, 5, 7): {ce19630507},
+    Date(1963, 8, 25): {ce19630825},
+    Date(1963, 10, 1): {ce19631001},
+    Date(1963, 10, 6): {ce19631006},
+    Date(1963, 11, 19): {ce19631119},
+    Date(1963, 11, 25): {ce19631125},
+    Date(1963, 12, 18): {ce19631218},
+    Date(1964, 4, 1): {ce19640401},
+    Date(1964, 7, 1): {ce19640701},
+    Date(1964, 7, 13): {ce19640713},
+    Date(1964, 9, 1): {ce19640901},
+    Date(1964, 11, 1): {ce19641101, ce19641101b},
+    Date(1965, 3, 9): {ce19650309},
+    Date(1965, 4, 20): {ce19650420},
+    Date(1966, 1, 28): {ce19660128},
+    Date(1966, 2, 2): {ce19660202},
+    Date(1966, 4, 20): {ce19660420},
+    Date(1966, 5, 27): {ce19660527},
+    Date(1966, 6, 10): {ce19660610},
+    Date(1967, 4, 20): {ce19670420},
+    Date(1967, 7, 2): {ce19670702},
+    Date(1967, 10, 15): {ce19671015},
+    Date(1967, 12, 8): {ce19671208},
+    Date(1968, 5, 9): {ce19680509},
+    Date(1968, 6, 21): {ce19680621},
+    Date(1968, 6, 24): {ce19680624},
+    Date(1968, 8, 1): {ce19680801},
+    Date(1968, 10, 9): {ce19681009},
+    Date(1969, 4, 20): {ce19690420},
+    Date(1969, 5, 26): {ce19690526},
+    Date(1969, 10, 1): {ce19691001},
+    Date(1969, 11, 16): {ce19691116},
+    Date(1969, 12, 7): {ce19691207},
+    Date(1970, 2, 8): {ce19700208},
+    Date(1970, 3, 6): {ce19700306},
+    Date(1970, 4, 20): {ce19700420},
+    Date(1970, 8, 1): {ce19700801},
+    Date(1971, 1, 1): {ce19710101, ce19710101b},
+    Date(1971, 4, 20): {ce19710420},
+    Date(1971, 5, 1): {ce19710501, ce19710501b},
+    Date(1971, 7, 12): {ce19710712},
+    Date(1971, 9, 1): {ce19710901, ce19710901b},
+    Date(1972, 4, 20): {ce19720420},
+    Date(1972, 4, 24): {ce19720424},
+    Date(1972, 6, 7): {ce19720607},
+    Date(1972, 7, 13): {ce19720713},
+    Date(1972, 7, 30): {ce19720730},
+    Date(1972, 11, 26): {ce19721126},
+    Date(1973, 3, 15): {ce19730315},
+    Date(1973, 4, 20): {ce19730420},
+    Date(1973, 5, 7): {ce19730507},
+    Date(1973, 6, 5): {ce19730605},
+    Date(1973, 6, 8): {ce19730608},
+    Date(1973, 10, 7): {ce19731007},
+    Date(1973, 12, 4): {ce19731204},
+    Date(1974, 2, 7): {ce19740207},
+    Date(1974, 3, 20): {ce19740320, ce19740320b},
+    Date(1974, 4, 28): {ce19740428},
+    Date(1974, 6, 9): {ce19740609},
+    Date(1974, 7, 22): {ce19740722},
+    Date(1974, 7, 29): {ce19740729},
+    Date(1974, 11, 19): {ce19741119},
+    Date(1975, 1, 6): {ce19750106},
+    Date(1975, 1, 14): {ce19750114},
+    Date(1975, 3, 4): {ce19750304},
+    Date(1975, 3, 25): {ce19750325},
+    Date(1975, 4, 4): {ce19750404},
+    Date(1975, 5, 14): {ce19750514},
+    Date(1975, 5, 25): {ce19750525},
+    Date(1975, 6, 5): {ce19750605},
+    Date(1975, 7, 24): {ce19750724},
+    Date(1976, 3, 18): {ce19760318},
+    Date(1976, 3, 24): {ce19760324},
+    Date(1976, 7, 1): {ce19760701, ce19760701b},
+    Date(1976, 7, 7): {ce19760707},
+    Date(1976, 8, 1): {ce19760801},
+    Date(1976, 9, 26): {ce19760926},
+    Date(1976, 11, 1): {ce19761101},
+    Date(1976, 12, 2): {ce19761202},
+    Date(1977, 1, 1): {ce19770101, ce19770101b},
+    Date(1977, 2, 1): {ce19770201},
+    Date(1977, 3, 6): {ce19770306},
+    Date(1977, 3, 24): {ce19770324},
+    Date(1977, 8, 21): {ce19770821},
+    Date(1978, 3, 27): {ce19780327},
+    Date(1978, 4, 20): {ce19780420},
+    Date(1978, 10, 11): {ce19781011},
+    Date(1978, 12, 15): {ce19781215},
+    Date(1979, 1, 3): {ce19790103},
+    Date(1979, 1, 12): {ce19790112},
+    Date(1979, 2, 26): {ce19790226},
+    Date(1979, 3, 20): {ce19790320, ce19790320b},
+    Date(1979, 5, 8): {ce19790508},
+    Date(1979, 5, 10): {ce19790510},
+    Date(1979, 5, 23): {ce19790523},
+    Date(1979, 6, 15): {ce19790615},
+    Date(1979, 6, 29): {ce19790629},
+    Date(1979, 9, 9): {ce19790909},
+    Date(1979, 10, 17): {ce19791017},
+    Date(1980, 2, 10): {ce19800210},
+    Date(1980, 3, 20): {ce19800320},
+    Date(1980, 5, 7): {ce19800507},
+    Date(1980, 9, 11): {ce19800911},
+    Date(1980, 9, 23): {ce19800923},
+    Date(1980, 9, 24): {ce19800924},
+    Date(1980, 11, 3): {ce19801103},
+    Date(1980, 12, 22): {ce19801222},
+    Date(1980, 12, 28): {ce19801228},
+    Date(1981, 3, 1): {ce19810301},
+    Date(1981, 4, 16): {ce19810416},
+    Date(1981, 4, 17): {ce19810417},
+    Date(1981, 5, 27): {ce19810527},
+    Date(1981, 7, 22): {ce19810722},
+    Date(1981, 10, 17): {ce19811017},
+    Date(1981, 10, 22): {ce19811022},
+    Date(1981, 12, 28): {ce19811228},
+    Date(1982, 1, 3): {ce19820103},
+    Date(1982, 1, 26): {ce19820126},
+    Date(1982, 3, 9): {ce19820309},
+    Date(1982, 4, 20): {ce19820420},
+    Date(1982, 6, 2): {ce19820602},
+    Date(1982, 6, 3): {ce19820603},
+    Date(1982, 8, 2): {ce19820802},
+    Date(1982, 8, 6): {ce19820806},
+    Date(1982, 8, 19): {ce19820819},
+    Date(1982, 9, 2): {ce19820902, ce19820902b},
+    Date(1983, 2, 2): {ce19830202},
+    Date(1983, 4, 20): {ce19830420},
+    Date(1983, 5, 19): {ce19830519},
+    Date(1983, 6, 19): {ce19830619},
+    Date(1983, 6, 23): {ce19830623},
+    Date(1983, 7, 4): {ce19830704},
+    Date(1983, 9, 1): {ce19830901},
+    Date(1983, 9, 13): {ce19830913},
+    Date(1983, 10, 19): {ce19831019},
+    Date(1983, 10, 20): {ce19831020},
+    Date(1983, 11, 7): {ce19831107},
+    Date(1983, 12, 7): {ce19831207},
+    Date(1983, 12, 13): {ce19831213},
+    Date(1984, 1, 3): {ce19840103},
+    Date(1984, 4, 20): {ce19840420},
+    Date(1984, 5, 13): {ce19840513},
+    Date(1984, 5, 21): {ce19840521},
+    Date(1984, 6, 12): {ce19840612},
+    Date(1984, 7, 25): {ce19840725},
+    Date(1984, 8, 6): {ce19840806},
+    Date(1984, 8, 12): {ce19840812},
+    Date(1984, 8, 23): {ce19840823},
+    Date(1984, 10, 25): {ce19841025},
+    Date(1985, 1, 3): {ce19850103},
+    Date(1985, 1, 23): {ce19850123},
+    Date(1985, 1, 31): {ce19850131},
+    Date(1985, 3, 14): {ce19850314},
+    Date(1985, 4, 11): {ce19850411},
+    Date(1985, 4, 20): {ce19850420},
+    Date(1985, 5, 8): {ce19850508},
+    Date(1985, 7, 21): {ce19850721},
+    Date(1985, 8, 5): {ce19850805},
+    Date(1985, 8, 7): {ce19850807},
+    Date(1985, 9, 19): {ce19850919},
+    Date(1985, 10, 1): {ce198510},
+    Date(1985, 10, 24): {ce19851024},
+    Date(1985, 12, 17): {ce19851217},
+    Date(1985, 12, 27): {ce19851227},
+    Date(1986, 1, 2): {ce19860102},
+    Date(1986, 1, 5): {ce19860105},
+    Date(1986, 2, 5): {ce19860205},
+    Date(1986, 2, 25): {ce19860225},
+    Date(1986, 3, 17): {ce19860317},
+    Date(1986, 4, 20): {ce19860420},
+    Date(1986, 5, 12): {ce19860512},
+    Date(1986, 5, 25): {ce19860525},
+    Date(1986, 10, 12): {ce19861012},
+    Date(1986, 10, 27): {ce19861027},
+    Date(1986, 10, 29): {ce19861029},
+    Date(1986, 11, 6): {ce19861106},
+    Date(1986, 11, 26): {ce19861126},
+    Date(1987, 3, 9): {ce19870309},
+    Date(1987, 3, 10): {ce19870310},
+    Date(1987, 3, 25): {ce19870325},
+    Date(1987, 4, 20): {ce19870420},
+    Date(1987, 4, 30): {ce19870430},
+    Date(1987, 6, 15): {ce19870615},
+    Date(1987, 6, 19): {ce19870619},
+    Date(1987, 6, 21): {ce19870621},
+    Date(1987, 6, 28): {ce19870628},
+    Date(1987, 7, 15): {ce19870715},
+    Date(1987, 8, 20): {ce19870820},
+    Date(1987, 8, 31): {ce19870831},
+    Date(1987, 10, 22): {ce19871022},
+    Date(1987, 12, 14): {ce19871214},
+    Date(1988, 1, 14): {ce19880114},
+    Date(1988, 2, 4): {ce19880204},
+    Date(1988, 4, 20): {ce19880420},
+    Date(1988, 5, 31): {ce19880531},
+    Date(1988, 6, 16): {ce19880616},
+    Date(1988, 7, 25): {ce19880725},
+    Date(1988, 9, 30): {ce19880930},
+    Date(1988, 12, 13): {ce19881213},
+    Date(1988, 12, 29): {ce19881229},
+    Date(1989, 4, 20): {ce19890420},
+    Date(1989, 6, 22): {ce19890622},
+    Date(1989, 7, 10): {ce19890710},
+    Date(1989, 8, 27): {ce19890827},
+    Date(1989, 8, 28): {ce19890828},
+    Date(1989, 9, 25): {ce19890925},
+    Date(1989, 11, 9): {ce19891109},
+    Date(1989, 11, 20): {ce19891120},
+    Date(1990, 1, 23): {ce19900123},
+    Date(1990, 2, 8): {ce19900208},
+    Date(1990, 2, 12): {ce19900212},
+    Date(1990, 4, 20): {ce19900420, ce19900420b},
+    Date(1990, 5, 24): {ce19900524},
+    Date(1990, 11, 21): {ce19901121},
+    Date(1991, 1, 2): {ce19910102},
+    Date(1991, 4, 3): {ce19910403},
+    Date(1991, 4, 20): {ce19910420},
+    Date(1991, 5, 1): {ce19910501},
+    Date(1991, 6, 20): {ce19910620},
+    Date(1991, 10, 28): {ce19911028},
+    Date(1991, 10, 30): {ce19911030},
+    Date(1991, 11, 18): {ce19911118},
+    Date(1991, 11, 26): {ce19911126},
+    Date(1991, 12, 9): {ce19911209},
+    Date(1992, 4, 8): {ce19920408},
+    Date(1992, 4, 20): {ce19920420},
+    Date(1992, 6, 7): {ce19920607},
+    Date(1992, 6, 24): {ce19920624},
+    Date(1992, 6, 25): {ce19920625},
+    Date(1992, 9, 3): {ce19920903},
+    Date(1992, 9, 7): {ce19920907},
+    Date(1992, 9, 10): {ce19920910},
+    Date(1992, 9, 30): {ce19920930, ce19920930b},
+    Date(1992, 10, 15): {ce19921015},
+    Date(1992, 10, 28): {ce19921028},
+    Date(1992, 11, 23): {ce19921123},
+    Date(1992, 11, 26): {ce19921126},
+    Date(1993, 1, 24): {ce19930124},
+    Date(1993, 3, 5): {ce19930305},
+    Date(1993, 4, 20): {ce19930420},
+    Date(1993, 6, 24): {ce19930624},
+    Date(1993, 6, 30): {ce19930630},
+    Date(1993, 7, 1): {ce19930701},
+    Date(1993, 7, 4): {ce19930704},
+    Date(1993, 9, 2): {ce19930902},
+    Date(1993, 10, 19): {ce19931019},
+    Date(1994, 1, 4): {ce19940104},
+    Date(1994, 3, 11): {ce19940311},
+    Date(1994, 4, 20): {ce19940420},
+    Date(1994, 5, 17): {ce19940517},
+    Date(1994, 5, 19): {ce19940519},
+    Date(1994, 7, 25): {ce19940725},
+    Date(1994, 8, 1): {ce19940801},
+    Date(1994, 12, 15): {ce19941215},
+    Date(1995, 4, 20): {ce19950420},
+    Date(1995, 4, 27): {ce19950427},
+    Date(1995, 5, 19): {ce19950519},
+    Date(1995, 12, 26): {ce19951226, ce19951226b},
+    Date(1995, 12, 31): {ce19951231},
+    Date(1996, 3, 14): {ce19960314},
+    Date(1996, 4, 20): {
+      ce19960420,
+      ce19960420b,
+      ce19960420c,
+      ce19960420d,
+      ce19960420e,
+      ce19960420f,
+      ce19960420g,
+      ce19960420h,
+      ce19960420i
+    },
+    Date(1996, 4, 22): {ce19960422},
+    Date(1996, 5, 13): {ce19960513},
+    Date(1996, 6, 14): {ce19960614},
+    Date(1996, 7, 1): {ce19960701},
+    Date(1996, 8, 6): {ce19960806},
+    Date(1996, 8, 18): {ce19960818},
+    Date(1996, 9, 16): {ce19960916},
+    Date(1997, 3, 20): {ce19970320},
+    Date(1997, 3, 24): {ce19970324},
+    Date(1997, 3, 30): {ce19970330},
+    Date(1997, 4, 20): {ce19970420},
+    Date(1997, 5, 30): {ce19970530},
+    Date(1997, 8, 11): {ce19970811},
+    Date(1997, 8, 18): {ce19970818},
+    Date(1998, 1, 6): {ce19980106, ce19980106b},
+    Date(1998, 2, 17): {ce19980217},
+    Date(1998, 3, 4): {ce19980304},
+    Date(1998, 4, 20): {ce19980420},
+    Date(1998, 5, 3): {ce19980503},
+    Date(1998, 5, 21): {ce19980521},
+    Date(1998, 6, 1): {ce19980601},
+    Date(1998, 6, 10): {ce19980610},
+    Date(1998, 6, 16): {ce19980616},
+    Date(1998, 7, 2): {ce19980702},
+    Date(1998, 7, 22): {ce19980722},
+    Date(1998, 8, 4): {ce19980804},
+    Date(1998, 8, 12): {ce19980812},
+    Date(1998, 8, 27): {ce19980827},
+    Date(1998, 9, 24): {ce19980924},
+    Date(1998, 9, 29): {ce19980929},
+    Date(1998, 10, 1): {ce19981001},
+    Date(1998, 10, 6): {ce19981006},
+    Date(1998, 12, 1): {ce19981201},
+    Date(1998, 12, 14): {ce19981214},
+    Date(1999, 2, 2): {ce19990202},
+    Date(1999, 2, 25): {ce19990225},
+    Date(1999, 4, 6): {ce19990406},
+    Date(1999, 4, 7): {ce19990407},
+    Date(1999, 4, 15): {ce19990415},
+    Date(1999, 4, 20): {ce19990420},
+    Date(1999, 5, 4): {ce19990504},
+    Date(1999, 6, 30): {ce19990630},
+    Date(1999, 7, 4): {ce19990704, ce19990704b},
+    Date(1999, 8, 5): {ce19990805},
+    Date(1999, 8, 24): {ce19990824},
+    Date(1999, 11, 9): {ce19991109},
+    Date(1999, 11, 26): {ce19991126},
+    Date(1999, 12, 28): {ce19991228},
+    Date(2000, 1, 8): {ce20000108},
+    Date(2000, 1, 19): {ce20000119},
+    Date(2000, 1, 26): {ce20000126},
+    Date(2000, 2, 23): {ce20000223},
+    Date(2000, 3, 12): {ce20000312},
+    Date(2000, 4, 16): {ce20000416},
+    Date(2000, 4, 20): {ce20000420},
+    Date(2000, 5, 16): {ce20000516},
+    Date(2000, 7, 12): {ce20000712},
+    Date(2000, 7, 18): {ce20000718},
+    Date(2000, 7, 20): {ce20000720, ce20000720b},
+    Date(2000, 7, 27): {ce20000727},
+    Date(2000, 8, 9): {ce20000809},
+    Date(2000, 9, 24): {ce20000924},
+    Date(2000, 11, 26): {ce20001126},
+    Date(2001, 1, 9): {ce20010109},
+    Date(2001, 1, 14): {ce20010114},
+    Date(2001, 1, 16): {ce20010116},
+    Date(2001, 2, 8): {ce20010208},
+    Date(2001, 4, 19): {ce20010419},
+    Date(2001, 4, 20): {ce20010420},
+    Date(2001, 5, 24): {ce20010524},
+    Date(2001, 6, 28): {ce20010628},
+    Date(2002, 1, 17): {ce20020117},
+    Date(2002, 4, 1): {ce20020401},
+    Date(2002, 4, 20): {ce20020420},
+    Date(2003, 1, 17): {ce20030117},
+    Date(2003, 4, 20): {ce20030420},
+    Date(2003, 11, 26): {ce20031126},
+    Date(2004, 1, 12): {ce20040112},
+    Date(2004, 4, 20): {ce20040420},
+    Date(2005, 4, 20): {ce20050420},
+    Date(2005, 12, 27): {ce20051227},
+    Date(2005, 12, 28): {ce20051228},
+    Date(2005, 12, 31): {ce20051231},
+    Date(2006, 3, 22): {ce20060322},
+    Date(2006, 4, 20): {ce20060420},
+    Date(2006, 12, 21): {ce20061221},
+    Date(2007, 3, 25): {ce20070325},
+    Date(2007, 4, 20): {ce20070420},
+    Date(2007, 9, 9): {ce20070909},
+    Date(2007, 11, 26): {ce20071126},
+    Date(2007, 12, 25): {ce20071225},
+    Date(2008, 4, 20): {ce20080420},
+    Date(2008, 5, 12): {ce20080512},
+    Date(2008, 5, 19): {ce20080519},
+    Date(2008, 6, 3): {ce20080603},
+    Date(2008, 6, 20): {ce20080620},
+    Date(2008, 7, 28): {ce20080728},
+    Date(2008, 10, 20): {ce20081020},
+    Date(2008, 10, 31): {ce20081031},
+    Date(2008, 12, 23): {ce20081223},
+    Date(2009, 2, 9): {ce20090209},
+    Date(2009, 3, 5): {ce20090305},
+    Date(2009, 3, 18): {ce20090318},
+    Date(2009, 3, 21): {ce20090321},
+    Date(2009, 3, 26): {ce20090326},
+    Date(2009, 4, 20): {ce20090420},
+    Date(2009, 5, 14): {ce20090514},
+    Date(2009, 5, 17): {ce20090517},
+    Date(2009, 5, 19): {ce20090519},
+    Date(2009, 6, 11): {ce20090611},
+    Date(2009, 6, 23): {ce20090623},
+    Date(2009, 11, 24): {ce20091124},
+    Date(2009, 12, 15): {ce20091215},
+    Date(2010, 1, 10): {ce20100110},
+    Date(2010, 1, 22): {ce20100122},
+    Date(2010, 3, 21): {ce20100321},
+    Date(2010, 4, 2): {ce20100402},
+    Date(2010, 4, 20): {ce20100420},
+    Date(2010, 8, 29): {ce20100829},
+    Date(2010, 12, 28): {ce20101228},
+    Date(2011, 1, 1): {ce20110101},
+    Date(2011, 3, 21): {ce20110321},
+    Date(2011, 4, 12): {ce20110412},
+    Date(2011, 4, 20): {ce20110420},
+    Date(2011, 5, 14): {ce20110514},
+    Date(2011, 6, 17): {ce20110617},
+    Date(2011, 12, 12): {ce20111212},
+    Date(2012, 3, 1): {ce20120301},
+    Date(2012, 3, 20): {ce20120320},
+    Date(2012, 4, 20): {ce20120420},
+    Date(2012, 5, 11): {ce20120511},
+    Date(2012, 6, 27): {ce20120627},
+    Date(2012, 11, 26): {ce20121126},
+    Date(2013, 1, 2): {ce20130102},
+    Date(2013, 2, 8): {ce20130208},
+    Date(2013, 3, 2): {ce20130302},
+    Date(2013, 3, 20): {ce20130320},
+    Date(2013, 4, 20): {ce20130420},
+    Date(2013, 5, 1): {ce20130501},
+    Date(2013, 5, 10): {ce20130510},
+    Date(2013, 6, 27): {ce20130627},
+    Date(2013, 7, 1): {ce20130701},
+    Date(2013, 7, 17): {ce20130717},
+    Date(2013, 7, 24): {ce20130724},
+    Date(2013, 8, 27): {ce20130827},
+    Date(2013, 12, 5): {ce20131205},
+    Date(2014, 4, 20): {ce20140420},
+    Date(2014, 7, 10): {ce20140710},
+    Date(2014, 8, 1): {ce20140801},
+    Date(2015, 4, 20): {ce20150420},
+    Date(2015, 10, 9): {ce20151009},
+    Date(2015, 12, 29): {ce20151229},
+    Date(2016, 1, 2): {ce20160102},
+    Date(2016, 2, 21): {ce20160221},
+    Date(2016, 3, 26): {ce20160326, ce20160326b},
+    Date(2016, 4, 19): {ce20160419},
+    Date(2016, 10, 14): {ce20161014},
+    Date(2016, 11, 25): {ce20161125},
+    Date(2017, 3, 1): {ce20170301},
+    Date(2017, 4, 19): {ce20170419},
+    Date(2017, 4, 27): {ce20170427},
+    Date(2017, 9, 1): {ce20170901},
+    Date(2017, 10, 1): {ce20171001},
+    Date(2017, 10, 31): {ce20171031},
+    Date(2017, 11, 29): {ce20171129},
+    Date(2017, 12, 27): {ce20171227},
+    Date(2018, 4, 20): {ce20180420},
+    Date(2018, 7, 22): {ce20180722},
+    Date(2018, 11, 9): {ce20181109},
+    Date(2018, 11, 26): {ce20181126},
+    Date(2019, 1, 18): {ce20190118},
+    Date(2019, 4, 20): {ce20190420},
+    Date(2019, 5, 7): {ce20190507},
+    Date(2019, 10, 1): {ce20191001},
+    Date(2019, 11, 8): {ce20191108},
+    Date(2019, 12, 1): {ce20191201},
+    Date(2020, 3, 19): {ce20200319},
+    Date(2020, 4, 19): {ce20200419},
+    Date(2020, 7, 22): {ce20200722},
+    Date(2020, 11, 25): {ce20201125},
+    Date(2021, 4, 2): {ce20210402},
+    Date(2021, 4, 19): {ce20210419},
+    Date(2021, 5, 23): {ce20210523},
+    Date(2021, 11, 8): {ce20211108},
+    Date(2021, 11, 13): {ce20211113},
+    Date(2021, 11, 25): {ce20211125},
+    Date(2021, 11, 27): {ce20211127},
+    Date(2021, 12, 1): {ce20211201},
+    Date(2021, 12, 30): {ce20211230},
+    Date(2022, 1, 1): {ce20220101},
+    Date(2022, 1, 3): {ce20220103},
+    Date(2022, 1, 4): {ce20220104},
+    Date(2022, 4, 8): {ce20220408},
+    Date(2022, 4, 14): {ce20220414},
+    Date(2022, 4, 20): {ce20220420},
+    Date(2022, 7, 4): {ce20220704},
+    Date(2022, 11, 1): {ce20221101},
+    Date(2023, 3, 25): {ce20230325},
+    Date(2023, 4, 20): {ce20230420},
+    Date(2023, 11, 28): {ce20231128},
+    Date(2024, 4, 19): {ce20240419},
+    Date(2024, 5, 25): {ce20240525},
+  });
+
+  /// All Selected Universal House of Justice Messages by Badi Date
+  static final UnmodifiableMapView<BadiDate, Set<MessageBase>> allBE =
+      UnmodifiableMapView({
+    BadiDate(year: 120, month: 3, day: 3): {be1200303},
+    BadiDate(year: 120, month: 3, day: 10): {be1200310},
+    BadiDate(year: 120, month: 9, day: 6): {be1200906},
+    BadiDate(year: 120, month: 11, day: 5): {be1201105},
+    BadiDate(year: 120, month: 11, day: 10): {be1201110},
+    BadiDate(year: 120, month: 13, day: 16): {be1201316},
+    BadiDate(year: 120, month: 14, day: 3): {be1201403},
+    BadiDate(year: 120, month: 15, day: 7): {be1201507},
+    BadiDate(year: 121, month: 1, day: 12): {be1210112},
+    BadiDate(year: 121, month: 6, day: 8): {be1210608},
+    BadiDate(year: 121, month: 7, day: 1): {be1210701},
+    BadiDate(year: 121, month: 9, day: 13): {be1210913},
+    BadiDate(year: 121, month: 12, day: 17): {be1211217, be1211217b},
+    BadiDate(year: 121, month: 19, day: 8): {be1211908},
+    BadiDate(year: 122, month: 2, day: 13): {be1220213},
+    BadiDate(year: 122, month: 17, day: 10): {be1221710},
+    BadiDate(year: 122, month: 17, day: 15): {be1221715},
+    BadiDate(year: 123, month: 2, day: 13): {be1230213},
+    BadiDate(year: 123, month: 4, day: 11): {be1230411},
+    BadiDate(year: 123, month: 5, day: 6): {be1230506},
+    BadiDate(year: 124, month: 2, day: 13): {be1240213},
+    BadiDate(year: 124, month: 6, day: 9): {be1240609},
+    BadiDate(year: 124, month: 11, day: 19): {be1241119},
+    BadiDate(year: 124, month: 14, day: 16): {be1241416},
+    BadiDate(year: 125, month: 3, day: 12): {be1250312},
+    BadiDate(year: 125, month: 5, day: 17): {be1250517},
+    BadiDate(year: 125, month: 6, day: 1): {be1250601},
+    BadiDate(year: 125, month: 8, day: 1): {be1250801},
+    BadiDate(year: 125, month: 11, day: 13): {be1251113},
+    BadiDate(year: 126, month: 2, day: 13): {be1260213},
+    BadiDate(year: 126, month: 4, day: 10): {be1260410},
+    BadiDate(year: 126, month: 11, day: 5): {be1261105},
+    BadiDate(year: 126, month: 13, day: 13): {be1261313},
+    BadiDate(year: 126, month: 14, day: 15): {be1261415},
+    BadiDate(year: 126, month: 18, day: 2): {be1261802},
+    BadiDate(year: 126, month: 19, day: 5): {be1261905},
+    BadiDate(year: 127, month: 2, day: 13): {be1270213},
+    BadiDate(year: 127, month: 8, day: 1): {be1270801},
+    BadiDate(year: 127, month: 16, day: 2): {be1271602, be1271602b},
+    BadiDate(year: 128, month: 2, day: 13): {be1280213},
+    BadiDate(year: 128, month: 3, day: 4): {be1280304, be1280304b},
+    BadiDate(year: 128, month: 6, day: 19): {be1280619},
+    BadiDate(year: 128, month: 9, day: 13): {be1280913, be1280913b},
+    BadiDate(year: 129, month: 2, day: 13): {be1290213},
+    BadiDate(year: 129, month: 2, day: 16): {be1290216},
+    BadiDate(year: 129, month: 5, day: 3): {be1290503},
+    BadiDate(year: 129, month: 7, day: 1): {be1290701},
+    BadiDate(year: 129, month: 7, day: 18): {be1290718},
+    BadiDate(year: 129, month: 14, day: 4): {be1291404},
+    BadiDate(year: 129, month: 19, day: 14): {be1291914},
+    BadiDate(year: 130, month: 2, day: 13): {be1300213},
+    BadiDate(year: 130, month: 3, day: 10): {be1300310},
+    BadiDate(year: 130, month: 5, day: 1): {be1300501},
+    BadiDate(year: 130, month: 5, day: 4): {be1300504},
+    BadiDate(year: 130, month: 11, day: 11): {be1301111},
+    BadiDate(year: 130, month: 14, day: 12): {be1301412},
+    BadiDate(year: 130, month: 18, day: 1): {be1301801},
+    BadiDate(year: 131, month: 1, day: 1): {be1310101, be1310101b},
+    BadiDate(year: 131, month: 3, day: 1): {be1310301},
+    BadiDate(year: 131, month: 5, day: 5): {be1310505},
+    BadiDate(year: 131, month: 7, day: 10): {be1310710},
+    BadiDate(year: 131, month: 7, day: 17): {be1310717},
+    BadiDate(year: 131, month: 13, day: 16): {be1311316},
+    BadiDate(year: 131, month: 16, day: 7): {be1311607},
+    BadiDate(year: 131, month: 16, day: 15): {be1311615},
+    BadiDate(year: 131, month: 19, day: 3): {be1311903},
+    BadiDate(year: 132, month: 1, day: 5): {be1320105},
+    BadiDate(year: 132, month: 1, day: 15): {be1320115},
+    BadiDate(year: 132, month: 3, day: 17): {be1320317},
+    BadiDate(year: 132, month: 4, day: 9): {be1320409},
+    BadiDate(year: 132, month: 5, day: 1): {be1320501},
+    BadiDate(year: 132, month: 7, day: 12): {be1320712},
+    BadiDate(year: 132, month: 19, day: 17): {be1321917},
+    BadiDate(year: 133, month: 1, day: 4): {be1330104},
+    BadiDate(year: 133, month: 6, day: 8): {be1330608, be1330608b},
+    BadiDate(year: 133, month: 6, day: 14): {be1330614},
+    BadiDate(year: 133, month: 8, day: 1): {be1330801},
+    BadiDate(year: 133, month: 10, day: 19): {be1331019},
+    BadiDate(year: 133, month: 12, day: 17): {be1331217},
+    BadiDate(year: 133, month: 14, day: 10): {be1331410},
+    BadiDate(year: 133, month: 16, day: 2): {be1331602, be1331602b},
+    BadiDate(year: 133, month: 17, day: 14): {be1331714},
+    BadiDate(year: 133, month: 19, day: 5): {be1331905},
+    BadiDate(year: 134, month: 1, day: 4): {be1340104},
+    BadiDate(year: 134, month: 9, day: 2): {be1340902},
+    BadiDate(year: 135, month: 1, day: 7): {be1350107},
+    BadiDate(year: 135, month: 2, day: 13): {be1350213},
+    BadiDate(year: 135, month: 11, day: 15): {be1351115},
+    BadiDate(year: 135, month: 15, day: 4): {be1351504},
+    BadiDate(year: 135, month: 16, day: 4): {be1351604},
+    BadiDate(year: 135, month: 16, day: 13): {be1351613},
+    BadiDate(year: 135, month: 0, day: 1): {be1350001},
+    BadiDate(year: 136, month: 1, day: 1): {be1360101, be1360101b},
+    BadiDate(year: 136, month: 3, day: 11): {be1360311},
+    BadiDate(year: 136, month: 3, day: 13): {be1360313},
+    BadiDate(year: 136, month: 4, day: 7): {be1360407},
+    BadiDate(year: 136, month: 5, day: 11): {be1360511},
+    BadiDate(year: 136, month: 6, day: 6): {be1360606},
+    BadiDate(year: 136, month: 10, day: 2): {be1361002},
+    BadiDate(year: 136, month: 12, day: 2): {be1361202},
+    BadiDate(year: 136, month: 18, day: 4): {be1361804},
+    BadiDate(year: 137, month: 1, day: 1): {be1370101},
+    BadiDate(year: 137, month: 3, day: 10): {be1370310},
+    BadiDate(year: 137, month: 10, day: 4): {be1371004},
+    BadiDate(year: 137, month: 10, day: 16): {be1371016},
+    BadiDate(year: 137, month: 10, day: 17): {be1371017},
+    BadiDate(year: 137, month: 12, day: 19): {be1371219},
+    BadiDate(year: 137, month: 15, day: 11): {be1371511},
+    BadiDate(year: 137, month: 15, day: 17): {be1371517},
+    BadiDate(year: 137, month: 0, day: 4): {be1370004},
+    BadiDate(year: 138, month: 2, day: 8): {be1380208},
+    BadiDate(year: 138, month: 2, day: 9): {be1380209},
+    BadiDate(year: 138, month: 4, day: 11): {be1380411},
+    BadiDate(year: 138, month: 7, day: 10): {be1380710},
+    BadiDate(year: 138, month: 12, day: 2): {be1381202},
+    BadiDate(year: 138, month: 12, day: 7): {be1381207},
+    BadiDate(year: 138, month: 15, day: 17): {be1381517},
+    BadiDate(year: 138, month: 16, day: 4): {be1381604},
+    BadiDate(year: 138, month: 17, day: 8): {be1381708},
+    BadiDate(year: 138, month: 19, day: 8): {be1381908},
+    BadiDate(year: 139, month: 2, day: 13): {be1390213},
+    BadiDate(year: 139, month: 4, day: 17): {be1390417},
+    BadiDate(year: 139, month: 4, day: 18): {be1390418},
+    BadiDate(year: 139, month: 8, day: 2): {be1390802},
+    BadiDate(year: 139, month: 8, day: 6): {be1390806},
+    BadiDate(year: 139, month: 8, day: 19): {be1390819},
+    BadiDate(year: 139, month: 9, day: 14): {be1390914, be1390914b},
+    BadiDate(year: 139, month: 17, day: 15): {be1391715},
+    BadiDate(year: 140, month: 2, day: 13): {be1400213},
+    BadiDate(year: 140, month: 4, day: 3): {be1400403},
+    BadiDate(year: 140, month: 5, day: 15): {be1400515},
+    BadiDate(year: 140, month: 5, day: 19): {be1400519},
+    BadiDate(year: 140, month: 6, day: 11): {be1400611},
+    BadiDate(year: 140, month: 9, day: 13): {be1400913},
+    BadiDate(year: 140, month: 10, day: 6): {be1401006},
+    BadiDate(year: 140, month: 12, day: 4): {be1401204},
+    BadiDate(year: 140, month: 12, day: 5): {be1401205},
+    BadiDate(year: 140, month: 13, day: 4): {be1401304},
+    BadiDate(year: 140, month: 14, day: 15): {be1401415},
+    BadiDate(year: 140, month: 15, day: 2): {be1401502},
+    BadiDate(year: 140, month: 16, day: 4): {be1401604},
+    BadiDate(year: 141, month: 2, day: 13): {be1410213},
+    BadiDate(year: 141, month: 3, day: 16): {be1410316},
+    BadiDate(year: 141, month: 4, day: 5): {be1410405},
+    BadiDate(year: 141, month: 5, day: 8): {be1410508},
+    BadiDate(year: 141, month: 7, day: 13): {be1410713},
+    BadiDate(year: 141, month: 8, day: 6): {be1410806},
+    BadiDate(year: 141, month: 8, day: 12): {be1410812},
+    BadiDate(year: 141, month: 9, day: 4): {be1410904},
+    BadiDate(year: 141, month: 12, day: 10): {be1411210},
+    BadiDate(year: 141, month: 16, day: 4): {be1411604},
+    BadiDate(year: 141, month: 17, day: 5): {be1411705},
+    BadiDate(year: 141, month: 17, day: 13): {be1411713},
+    BadiDate(year: 141, month: 19, day: 13): {be1411913},
+    BadiDate(year: 142, month: 2, day: 3): {be1420203},
+    BadiDate(year: 142, month: 2, day: 13): {be1420213},
+    BadiDate(year: 142, month: 3, day: 11): {be1420311},
+    BadiDate(year: 142, month: 7, day: 9): {be1420709},
+    BadiDate(year: 142, month: 8, day: 5): {be1420805},
+    BadiDate(year: 142, month: 8, day: 7): {be1420807},
+    BadiDate(year: 142, month: 10, day: 12): {be1421012},
+    BadiDate(year: 142, month: 11, day: 5): {ce198510},
+    BadiDate(year: 142, month: 12, day: 9): {be1421209},
+    BadiDate(year: 142, month: 15, day: 6): {be1421506},
+    BadiDate(year: 142, month: 15, day: 16): {be1421516},
+    BadiDate(year: 142, month: 16, day: 3): {be1421603},
+    BadiDate(year: 142, month: 16, day: 6): {be1421606},
+    BadiDate(year: 142, month: 17, day: 18): {be1421718},
+    BadiDate(year: 142, month: 18, day: 19): {be1421819},
+    BadiDate(year: 142, month: 19, day: 16): {be1421916},
+    BadiDate(year: 143, month: 2, day: 13): {be1430213},
+    BadiDate(year: 143, month: 3, day: 15): {be1430315},
+    BadiDate(year: 143, month: 4, day: 9): {be1430409},
+    BadiDate(year: 143, month: 11, day: 16): {be1431116},
+    BadiDate(year: 143, month: 12, day: 12): {be1431212},
+    BadiDate(year: 143, month: 12, day: 14): {be1431214},
+    BadiDate(year: 143, month: 13, day: 3): {be1431303},
+    BadiDate(year: 143, month: 14, day: 4): {be1431404},
+    BadiDate(year: 143, month: 19, day: 8): {be1431908},
+    BadiDate(year: 143, month: 19, day: 9): {be1431909},
+    BadiDate(year: 144, month: 1, day: 5): {be1440105},
+    BadiDate(year: 144, month: 2, day: 13): {be1440213},
+    BadiDate(year: 144, month: 3, day: 3): {be1440303},
+    BadiDate(year: 144, month: 5, day: 11): {be1440511},
+    BadiDate(year: 144, month: 5, day: 15): {be1440515},
+    BadiDate(year: 144, month: 5, day: 17): {be1440517},
+    BadiDate(year: 144, month: 6, day: 5): {be1440605},
+    BadiDate(year: 144, month: 7, day: 3): {be1440703},
+    BadiDate(year: 144, month: 9, day: 1): {be1440901},
+    BadiDate(year: 144, month: 9, day: 12): {be1440912},
+    BadiDate(year: 144, month: 12, day: 7): {be1441207},
+    BadiDate(year: 144, month: 15, day: 3): {be1441503},
+    BadiDate(year: 144, month: 16, day: 15): {be1441615},
+    BadiDate(year: 144, month: 17, day: 17): {be1441717},
+    BadiDate(year: 145, month: 2, day: 13): {be1450213},
+    BadiDate(year: 145, month: 4, day: 15): {be1450415},
+    BadiDate(year: 145, month: 5, day: 12): {be1450512},
+    BadiDate(year: 145, month: 7, day: 13): {be1450713},
+    BadiDate(year: 145, month: 11, day: 4): {be1451104},
+    BadiDate(year: 145, month: 15, day: 2): {be1451502},
+    BadiDate(year: 145, month: 15, day: 18): {be1451518},
+    BadiDate(year: 146, month: 2, day: 13): {be1460213},
+    BadiDate(year: 146, month: 5, day: 18): {be1460518},
+    BadiDate(year: 146, month: 6, day: 17): {be1460617},
+    BadiDate(year: 146, month: 9, day: 8): {be1460908},
+    BadiDate(year: 146, month: 9, day: 9): {be1460909},
+    BadiDate(year: 146, month: 10, day: 18): {be1461018},
+    BadiDate(year: 146, month: 13, day: 6): {be1461306},
+    BadiDate(year: 146, month: 13, day: 17): {be1461317},
+    BadiDate(year: 146, month: 17, day: 5): {be1461705},
+    BadiDate(year: 146, month: 18, day: 2): {be1461802},
+    BadiDate(year: 146, month: 18, day: 6): {be1461806},
+    BadiDate(year: 147, month: 2, day: 12): {be1470212},
+    BadiDate(year: 147, month: 2, day: 13): {be1470213b},
+    BadiDate(year: 147, month: 4, day: 8): {be1470408},
+    BadiDate(year: 147, month: 13, day: 18): {be1471318},
+    BadiDate(year: 147, month: 16, day: 3): {be1471603},
+    BadiDate(year: 148, month: 1, day: 14): {be1480114},
+    BadiDate(year: 148, month: 2, day: 13): {be1480213},
+    BadiDate(year: 148, month: 3, day: 4): {be1480304},
+    BadiDate(year: 148, month: 5, day: 16): {be1480516},
+    BadiDate(year: 148, month: 12, day: 13): {be1481213},
+    BadiDate(year: 148, month: 12, day: 15): {be1481215},
+    BadiDate(year: 148, month: 13, day: 15): {be1481315},
+    BadiDate(year: 148, month: 14, day: 4): {be1481404},
+    BadiDate(year: 148, month: 14, day: 17): {be1481417},
+    BadiDate(year: 149, month: 1, day: 19): {be1490119},
+    BadiDate(year: 149, month: 2, day: 13): {be1490213},
+    BadiDate(year: 149, month: 5, day: 3): {be1490503},
+    BadiDate(year: 149, month: 6, day: 1): {be1490601},
+    BadiDate(year: 149, month: 6, day: 2): {be1490602},
+    BadiDate(year: 149, month: 9, day: 15): {be1490915},
+    BadiDate(year: 149, month: 9, day: 19): {be1490919},
+    BadiDate(year: 149, month: 10, day: 3): {be1491003},
+    BadiDate(year: 149, month: 11, day: 4): {be1491104, be1491104b},
+    BadiDate(year: 149, month: 11, day: 19): {be1491119},
+    BadiDate(year: 149, month: 12, day: 13): {be1491213},
+    BadiDate(year: 149, month: 14, day: 1): {be1491401},
+    BadiDate(year: 149, month: 14, day: 4): {be1491404},
+    BadiDate(year: 149, month: 17, day: 6): {be1491706},
+    BadiDate(year: 149, month: 19, day: 4): {be1491904},
+    BadiDate(year: 150, month: 2, day: 13): {be1500213},
+    BadiDate(year: 150, month: 6, day: 1): {be1500601},
+    BadiDate(year: 150, month: 6, day: 7): {be1500607},
+    BadiDate(year: 150, month: 6, day: 8): {be1500608},
+    BadiDate(year: 150, month: 6, day: 11): {be1500611},
+    BadiDate(year: 150, month: 9, day: 14): {be1500914},
+    BadiDate(year: 150, month: 12, day: 4): {be1501204},
+    BadiDate(year: 150, month: 16, day: 5): {be1501605},
+    BadiDate(year: 150, month: 19, day: 10): {be1501910},
+    BadiDate(year: 151, month: 2, day: 13): {be1510213},
+    BadiDate(year: 151, month: 4, day: 1): {be1510401},
+    BadiDate(year: 151, month: 4, day: 3): {be1510403},
+    BadiDate(year: 151, month: 7, day: 13): {be1510713},
+    BadiDate(year: 151, month: 8, day: 1): {be1510801},
+    BadiDate(year: 151, month: 15, day: 4): {be1511504},
+    BadiDate(year: 152, month: 2, day: 13): {be1520213},
+    BadiDate(year: 152, month: 2, day: 19): {be1520219},
+    BadiDate(year: 152, month: 4, day: 3): {be1520403},
+    BadiDate(year: 152, month: 15, day: 15): {be1521515, be1521515b},
+    BadiDate(year: 152, month: 16, day: 1): {be1521601},
+    BadiDate(year: 152, month: 19, day: 13): {be1521913},
+    BadiDate(year: 153, month: 2, day: 13): {
+      be1530213,
+      be1530213b,
+      be1530213c,
+      be1530213d,
+      be1530213e,
+      be1530213f,
+      be1530213g,
+      be1530213h,
+      be1530213i
+    },
+    BadiDate(year: 153, month: 2, day: 14): {be1530214},
+    BadiDate(year: 153, month: 3, day: 16): {be1530316},
+    BadiDate(year: 153, month: 5, day: 10): {be1530510},
+    BadiDate(year: 153, month: 6, day: 8): {be1530608},
+    BadiDate(year: 153, month: 8, day: 6): {be1530806},
+    BadiDate(year: 153, month: 8, day: 18): {be1530818},
+    BadiDate(year: 153, month: 10, day: 9): {be1531009},
+    BadiDate(year: 154, month: 1, day: 1): {be1540101},
+    BadiDate(year: 154, month: 1, day: 4): {be1540104},
+    BadiDate(year: 154, month: 1, day: 10): {be1540110},
+    BadiDate(year: 154, month: 2, day: 13): {be1540213},
+    BadiDate(year: 154, month: 4, day: 14): {be1540414},
+    BadiDate(year: 154, month: 8, day: 11): {be1540811},
+    BadiDate(year: 154, month: 8, day: 18): {be1540818},
+    BadiDate(year: 154, month: 16, day: 7): {be1541607, be1541607b},
+    BadiDate(year: 154, month: 18, day: 11): {be1541811},
+    BadiDate(year: 154, month: 19, day: 3): {be1541903},
+    BadiDate(year: 155, month: 2, day: 13): {be1550213},
+    BadiDate(year: 155, month: 3, day: 6): {be1550306},
+    BadiDate(year: 155, month: 4, day: 5): {be1550405},
+    BadiDate(year: 155, month: 4, day: 16): {be1550416},
+    BadiDate(year: 155, month: 5, day: 6): {be1550506},
+    BadiDate(year: 155, month: 5, day: 12): {be1550512},
+    BadiDate(year: 155, month: 6, day: 9): {be1550609},
+    BadiDate(year: 155, month: 7, day: 10): {be1550710},
+    BadiDate(year: 155, month: 8, day: 4): {be1550804},
+    BadiDate(year: 155, month: 8, day: 12): {be1550812},
+    BadiDate(year: 155, month: 9, day: 8): {be1550908},
+    BadiDate(year: 155, month: 10, day: 17): {be1551017},
+    BadiDate(year: 155, month: 11, day: 3): {be1551103},
+    BadiDate(year: 155, month: 11, day: 5): {be1551105},
+    BadiDate(year: 155, month: 11, day: 10): {be1551110},
+    BadiDate(year: 155, month: 14, day: 9): {be1551409},
+    BadiDate(year: 155, month: 15, day: 3): {be1551503},
+    BadiDate(year: 155, month: 17, day: 15): {be1551715},
+    BadiDate(year: 155, month: 18, day: 19): {be1551819},
+    BadiDate(year: 156, month: 1, day: 17): {be1560117},
+    BadiDate(year: 156, month: 1, day: 18): {be1560118},
+    BadiDate(year: 156, month: 2, day: 7): {be1560207},
+    BadiDate(year: 156, month: 2, day: 13): {be1560213},
+    BadiDate(year: 156, month: 3, day: 7): {be1560307},
+    BadiDate(year: 156, month: 6, day: 7): {be1560607},
+    BadiDate(year: 156, month: 6, day: 11): {be1560611, be1560611b},
+    BadiDate(year: 156, month: 8, day: 5): {be1560805},
+    BadiDate(year: 156, month: 9, day: 5): {be1560905},
+    BadiDate(year: 156, month: 13, day: 6): {be1561306},
+    BadiDate(year: 156, month: 14, day: 4): {be1561404},
+    BadiDate(year: 156, month: 15, day: 17): {be1561517},
+    BadiDate(year: 156, month: 16, day: 9): {be1561609},
+    BadiDate(year: 156, month: 17, day: 1): {be1561701},
+    BadiDate(year: 156, month: 17, day: 8): {be1561708},
+    BadiDate(year: 156, month: 18, day: 17): {be1561817},
+    BadiDate(year: 156, month: 19, day: 11): {be1561911},
+    BadiDate(year: 157, month: 2, day: 8): {be1570208},
+    BadiDate(year: 157, month: 2, day: 13): {be1570213},
+    BadiDate(year: 157, month: 3, day: 19): {be1570319},
+    BadiDate(year: 157, month: 6, day: 19): {be1570619},
+    BadiDate(year: 157, month: 7, day: 6): {be1570706},
+    BadiDate(year: 157, month: 7, day: 8): {be1570708, be1570708b},
+    BadiDate(year: 157, month: 7, day: 15): {be1570715},
+    BadiDate(year: 157, month: 8, day: 9): {be1570809},
+    BadiDate(year: 157, month: 10, day: 17): {be1571017},
+    BadiDate(year: 157, month: 14, day: 4): {be1571404},
+    BadiDate(year: 157, month: 16, day: 10): {be1571610},
+    BadiDate(year: 157, month: 16, day: 15): {be1571615},
+    BadiDate(year: 157, month: 16, day: 17): {be1571617},
+    BadiDate(year: 157, month: 18, day: 2): {be1571802},
+    BadiDate(year: 158, month: 2, day: 11): {be1580211},
+    BadiDate(year: 158, month: 2, day: 13): {be1580213},
+    BadiDate(year: 158, month: 4, day: 8): {be1580408},
+    BadiDate(year: 158, month: 6, day: 5): {be1580605},
+    BadiDate(year: 158, month: 16, day: 18): {be1581618},
+    BadiDate(year: 159, month: 1, day: 12): {be1590112},
+    BadiDate(year: 159, month: 2, day: 13): {be1590213},
+    BadiDate(year: 159, month: 16, day: 18): {be1591618},
+    BadiDate(year: 160, month: 2, day: 13): {be1600213},
+    BadiDate(year: 160, month: 14, day: 4): {be1601404},
+    BadiDate(year: 160, month: 16, day: 13): {be1601613},
+    BadiDate(year: 161, month: 2, day: 13): {be1610213},
+    BadiDate(year: 162, month: 2, day: 13): {be1620213},
+    BadiDate(year: 162, month: 15, day: 16): {be1621516},
+    BadiDate(year: 162, month: 15, day: 17): {be1621517},
+    BadiDate(year: 162, month: 16, day: 1): {be1621601},
+    BadiDate(year: 163, month: 1, day: 2): {be1630102},
+    BadiDate(year: 163, month: 2, day: 13): {be1630213},
+    BadiDate(year: 163, month: 15, day: 10): {be1631510},
+    BadiDate(year: 164, month: 1, day: 5): {be1640105},
+    BadiDate(year: 164, month: 2, day: 13): {be1640213},
+    BadiDate(year: 164, month: 10, day: 2): {be1641002},
+    BadiDate(year: 164, month: 14, day: 4): {be1641404},
+    BadiDate(year: 164, month: 15, day: 14): {be1641514},
+    BadiDate(year: 165, month: 2, day: 13): {be1650213},
+    BadiDate(year: 165, month: 3, day: 15): {be1650315},
+    BadiDate(year: 165, month: 4, day: 3): {be1650403},
+    BadiDate(year: 165, month: 4, day: 18): {be1650418},
+    BadiDate(year: 165, month: 5, day: 16): {be1650516},
+    BadiDate(year: 165, month: 7, day: 16): {be1650716},
+    BadiDate(year: 165, month: 12, day: 5): {be1651205},
+    BadiDate(year: 165, month: 12, day: 16): {be1651216},
+    BadiDate(year: 165, month: 15, day: 12): {be1651512},
+    BadiDate(year: 165, month: 18, day: 3): {be1651803},
+    BadiDate(year: 165, month: 19, day: 4): {be1651904},
+    BadiDate(year: 165, month: 19, day: 17): {be1651917},
+    BadiDate(year: 166, month: 1, day: 1): {be1660101},
+    BadiDate(year: 166, month: 1, day: 6): {be1660106},
+    BadiDate(year: 166, month: 2, day: 13): {be1660213},
+    BadiDate(year: 166, month: 3, day: 17): {be1660317},
+    BadiDate(year: 166, month: 4, day: 1): {be1660401},
+    BadiDate(year: 166, month: 4, day: 3): {be1660403},
+    BadiDate(year: 166, month: 5, day: 7): {be1660507},
+    BadiDate(year: 166, month: 5, day: 19): {be1660519},
+    BadiDate(year: 166, month: 14, day: 2): {be1661402},
+    BadiDate(year: 166, month: 15, day: 4): {be1661504},
+    BadiDate(year: 166, month: 16, day: 11): {be1661611},
+    BadiDate(year: 166, month: 17, day: 4): {be1661704},
+    BadiDate(year: 167, month: 1, day: 1): {be1670101},
+    BadiDate(year: 167, month: 1, day: 13): {be1670113},
+    BadiDate(year: 167, month: 2, day: 13): {be1670213},
+    BadiDate(year: 167, month: 9, day: 10): {be1670910},
+    BadiDate(year: 167, month: 15, day: 17): {be1671517},
+    BadiDate(year: 167, month: 16, day: 2): {be1671602},
+    BadiDate(year: 168, month: 1, day: 1): {be1680101},
+    BadiDate(year: 168, month: 2, day: 4): {be1680204},
+    BadiDate(year: 168, month: 2, day: 13): {be1680213},
+    BadiDate(year: 168, month: 3, day: 17): {be1680317},
+    BadiDate(year: 168, month: 5, day: 13): {be1680513},
+    BadiDate(year: 168, month: 15, day: 1): {be1681501},
+    BadiDate(year: 168, month: 0, day: 5): {be1680005},
+    BadiDate(year: 169, month: 1, day: 1): {be1690101},
+    BadiDate(year: 169, month: 2, day: 13): {be1690213},
+    BadiDate(year: 169, month: 3, day: 14): {be1690314},
+    BadiDate(year: 169, month: 6, day: 4): {be1690604},
+    BadiDate(year: 169, month: 14, day: 4): {be1691404},
+    BadiDate(year: 169, month: 16, day: 3): {be1691603},
+    BadiDate(year: 169, month: 18, day: 2): {be1691802},
+    BadiDate(year: 169, month: 19, day: 1): {be1691901},
+    BadiDate(year: 170, month: 1, day: 1): {be1700101},
+    BadiDate(year: 170, month: 2, day: 13): {be1700213},
+    BadiDate(year: 170, month: 3, day: 4): {be1700304},
+    BadiDate(year: 170, month: 3, day: 13): {be1700313},
+    BadiDate(year: 170, month: 6, day: 4): {be1700604},
+    BadiDate(year: 170, month: 6, day: 8): {be1700608},
+    BadiDate(year: 170, month: 7, day: 5): {be1700705},
+    BadiDate(year: 170, month: 7, day: 12): {be1700712},
+    BadiDate(year: 170, month: 9, day: 8): {be1700908},
+    BadiDate(year: 170, month: 14, day: 13): {be1701413},
+    BadiDate(year: 171, month: 2, day: 13): {be1710213},
+    BadiDate(year: 171, month: 6, day: 17): {be1710617},
+    BadiDate(year: 171, month: 8, day: 1): {be1710801},
+    BadiDate(year: 172, month: 2, day: 13): {be1720213},
+    BadiDate(year: 172, month: 11, day: 13): {be1721113},
+    BadiDate(year: 172, month: 15, day: 18): {be1721518},
+    BadiDate(year: 172, month: 16, day: 3): {be1721603},
+    BadiDate(year: 172, month: 18, day: 15): {be1721815},
+    BadiDate(year: 173, month: 1, day: 7): {be1730107, be1730107b},
+    BadiDate(year: 173, month: 2, day: 13): {be1730213},
+    BadiDate(year: 173, month: 11, day: 19): {be1731119},
+    BadiDate(year: 173, month: 14, day: 4): {be1731404},
+    BadiDate(year: 173, month: 19, day: 1): {be1731901},
+    BadiDate(year: 174, month: 2, day: 13): {be1740213},
+    BadiDate(year: 174, month: 3, day: 1): {be1740301},
+    BadiDate(year: 174, month: 9, day: 14): {be1740914},
+    BadiDate(year: 174, month: 11, day: 6): {be1741106},
+    BadiDate(year: 174, month: 12, day: 17): {be1741217},
+    BadiDate(year: 174, month: 14, day: 8): {be1741408},
+    BadiDate(year: 174, month: 15, day: 17): {be1741517},
+    BadiDate(year: 175, month: 2, day: 13): {be1750213},
+    BadiDate(year: 175, month: 7, day: 10): {be1750710},
+    BadiDate(year: 175, month: 13, day: 6): {be1751306},
+    BadiDate(year: 175, month: 14, day: 4): {be1751404},
+    BadiDate(year: 175, month: 16, day: 19): {be1751619},
+    BadiDate(year: 176, month: 2, day: 13): {be1760213},
+    BadiDate(year: 176, month: 3, day: 10): {be1760310},
+    BadiDate(year: 176, month: 11, day: 5): {be1761105},
+    BadiDate(year: 176, month: 13, day: 5): {be1761305},
+    BadiDate(year: 176, month: 14, day: 9): {be1761409},
+    BadiDate(year: 177, month: 1, day: 1): {be1770101},
+    BadiDate(year: 177, month: 2, day: 13): {be1770213},
+    BadiDate(year: 177, month: 7, day: 11): {be1770711},
+    BadiDate(year: 177, month: 14, day: 4): {be1771404},
+    BadiDate(year: 178, month: 1, day: 14): {be1780114},
+    BadiDate(year: 178, month: 2, day: 13): {be1780213},
+    BadiDate(year: 178, month: 4, day: 8): {be1780408},
+    BadiDate(year: 178, month: 13, day: 6): {be1781306},
+    BadiDate(year: 178, month: 13, day: 11): {be1781311},
+    BadiDate(year: 178, month: 14, day: 4): {be1781404},
+    BadiDate(year: 178, month: 14, day: 6): {be1781406},
+    BadiDate(year: 178, month: 14, day: 10): {be1781410},
+    BadiDate(year: 178, month: 16, day: 1): {be1781601},
+    BadiDate(year: 178, month: 16, day: 3): {be1781603},
+    BadiDate(year: 178, month: 16, day: 5): {be1781605},
+    BadiDate(year: 178, month: 16, day: 6): {be1781606},
+    BadiDate(year: 179, month: 1, day: 19): {be1790119},
+    BadiDate(year: 179, month: 2, day: 6): {be1790206},
+    BadiDate(year: 179, month: 2, day: 13): {be1790213},
+    BadiDate(year: 179, month: 6, day: 11): {be1790611},
+    BadiDate(year: 179, month: 12, day: 17): {be1791217},
+    BadiDate(year: 180, month: 1, day: 5): {be1800105},
+    BadiDate(year: 180, month: 2, day: 13): {be1800213},
+    BadiDate(year: 180, month: 14, day: 6): {be1801406},
+    BadiDate(year: 181, month: 2, day: 13): {be1810213},
+    BadiDate(year: 181, month: 4, day: 10): {be1810410},
+  });
 
   /// All Selected Naw-Rúz Universal House of Justice Messages
-  static final Set<NawRuzMessage> allNawRuz = {
+  static final UnmodifiableSetView<NawRuzMessage> allNawRuz =
+      UnmodifiableSetView({
     nawRuz131,
     nawRuz131b,
     nawRuz136,
@@ -10223,10 +9220,11 @@ class Messages {
     nawRuz169,
     nawRuz170,
     nawRuz177,
-  };
+  });
 
   /// All Selected Riḍván Universal House of Justice Messages
-  static final Set<RidvanMessage> allRidvan = {
+  static final UnmodifiableSetView<RidvanMessage> allRidvan =
+      UnmodifiableSetView({
     ridvan122,
     ridvan123,
     ridvan124,
@@ -10287,5 +9285,76 @@ class Messages {
     ridvan179,
     ridvan180,
     ridvan181,
-  };
+  });
+
+  /// The first [BadiDate] with messages in the current build
+  static final BadiDate firstBE = BadiDate(year: 120, month: 3, day: 3);
+
+  /// The last [BadiDate] with messages in the current build
+  static final BadiDate lastBE = BadiDate(year: 181, month: 4, day: 10);
+
+  /// The first Gregorian [Date] with messages in the current build
+  static final Date firstCE = Date(1963, 4, 30);
+
+  /// The last Gregorian [Date] with messages in the current build
+  static final Date lastCE = Date(2024, 5, 25);
+
+  /// Get the set of available messages in this build that were
+  /// published on the given [BadiDate] (null if none)
+  static UnmodifiableSetView<MessageBase>? be(BadiDate badiDate) {
+    final Set<MessageBase>? set = allBE[badiDate];
+    if (set != null) {
+      return UnmodifiableSetView(set);
+    }
+    return null;
+  }
+
+  /// Get the set of available messages in this build that were
+  /// published on the given Gregorian [Date] (null if none)
+  static UnmodifiableSetView<MessageBase>? ce(Date date) {
+    final Set<MessageBase>? set = allCE[date];
+    if (set != null) {
+      return UnmodifiableSetView(set);
+    }
+    return null;
+  }
+
+  /// Get the set of available messages in this build that were
+  /// published within the given [BadiDate] range (empty if none)
+  static UnmodifiableSetView<MessageBase> beRange(
+      [BadiDate? start, BadiDate? end]) {
+    start ??= firstBE;
+    end ??= lastBE;
+    if (start.compareTo(end) > 0) {
+      final temp = start;
+      start = end;
+      end = temp;
+    }
+    final Set<MessageBase> set = {};
+    for (final e in allBE.entries) {
+      if (e.key.compareTo(start) >= 0 && e.key.compareTo(end) <= 0) {
+        set.addAll(e.value);
+      }
+    }
+    return UnmodifiableSetView(set);
+  }
+
+  /// Get the set of available messages in this build that were
+  /// published within the given Gregorian [Date] range (empty if none)
+  static UnmodifiableSetView<MessageBase> ceRange([Date? start, Date? end]) {
+    start ??= firstCE;
+    end ??= lastCE;
+    if (start.compareTo(end) > 0) {
+      final temp = start;
+      start = end;
+      end = temp;
+    }
+    final Set<MessageBase> set = {};
+    for (final e in allCE.entries) {
+      if (e.key.compareTo(start) >= 0 && e.key.compareTo(end) <= 0) {
+        set.addAll(e.value);
+      }
+    }
+    return UnmodifiableSetView(set);
+  }
 }

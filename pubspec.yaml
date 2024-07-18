@@ -1,6 +1,6 @@
 name: bahai_writings
-description: A starting point for Dart libraries or applications.
-version: 0.1.0+240525
+description: Statically referenced Sacred Writings and Authoritative Guidance of the Bahá’í Faith, from the Works of Bahá’u’lláh, The Báb, ‘Abdu’l-Bahá, Shoghi Effendi, and the Universal House of Justice
+version: 0.1.0+20240525
 repository: https://github.com/dra11y/bahai_writings_dart
 
 environment:
@@ -15,13 +15,14 @@ dependencies:
 
 dev_dependencies:
   beautiful_soup_dart: ^0.3.0
-  build: ^2.4.1
   build_runner: ^2.4.11
   change: ^0.7.3
+  color_logger: ^1.0.2
   dart_mappable_builder: ^4.2.3
   dart_style: ^2.3.6
   http: ^1.2.1
   lints: ^4.0.0
+  markdown: ^7.2.2
   path: ^1.9.0
   pubspec_manager: ^1.0.0
   test: ^1.24.0
@@ -31,4 +32,7 @@ dev_dependencies:
 script_runner:
   scripts:
     - fix: dart fix --apply && dart format .
-    - watch: dart tools/watch.dart
+    # build_runner watch (for DartMappable)
+    - watch: dart tool/watch.dart
+    # build (fetch new content from bahai.org)
+    - build: dart tool/build.dart
