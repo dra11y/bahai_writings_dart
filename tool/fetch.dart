@@ -22,7 +22,8 @@ Future<void> main() async {
       ids[year]!.add(message.id);
 
       try {
-        map[message.id] = message.content.replaceAll(r'$', r'\$');
+        map[message.id] =
+            message.content.replaceAll(r'\', r'\\').replaceAll(r'$', r'\$');
         logger.debug('Content for ${message.id} already exists, skipping.');
         continue;
       } catch (e) {
@@ -35,7 +36,6 @@ Future<void> main() async {
     }
 
     final library = Library((lib) => lib
-      ..ignoreForFile.add('unnecessary_string_escapes')
       ..body.add(
         declareFinal('messages$year',
                 type: refer((Map<String, String>).toString()))

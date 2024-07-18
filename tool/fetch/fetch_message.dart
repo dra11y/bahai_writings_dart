@@ -19,6 +19,9 @@ Future<String> fetchMessage(MessageBase message) async {
   final body = utf8.decode(response.bodyBytes);
   final BeautifulSoup bs = BeautifulSoup(body);
   final main = bs.body!.find('div')!;
-  final md = html2md.convert(main.element!).replaceAll(r'$', r'\$');
+  final md = html2md
+      .convert(main.element!)
+      .replaceAll(r'\', r'\\')
+      .replaceAll(r'$', r'\$');
   return md;
 }
