@@ -18,6 +18,7 @@ class Messages {
   /// Marking the dedication of the House of Worship for Papua New Guinea
   static final ce20240525 = Message(
     id: '20240525_001',
+    number: 1,
     title:
         'To the Friends Gathered in Port Moresby, Papua New Guinea, for the Dedication of the House of Worship',
     date: Date(2024, 5, 25),
@@ -36,9 +37,10 @@ class Messages {
   /// Riḍván Message 2024
   static final ce20240419 = RidvanMessage(
     id: '20240419_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2024, 4, 19),
-    badiDate: BadiDate(year: 181, month: 2, day: 13),
+    badiDate: BadiDate(year: 181, month: 2, day: 12),
     summary: 'Riḍván Message 2024',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20240419_001/1',
@@ -46,7 +48,7 @@ class Messages {
 
   /// Riḍván 2024 (181 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2024
-  static final be1810213 = ce20240419;
+  static final be1810212 = ce20240419;
 
   /// Riḍván 2024 (181 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2024
@@ -60,6 +62,7 @@ class Messages {
   /// Reflections on the First Century of the Formative Age
   static final ce20231128 = Message(
     id: '20231128_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2023, 11, 28),
     badiDate: BadiDate(year: 180, month: 14, day: 6),
@@ -74,11 +77,12 @@ class Messages {
 
   /// Riḍván 2023 (180 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2023
-  static final ce20230420 = RidvanMessage(
+  static final ce20230430 = RidvanMessage(
     id: '20230430_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2023, 4, 20),
-    badiDate: BadiDate(year: 180, month: 2, day: 13),
+    date: Date(2023, 4, 30),
+    badiDate: BadiDate(year: 180, month: 3, day: 3),
     summary: 'Riḍván Message 2023',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20230430_001/1',
@@ -86,20 +90,21 @@ class Messages {
 
   /// Riḍván 2023 (180 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2023
-  static final be1800213 = ce20230420;
+  static final be1800303 = ce20230430;
 
   /// Riḍván 2023 (180 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2023
-  static final ridvan180 = ce20230420;
+  static final ridvan180 = ce20230430;
 
   /// Riḍván 2023 (180 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2023
-  static final ridvan2023 = ce20230420;
+  static final ridvan2023 = ce20230430;
 
   /// 25 Mar 2023 (5 Bahá 180 B.E.): To the Friends Gathered in Kinshasa, Democratic Republic of the Congo, for the Dedication of the House of Worship
   /// Marking the dedication of the House of Worship for the Democratic Republic of the Congo
   static final ce20230325 = Message(
     id: '20230325_001',
+    number: 1,
     title:
         'To the Friends Gathered in Kinshasa, Democratic Republic of the Congo, for the Dedication of the House of Worship',
     date: Date(2023, 3, 25),
@@ -118,6 +123,7 @@ class Messages {
   /// Regarding the aim of the Bahá’í community to promote the oneness of humanity and overcome all obstacles, including ethnic prejudice
   static final ce20221101 = Message(
     id: '20221101_001',
+    number: 1,
     title:
         'To the Followers of Bahá’u’lláh in the Democratic Republic of the Congo',
     date: Date(2022, 11, 1),
@@ -136,6 +142,7 @@ class Messages {
   /// Progress of the construction of the Shrine of ‘Abdu’l-Bahá
   static final ce20220704 = Message(
     id: '20220704_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2022, 7, 4),
     badiDate: BadiDate(year: 179, month: 6, day: 11),
@@ -150,10 +157,11 @@ class Messages {
 
   /// Riḍván 2022 (179 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2022
-  static final ce20220420 = RidvanMessage(
+  static final ce20220421 = RidvanMessage(
     id: '20220421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2022, 4, 20),
+    date: Date(2022, 4, 21),
     badiDate: BadiDate(year: 179, month: 2, day: 13),
     summary: 'Riḍván Message 2022',
     url:
@@ -162,20 +170,21 @@ class Messages {
 
   /// Riḍván 2022 (179 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2022
-  static final be1790213 = ce20220420;
+  static final be1790213 = ce20220421;
 
   /// Riḍván 2022 (179 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2022
-  static final ridvan179 = ce20220420;
+  static final ridvan179 = ce20220421;
 
   /// Riḍván 2022 (179 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2022
-  static final ridvan2022 = ce20220420;
+  static final ridvan2022 = ce20220421;
 
   /// 14 Apr 2022 (6 Jalál 179 B.E.): To all National Spiritual Assemblies
   /// Update on the Shrine of ‘Abdu’l-Bahá
   static final ce20220414 = Message(
     id: '20220414_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2022, 4, 14),
     badiDate: BadiDate(year: 179, month: 2, day: 6),
@@ -192,6 +201,7 @@ class Messages {
   /// Development concerning the Shrine of ‘Abdu’l-Bahá
   static final ce20220408 = Message(
     id: '20220408_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2022, 4, 8),
     badiDate: BadiDate(year: 179, month: 1, day: 19),
@@ -208,6 +218,7 @@ class Messages {
   /// Regarding the Conference of the Continental Boards of Counsellors
   static final ce20220104 = Message(
     id: '20220104_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2022, 1, 4),
     badiDate: BadiDate(year: 178, month: 16, day: 6),
@@ -225,6 +236,7 @@ class Messages {
   /// Message to the Auxiliary Board members
   static final ce20220103 = Message(
     id: '20220103_001',
+    number: 1,
     title: 'To the Auxiliary Board members throughout the world',
     date: Date(2022, 1, 3),
     badiDate: BadiDate(year: 178, month: 16, day: 5),
@@ -241,6 +253,7 @@ class Messages {
   /// The educational materials of the training institute
   static final ce20220101 = Message(
     id: '20220101_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2022, 1, 1),
     badiDate: BadiDate(year: 178, month: 16, day: 3),
@@ -257,6 +270,7 @@ class Messages {
   /// Regarding the upcoming Nine Year Plan of the worldwide Bahá’í community
   static final ce20211230 = Message(
     id: '20211230_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(2021, 12, 30),
     badiDate: BadiDate(year: 178, month: 16, day: 1),
@@ -274,6 +288,7 @@ class Messages {
   /// Following the Centenary of the Ascension of ‘Abdu’l-Bahá
   static final ce20211201 = Message(
     id: '20211201_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2021, 12, 1),
     badiDate: BadiDate(year: 178, month: 14, day: 10),
@@ -290,6 +305,7 @@ class Messages {
   /// A Tribute by the Universal House of Justice
   static final ce20211127 = Message(
     id: '20211127_001',
+    number: 1,
     title:
         'On the Occasion of the Centenary Commemoration of the Ascension of ‘Abdu’l-Bahá',
     date: Date(2021, 11, 27),
@@ -307,6 +323,7 @@ class Messages {
   /// Marking the Centenary Commemoration of the Ascension of ‘Abdu’l-Bahá
   static final ce20211125 = Message(
     id: '20211125_001',
+    number: 1,
     title:
         'To the Friends Gathered in the Holy Land to Mark the Centenary Commemoration of the Ascension of ‘Abdu’l-Bahá',
     date: Date(2021, 11, 25),
@@ -325,6 +342,7 @@ class Messages {
   /// Marking the dedication of the Tanna House of Worship
   static final ce20211113 = Message(
     id: '20211113_001',
+    number: 1,
     title:
         'To the Friends Gathered in Tanna, Vanuatu, for the Dedication of the House of Worship',
     date: Date(2021, 11, 13),
@@ -342,6 +360,7 @@ class Messages {
   /// Regarding restoration work at the Mansion of Mazra‘ih
   static final ce20211108 = Message(
     id: '20211108_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2021, 11, 8),
     badiDate: BadiDate(year: 178, month: 13, day: 6),
@@ -358,6 +377,7 @@ class Messages {
   /// Marking the dedication of the Matunda Soy House of Worship.
   static final ce20210523 = Message(
     id: '20210523_001',
+    number: 1,
     title:
         'To the Friends Gathered in Matunda Soy, Kenya, for the Dedication of the House of Worship',
     date: Date(2021, 5, 23),
@@ -373,10 +393,11 @@ class Messages {
 
   /// Riḍván 2021 (178 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2021
-  static final ce20210419 = RidvanMessage(
+  static final ce20210420 = RidvanMessage(
     id: '20210420_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2021, 4, 19),
+    date: Date(2021, 4, 20),
     badiDate: BadiDate(year: 178, month: 2, day: 13),
     summary: 'Riḍván Message 2021',
     url:
@@ -385,20 +406,21 @@ class Messages {
 
   /// Riḍván 2021 (178 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2021
-  static final be1780213 = ce20210419;
+  static final be1780213 = ce20210420;
 
   /// Riḍván 2021 (178 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2021
-  static final ridvan178 = ce20210419;
+  static final ridvan178 = ce20210420;
 
   /// Riḍván 2021 (178 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2021
-  static final ridvan2021 = ce20210419;
+  static final ridvan2021 = ce20210420;
 
   /// 2 Apr 2021 (14 Bahá 178 B.E.): To all National Spiritual Assemblies
   /// Regarding the completion of restoration work on the House of 'Abbúd
   static final ce20210402 = Message(
     id: '20210402_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2021, 4, 2),
     badiDate: BadiDate(year: 178, month: 1, day: 14),
@@ -416,6 +438,7 @@ class Messages {
   /// On the occasion of the Day of the Covenant
   static final ce20201125 = Message(
     id: '20201125_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2020, 11, 25),
     badiDate: BadiDate(year: 177, month: 14, day: 4),
@@ -432,6 +455,7 @@ class Messages {
   /// Regarding racial prejudice and the American Bahá’í community’s distinctive contribution to its eradication
   static final ce20200722 = Message(
     id: '20200722_001',
+    number: 1,
     title: 'To the Bahá’ís of the United States',
     date: Date(2020, 7, 22),
     badiDate: BadiDate(year: 177, month: 7, day: 11),
@@ -447,10 +471,11 @@ class Messages {
 
   /// Riḍván 2020 (177 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2020
-  static final ce20200419 = RidvanMessage(
+  static final ce20200420 = RidvanMessage(
     id: '20200420_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2020, 4, 19),
+    date: Date(2020, 4, 20),
     badiDate: BadiDate(year: 177, month: 2, day: 13),
     summary: 'Riḍván Message 2020',
     url:
@@ -459,37 +484,38 @@ class Messages {
 
   /// Riḍván 2020 (177 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2020
-  static final be1770213 = ce20200419;
+  static final be1770213 = ce20200420;
 
   /// Riḍván 2020 (177 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2020
-  static final ridvan177 = ce20200419;
+  static final ridvan177 = ce20200420;
 
   /// Riḍván 2020 (177 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2020
-  static final ridvan2020 = ce20200419;
+  static final ridvan2020 = ce20200420;
 
-  /// Naw-Rúz 2020 (177 B.E.): To the Bahá’ís of the World
+  /// Naw-Rúz 2020 (176 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 177
   static final ce20200319 = NawRuzMessage(
     id: '20200319_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2020, 3, 19),
-    badiDate: BadiDate(year: 177, month: 1, day: 1),
+    badiDate: BadiDate(year: 176, month: 19, day: 19),
     summary: 'Naw-Rúz Message 177',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20200319_001/1',
   );
 
-  /// Naw-Rúz 2020 (177 B.E.): To the Bahá’ís of the World
+  /// Naw-Rúz 2020 (176 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 177
-  static final be1770101 = ce20200319;
+  static final be1761919 = ce20200319;
 
-  /// Naw-Rúz 2020 (177 B.E.): To the Bahá’ís of the World
+  /// Naw-Rúz 2020 (176 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 177
-  static final nawRuz177 = ce20200319;
+  static final nawRuz176 = ce20200319;
 
-  /// Naw-Rúz 2020 (177 B.E.): To the Bahá’ís of the World
+  /// Naw-Rúz 2020 (176 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 177
   static final nawRuz2020 = ce20200319;
 
@@ -497,6 +523,7 @@ class Messages {
   /// Social media and non-involvement in politics
   static final ce20191201 = Message(
     id: '20191201_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2019, 12, 1),
     badiDate: BadiDate(year: 176, month: 14, day: 9),
@@ -513,6 +540,7 @@ class Messages {
   /// Following the bicentenary of the Birth of the Báb
   static final ce20191108 = Message(
     id: '20191108_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2019, 11, 8),
     badiDate: BadiDate(year: 176, month: 13, day: 5),
@@ -529,6 +557,7 @@ class Messages {
   /// Marking the bicentenary of the Birth of the Báb
   static final ce20191001 = Message(
     id: '20191001_001',
+    number: 1,
     title: 'To all who have come to honour the Herald of a new Dawn',
     date: Date(2019, 10, 1),
     badiDate: BadiDate(year: 176, month: 11, day: 5),
@@ -545,6 +574,7 @@ class Messages {
   /// Announcements regarding the Shrine of ‘Abdu’l-Bahá
   static final ce20190507 = Message(
     id: '20190507_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2019, 5, 7),
     badiDate: BadiDate(year: 176, month: 3, day: 10),
@@ -561,9 +591,10 @@ class Messages {
   /// Riḍván Message 2019
   static final ce20190420 = RidvanMessage(
     id: '20190420_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2019, 4, 20),
-    badiDate: BadiDate(year: 176, month: 2, day: 13),
+    badiDate: BadiDate(year: 176, month: 2, day: 12),
     summary: 'Riḍván Message 2019',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/20190420_001/1',
@@ -571,7 +602,7 @@ class Messages {
 
   /// Riḍván 2019 (176 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2019
-  static final be1760213 = ce20190420;
+  static final be1760212 = ce20190420;
 
   /// Riḍván 2019 (176 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2019
@@ -585,6 +616,7 @@ class Messages {
   /// Message on world peace
   static final ce20190118 = Message(
     id: '20190118_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2019, 1, 18),
     badiDate: BadiDate(year: 175, month: 16, day: 19),
@@ -601,6 +633,7 @@ class Messages {
   /// On the occasion of the Day of the Covenant and the commemoration of the passing of ‘Abdu’l-Bahá
   static final ce20181126 = Message(
     id: '20181126_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2018, 11, 26),
     badiDate: BadiDate(year: 175, month: 14, day: 4),
@@ -618,6 +651,7 @@ class Messages {
   /// Establishment of the Bahá’í International Development Organization
   static final ce20181109 = Message(
     id: '20181109_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2018, 11, 9),
     badiDate: BadiDate(year: 175, month: 13, day: 6),
@@ -635,6 +669,7 @@ class Messages {
   /// Marking the dedication of the Norte del Cauca House of Worship
   static final ce20180722 = Message(
     id: '20180722_001',
+    number: 1,
     title:
         'To the Friends Gathered in Norte del Cauca, Colombia, for the Dedication of the House of Worship',
     date: Date(2018, 7, 22),
@@ -650,10 +685,11 @@ class Messages {
 
   /// Riḍván 2018 (175 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2018
-  static final ce20180420 = RidvanMessage(
+  static final ce20180421 = RidvanMessage(
     id: '20180421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2018, 4, 20),
+    date: Date(2018, 4, 21),
     badiDate: BadiDate(year: 175, month: 2, day: 13),
     summary: 'Riḍván Message 2018',
     url:
@@ -662,20 +698,21 @@ class Messages {
 
   /// Riḍván 2018 (175 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2018
-  static final be1750213 = ce20180420;
+  static final be1750213 = ce20180421;
 
   /// Riḍván 2018 (175 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2018
-  static final ridvan175 = ce20180420;
+  static final ridvan175 = ce20180421;
 
   /// Riḍván 2018 (175 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2018
-  static final ridvan2018 = ce20180420;
+  static final ridvan2018 = ce20180421;
 
   /// 27 Dec 2017 (17 Masá’il 174 B.E.): [To an individual]
   /// To an individual regarding religious prejudice
   static final ce20171227 = Message(
     id: '20171227_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2017, 12, 27),
     badiDate: BadiDate(year: 174, month: 15, day: 17),
@@ -692,6 +729,7 @@ class Messages {
   /// To three individuals regarding climate change
   static final ce20171129 = Message(
     id: '20171129_001',
+    number: 1,
     title: '[To three individuals]',
     date: Date(2017, 11, 29),
     badiDate: BadiDate(year: 174, month: 14, day: 8),
@@ -708,6 +746,7 @@ class Messages {
   /// Following the bicentenary of the Birth of Bahá’u’lláh
   static final ce20171031 = Message(
     id: '20171031_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2017, 10, 31),
     badiDate: BadiDate(year: 174, month: 12, day: 17),
@@ -724,6 +763,7 @@ class Messages {
   /// Marking the bicentenary of the Birth of Bahá’u’lláh
   static final ce20171001 = Message(
     id: '20171001_001',
+    number: 1,
     title: 'To all who celebrate the Glory of God',
     date: Date(2017, 10, 1),
     badiDate: BadiDate(year: 174, month: 11, day: 6),
@@ -740,6 +780,7 @@ class Messages {
   /// Marking the dedication of the Battambang House of Worship
   static final ce20170901 = Message(
     id: '20170901_001',
+    number: 1,
     title:
         'To the Friends Gathered in Battambang, Cambodia, for the Dedication of the House of Worship',
     date: Date(2017, 9, 1),
@@ -757,6 +798,7 @@ class Messages {
   /// To an individual regarding engaging in social action and public discourse, and non-involvement in political affairs
   static final ce20170427 = Message(
     id: '20170427_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2017, 4, 27),
     badiDate: BadiDate(year: 174, month: 3, day: 1),
@@ -772,10 +814,11 @@ class Messages {
 
   /// Riḍván 2017 (174 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2017
-  static final ce20170419 = RidvanMessage(
+  static final ce20170420 = RidvanMessage(
     id: '20170420_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2017, 4, 19),
+    date: Date(2017, 4, 20),
     badiDate: BadiDate(year: 174, month: 2, day: 13),
     summary: 'Riḍván Message 2017',
     url:
@@ -784,20 +827,21 @@ class Messages {
 
   /// Riḍván 2017 (174 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2017
-  static final be1740213 = ce20170419;
+  static final be1740213 = ce20170420;
 
   /// Riḍván 2017 (174 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2017
-  static final ridvan174 = ce20170419;
+  static final ridvan174 = ce20170420;
 
   /// Riḍván 2017 (174 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2017
-  static final ridvan2017 = ce20170419;
+  static final ridvan2017 = ce20170420;
 
   /// 1 Mar 2017 (1 ‘Alá’ 173 B.E.): To the Bahá’ís of the World
   /// Regarding economic life
   static final ce20170301 = Message(
     id: '20170301_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2017, 3, 1),
     badiDate: BadiDate(year: 173, month: 19, day: 1),
@@ -814,6 +858,7 @@ class Messages {
   /// Regarding the development of the institution of the Auxiliary Boards
   static final ce20161125 = Message(
     id: '20161125_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2016, 11, 25),
     badiDate: BadiDate(year: 173, month: 14, day: 4),
@@ -831,6 +876,7 @@ class Messages {
   /// Marking the dedication of the Mother Temple of South America
   static final ce20161014 = Message(
     id: '20161014_001',
+    number: 1,
     title:
         'To the Friends Gathered in Santiago, Chile, for the Dedication of the Mother Temple of South America',
     date: Date(2016, 10, 14),
@@ -846,10 +892,11 @@ class Messages {
 
   /// Riḍván 2016 (173 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2016
-  static final ce20160419 = RidvanMessage(
+  static final ce20160420 = RidvanMessage(
     id: '20160420_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2016, 4, 19),
+    date: Date(2016, 4, 20),
     badiDate: BadiDate(year: 173, month: 2, day: 13),
     summary: 'Riḍván Message 2016',
     url:
@@ -858,20 +905,21 @@ class Messages {
 
   /// Riḍván 2016 (173 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2016
-  static final be1730213 = ce20160419;
+  static final be1730213 = ce20160420;
 
   /// Riḍván 2016 (173 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2016
-  static final ridvan173 = ce20160419;
+  static final ridvan173 = ce20160420;
 
   /// Riḍván 2016 (173 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2016
-  static final ridvan2016 = ce20160419;
+  static final ridvan2016 = ce20160420;
 
   /// 26 Mar 2016 (7 Bahá 173 B.E.): To the recipients of ‘Abdu’l-Baha’s Tablets of the Divine Plan, the Bahá’ís of the United States and the Bahá’ís of Canada
   /// Letter regarding the Tablets of the Divine Plan, to the Bahá’ís of the United States and of Canada
   static final ce20160326b = Message(
     id: '20160326_002',
+    number: 2,
     title:
         'To the recipients of ‘Abdu’l-Baha’s Tablets of the Divine Plan, the Bahá’ís of the United States and the Bahá’ís of Canada',
     date: Date(2016, 3, 26),
@@ -890,6 +938,7 @@ class Messages {
   /// Regarding the centenary of the revelation of the first of ‘Abdu’l-Baha’s Tablets of the Divine Plan
   static final ce20160326 = Message(
     id: '20160326_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2016, 3, 26),
     badiDate: BadiDate(year: 173, month: 1, day: 7),
@@ -907,6 +956,7 @@ class Messages {
   /// To an individual believer regarding science and Sacred Scriptures
   static final ce20160221 = Message(
     id: '20160221_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2016, 2, 21),
     badiDate: BadiDate(year: 172, month: 18, day: 15),
@@ -924,6 +974,7 @@ class Messages {
   /// Regarding the Conference of the Continental Boards of Counsellors
   static final ce20160102 = Message(
     id: '20160102_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2016, 1, 2),
     badiDate: BadiDate(year: 172, month: 16, day: 3),
@@ -941,6 +992,7 @@ class Messages {
   /// Regarding the next Five Year Plan of the worldwide Bahá’í community
   static final ce20151229 = Message(
     id: '20151229_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(2015, 12, 29),
     badiDate: BadiDate(year: 172, month: 15, day: 18),
@@ -958,6 +1010,7 @@ class Messages {
   /// To a National Spiritual Assembly regarding the medium of the Internet and the promotion of the Faith
   static final ce20151009 = Message(
     id: '20151009_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(2015, 10, 9),
     badiDate: BadiDate(year: 172, month: 11, day: 13),
@@ -973,10 +1026,11 @@ class Messages {
 
   /// Riḍván 2015 (172 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2015
-  static final ce20150420 = RidvanMessage(
+  static final ce20150421 = RidvanMessage(
     id: '20150421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2015, 4, 20),
+    date: Date(2015, 4, 21),
     badiDate: BadiDate(year: 172, month: 2, day: 13),
     summary: 'Riḍván Message 2015',
     url:
@@ -985,20 +1039,21 @@ class Messages {
 
   /// Riḍván 2015 (172 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2015
-  static final be1720213 = ce20150420;
+  static final be1720213 = ce20150421;
 
   /// Riḍván 2015 (172 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2015
-  static final ridvan172 = ce20150420;
+  static final ridvan172 = ce20150421;
 
   /// Riḍván 2015 (172 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2015
-  static final ridvan2015 = ce20150420;
+  static final ridvan2015 = ce20150421;
 
   /// 1 Aug 2014 (1 Kamál 171 B.E.): To the Bahá’ís of the World
   /// Regarding the progress of the construction of the Houses of Worship
   static final ce20140801 = Message(
     id: '20140801_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2014, 8, 1),
     badiDate: BadiDate(year: 171, month: 8, day: 1),
@@ -1016,6 +1071,7 @@ class Messages {
   /// Regarding the implementation of the Badí‘ calendar
   static final ce20140710 = Message(
     id: '20140710_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2014, 7, 10),
     badiDate: BadiDate(year: 171, month: 6, day: 17),
@@ -1030,10 +1086,11 @@ class Messages {
 
   /// Riḍván 2014 (171 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2014
-  static final ce20140420 = RidvanMessage(
+  static final ce20140421 = RidvanMessage(
     id: '20140421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2014, 4, 20),
+    date: Date(2014, 4, 21),
     badiDate: BadiDate(year: 171, month: 2, day: 13),
     summary: 'Riḍván Message 2014',
     url:
@@ -1042,20 +1099,21 @@ class Messages {
 
   /// Riḍván 2014 (171 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2014
-  static final be1710213 = ce20140420;
+  static final be1710213 = ce20140421;
 
   /// Riḍván 2014 (171 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2014
-  static final ridvan171 = ce20140420;
+  static final ridvan171 = ce20140421;
 
   /// Riḍván 2014 (171 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2014
-  static final ridvan2014 = ce20140420;
+  static final ridvan2014 = ce20140421;
 
   /// 5 Dec 2013 (13 Qawl 170 B.E.): To the Bahá’ís of the World
   /// Regarding the centenary of ‘Abdu’l-Bahá’s return from His visit to the West
   static final ce20131205 = Message(
     id: '20131205_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2013, 12, 5),
     badiDate: BadiDate(year: 170, month: 14, day: 13),
@@ -1073,6 +1131,7 @@ class Messages {
   /// Regarding the murder of a Bahá’í in Iran
   static final ce20130827 = Message(
     id: '20130827_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
     date: Date(2013, 8, 27),
     badiDate: BadiDate(year: 170, month: 9, day: 8),
@@ -1089,6 +1148,7 @@ class Messages {
   /// To the National Spiritual Assembly of Canada regarding the role of the Association for Bahá’í Studies
   static final ce20130724 = Message(
     id: '20130724_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Canada',
     date: Date(2013, 7, 24),
     badiDate: BadiDate(year: 170, month: 7, day: 12),
@@ -1106,6 +1166,7 @@ class Messages {
   /// Regarding the destruction of the House of Bahá’u’lláh in Baghdád
   static final ce20130717 = Message(
     id: '20130717_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2013, 7, 17),
     badiDate: BadiDate(year: 170, month: 7, day: 5),
@@ -1122,6 +1183,7 @@ class Messages {
   /// Message to the youth participating in a series of youth conferences around the world
   static final ce20130701 = Message(
     id: '20130701_001',
+    number: 1,
     title:
         'To the participants in the forthcoming 114 youth conferences throughout the world',
     date: Date(2013, 7, 1),
@@ -1140,6 +1202,7 @@ class Messages {
   /// Regarding the destruction of the House of Bahá’u’lláh in Baghdád
   static final ce20130627 = Message(
     id: '20130627_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2013, 6, 27),
     badiDate: BadiDate(year: 170, month: 6, day: 4),
@@ -1156,6 +1219,7 @@ class Messages {
   /// Regarding the Eleventh International Bahá’í Convention and the ongoing persecution of the Bahá’í community in Iran
   static final ce20130510 = Message(
     id: '20130510_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
     date: Date(2013, 5, 10),
     badiDate: BadiDate(year: 170, month: 3, day: 13),
@@ -1173,6 +1237,7 @@ class Messages {
   /// Announcing the convocation of 19 further youth conferences around the world, in addition to the previously announced 95
   static final ce20130501 = Message(
     id: '20130501_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2013, 5, 1),
     badiDate: BadiDate(year: 170, month: 3, day: 4),
@@ -1188,10 +1253,11 @@ class Messages {
 
   /// Riḍván 2013 (170 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2013
-  static final ce20130420 = RidvanMessage(
+  static final ce20130421 = RidvanMessage(
     id: '20130421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2013, 4, 20),
+    date: Date(2013, 4, 21),
     badiDate: BadiDate(year: 170, month: 2, day: 13),
     summary: 'Riḍván Message 2013',
     url:
@@ -1200,22 +1266,23 @@ class Messages {
 
   /// Riḍván 2013 (170 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2013
-  static final be1700213 = ce20130420;
+  static final be1700213 = ce20130421;
 
   /// Riḍván 2013 (170 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2013
-  static final ridvan170 = ce20130420;
+  static final ridvan170 = ce20130421;
 
   /// Riḍván 2013 (170 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2013
-  static final ridvan2013 = ce20130420;
+  static final ridvan2013 = ce20130421;
 
   /// Naw-Rúz 2013 (170 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final ce20130320 = NawRuzMessage(
+  static final ce20130321 = NawRuzMessage(
     id: '20130321_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
-    date: Date(2013, 3, 20),
+    date: Date(2013, 3, 21),
     badiDate: BadiDate(year: 170, month: 1, day: 1),
     summary: 'On the occasion of the Persian New Year, Naw-Rúz',
     url:
@@ -1224,20 +1291,21 @@ class Messages {
 
   /// Naw-Rúz 2013 (170 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final be1700101 = ce20130320;
+  static final be1700101 = ce20130321;
 
   /// Naw-Rúz 2013 (170 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final nawRuz170 = ce20130320;
+  static final nawRuz170 = ce20130321;
 
   /// Naw-Rúz 2013 (170 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final nawRuz2013 = ce20130320;
+  static final nawRuz2013 = ce20130321;
 
   /// 2 Mar 2013 (1 ‘Alá’ 169 B.E.): To the Bahá’ís of Iran
   /// Regarding several issues related to the principle of non-involvement in partisan political affairs
   static final ce20130302 = Message(
     id: '20130302_001',
+    number: 1,
     title: 'To the Bahá’ís of Iran',
     date: Date(2013, 3, 2),
     badiDate: BadiDate(year: 169, month: 19, day: 1),
@@ -1255,6 +1323,7 @@ class Messages {
   /// Announcing the convocation of 95 youth conferences around the world
   static final ce20130208 = Message(
     id: '20130208_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2013, 2, 8),
     badiDate: BadiDate(year: 169, month: 18, day: 2),
@@ -1272,6 +1341,7 @@ class Messages {
   /// Enclosing the Persian-language translation of the statement titled “The Prosperity of Humankind”
   static final ce20130102 = Message(
     id: '20130102_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
     date: Date(2013, 1, 2),
     badiDate: BadiDate(year: 169, month: 16, day: 3),
@@ -1289,6 +1359,7 @@ class Messages {
   /// Enclosing “Social Action”, a document prepared by the Office of Social and Economic Development at the Bahá’í World Centre
   static final ce20121126 = Message(
     id: '20121126_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2012, 11, 26),
     badiDate: BadiDate(year: 169, month: 14, day: 4),
@@ -1306,6 +1377,7 @@ class Messages {
   /// Regarding a donation to the Temples Fund on behalf of the Bahá’ís of Iran
   static final ce20120627 = Message(
     id: '20120627_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2012, 6, 27),
     badiDate: BadiDate(year: 169, month: 6, day: 4),
@@ -1323,6 +1395,7 @@ class Messages {
   /// Regarding the ongoing persecution of the Bahá’í community in Iran
   static final ce20120511 = Message(
     id: '20120511_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
     date: Date(2012, 5, 11),
     badiDate: BadiDate(year: 169, month: 3, day: 14),
@@ -1338,10 +1411,11 @@ class Messages {
 
   /// Riḍván 2012 (169 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2012
-  static final ce20120420 = RidvanMessage(
+  static final ce20120421 = RidvanMessage(
     id: '20120421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2012, 4, 20),
+    date: Date(2012, 4, 21),
     badiDate: BadiDate(year: 169, month: 2, day: 13),
     summary: 'Riḍván Message 2012',
     url:
@@ -1350,22 +1424,23 @@ class Messages {
 
   /// Riḍván 2012 (169 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2012
-  static final be1690213 = ce20120420;
+  static final be1690213 = ce20120421;
 
   /// Riḍván 2012 (169 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2012
-  static final ridvan169 = ce20120420;
+  static final ridvan169 = ce20120421;
 
   /// Riḍván 2012 (169 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2012
-  static final ridvan2012 = ce20120420;
+  static final ridvan2012 = ce20120421;
 
   /// Naw-Rúz 2012 (169 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final ce20120320 = NawRuzMessage(
+  static final ce20120321 = NawRuzMessage(
     id: '20120321_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in Iran',
-    date: Date(2012, 3, 20),
+    date: Date(2012, 3, 21),
     badiDate: BadiDate(year: 169, month: 1, day: 1),
     summary: 'On the occasion of the Persian New Year, Naw-Rúz',
     url:
@@ -1374,20 +1449,21 @@ class Messages {
 
   /// Naw-Rúz 2012 (169 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final be1690101 = ce20120320;
+  static final be1690101 = ce20120321;
 
   /// Naw-Rúz 2012 (169 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final nawRuz169 = ce20120320;
+  static final nawRuz169 = ce20120321;
 
   /// Naw-Rúz 2012 (169 B.E.): To the followers of Bahá’u’lláh in Iran
   /// On the occasion of the Persian New Year, Naw-Rúz
-  static final nawRuz2012 = ce20120320;
+  static final nawRuz2012 = ce20120321;
 
   /// 1 Mar 2012 (5 Ayyám-i-Há 168 B.E.): To the devoted believers of Bahá’u’lláh in the sacred land of Iran
   /// Assuring the Bahá’ís of Iran of prayers during the month of the Bahá’í Fast
   static final ce20120301 = Message(
     id: '20120301_001',
+    number: 1,
     title: 'To the devoted believers of Bahá’u’lláh in the sacred land of Iran',
     date: Date(2012, 3, 1),
     badiDate: BadiDate(year: 168, month: 0, day: 5),
@@ -1405,6 +1481,7 @@ class Messages {
   /// Regarding the global plans of the Bahá’í community, touching on such subjects as training institutes, the educational process of which they are a part and the coordination of activities
   static final ce20111212 = Message(
     id: '20111212_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2011, 12, 12),
     badiDate: BadiDate(year: 168, month: 15, day: 1),
@@ -1422,6 +1499,7 @@ class Messages {
   /// Conveying news of a raid on the homes of Bahá’ís associated with the Bahá’í Institute for Higher Education
   static final ce20110617 = Message(
     id: '20110617_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2011, 6, 17),
     badiDate: BadiDate(year: 168, month: 5, day: 13),
@@ -1439,6 +1517,7 @@ class Messages {
   /// Marking the third anniversary of the imprisonment of the former members of the Yárán
   static final ce20110514 = Message(
     id: '20110514_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2011, 5, 14),
     badiDate: BadiDate(year: 168, month: 3, day: 17),
@@ -1454,10 +1533,11 @@ class Messages {
 
   /// Riḍván 2011 (168 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2011
-  static final ce20110420 = RidvanMessage(
+  static final ce20110421 = RidvanMessage(
     id: '20110421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2011, 4, 20),
+    date: Date(2011, 4, 21),
     badiDate: BadiDate(year: 168, month: 2, day: 13),
     summary: 'Riḍván Message 2011',
     url:
@@ -1466,20 +1546,21 @@ class Messages {
 
   /// Riḍván 2011 (168 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2011
-  static final be1680213 = ce20110420;
+  static final be1680213 = ce20110421;
 
   /// Riḍván 2011 (168 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2011
-  static final ridvan168 = ce20110420;
+  static final ridvan168 = ce20110421;
 
   /// Riḍván 2011 (168 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2011
-  static final ridvan2011 = ce20110420;
+  static final ridvan2011 = ce20110421;
 
   /// 12 Apr 2011 (4 Jalál 168 B.E.): To all National Spiritual Assemblies
   /// Marking the completion of the restoration of the Shrine of the Báb
   static final ce20110412 = Message(
     id: '20110412_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2011, 4, 12),
     badiDate: BadiDate(year: 168, month: 2, day: 4),
@@ -1497,6 +1578,7 @@ class Messages {
   /// On the occasion of the Persian New Year, Naw-Rúz
   static final ce20110321 = Message(
     id: '20110321_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2011, 3, 21),
     badiDate: BadiDate(year: 168, month: 1, day: 1),
@@ -1513,6 +1595,7 @@ class Messages {
   /// Regarding some of the themes from the Conference of the Continental Counsellors
   static final ce20110101 = Message(
     id: '20110101_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2011, 1, 1),
     badiDate: BadiDate(year: 167, month: 16, day: 2),
@@ -1530,6 +1613,7 @@ class Messages {
   /// Regarding the next Five Year Plan of the worldwide Bahá’í community
   static final ce20101228 = Message(
     id: '20101228_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(2010, 12, 28),
     badiDate: BadiDate(year: 167, month: 15, day: 17),
@@ -1547,6 +1631,7 @@ class Messages {
   /// Regarding the Centenary of ‘Abdu’l-Bahá’s departure for His visit to the West
   static final ce20100829 = Message(
     id: '20100829_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2010, 8, 29),
     badiDate: BadiDate(year: 167, month: 9, day: 10),
@@ -1562,10 +1647,11 @@ class Messages {
 
   /// Riḍván 2010 (167 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2010
-  static final ce20100420 = RidvanMessage(
+  static final ce20100421 = RidvanMessage(
     id: '20100421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2010, 4, 20),
+    date: Date(2010, 4, 21),
     badiDate: BadiDate(year: 167, month: 2, day: 13),
     summary: 'Riḍván Message 2010',
     url:
@@ -1574,20 +1660,21 @@ class Messages {
 
   /// Riḍván 2010 (167 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2010
-  static final be1670213 = ce20100420;
+  static final be1670213 = ce20100421;
 
   /// Riḍván 2010 (167 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2010
-  static final ridvan167 = ce20100420;
+  static final ridvan167 = ce20100421;
 
   /// Riḍván 2010 (167 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2010
-  static final ridvan2010 = ce20100420;
+  static final ridvan2010 = ce20100421;
 
   /// 2 Apr 2010 (13 Bahá 167 B.E.): To the Believers in the Cradle of the Faith
   /// Regarding subjects such as family life, wealth, materialism, and justice
   static final ce20100402 = Message(
     id: '20100402_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2010, 4, 2),
     badiDate: BadiDate(year: 167, month: 1, day: 13),
@@ -1605,6 +1692,7 @@ class Messages {
   /// On the occasion of the Persian New Year, Naw-Rúz
   static final ce20100321 = Message(
     id: '20100321_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2010, 3, 21),
     badiDate: BadiDate(year: 167, month: 1, day: 1),
@@ -1621,6 +1709,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding several themes related to politics and engagement in the life of society
   static final ce20100122 = Message(
     id: '20100122_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2010, 1, 22),
     badiDate: BadiDate(year: 166, month: 17, day: 4),
@@ -1638,6 +1727,7 @@ class Messages {
   /// Regarding the approaching trial date of the former members of the Yárán
   static final ce20100110 = Message(
     id: '20100110_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2010, 1, 10),
     badiDate: BadiDate(year: 166, month: 16, day: 11),
@@ -1655,6 +1745,7 @@ class Messages {
   /// Regarding the restoration and development of several edifices on Mount Carmel
   static final ce20091215 = Message(
     id: '20091215_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2009, 12, 15),
     badiDate: BadiDate(year: 166, month: 15, day: 4),
@@ -1672,6 +1763,7 @@ class Messages {
   /// Regarding the family and its role in the advancement of civilization
   static final ce20091124 = Message(
     id: '20091124_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 11, 24),
     badiDate: BadiDate(year: 166, month: 14, day: 2),
@@ -1689,6 +1781,7 @@ class Messages {
   /// Regarding the proper response to oppression and the principle of non-involvement in partisan political activity
   static final ce20090623 = Message(
     id: '20090623_001',
+    number: 1,
     title: 'To the Bahá’ís of Iran',
     date: Date(2009, 6, 23),
     badiDate: BadiDate(year: 166, month: 5, day: 19),
@@ -1706,6 +1799,7 @@ class Messages {
   /// Regarding such subjects as selfless service and the importance of helping those in need
   static final ce20090611 = Message(
     id: '20090611_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 6, 11),
     badiDate: BadiDate(year: 166, month: 5, day: 7),
@@ -1723,6 +1817,7 @@ class Messages {
   /// Regarding a number of concepts related to the strengthening of the Bahá’í community
   static final ce20090519 = Message(
     id: '20090519_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 5, 19),
     badiDate: BadiDate(year: 166, month: 4, day: 3),
@@ -1740,6 +1835,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the celebration of the Nineteen Day Feast
   static final ce20090517 = Message(
     id: '20090517_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2009, 5, 17),
     badiDate: BadiDate(year: 166, month: 4, day: 1),
@@ -1757,6 +1853,7 @@ class Messages {
   /// Regarding events in the year since the former members of the Yárán were arrested
   static final ce20090514 = Message(
     id: '20090514_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 5, 14),
     badiDate: BadiDate(year: 166, month: 3, day: 17),
@@ -1772,10 +1869,11 @@ class Messages {
 
   /// Riḍván 2009 (166 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2009
-  static final ce20090420 = RidvanMessage(
+  static final ce20090421 = RidvanMessage(
     id: '20090421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2009, 4, 20),
+    date: Date(2009, 4, 21),
     badiDate: BadiDate(year: 166, month: 2, day: 13),
     summary: 'Riḍván Message 2009',
     url:
@@ -1784,20 +1882,21 @@ class Messages {
 
   /// Riḍván 2009 (166 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2009
-  static final be1660213 = ce20090420;
+  static final be1660213 = ce20090421;
 
   /// Riḍván 2009 (166 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2009
-  static final ridvan166 = ce20090420;
+  static final ridvan166 = ce20090421;
 
   /// Riḍván 2009 (166 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2009
-  static final ridvan2009 = ce20090420;
+  static final ridvan2009 = ce20090421;
 
   /// 26 Mar 2009 (6 Bahá 166 B.E.): To the Believers in the Cradle of the Faith
   /// Regarding attempts in Iran to force members of the Iranian Bahá’í community to refrain from undertaking any Bahá’í activity
   static final ce20090326 = Message(
     id: '20090326_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 3, 26),
     badiDate: BadiDate(year: 166, month: 1, day: 6),
@@ -1815,6 +1914,7 @@ class Messages {
   /// On the occasion of the Persian New Year, Naw-Rúz; Marking the centenary of interment of remains of the Báb
   static final ce20090321 = Message(
     id: '20090321_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2009, 3, 21),
     badiDate: BadiDate(year: 166, month: 1, day: 1),
@@ -1832,6 +1932,7 @@ class Messages {
   /// Regarding the spiritual and social responsibilities of the Iranian Bahá’í community in the absence of the Yárán
   static final ce20090318 = Message(
     id: '20090318_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 3, 18),
     badiDate: BadiDate(year: 165, month: 19, day: 17),
@@ -1849,6 +1950,7 @@ class Messages {
   /// Regarding the Yárán and the Khádimín
   static final ce20090305 = Message(
     id: '20090305_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 3, 5),
     badiDate: BadiDate(year: 165, month: 19, day: 4),
@@ -1865,6 +1967,7 @@ class Messages {
   /// Regarding support from many Iranians for the plight of Bahá’ís
   static final ce20090209 = Message(
     id: '20090209_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2009, 2, 9),
     badiDate: BadiDate(year: 165, month: 18, day: 3),
@@ -1881,6 +1984,7 @@ class Messages {
   /// To an individual Bahá’í regarding political activity, social change, and public policy
   static final ce20081223 = Message(
     id: '20081223_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2008, 12, 23),
     badiDate: BadiDate(year: 165, month: 15, day: 12),
@@ -1898,6 +2002,7 @@ class Messages {
   /// Regarding accusations against Bahá’ís and attacks on the Faith in Iran
   static final ce20081031 = Message(
     id: '20081031_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2008, 10, 31),
     badiDate: BadiDate(year: 165, month: 12, day: 16),
@@ -1915,6 +2020,7 @@ class Messages {
   /// Marking the midpoint of Five Year Plan of the worldwide Bahá’í community; calling for 41 regional conferences
   static final ce20081020 = Message(
     id: '20081020_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2008, 10, 20),
     badiDate: BadiDate(year: 165, month: 12, day: 5),
@@ -1932,6 +2038,7 @@ class Messages {
   /// Regarding a range of questions related to the elimination of prejudice
   static final ce20080728 = Message(
     id: '20080728_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2008, 7, 28),
     badiDate: BadiDate(year: 165, month: 7, day: 16),
@@ -1949,6 +2056,7 @@ class Messages {
   /// Regarding the Bahá’í teachings on the equality of men and women
   static final ce20080620 = Message(
     id: '20080620_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2008, 6, 20),
     badiDate: BadiDate(year: 165, month: 5, day: 16),
@@ -1965,6 +2073,7 @@ class Messages {
   /// Marking three weeks since the arrest of the Yárán
   static final ce20080603 = Message(
     id: '20080603_001',
+    number: 1,
     title: 'To the Believers in the Cradle of the Faith',
     date: Date(2008, 6, 3),
     badiDate: BadiDate(year: 165, month: 4, day: 18),
@@ -1981,6 +2090,7 @@ class Messages {
   /// Regarding the arrest of the Yárán
   static final ce20080519 = Message(
     id: '20080519_001',
+    number: 1,
     title:
         'To the steadfast and sorely wronged Followers of Bahá’u’lláh in the sacred land of Iran',
     date: Date(2008, 5, 19),
@@ -1998,6 +2108,7 @@ class Messages {
   /// Regarding the restoration and development of Bahá’í World Centre properties
   static final ce20080512 = Message(
     id: '20080512_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2008, 5, 12),
     badiDate: BadiDate(year: 165, month: 3, day: 15),
@@ -2013,10 +2124,11 @@ class Messages {
 
   /// Riḍván 2008 (165 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2008
-  static final ce20080420 = RidvanMessage(
+  static final ce20080421 = RidvanMessage(
     id: '20080421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2008, 4, 20),
+    date: Date(2008, 4, 21),
     badiDate: BadiDate(year: 165, month: 2, day: 13),
     summary: 'Riḍván Message 2008',
     url:
@@ -2025,20 +2137,21 @@ class Messages {
 
   /// Riḍván 2008 (165 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2008
-  static final be1650213 = ce20080420;
+  static final be1650213 = ce20080421;
 
   /// Riḍván 2008 (165 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2008
-  static final ridvan165 = ce20080420;
+  static final ridvan165 = ce20080421;
 
   /// Riḍván 2008 (165 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2008
-  static final ridvan2008 = ce20080420;
+  static final ridvan2008 = ce20080421;
 
   /// 25 Dec 2007 (14 Masá’il 164 B.E.): To the followers of Bahá’u’lláh in the Cradle of the Faith
   /// Regarding the denial of higher education to Iranian Bahá’í students
   static final ce20071225 = Message(
     id: '20071225_001',
+    number: 1,
     title: 'To the followers of Bahá’u’lláh in the Cradle of the Faith',
     date: Date(2007, 12, 25),
     badiDate: BadiDate(year: 164, month: 15, day: 14),
@@ -2056,6 +2169,7 @@ class Messages {
   /// Tribute to the institution of the Hands of the Cause on the Day of the Covenant
   static final ce20071126 = Message(
     id: '20071126_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2007, 11, 26),
     badiDate: BadiDate(year: 164, month: 14, day: 4),
@@ -2073,6 +2187,7 @@ class Messages {
   /// Regarding themes such as service to others in the face of injustice and the importance of patience
   static final ce20070909 = Message(
     id: '20070909_001',
+    number: 1,
     title:
         'To the Bahá’í students deprived of access to higher education in Iran',
     date: Date(2007, 9, 9),
@@ -2089,10 +2204,11 @@ class Messages {
 
   /// Riḍván 2007 (164 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2007
-  static final ce20070420 = RidvanMessage(
+  static final ce20070421 = RidvanMessage(
     id: '20070421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2007, 4, 20),
+    date: Date(2007, 4, 21),
     badiDate: BadiDate(year: 164, month: 2, day: 13),
     summary: 'Riḍván Message 2007',
     url:
@@ -2101,20 +2217,21 @@ class Messages {
 
   /// Riḍván 2007 (164 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2007
-  static final be1640213 = ce20070420;
+  static final be1640213 = ce20070421;
 
   /// Riḍván 2007 (164 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2007
-  static final ridvan164 = ce20070420;
+  static final ridvan164 = ce20070421;
 
   /// Riḍván 2007 (164 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2007
-  static final ridvan2007 = ce20070420;
+  static final ridvan2007 = ce20070421;
 
   /// 25 Mar 2007 (5 Bahá 164 B.E.): To the Bahá’ís of the World
   /// Regarding some elements of the Bahá’í electoral process
   static final ce20070325 = Message(
     id: '20070325_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2007, 3, 25),
     badiDate: BadiDate(year: 164, month: 1, day: 5),
@@ -2131,6 +2248,7 @@ class Messages {
   /// Regarding a ruling denying Egyptian Bahá’ís the ability to obtain official identification papers
   static final ce20061221 = Message(
     id: '20061221_001',
+    number: 1,
     title: 'To the Bahá’ís of Egypt',
     date: Date(2006, 12, 21),
     badiDate: BadiDate(year: 163, month: 15, day: 10),
@@ -2146,10 +2264,11 @@ class Messages {
 
   /// Riḍván 2006 (163 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2006
-  static final ce20060420 = RidvanMessage(
+  static final ce20060421 = RidvanMessage(
     id: '20060421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2006, 4, 20),
+    date: Date(2006, 4, 21),
     badiDate: BadiDate(year: 163, month: 2, day: 13),
     summary: 'Riḍván Message 2006',
     url:
@@ -2158,20 +2277,21 @@ class Messages {
 
   /// Riḍván 2006 (163 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2006
-  static final be1630213 = ce20060420;
+  static final be1630213 = ce20060421;
 
   /// Riḍván 2006 (163 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2006
-  static final ridvan163 = ce20060420;
+  static final ridvan163 = ce20060421;
 
   /// Riḍván 2006 (163 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2006
-  static final ridvan2006 = ce20060420;
+  static final ridvan2006 = ce20060421;
 
   /// 22 Mar 2006 (2 Bahá 163 B.E.): To the Iranian believers living outside Iran
   /// Regarding participation in the upcoming Five Year Plan of the worldwide Bahá’í community
   static final ce20060322 = Message(
     id: '20060322_001',
+    number: 1,
     title: 'To the Iranian believers living outside Iran',
     date: Date(2006, 3, 22),
     badiDate: BadiDate(year: 163, month: 1, day: 2),
@@ -2189,6 +2309,7 @@ class Messages {
   /// Marking the close of the Conference of Continental Counsellors
   static final ce20051231 = Message(
     id: '20051231_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2005, 12, 31),
     badiDate: BadiDate(year: 162, month: 16, day: 1),
@@ -2205,6 +2326,7 @@ class Messages {
   /// Regarding training institutes and the materials of the Ruhi Institute
   static final ce20051228 = Message(
     id: '20051228_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2005, 12, 28),
     badiDate: BadiDate(year: 162, month: 15, day: 17),
@@ -2222,6 +2344,7 @@ class Messages {
   /// Regarding the next Five Year Plan of the worldwide Bahá’í community
   static final ce20051227 = Message(
     id: '20051227_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(2005, 12, 27),
     badiDate: BadiDate(year: 162, month: 15, day: 16),
@@ -2237,10 +2360,11 @@ class Messages {
 
   /// Riḍván 2005 (162 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2005
-  static final ce20050420 = RidvanMessage(
+  static final ce20050421 = RidvanMessage(
     id: '20050421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2005, 4, 20),
+    date: Date(2005, 4, 21),
     badiDate: BadiDate(year: 162, month: 2, day: 13),
     summary: 'Riḍván Message 2005',
     url:
@@ -2249,22 +2373,23 @@ class Messages {
 
   /// Riḍván 2005 (162 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2005
-  static final be1620213 = ce20050420;
+  static final be1620213 = ce20050421;
 
   /// Riḍván 2005 (162 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2005
-  static final ridvan162 = ce20050420;
+  static final ridvan162 = ce20050421;
 
   /// Riḍván 2005 (162 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2005
-  static final ridvan2005 = ce20050420;
+  static final ridvan2005 = ce20050421;
 
   /// Riḍván 2004 (161 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2004
-  static final ce20040420 = RidvanMessage(
+  static final ce20040421 = RidvanMessage(
     id: '20040421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2004, 4, 20),
+    date: Date(2004, 4, 21),
     badiDate: BadiDate(year: 161, month: 2, day: 13),
     summary: 'Riḍván Message 2004',
     url:
@@ -2273,20 +2398,21 @@ class Messages {
 
   /// Riḍván 2004 (161 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2004
-  static final be1610213 = ce20040420;
+  static final be1610213 = ce20040421;
 
   /// Riḍván 2004 (161 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2004
-  static final ridvan161 = ce20040420;
+  static final ridvan161 = ce20040421;
 
   /// Riḍván 2004 (161 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2004
-  static final ridvan2004 = ce20040420;
+  static final ridvan2004 = ce20040421;
 
   /// 12 Jan 2004 (13 Sharaf 160 B.E.): To the Iranian believers living outside Iran
   /// Regarding travel to and communication with Bahá’ís in Iran in light of present and historical circumstances
   static final ce20040112 = Message(
     id: '20040112_001',
+    number: 1,
     title: 'To the Iranian believers living outside Iran',
     date: Date(2004, 1, 12),
     badiDate: BadiDate(year: 160, month: 16, day: 13),
@@ -2304,6 +2430,7 @@ class Messages {
   /// Regarding ‘Abdu’l-Bahá’s letter to the people of Iran, titled the Secret of Divine Civilization
   static final ce20031126 = Message(
     id: '20031126_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh in the Cradle of the Faith',
     date: Date(2003, 11, 26),
     badiDate: BadiDate(year: 160, month: 14, day: 4),
@@ -2319,10 +2446,11 @@ class Messages {
 
   /// Riḍván 2003 (160 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2003
-  static final ce20030420 = RidvanMessage(
+  static final ce20030421 = RidvanMessage(
     id: '20030421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2003, 4, 20),
+    date: Date(2003, 4, 21),
     badiDate: BadiDate(year: 160, month: 2, day: 13),
     summary: 'Riḍván Message 2003',
     url:
@@ -2331,20 +2459,21 @@ class Messages {
 
   /// Riḍván 2003 (160 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2003
-  static final be1600213 = ce20030420;
+  static final be1600213 = ce20030421;
 
   /// Riḍván 2003 (160 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2003
-  static final ridvan160 = ce20030420;
+  static final ridvan160 = ce20030421;
 
   /// Riḍván 2003 (160 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2003
-  static final ridvan2003 = ce20030420;
+  static final ridvan2003 = ce20030421;
 
   /// 17 Jan 2003 (18 Sharaf 159 B.E.): To the Bahá’ís of the World
   /// Regarding the progress of the Five Year Plan of the worldwide Bahá’í community and the process of growth at the level of the cluster
   static final ce20030117 = Message(
     id: '20030117_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2003, 1, 17),
     badiDate: BadiDate(year: 159, month: 16, day: 18),
@@ -2360,10 +2489,11 @@ class Messages {
 
   /// Riḍván 2002 (159 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2002
-  static final ce20020420 = RidvanMessage(
+  static final ce20020421 = RidvanMessage(
     id: '20020421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2002, 4, 20),
+    date: Date(2002, 4, 21),
     badiDate: BadiDate(year: 159, month: 2, day: 13),
     summary: 'Riḍván Message 2002',
     url:
@@ -2372,20 +2502,21 @@ class Messages {
 
   /// Riḍván 2002 (159 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2002
-  static final be1590213 = ce20020420;
+  static final be1590213 = ce20020421;
 
   /// Riḍván 2002 (159 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2002
-  static final ridvan159 = ce20020420;
+  static final ridvan159 = ce20020421;
 
   /// Riḍván 2002 (159 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2002
-  static final ridvan2002 = ce20020420;
+  static final ridvan2002 = ce20020421;
 
   /// 1 Apr 2002 (12 Bahá 159 B.E.): To the World’s Religious Leaders
   /// An invitation to the leaders of the world’s religious communities to reexamine the issues lying at the heart of interfaith activity
   static final ce20020401 = Message(
     id: '20020401_001',
+    number: 1,
     title: 'To the World’s Religious Leaders',
     date: Date(2002, 4, 1),
     badiDate: BadiDate(year: 159, month: 1, day: 12),
@@ -2403,6 +2534,7 @@ class Messages {
   /// Message to the Youth Congress in Brazil
   static final ce20020117 = Message(
     id: '20020117_001',
+    number: 1,
     title: 'To the Friends Gathered at the Youth Congress in Brazil',
     date: Date(2002, 1, 17),
     badiDate: BadiDate(year: 158, month: 16, day: 18),
@@ -2419,6 +2551,7 @@ class Messages {
   /// Message to the Second Youth Conference in Sherbrooke, Canada
   static final ce20010628 = Message(
     id: '20010628_001',
+    number: 1,
     title:
         'To the Friends Gathered at Canada’s Second Youth Conference in Sherbrooke (Canada), 28 June – 1 July 2001',
     date: Date(2001, 6, 28),
@@ -2436,6 +2569,7 @@ class Messages {
   /// Marking the completion of the Projects on Mount Carmel
   static final ce20010524 = Message(
     id: '20010524_001',
+    number: 1,
     title:
         'To the Believers Gathered for the Events Marking the Completion of the Projects on Mount Carmel',
     date: Date(2001, 5, 24),
@@ -2451,10 +2585,11 @@ class Messages {
 
   /// Riḍván 2001 (158 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2001
-  static final ce20010420 = RidvanMessage(
+  static final ce20010421 = RidvanMessage(
     id: '20010421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2001, 4, 20),
+    date: Date(2001, 4, 21),
     badiDate: BadiDate(year: 158, month: 2, day: 13),
     summary: 'Riḍván Message 2001',
     url:
@@ -2463,20 +2598,21 @@ class Messages {
 
   /// Riḍván 2001 (158 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2001
-  static final be1580213 = ce20010420;
+  static final be1580213 = ce20010421;
 
   /// Riḍván 2001 (158 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2001
-  static final ridvan158 = ce20010420;
+  static final ridvan158 = ce20010421;
 
   /// Riḍván 2001 (158 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2001
-  static final ridvan2001 = ce20010420;
+  static final ridvan2001 = ce20010421;
 
   /// 19 Apr 2001 (11 Jalál 158 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding the unity of nations and the establishment of the Lesser Peace
   static final ce20010419 = Message(
     id: '20010419_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2001, 4, 19),
     badiDate: BadiDate(year: 158, month: 2, day: 11),
@@ -2494,6 +2630,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the application of the laws of the Kitáb-i-Aqdas
   static final ce20010208 = Message(
     id: '20010208_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2001, 2, 8),
     badiDate: BadiDate(year: 157, month: 18, day: 2),
@@ -2511,6 +2648,7 @@ class Messages {
   /// Marking the beginning of the fifth epoch of the Formative Age
   static final ce20010116 = Message(
     id: '20010116_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2001, 1, 16),
     badiDate: BadiDate(year: 157, month: 16, day: 17),
@@ -2527,6 +2665,7 @@ class Messages {
   /// Marking the inauguration of the International Teaching Centre Building on Mount Carmel
   static final ce20010114 = Message(
     id: '20010114_001',
+    number: 1,
     title:
         'To the Conference Marking the Inauguration of the International Teaching Centre Building',
     date: Date(2001, 1, 14),
@@ -2545,6 +2684,7 @@ class Messages {
   /// Regarding the upcoming Five Year Plan of the worldwide Bahá’í community
   static final ce20010109 = Message(
     id: '20010109_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(2001, 1, 9),
     badiDate: BadiDate(year: 157, month: 16, day: 10),
@@ -2562,6 +2702,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the revision of the Codification of the Law of Huqúqu’lláh
   static final ce20001126 = Message(
     id: '20001126_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2000, 11, 26),
     badiDate: BadiDate(year: 157, month: 14, day: 4),
@@ -2579,6 +2720,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the Bahá’í International Community’s participation in the International Millenial Gatherings Concerning Global Issues
   static final ce20000924 = Message(
     id: '20000924_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2000, 9, 24),
     badiDate: BadiDate(year: 157, month: 10, day: 17),
@@ -2596,6 +2738,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, a message to the Youth Congress in Ecuador
   static final ce20000809 = Message(
     id: '20000809_001',
+    number: 1,
     title: 'To the Friends Gathered at the Youth Congress in Ecuador',
     date: Date(2000, 8, 9),
     badiDate: BadiDate(year: 157, month: 8, day: 9),
@@ -2613,6 +2756,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, a message to the Youth Congress in the Dominican Republic
   static final ce20000727 = Message(
     id: '20000727_001',
+    number: 1,
     title:
         'To the Friends Gathered at the Youth Congress in the Dominican Republic',
     date: Date(2000, 7, 27),
@@ -2631,6 +2775,7 @@ class Messages {
   /// Message to the International Youth Conference in Karachi, Pakistan
   static final ce20000720b = Message(
     id: '20000720_001',
+    number: 1,
     title:
         'To the Friends gathered at the Asian International Youth Conference, Karachi, Pakistan, 21–23 July 2000',
     date: Date(2000, 7, 20),
@@ -2649,6 +2794,7 @@ class Messages {
   /// Message to the Youth Conference in Vancouver, Canada
   static final ce20000720 = Message(
     id: '20000720_002',
+    number: 2,
     title:
         'To the Friends Gathered at the Youth Conference in Vancouver, 20–24 July 2000',
     date: Date(2000, 7, 20),
@@ -2666,6 +2812,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding democracy and the Bahá’í Administrative Order
   static final ce20000718 = Message(
     id: '20000718_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2000, 7, 18),
     badiDate: BadiDate(year: 157, month: 7, day: 6),
@@ -2683,6 +2830,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, message to the Youth Congress in El Salvador
   static final ce20000712 = Message(
     id: '20000712_001',
+    number: 1,
     title: 'To the Friends Gathered at the Youth Congress in El Salvador',
     date: Date(2000, 7, 12),
     badiDate: BadiDate(year: 157, month: 6, day: 19),
@@ -2700,6 +2848,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the role of the Regional Bahá’í Councils
   static final ce20000516 = Message(
     id: '20000516_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of South Africa',
     date: Date(2000, 5, 16),
     badiDate: BadiDate(year: 157, month: 3, day: 19),
@@ -2715,10 +2864,11 @@ class Messages {
 
   /// Riḍván 2000 (157 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2000
-  static final ce20000420 = RidvanMessage(
+  static final ce20000421 = RidvanMessage(
     id: '20000421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(2000, 4, 20),
+    date: Date(2000, 4, 21),
     badiDate: BadiDate(year: 157, month: 2, day: 13),
     summary: 'Riḍván Message 2000',
     url:
@@ -2727,20 +2877,21 @@ class Messages {
 
   /// Riḍván 2000 (157 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2000
-  static final be1570213 = ce20000420;
+  static final be1570213 = ce20000421;
 
   /// Riḍván 2000 (157 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2000
-  static final ridvan157 = ce20000420;
+  static final ridvan157 = ce20000421;
 
   /// Riḍván 2000 (157 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 2000
-  static final ridvan2000 = ce20000420;
+  static final ridvan2000 = ce20000421;
 
   /// 16 Apr 2000 (8 Jalál 157 B.E.): To the National Spiritual Assembly of the Bahá’ís of Brazil
   /// Written on behalf of the Universal House of Justice, regarding resignation and membership on Bahá’í institutions
   static final ce20000416 = Message(
     id: '20000416_001',
+    number: 1,
     title: 'To the National Spiritual Assembly of the Bahá’ís of Brazil',
     date: Date(2000, 4, 16),
     badiDate: BadiDate(year: 157, month: 2, day: 8),
@@ -2758,6 +2909,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the formation of Regional Bahá’í Councils
   static final ce20000312 = Message(
     id: '20000312_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2000, 3, 12),
     badiDate: BadiDate(year: 156, month: 19, day: 11),
@@ -2775,6 +2927,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the application of Bahá’í laws
   static final ce20000223 = Message(
     id: '20000223_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(2000, 2, 23),
     badiDate: BadiDate(year: 156, month: 18, day: 17),
@@ -2792,6 +2945,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the funeral service for Amatu’l-Bahá Rúhíyyih Khánum
   static final ce20000126 = Message(
     id: '20000126_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(2000, 1, 26),
     badiDate: BadiDate(year: 156, month: 17, day: 8),
@@ -2809,6 +2963,7 @@ class Messages {
   /// Marking the passing of Amatu’l-Bahá Rúhíyyih Khánum
   static final ce20000119 = Message(
     id: '20000119_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(2000, 1, 19),
     badiDate: BadiDate(year: 156, month: 17, day: 1),
@@ -2825,6 +2980,7 @@ class Messages {
   /// Message to the Youth Congress in Paraguay
   static final ce20000108 = Message(
     id: '20000108_001',
+    number: 1,
     title: 'To the Friends Gathered at the Youth Congress in Paraguay',
     date: Date(2000, 1, 8),
     badiDate: BadiDate(year: 156, month: 16, day: 9),
@@ -2841,6 +2997,7 @@ class Messages {
   /// Regarding the laws of prayer, fasting, and recitation of the Greatest Name revealed in the Kitáb-i-Aqdas
   static final ce19991228 = Message(
     id: '19991228_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1999, 12, 28),
     badiDate: BadiDate(year: 156, month: 15, day: 17),
@@ -2858,6 +3015,7 @@ class Messages {
   /// Regarding the plans of the worldwide Bahá’í community for the next twelve months and the subsequent five years
   static final ce19991126 = Message(
     id: '19991126_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1999, 11, 26),
     badiDate: BadiDate(year: 156, month: 14, day: 4),
@@ -2875,6 +3033,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the increased responsibility of the Office of Correspondence in managing communications of the Bahá’í World Centre
   static final ce19991109 = Message(
     id: '19991109_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1999, 11, 9),
     badiDate: BadiDate(year: 156, month: 13, day: 6),
@@ -2892,6 +3051,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding deputization and funding for the training institutes
   static final ce19990824 = Message(
     id: '19990824_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1999, 8, 24),
@@ -2910,6 +3070,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding several themes relevant to the advancement of women
   static final ce19990805 = Message(
     id: '19990805_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1999, 8, 5),
     badiDate: BadiDate(year: 156, month: 8, day: 5),
@@ -2927,6 +3088,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the translation and publication of Bahá’í documents into English
   static final ce19990704b = Message(
     id: '19990704_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1999, 7, 4),
     badiDate: BadiDate(year: 156, month: 6, day: 11),
@@ -2944,6 +3106,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the publication of study guides for the Sacred Texts
   static final ce19990704 = Message(
     id: '19990704_002',
+    number: 2,
     title: 'To all Bahá’í Publishing Trusts',
     date: Date(1999, 7, 4),
     badiDate: BadiDate(year: 156, month: 6, day: 11),
@@ -2961,6 +3124,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding provisional and authorized translations of the Bahá’í Writings into English
   static final ce19990630 = Message(
     id: '19990630_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1999, 6, 30),
     badiDate: BadiDate(year: 156, month: 6, day: 7),
@@ -2978,6 +3142,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding primary source materials at the Bahá’í World Centre
   static final ce19990504 = Message(
     id: '19990504_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1999, 5, 4),
     badiDate: BadiDate(year: 156, month: 3, day: 7),
@@ -2993,10 +3158,11 @@ class Messages {
 
   /// Riḍván 1999 (156 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1999
-  static final ce19990420 = RidvanMessage(
+  static final ce19990421 = RidvanMessage(
     id: '19990421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1999, 4, 20),
+    date: Date(1999, 4, 21),
     badiDate: BadiDate(year: 156, month: 2, day: 13),
     summary: 'Riḍván Message 1999',
     url:
@@ -3005,20 +3171,21 @@ class Messages {
 
   /// Riḍván 1999 (156 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1999
-  static final be1560213 = ce19990420;
+  static final be1560213 = ce19990421;
 
   /// Riḍván 1999 (156 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1999
-  static final ridvan156 = ce19990420;
+  static final ridvan156 = ce19990421;
 
   /// Riḍván 1999 (156 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1999
-  static final ridvan1999 = ce19990420;
+  static final ridvan1999 = ce19990421;
 
   /// 15 Apr 1999 (7 Jalál 156 B.E.): To selected National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the conviction of four Bahá’ís in Iran in relation to the activities with the Institute for Higher Bahá’í Studies
   static final ce19990415 = Message(
     id: '19990415_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1999, 4, 15),
     badiDate: BadiDate(year: 156, month: 2, day: 7),
@@ -3036,6 +3203,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice regarding issues related to the study of the Bahá’í Faith
   static final ce19990407 = Message(
     id: '19990407_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1999, 4, 7),
     badiDate: BadiDate(year: 156, month: 1, day: 18),
@@ -3053,6 +3221,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the material and spiritual advancement of indigenous people
   static final ce19990406 = Message(
     id: '19990406_001',
+    number: 1,
     title: '[To a Local Spiritual Assembly]',
     date: Date(1999, 4, 6),
     badiDate: BadiDate(year: 156, month: 1, day: 17),
@@ -3070,6 +3239,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, marking the publication of “Who is Writing the Future?”
   static final ce19990225 = Message(
     id: '19990225_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1999, 2, 25),
     badiDate: BadiDate(year: 155, month: 18, day: 19),
@@ -3087,6 +3257,7 @@ class Messages {
   /// Message to the European Bahá’í Youth Council
   static final ce19990202 = Message(
     id: '19990202_001',
+    number: 1,
     title: 'To the European Bahá’í Youth Council',
     date: Date(1999, 2, 2),
     badiDate: BadiDate(year: 155, month: 17, day: 15),
@@ -3103,6 +3274,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the situation of the Bahá’ís imprisoned in Iran
   static final ce19981214 = Message(
     id: '19981214_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 12, 14),
     badiDate: BadiDate(year: 155, month: 15, day: 3),
@@ -3120,6 +3292,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding an appeal of the conviction of three Bahá’ís imprisoned in Mashad
   static final ce19981201 = Message(
     id: '19981201_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 12, 1),
     badiDate: BadiDate(year: 155, month: 14, day: 9),
@@ -3137,6 +3310,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying news of the arrest of faculty members of the Bahá’í Institute of Higher Education and raids on Bahá’í homes
   static final ce19981006 = Message(
     id: '19981006_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 10, 6),
     badiDate: BadiDate(year: 155, month: 11, day: 10),
@@ -3154,6 +3328,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying details on Bahá’ís imprisoned and sentenced to death in Iran
   static final ce19981001 = Message(
     id: '19981001_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 10, 1),
     badiDate: BadiDate(year: 155, month: 11, day: 5),
@@ -3171,6 +3346,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying news of the sentencing of two Bahá’ís in Iran to death
   static final ce19980929 = Message(
     id: '19980929_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 9, 29),
     badiDate: BadiDate(year: 155, month: 11, day: 3),
@@ -3188,6 +3364,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding arrests, imprisonment, and confiscation of property of Bahá’ís in Iran
   static final ce19980924 = Message(
     id: '19980924_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 9, 24),
     badiDate: BadiDate(year: 155, month: 10, day: 17),
@@ -3205,6 +3382,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the role of the Universal House of Justice
   static final ce19980827 = Message(
     id: '19980827_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1998, 8, 27),
     badiDate: BadiDate(year: 155, month: 9, day: 8),
@@ -3222,6 +3400,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the standard of English translations of the Bahá’í Writings
   static final ce19980812 = Message(
     id: '19980812_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1998, 8, 12),
     badiDate: BadiDate(year: 155, month: 8, day: 12),
@@ -3239,6 +3418,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the continued persecution of the Bahá’í community in Iran
   static final ce19980804 = Message(
     id: '19980804_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 8, 4),
     badiDate: BadiDate(year: 155, month: 8, day: 4),
@@ -3256,6 +3436,7 @@ class Messages {
   /// Conveying news of the execution of a Bahá’í in Iran
   static final ce19980722 = Message(
     id: '19980722_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1998, 7, 22),
     badiDate: BadiDate(year: 155, month: 7, day: 10),
@@ -3272,6 +3453,7 @@ class Messages {
   /// Marking the twenty-fifth anniversary of the establishment of the International Teaching Centre
   static final ce19980702 = Message(
     id: '19980702_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1998, 7, 2),
     badiDate: BadiDate(year: 155, month: 6, day: 9),
@@ -3289,6 +3471,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the age fifteen as the age of spiritual maturity
   static final ce19980616 = Message(
     id: '19980616_001',
+    number: 1,
     title: '[To two individuals]',
     date: Date(1998, 6, 16),
     badiDate: BadiDate(year: 155, month: 5, day: 12),
@@ -3306,6 +3489,7 @@ class Messages {
   /// Regarding the responsibilities of the International Teaching Centre
   static final ce19980610 = Message(
     id: '19980610_001',
+    number: 1,
     title: 'The International Teaching Centre',
     date: Date(1998, 6, 10),
     badiDate: BadiDate(year: 155, month: 5, day: 6),
@@ -3323,6 +3507,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the deputization of institute teachers and coordinators
   static final ce19980601 = Message(
     id: '19980601_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 6, 1),
     badiDate: BadiDate(year: 155, month: 4, day: 16),
@@ -3340,6 +3525,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the sentencing of two Bahá’ís in Iran to prison
   static final ce19980521 = Message(
     id: '19980521_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1998, 5, 21),
     badiDate: BadiDate(year: 155, month: 4, day: 5),
@@ -3357,6 +3543,7 @@ class Messages {
   /// Message to the Conference of the Continental Counsellors
   static final ce19980503 = Message(
     id: '19980503_001',
+    number: 1,
     title: 'To the Conference of the Continental Counsellors',
     date: Date(1998, 5, 3),
     badiDate: BadiDate(year: 155, month: 3, day: 6),
@@ -3371,10 +3558,11 @@ class Messages {
 
   /// Riḍván 1998 (155 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1998
-  static final ce19980420 = RidvanMessage(
+  static final ce19980421 = RidvanMessage(
     id: '19980421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1998, 4, 20),
+    date: Date(1998, 4, 21),
     badiDate: BadiDate(year: 155, month: 2, day: 13),
     summary: 'Riḍván Message 1998',
     url:
@@ -3383,20 +3571,21 @@ class Messages {
 
   /// Riḍván 1998 (155 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1998
-  static final be1550213 = ce19980420;
+  static final be1550213 = ce19980421;
 
   /// Riḍván 1998 (155 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1998
-  static final ridvan155 = ce19980420;
+  static final ridvan155 = ce19980421;
 
   /// Riḍván 1998 (155 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1998
-  static final ridvan1998 = ce19980420;
+  static final ridvan1998 = ce19980421;
 
   /// 4 Mar 1998 (3 ‘Alá’ 154 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
   /// Written on behalf of the Universal House of Justice, regarding the review of materials associated with the Faith prior to publication
   static final ce19980304 = Message(
     id: '19980304_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1998, 3, 4),
@@ -3415,6 +3604,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding questions raised about the recourse available to Bahá’ís when they feel the Local Spiritual Assembly has made an error
   static final ce19980217 = Message(
     id: '19980217_001',
+    number: 1,
     title: '[To a Local Spiritual Assembly]',
     date: Date(1998, 2, 17),
     badiDate: BadiDate(year: 154, month: 18, day: 11),
@@ -3432,6 +3622,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, responding to concerns raised about the absence of a Guardian to succeed Shoghi Effendi
   static final ce19980106b = Message(
     id: '19980106_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1998, 1, 6),
     badiDate: BadiDate(year: 154, month: 16, day: 7),
@@ -3449,6 +3640,7 @@ class Messages {
   /// Message to the Latin American Youth Congress in Chile
   static final ce19980106 = Message(
     id: '19980106_002',
+    number: 2,
     title:
         'To the friends gathered at the Latin American Youth Congress in Chile',
     date: Date(1998, 1, 6),
@@ -3466,6 +3658,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying news of the martyrdom of two Bahá’ís in Iran
   static final ce19970818 = Message(
     id: '19970818_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1997, 8, 18),
     badiDate: BadiDate(year: 154, month: 8, day: 18),
@@ -3483,6 +3676,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the external affairs work of the Bahá’í International Community
   static final ce19970811 = Message(
     id: '19970811_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1997, 8, 11),
     badiDate: BadiDate(year: 154, month: 8, day: 11),
@@ -3500,6 +3694,7 @@ class Messages {
   /// Regarding the formation of Regional Bahá’í Councils
   static final ce19970530 = Message(
     id: '19970530_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1997, 5, 30),
     badiDate: BadiDate(year: 154, month: 4, day: 14),
@@ -3514,10 +3709,11 @@ class Messages {
 
   /// Riḍván 1997 (154 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1997
-  static final ce19970420 = RidvanMessage(
+  static final ce19970421 = RidvanMessage(
     id: '19970421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1997, 4, 20),
+    date: Date(1997, 4, 21),
     badiDate: BadiDate(year: 154, month: 2, day: 13),
     summary: 'Riḍván Message 1997',
     url:
@@ -3526,20 +3722,21 @@ class Messages {
 
   /// Riḍván 1997 (154 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1997
-  static final be1540213 = ce19970420;
+  static final be1540213 = ce19970421;
 
   /// Riḍván 1997 (154 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1997
-  static final ridvan154 = ce19970420;
+  static final ridvan154 = ce19970421;
 
   /// Riḍván 1997 (154 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1997
-  static final ridvan1997 = ce19970420;
+  static final ridvan1997 = ce19970421;
 
   /// 30 Mar 1997 (10 Bahá 154 B.E.): To all National Spiritual Assemblies in Africa
   /// Written on behalf of the Universal House of Justice, regarding the prohibition of alcoholic beverages
   static final ce19970330 = Message(
     id: '19970330_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies in Africa',
     date: Date(1997, 3, 30),
     badiDate: BadiDate(year: 154, month: 1, day: 10),
@@ -3557,6 +3754,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding music and dance at Bahá’í Centres
   static final ce19970324 = Message(
     id: '19970324_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Côte d’Ivoire',
     date: Date(1997, 3, 24),
     badiDate: BadiDate(year: 154, month: 1, day: 4),
@@ -3570,36 +3768,38 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding music and dance at Bahá’í Centres
   static final be1540104 = ce19970324;
 
-  /// Naw-Rúz 1997 (154 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
+  /// Naw-Rúz 1997 (153 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
   /// Regarding such themes as the greatness of this Day, service to the Cause, and the importance of educating children
-  static final ce19970320 = NawRuzMessage(
+  static final ce19970301 = NawRuzMessage(
     id: '19970301_001',
+    number: 1,
     title:
         'To the Lovers of the Most Great Beauty, beloved and faithful Friends',
-    date: Date(1997, 3, 20),
-    badiDate: BadiDate(year: 154, month: 1, day: 1),
+    date: Date(1997, 3, 1),
+    badiDate: BadiDate(year: 153, month: 0, day: 4),
     summary:
         'Regarding such themes as the greatness of this Day, service to the Cause, and the importance of educating children',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19970301_001/1',
   );
 
-  /// Naw-Rúz 1997 (154 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
+  /// Naw-Rúz 1997 (153 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
   /// Regarding such themes as the greatness of this Day, service to the Cause, and the importance of educating children
-  static final be1540101 = ce19970320;
+  static final be1530004 = ce19970301;
 
-  /// Naw-Rúz 1997 (154 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
+  /// Naw-Rúz 1997 (153 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
   /// Regarding such themes as the greatness of this Day, service to the Cause, and the importance of educating children
-  static final nawRuz154 = ce19970320;
+  static final nawRuz153 = ce19970301;
 
-  /// Naw-Rúz 1997 (154 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
+  /// Naw-Rúz 1997 (153 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
   /// Regarding such themes as the greatness of this Day, service to the Cause, and the importance of educating children
-  static final nawRuz1997 = ce19970320;
+  static final nawRuz1997 = ce19970301;
 
   /// 16 Sep 1996 (9 ‘Izzat 153 B.E.): The National Spiritual Assembly of the Bahá’ís of Austria
   /// Written on behalf of the Universal House of Justice, regarding the goals set out by the National Assembly of Austria for the Four Year Plan of the worldwide Bahá’í community
   static final ce19960916 = Message(
     id: '19960916_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Austria',
     date: Date(1996, 9, 16),
     badiDate: BadiDate(year: 153, month: 10, day: 9),
@@ -3617,6 +3817,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding electioneering in the context of reports from a Local Spiritual Assembly
   static final ce19960818 = Message(
     id: '19960818_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 8, 18),
     badiDate: BadiDate(year: 153, month: 8, day: 18),
@@ -3634,6 +3835,7 @@ class Messages {
   /// Regarding the financial requirements of training institutes
   static final ce19960806 = Message(
     id: '19960806_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1996, 8, 6),
     badiDate: BadiDate(year: 153, month: 8, day: 6),
@@ -3650,6 +3852,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá’í wills
   static final ce19960701 = Message(
     id: '19960701_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 7, 1),
     badiDate: BadiDate(year: 153, month: 6, day: 8),
@@ -3667,6 +3870,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the role of the Universal House of Justice
   static final ce19960614 = Message(
     id: '19960614_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 6, 14),
     badiDate: BadiDate(year: 153, month: 5, day: 10),
@@ -3684,6 +3888,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the disintegration of society and the development of a new order
   static final ce19960513 = Message(
     id: '19960513_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 5, 13),
     badiDate: BadiDate(year: 153, month: 3, day: 16),
@@ -3701,6 +3906,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the question of teaching the Bahá’í Faith and the role of the institutions
   static final ce19960422 = Message(
     id: '19960422_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 4, 22),
     badiDate: BadiDate(year: 153, month: 2, day: 14),
@@ -3716,11 +3922,12 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka
   /// Riḍván Message 1996—Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka
-  static final ce19960420i = RidvanMessage(
+  static final ce19960421i = RidvanMessage(
     id: '19960421_003',
+    number: 3,
     title:
         'To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary:
         'Riḍván Message 1996—Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka',
@@ -3730,22 +3937,23 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka
   /// Riḍván Message 1996—Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka
-  static final be1530213i = ce19960420i;
+  static final be1530213i = ce19960421i;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka
   /// Riḍván Message 1996—Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka
-  static final ridvan153i = ce19960420i;
+  static final ridvan153i = ce19960421i;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka
   /// Riḍván Message 1996—Andaman and Nicobar Islands, Bangladesh, India, Nepal, and Sri Lanka
-  static final ridvan1996i = ce19960420i;
+  static final ridvan1996i = ce19960421i;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Western and Central Asia
   /// Riḍván Message 1996—Western and Central Asia
-  static final ce19960420h = RidvanMessage(
+  static final ce19960421h = RidvanMessage(
     id: '19960421_009',
+    number: 9,
     title: 'To the Followers of Bahá’u’lláh in Western and Central Asia',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Western and Central Asia',
     url:
@@ -3754,23 +3962,24 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Western and Central Asia
   /// Riḍván Message 1996—Western and Central Asia
-  static final be1530213h = ce19960420h;
+  static final be1530213h = ce19960421h;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Western and Central Asia
   /// Riḍván Message 1996—Western and Central Asia
-  static final ridvan153h = ce19960420h;
+  static final ridvan153h = ce19960421h;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Western and Central Asia
   /// Riḍván Message 1996—Western and Central Asia
-  static final ridvan1996h = ce19960420h;
+  static final ridvan1996h = ce19960421h;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States
   /// Riḍván Message 1996—North America
-  static final ce19960420g = RidvanMessage(
+  static final ce19960421g = RidvanMessage(
     id: '19960421_007',
+    number: 7,
     title:
         'To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—North America',
     url:
@@ -3779,22 +3988,23 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States
   /// Riḍván Message 1996—North America
-  static final be1530213g = ce19960420g;
+  static final be1530213g = ce19960421g;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States
   /// Riḍván Message 1996—North America
-  static final ridvan153g = ce19960420g;
+  static final ridvan153g = ce19960421g;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States
   /// Riḍván Message 1996—North America
-  static final ridvan1996g = ce19960420g;
+  static final ridvan1996g = ce19960421g;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Latin America and the Caribbean
   /// Riḍván Message 1996—Latin America and the Caribbean
-  static final ce19960420f = RidvanMessage(
+  static final ce19960421f = RidvanMessage(
     id: '19960421_006',
+    number: 6,
     title: 'To the Followers of Bahá’u’lláh in Latin America and the Caribbean',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Latin America and the Caribbean',
     url:
@@ -3803,22 +4013,23 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Latin America and the Caribbean
   /// Riḍván Message 1996—Latin America and the Caribbean
-  static final be1530213f = ce19960420f;
+  static final be1530213f = ce19960421f;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Latin America and the Caribbean
   /// Riḍván Message 1996—Latin America and the Caribbean
-  static final ridvan153f = ce19960420f;
+  static final ridvan153f = ce19960421f;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Latin America and the Caribbean
   /// Riḍván Message 1996—Latin America and the Caribbean
-  static final ridvan1996f = ce19960420f;
+  static final ridvan1996f = ce19960421f;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Europe
   /// Riḍván Message 1996—Europe
-  static final ce19960420e = RidvanMessage(
+  static final ce19960421e = RidvanMessage(
     id: '19960421_005',
+    number: 5,
     title: 'To the Followers of Bahá’u’lláh in Europe',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Europe',
     url:
@@ -3827,23 +4038,24 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Europe
   /// Riḍván Message 1996—Europe
-  static final be1530213e = ce19960420e;
+  static final be1530213e = ce19960421e;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Europe
   /// Riḍván Message 1996—Europe
-  static final ridvan153e = ce19960420e;
+  static final ridvan153e = ce19960421e;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Europe
   /// Riḍván Message 1996—Europe
-  static final ridvan1996e = ce19960420e;
+  static final ridvan1996e = ce19960421e;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
   /// Riḍván Message 1996—Southeast Asia
-  static final ce19960420d = RidvanMessage(
+  static final ce19960421d = RidvanMessage(
     id: '19960421_008',
+    number: 8,
     title:
         'To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Southeast Asia',
     url:
@@ -3852,23 +4064,24 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
   /// Riḍván Message 1996—Southeast Asia
-  static final be1530213d = ce19960420d;
+  static final be1530213d = ce19960421d;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
   /// Riḍván Message 1996—Southeast Asia
-  static final ridvan153d = ce19960420d;
+  static final ridvan153d = ce19960421d;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
   /// Riḍván Message 1996—Southeast Asia
-  static final ridvan1996d = ce19960420d;
+  static final ridvan1996d = ce19960421d;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
   /// Riḍván Message 1996—Australia and the Pacific Islands
-  static final ce19960420c = RidvanMessage(
+  static final ce19960421c = RidvanMessage(
     id: '19960421_004',
+    number: 4,
     title:
         'To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Australia and the Pacific Islands',
     url:
@@ -3877,22 +4090,23 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
   /// Riḍván Message 1996—Australia and the Pacific Islands
-  static final be1530213c = ce19960420c;
+  static final be1530213c = ce19960421c;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
   /// Riḍván Message 1996—Australia and the Pacific Islands
-  static final ridvan153c = ce19960420c;
+  static final ridvan153c = ce19960421c;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
   /// Riḍván Message 1996—Australia and the Pacific Islands
-  static final ridvan1996c = ce19960420c;
+  static final ridvan1996c = ce19960421c;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Africa
   /// Riḍván Message 1996—Africa
-  static final ce19960420b = RidvanMessage(
+  static final ce19960421b = RidvanMessage(
     id: '19960421_002',
+    number: 2,
     title: 'To the Followers of Bahá’u’lláh in Africa',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996—Africa',
     url:
@@ -3901,22 +4115,23 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Africa
   /// Riḍván Message 1996—Africa
-  static final be1530213b = ce19960420b;
+  static final be1530213b = ce19960421b;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Africa
   /// Riḍván Message 1996—Africa
-  static final ridvan153b = ce19960420b;
+  static final ridvan153b = ce19960421b;
 
   /// Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Africa
   /// Riḍván Message 1996—Africa
-  static final ridvan1996b = ce19960420b;
+  static final ridvan1996b = ce19960421b;
 
   /// Riḍván 1996 (153 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1996
-  static final ce19960420 = RidvanMessage(
+  static final ce19960421 = RidvanMessage(
     id: '19960421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1996, 4, 20),
+    date: Date(1996, 4, 21),
     badiDate: BadiDate(year: 153, month: 2, day: 13),
     summary: 'Riḍván Message 1996',
     url:
@@ -3925,20 +4140,21 @@ class Messages {
 
   /// Riḍván 1996 (153 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1996
-  static final be1530213 = ce19960420;
+  static final be1530213 = ce19960421;
 
   /// Riḍván 1996 (153 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1996
-  static final ridvan153 = ce19960420;
+  static final ridvan153 = ce19960421;
 
   /// Riḍván 1996 (153 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1996
-  static final ridvan1996 = ce19960420;
+  static final ridvan1996 = ce19960421;
 
   /// 14 Mar 1996 (13 ‘Alá’ 152 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding the Bahá’í teachings on the pursuit of knowledge
   static final ce19960314 = Message(
     id: '19960314_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1996, 3, 14),
     badiDate: BadiDate(year: 152, month: 19, day: 13),
@@ -3956,6 +4172,7 @@ class Messages {
   /// Conveying some of the themes from the Conference of the Continental Counsellors
   static final ce19951231 = Message(
     id: '19951231_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1995, 12, 31),
     badiDate: BadiDate(year: 152, month: 16, day: 1),
@@ -3973,6 +4190,7 @@ class Messages {
   /// Message to the Conference of the Continental Counsellors
   static final ce19951226b = Message(
     id: '19951226_002',
+    number: 2,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(1995, 12, 26),
     badiDate: BadiDate(year: 152, month: 15, day: 15),
@@ -3989,6 +4207,7 @@ class Messages {
   /// Message to the Conference of the Continental Counsellors outlining the general features of the Four Year Plan of the worldwide Bahá’í community
   static final ce19951226 = Message(
     id: '19951226_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(1995, 12, 26),
     badiDate: BadiDate(year: 152, month: 15, day: 15),
@@ -4006,6 +4225,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding discussions on the internet about the Bahá’í Faith
   static final ce19950519 = Message(
     id: '19950519_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1995, 5, 19),
     badiDate: BadiDate(year: 152, month: 4, day: 3),
@@ -4023,6 +4243,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding several issues relating to the development of the Bahá’í Administrative Order
   static final ce19950427 = Message(
     id: '19950427_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1995, 4, 27),
     badiDate: BadiDate(year: 152, month: 2, day: 19),
@@ -4038,10 +4259,11 @@ class Messages {
 
   /// Riḍván 1995 (152 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1995
-  static final ce19950420 = RidvanMessage(
+  static final ce19950421 = RidvanMessage(
     id: '19950421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1995, 4, 20),
+    date: Date(1995, 4, 21),
     badiDate: BadiDate(year: 152, month: 2, day: 13),
     summary: 'Riḍván Message 1995',
     url:
@@ -4050,20 +4272,21 @@ class Messages {
 
   /// Riḍván 1995 (152 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1995
-  static final be1520213 = ce19950420;
+  static final be1520213 = ce19950421;
 
   /// Riḍván 1995 (152 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1995
-  static final ridvan152 = ce19950420;
+  static final ridvan152 = ce19950421;
 
   /// Riḍván 1995 (152 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1995
-  static final ridvan1995 = ce19950420;
+  static final ridvan1995 = ce19950421;
 
   /// 15 Dec 1994 (4 Masá’il 151 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding the authorization of translations and a number of questions related to the authority of publications from the Research Department
   static final ce19941215 = Message(
     id: '19941215_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1994, 12, 15),
     badiDate: BadiDate(year: 151, month: 15, day: 4),
@@ -4081,6 +4304,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the question of how individuals can improve their understanding of the Bahá’í Teachings.
   static final ce19940801 = Message(
     id: '19940801_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1994, 8, 1),
     badiDate: BadiDate(year: 151, month: 8, day: 1),
@@ -4098,6 +4322,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the responsibilities of delegates to a National Convention
   static final ce19940725 = Message(
     id: '19940725_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1994, 7, 25),
     badiDate: BadiDate(year: 151, month: 7, day: 13),
@@ -4115,6 +4340,7 @@ class Messages {
   /// Regarding the worsening conditions of society, and the relationships between and functioning of Bahá’í Administrative Institutions
   static final ce19940519 = Message(
     id: '19940519_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1994, 5, 19),
@@ -4133,6 +4359,7 @@ class Messages {
   /// Regarding the achievements of and conditions facing Bahá’í Youth in Europe
   static final ce19940517 = Message(
     id: '19940517_001',
+    number: 1,
     title:
         'To the youth gathered at the five Regional Bahá’í Youth Conferences in Barcelona, Berlin, Bucharest, Saint Petersburg, and Wolverhampton',
     date: Date(1994, 5, 17),
@@ -4149,10 +4376,11 @@ class Messages {
 
   /// Riḍván 1994 (151 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1994
-  static final ce19940420 = RidvanMessage(
+  static final ce19940421 = RidvanMessage(
     id: '19940421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1994, 4, 20),
+    date: Date(1994, 4, 21),
     badiDate: BadiDate(year: 151, month: 2, day: 13),
     summary: 'Riḍván Message 1994',
     url:
@@ -4161,20 +4389,21 @@ class Messages {
 
   /// Riḍván 1994 (151 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1994
-  static final be1510213 = ce19940420;
+  static final be1510213 = ce19940421;
 
   /// Riḍván 1994 (151 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1994
-  static final ridvan151 = ce19940420;
+  static final ridvan151 = ce19940421;
 
   /// Riḍván 1994 (151 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1994
-  static final ridvan1994 = ce19940420;
+  static final ridvan1994 = ce19940421;
 
   /// 11 Mar 1994 (10 ‘Alá’ 150 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding a question about a reference to the Guardianship in the Kitáb-i-Aqdas
   static final ce19940311 = Message(
     id: '19940311_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1994, 3, 11),
     badiDate: BadiDate(year: 150, month: 19, day: 10),
@@ -4192,6 +4421,7 @@ class Messages {
   /// Marking the commencement of construction projects on Mount Carmel
   static final ce19940104 = Message(
     id: '19940104_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1994, 1, 4),
     badiDate: BadiDate(year: 150, month: 16, day: 5),
@@ -4209,6 +4439,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá’í scholarship and the importance of studying the Bahá’í Writings
   static final ce19931019 = Message(
     id: '19931019_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1993, 10, 19),
     badiDate: BadiDate(year: 150, month: 12, day: 4),
@@ -4226,6 +4457,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the relationship between Local and National Spiritual Assemblies and private initiatives
   static final ce19930902 = Message(
     id: '19930902_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1993, 9, 2),
     badiDate: BadiDate(year: 150, month: 9, day: 14),
@@ -4243,6 +4475,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the application of Bahá’í laws to Western believers
   static final ce19930704 = Message(
     id: '19930704_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1993, 7, 4),
     badiDate: BadiDate(year: 150, month: 6, day: 11),
@@ -4260,6 +4493,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding personal sacrifice in giving to the Bahá’í Fund
   static final ce19930701 = Message(
     id: '19930701_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1993, 7, 1),
     badiDate: BadiDate(year: 150, month: 6, day: 8),
@@ -4277,6 +4511,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the need for wisdom and courage in teaching the Cause
   static final ce19930630 = Message(
     id: '19930630_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1993, 6, 30),
     badiDate: BadiDate(year: 150, month: 6, day: 7),
@@ -4294,6 +4529,7 @@ class Messages {
   /// Conveying some of the themes from consultations between the Universal House of Justice and the International Teaching Centre
   static final ce19930624 = Message(
     id: '19930624_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1993, 6, 24),
     badiDate: BadiDate(year: 150, month: 6, day: 1),
@@ -4309,10 +4545,11 @@ class Messages {
 
   /// Riḍván 1993 (150 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1993
-  static final ce19930420 = RidvanMessage(
+  static final ce19930421 = RidvanMessage(
     id: '19930421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1993, 4, 20),
+    date: Date(1993, 4, 21),
     badiDate: BadiDate(year: 150, month: 2, day: 13),
     summary: 'Riḍván Message 1993',
     url:
@@ -4321,20 +4558,21 @@ class Messages {
 
   /// Riḍván 1993 (150 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1993
-  static final be1500213 = ce19930420;
+  static final be1500213 = ce19930421;
 
   /// Riḍván 1993 (150 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1993
-  static final ridvan150 = ce19930420;
+  static final ridvan150 = ce19930421;
 
   /// Riḍván 1993 (150 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1993
-  static final ridvan1993 = ce19930420;
+  static final ridvan1993 = ce19930421;
 
   /// 5 Mar 1993 (4 ‘Alá’ 149 B.E.): To the Bahá’ís of the World
   /// Regarding the publication of an English translation of the Kitáb-i-Aqdas
   static final ce19930305 = Message(
     id: '19930305_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1993, 3, 5),
     badiDate: BadiDate(year: 149, month: 19, day: 4),
@@ -4352,6 +4590,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding several themes related to nonviolence and the unity of the family
   static final ce19930124 = Message(
     id: '19930124_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1993, 1, 24),
     badiDate: BadiDate(year: 149, month: 17, day: 6),
@@ -4369,6 +4608,7 @@ class Messages {
   /// Marking the centennial of the Day of the Covenant
   static final ce19921126 = Message(
     id: '19921126_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1992, 11, 26),
     badiDate: BadiDate(year: 149, month: 14, day: 4),
@@ -4385,6 +4625,7 @@ class Messages {
   /// Marking the occasion of the Second Bahá’í World Congress
   static final ce19921123 = Message(
     id: '19921123_001',
+    number: 1,
     title:
         'To the followers of Bahá’u’lláh attending the second Bahá’í World Congress',
     date: Date(1992, 11, 23),
@@ -4402,6 +4643,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the responsibilities of youth
   static final ce19921028 = Message(
     id: '19921028_001',
+    number: 1,
     title: '[To two individuals]',
     date: Date(1992, 10, 28),
     badiDate: BadiDate(year: 149, month: 12, day: 13),
@@ -4419,6 +4661,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the station of Bahá’u’lláh and the significance of His Revelation
   static final ce19921015 = Message(
     id: '19921015_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1992, 10, 15),
     badiDate: BadiDate(year: 149, month: 11, day: 19),
@@ -4436,6 +4679,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the confiscation of Bahá’í properties in Iran
   static final ce19920930b = Message(
     id: '19920930_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 9, 30),
     badiDate: BadiDate(year: 149, month: 11, day: 4),
@@ -4453,6 +4697,7 @@ class Messages {
   /// Regarding goals for the Three Year Plan of the worldwide Bahá’í community
   static final ce19920930 = Message(
     id: '19920930_002',
+    number: 2,
     title: 'To all National Spiritual Assemblies',
     date: Date(1992, 9, 30),
     badiDate: BadiDate(year: 149, month: 11, day: 4),
@@ -4470,6 +4715,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying details of two Bahá’í prisoners in Iran
   static final ce19920910 = Message(
     id: '19920910_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 9, 10),
     badiDate: BadiDate(year: 149, month: 10, day: 3),
@@ -4487,6 +4733,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying initial information regarding two Bahá’í Prisoners in Iran
   static final ce19920907 = Message(
     id: '19920907_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 9, 7),
     badiDate: BadiDate(year: 149, month: 9, day: 19),
@@ -4504,6 +4751,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding two Bahá’ís sentenced to death in Iran
   static final ce19920903 = Message(
     id: '19920903_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 9, 3),
     badiDate: BadiDate(year: 149, month: 9, day: 15),
@@ -4521,6 +4769,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the murder of a Bahá’í in Iran
   static final ce19920625 = Message(
     id: '19920625_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 6, 25),
     badiDate: BadiDate(year: 149, month: 6, day: 2),
@@ -4538,6 +4787,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the desecration of Bahá’í cemeteries
   static final ce19920624 = Message(
     id: '19920624_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1992, 6, 24),
     badiDate: BadiDate(year: 149, month: 6, day: 1),
@@ -4555,6 +4805,7 @@ class Messages {
   /// Marking the Centenary of the Ascension of Bahá’u’lláh
   static final ce19920607 = Message(
     id: '19920607_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1992, 6, 7),
     badiDate: BadiDate(year: 149, month: 5, day: 3),
@@ -4569,10 +4820,11 @@ class Messages {
 
   /// Riḍván 1992 (149 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1992
-  static final ce19920420 = RidvanMessage(
+  static final ce19920421 = RidvanMessage(
     id: '19920421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1992, 4, 20),
+    date: Date(1992, 4, 21),
     badiDate: BadiDate(year: 149, month: 2, day: 13),
     summary: 'Riḍván Message 1992',
     url:
@@ -4581,20 +4833,21 @@ class Messages {
 
   /// Riḍván 1992 (149 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1992
-  static final be1490213 = ce19920420;
+  static final be1490213 = ce19920421;
 
   /// Riḍván 1992 (149 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1992
-  static final ridvan149 = ce19920420;
+  static final ridvan149 = ce19920421;
 
   /// Riḍván 1992 (149 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1992
-  static final ridvan1992 = ce19920420;
+  static final ridvan1992 = ce19920421;
 
   /// 8 Apr 1992 (19 Bahá 149 B.E.): To all National Spiritual Assemblies
   /// Conveying news of the execution of a Bahá’í in Tehran
   static final ce19920408 = Message(
     id: '19920408_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1992, 4, 8),
     badiDate: BadiDate(year: 149, month: 1, day: 19),
@@ -4611,6 +4864,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the role of institutions in upholding of Bahá’í law
   static final ce19911209 = Message(
     id: '19911209_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Australia',
     date: Date(1991, 12, 9),
     badiDate: BadiDate(year: 148, month: 14, day: 17),
@@ -4628,6 +4882,7 @@ class Messages {
   /// Marking the Day of the Covenant
   static final ce19911126 = Message(
     id: '19911126_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the World',
     date: Date(1991, 11, 26),
     badiDate: BadiDate(year: 148, month: 14, day: 4),
@@ -4644,6 +4899,7 @@ class Messages {
   /// Regarding the financial needs of the Bahá’í World Centre
   static final ce19911118 = Message(
     id: '19911118_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh in Every Land',
     date: Date(1991, 11, 18),
     badiDate: BadiDate(year: 148, month: 13, day: 15),
@@ -4660,6 +4916,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the process of prepublication review of Bahá’í manuscripts
   static final ce19911030 = Message(
     id: '19911030_001',
+    number: 1,
     title: 'To Selected National Spiritual Assemblies',
     date: Date(1991, 10, 30),
     badiDate: BadiDate(year: 148, month: 12, day: 15),
@@ -4677,6 +4934,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the need for prepublication review of Bahá’í manuscripts
   static final ce19911028 = Message(
     id: '19911028_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1991, 10, 28),
     badiDate: BadiDate(year: 148, month: 12, day: 13),
@@ -4694,6 +4952,7 @@ class Messages {
   /// Regarding the commencement of Phase Two of the Mount Carmel Projects
   static final ce19910620 = Message(
     id: '19910620_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1991, 6, 20),
     badiDate: BadiDate(year: 148, month: 5, day: 16),
@@ -4711,6 +4970,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding such subjects as independent investigation of truth and the significance of recognizing Bahá’u’lláh as a Manifestation of God
   static final ce19910501 = Message(
     id: '19910501_001',
+    number: 1,
     title: '[To two individuals]',
     date: Date(1991, 5, 1),
     badiDate: BadiDate(year: 148, month: 3, day: 4),
@@ -4726,10 +4986,11 @@ class Messages {
 
   /// Riḍván 1991 (148 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1991
-  static final ce19910420 = RidvanMessage(
+  static final ce19910421 = RidvanMessage(
     id: '19910421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1991, 4, 20),
+    date: Date(1991, 4, 21),
     badiDate: BadiDate(year: 148, month: 2, day: 13),
     summary: 'Riḍván Message 1991',
     url:
@@ -4738,20 +4999,21 @@ class Messages {
 
   /// Riḍván 1991 (148 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1991
-  static final be1480213 = ce19910420;
+  static final be1480213 = ce19910421;
 
   /// Riḍván 1991 (148 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1991
-  static final ridvan148 = ce19910420;
+  static final ridvan148 = ce19910421;
 
   /// Riḍván 1991 (148 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1991
-  static final ridvan1991 = ce19910420;
+  static final ridvan1991 = ce19910421;
 
   /// 3 Apr 1991 (14 Bahá 148 B.E.): To all National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the Holy Year 1992–1993
   static final ce19910403 = Message(
     id: '19910403_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1991, 4, 3),
     badiDate: BadiDate(year: 148, month: 1, day: 14),
@@ -4769,6 +5031,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá'í elections and administration
   static final ce19910102 = Message(
     id: '19910102_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1991, 1, 2),
     badiDate: BadiDate(year: 147, month: 16, day: 3),
@@ -4786,6 +5049,7 @@ class Messages {
   /// Message to the Moscow Conference
   static final ce19901121 = Message(
     id: '19901121_001',
+    number: 1,
     title: 'To the Friends gathered at the Moscow Conference',
     date: Date(1990, 11, 21),
     badiDate: BadiDate(year: 147, month: 13, day: 18),
@@ -4802,6 +5066,7 @@ class Messages {
   /// Marking the commencement of work on the extension of the terraces on Mount Carmel
   static final ce19900524 = Message(
     id: '19900524_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1990, 5, 24),
     badiDate: BadiDate(year: 147, month: 4, day: 8),
@@ -4817,10 +5082,11 @@ class Messages {
 
   /// Riḍván 1990 (147 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1990
-  static final ce19900420b = RidvanMessage(
+  static final ce19900421 = RidvanMessage(
     id: '19900421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1990, 4, 20),
+    date: Date(1990, 4, 21),
     badiDate: BadiDate(year: 147, month: 2, day: 13),
     summary: 'Riḍván Message 1990',
     url:
@@ -4829,20 +5095,21 @@ class Messages {
 
   /// Riḍván 1990 (147 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1990
-  static final be1470213b = ce19900420b;
+  static final be1470213 = ce19900421;
 
   /// Riḍván 1990 (147 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1990
-  static final ridvan147b = ce19900420b;
+  static final ridvan147 = ce19900421;
 
   /// Riḍván 1990 (147 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1990
-  static final ridvan1990b = ce19900420b;
+  static final ridvan1990 = ce19900421;
 
   /// 20 Apr 1990 (12 Jalál 147 B.E.): To all National Spiritual Assemblies
   /// Regarding deputization of pioneers in light of the conclusion of the Six Year Plan of the worldwide Bahá’í community
   static final ce19900420 = Message(
     id: '19900420_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1990, 4, 20),
     badiDate: BadiDate(year: 147, month: 2, day: 12),
@@ -4860,6 +5127,7 @@ class Messages {
   /// Marking the establishment of the Bahá’í Chair for World Peace
   static final ce19900212 = Message(
     id: '19900212_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1990, 2, 12),
     badiDate: BadiDate(year: 146, month: 18, day: 6),
@@ -4876,6 +5144,7 @@ class Messages {
   /// Regarding a special Two Year Plan of the worldwide Bahá’í community for Eastern Europe and Asia
   static final ce19900208 = Message(
     id: '19900208_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the World',
     date: Date(1990, 2, 8),
     badiDate: BadiDate(year: 146, month: 18, day: 2),
@@ -4893,6 +5162,7 @@ class Messages {
   /// Regarding the progress of the Mount Carmel Projects
   static final ce19900123 = Message(
     id: '19900123_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1990, 1, 23),
     badiDate: BadiDate(year: 146, month: 17, day: 5),
@@ -4909,6 +5179,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding a National Spiritual Assembly’s relations with government
   static final ce19891120 = Message(
     id: '19891120_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Guyana',
     date: Date(1989, 11, 20),
     badiDate: BadiDate(year: 146, month: 13, day: 17),
@@ -4926,6 +5197,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding declaration and membership in the Bahá’í community
   static final ce19891109 = Message(
     id: '19891109_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the Hawaiian Islands',
     date: Date(1989, 11, 9),
@@ -4944,6 +5216,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the function of review in the Bahá’í community
   static final ce19890925 = Message(
     id: '19890925_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1989, 9, 25),
     badiDate: BadiDate(year: 146, month: 10, day: 18),
@@ -4961,6 +5234,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding how National Assemblies can assist communities with their observance of the Nineteen Day Feast
   static final ce19890828 = Message(
     id: '19890828_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1989, 8, 28),
     badiDate: BadiDate(year: 146, month: 9, day: 9),
@@ -4978,6 +5252,7 @@ class Messages {
   /// Regarding a number of issues related to the Nineteen Day Feast
   static final ce19890827 = Message(
     id: '19890827_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh',
     date: Date(1989, 8, 27),
     badiDate: BadiDate(year: 146, month: 9, day: 8),
@@ -4994,6 +5269,7 @@ class Messages {
   /// Regarding the importance of reading Revelation and the elimination of illiteracy
   static final ce19890710 = Message(
     id: '19890710_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1989, 7, 10),
     badiDate: BadiDate(year: 146, month: 6, day: 17),
@@ -5011,6 +5287,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding responsibilities of individual believers serving on Spiritual Assemblies
   static final ce19890622 = Message(
     id: '19890622_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1989, 6, 22),
     badiDate: BadiDate(year: 146, month: 5, day: 18),
@@ -5026,10 +5303,11 @@ class Messages {
 
   /// Riḍván 1989 (146 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1989
-  static final ce19890420 = RidvanMessage(
+  static final ce19890421 = RidvanMessage(
     id: '19890421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1989, 4, 20),
+    date: Date(1989, 4, 21),
     badiDate: BadiDate(year: 146, month: 2, day: 13),
     summary: 'Riḍván Message 1989',
     url:
@@ -5038,20 +5316,21 @@ class Messages {
 
   /// Riḍván 1989 (146 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1989
-  static final be1460213 = ce19890420;
+  static final be1460213 = ce19890421;
 
   /// Riḍván 1989 (146 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1989
-  static final ridvan146 = ce19890420;
+  static final ridvan146 = ce19890421;
 
   /// Riḍván 1989 (146 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1989
-  static final ridvan1989 = ce19890420;
+  static final ridvan1989 = ce19890421;
 
   /// 29 Dec 1988 (18 Masá’il 145 B.E.): To the Followers of Bahá’u’lláh in the United States of America
   /// Regarding the question of individual rights and freedoms
   static final ce19881229 = Message(
     id: '19881229_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh in the United States of America',
     date: Date(1988, 12, 29),
     badiDate: BadiDate(year: 145, month: 15, day: 18),
@@ -5068,6 +5347,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the execution of two Bahá’ís in Iran
   static final ce19881213 = Message(
     id: '19881213_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1988, 12, 13),
     badiDate: BadiDate(year: 145, month: 15, day: 2),
@@ -5085,6 +5365,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, enclosing a compilation titled “A Chaste and Holy Life”
   static final ce19880930 = Message(
     id: '19880930_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1988, 9, 30),
     badiDate: BadiDate(year: 145, month: 11, day: 4),
@@ -5102,6 +5383,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding teaching and applying the Revelation of Bahá’u’lláh within indigenous and native communities
   static final ce19880725 = Message(
     id: '19880725_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Canada',
     date: Date(1988, 7, 25),
     badiDate: BadiDate(year: 145, month: 7, day: 13),
@@ -5119,6 +5401,7 @@ class Messages {
   /// Regarding the first meeting of the newly appointed International Teaching Centre
   static final ce19880616 = Message(
     id: '19880616_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1988, 6, 16),
     badiDate: BadiDate(year: 145, month: 5, day: 12),
@@ -5136,6 +5419,7 @@ class Messages {
   /// Regarding a number of themes related to the confinement of membership of the Universal House of Justice to men
   static final ce19880531 = Message(
     id: '19880531_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of New Zealand',
     date: Date(1988, 5, 31),
     badiDate: BadiDate(year: 145, month: 4, day: 15),
@@ -5151,10 +5435,11 @@ class Messages {
 
   /// Riḍván 1988 (145 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1988
-  static final ce19880420 = RidvanMessage(
+  static final ce19880421 = RidvanMessage(
     id: '19880421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1988, 4, 20),
+    date: Date(1988, 4, 21),
     badiDate: BadiDate(year: 145, month: 2, day: 13),
     summary: 'Riḍván Message 1988',
     url:
@@ -5163,20 +5448,21 @@ class Messages {
 
   /// Riḍván 1988 (145 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1988
-  static final be1450213 = ce19880420;
+  static final be1450213 = ce19880421;
 
   /// Riḍván 1988 (145 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1988
-  static final ridvan145 = ce19880420;
+  static final ridvan145 = ce19880421;
 
   /// Riḍván 1988 (145 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1988
-  static final ridvan1988 = ce19880420;
+  static final ridvan1988 = ce19880421;
 
   /// 4 Feb 1988 (17 Sulṭán 144 B.E.): To all National Spiritual Assemblies
   /// Calling for special prayers for the Bahá’ís in Iran
   static final ce19880204 = Message(
     id: '19880204_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1988, 2, 4),
     badiDate: BadiDate(year: 144, month: 17, day: 17),
@@ -5193,6 +5479,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the rights of indigenous peoples and political activities relating to their advancement
   static final ce19880114 = Message(
     id: '19880114_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the Mariana Islands',
     date: Date(1988, 1, 14),
@@ -5211,6 +5498,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá’í relations with governments and non-involvement in politics
   static final ce19871214 = Message(
     id: '19871214_001',
+    number: 1,
     title: 'To selected National Spiritual Assemblies',
     date: Date(1987, 12, 14),
     badiDate: BadiDate(year: 144, month: 15, day: 3),
@@ -5228,6 +5516,7 @@ class Messages {
   /// Conveying news of the arrest of six Bahá’ís in Iran
   static final ce19871022 = Message(
     id: '19871022_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1987, 10, 22),
     badiDate: BadiDate(year: 144, month: 12, day: 7),
@@ -5244,6 +5533,7 @@ class Messages {
   /// Regarding plans for development of buildings on the arc and terraces of the Bahá’í World Centre
   static final ce19870831 = Message(
     id: '19870831_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the world',
     date: Date(1987, 8, 31),
     badiDate: BadiDate(year: 144, month: 9, day: 12),
@@ -5261,6 +5551,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá’í involvement in fundraising activities
   static final ce19870820 = Message(
     id: '19870820_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Canada',
     date: Date(1987, 8, 20),
     badiDate: BadiDate(year: 144, month: 9, day: 1),
@@ -5278,6 +5569,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the functioning of executive committees
   static final ce19870715 = Message(
     id: '19870715_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1987, 7, 15),
     badiDate: BadiDate(year: 144, month: 7, day: 3),
@@ -5295,6 +5587,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the question of administrative authority and membership of the Bahá’í community
   static final ce19870628 = Message(
     id: '19870628_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of New Zealand',
     date: Date(1987, 6, 28),
     badiDate: BadiDate(year: 144, month: 6, day: 5),
@@ -5312,6 +5605,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the promotion of world peace and avoidance of partisan politics
   static final ce19870621 = Message(
     id: '19870621_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Finland',
     date: Date(1987, 6, 21),
     badiDate: BadiDate(year: 144, month: 5, day: 17),
@@ -5329,6 +5623,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding National Bahá’í Conventions
   static final ce19870619 = Message(
     id: '19870619_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Germany',
     date: Date(1987, 6, 19),
     badiDate: BadiDate(year: 144, month: 5, day: 15),
@@ -5346,6 +5641,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the Bahá’í approach to alleviating the problems afflicting human society and the plight of the indigenous and aboriginal peoples of the world
   static final ce19870615 = Message(
     id: '19870615_001',
+    number: 1,
     title: '[To two individuals]',
     date: Date(1987, 6, 15),
     badiDate: BadiDate(year: 144, month: 5, day: 11),
@@ -5363,6 +5659,7 @@ class Messages {
   /// Regarding the development of the properties of the Bahá’í World Centre
   static final ce19870430 = Message(
     id: '19870430_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1987, 4, 30),
     badiDate: BadiDate(year: 144, month: 3, day: 3),
@@ -5378,10 +5675,11 @@ class Messages {
 
   /// Riḍván 1987 (144 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1987
-  static final ce19870420 = RidvanMessage(
+  static final ce19870421 = RidvanMessage(
     id: '19870421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1987, 4, 20),
+    date: Date(1987, 4, 21),
     badiDate: BadiDate(year: 144, month: 2, day: 13),
     summary: 'Riḍván Message 1987',
     url:
@@ -5390,20 +5688,21 @@ class Messages {
 
   /// Riḍván 1987 (144 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1987
-  static final be1440213 = ce19870420;
+  static final be1440213 = ce19870421;
 
   /// Riḍván 1987 (144 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1987
-  static final ridvan144 = ce19870420;
+  static final ridvan144 = ce19870421;
 
   /// Riḍván 1987 (144 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1987
-  static final ridvan1987 = ce19870420;
+  static final ridvan1987 = ce19870421;
 
   /// 25 Mar 1987 (5 Bahá 144 B.E.): To all National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the codification of the Law of Huqúqu’lláh
   static final ce19870325 = Message(
     id: '19870325_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1987, 3, 25),
     badiDate: BadiDate(year: 144, month: 1, day: 5),
@@ -5421,6 +5720,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the promotion of world peace and avoidance of partisan politics
   static final ce19870310 = Message(
     id: '19870310_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1987, 3, 10),
     badiDate: BadiDate(year: 143, month: 19, day: 9),
@@ -5438,6 +5738,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding individual interpretations of the Sacred Writings
   static final ce19870309 = Message(
     id: '19870309_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1987, 3, 9),
     badiDate: BadiDate(year: 143, month: 19, day: 8),
@@ -5455,6 +5756,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the infallibility of the Manifestations of God
   static final ce19861126 = Message(
     id: '19861126_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1986, 11, 26),
     badiDate: BadiDate(year: 143, month: 14, day: 4),
@@ -5472,6 +5774,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the celebration of Christmas
   static final ce19861106 = Message(
     id: '19861106_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1986, 11, 6),
     badiDate: BadiDate(year: 143, month: 13, day: 3),
@@ -5489,6 +5792,7 @@ class Messages {
   /// Marking a new stage in the development of the external affairs of the worldwide Bahá’í community
   static final ce19861029 = Message(
     id: '19861029_001',
+    number: 1,
     title:
         'To the meeting of the Senior Officers of the United Nations Office and the Office of Public Information',
     date: Date(1986, 10, 29),
@@ -5507,6 +5811,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the places where the Manifestations of God have appeared and the equality of men and women
   static final ce19861027 = Message(
     id: '19861027_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1986, 10, 27),
     badiDate: BadiDate(year: 143, month: 12, day: 12),
@@ -5524,6 +5829,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, enclosing a statement on apartheid
   static final ce19861012 = Message(
     id: '19861012_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1986, 10, 12),
     badiDate: BadiDate(year: 143, month: 11, day: 16),
@@ -5541,6 +5847,7 @@ class Messages {
   /// Regarding expansion of the institution of the Auxiliary Board
   static final ce19860525 = Message(
     id: '19860525_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1986, 5, 25),
     badiDate: BadiDate(year: 143, month: 4, day: 9),
@@ -5557,6 +5864,7 @@ class Messages {
   /// Regarding the martyrdom of three Bahá’ís in Iran
   static final ce19860512 = Message(
     id: '19860512_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1986, 5, 12),
     badiDate: BadiDate(year: 143, month: 3, day: 15),
@@ -5571,10 +5879,11 @@ class Messages {
 
   /// Riḍván 1986 (143 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1986
-  static final ce19860420 = RidvanMessage(
+  static final ce19860421 = RidvanMessage(
     id: '19860421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1986, 4, 20),
+    date: Date(1986, 4, 21),
     badiDate: BadiDate(year: 143, month: 2, day: 13),
     summary: 'Riḍván Message 1986',
     url:
@@ -5583,20 +5892,21 @@ class Messages {
 
   /// Riḍván 1986 (143 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1986
-  static final be1430213 = ce19860420;
+  static final be1430213 = ce19860421;
 
   /// Riḍván 1986 (143 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1986
-  static final ridvan143 = ce19860420;
+  static final ridvan143 = ce19860421;
 
   /// Riḍván 1986 (143 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1986
-  static final ridvan1986 = ce19860420;
+  static final ridvan1986 = ce19860421;
 
   /// 17 Mar 1986 (16 ‘Alá’ 142 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding exemptions from acts of worship
   static final ce19860317 = Message(
     id: '19860317_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1986, 3, 17),
     badiDate: BadiDate(year: 142, month: 19, day: 16),
@@ -5614,6 +5924,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding major objectives and national goals of the Six Year Plan of the worldwide Bahá’í community
   static final ce19860225 = Message(
     id: '19860225_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1986, 2, 25),
     badiDate: BadiDate(year: 142, month: 18, day: 19),
@@ -5631,6 +5942,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, enclosing a document regarding epochs of the Formative Age
   static final ce19860205 = Message(
     id: '19860205_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1986, 2, 5),
     badiDate: BadiDate(year: 142, month: 17, day: 18),
@@ -5648,6 +5960,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the role of women in society and the establishment of peace
   static final ce19860105 = Message(
     id: '19860105_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1986, 1, 5),
     badiDate: BadiDate(year: 142, month: 16, day: 6),
@@ -5665,6 +5978,7 @@ class Messages {
   /// Marking the inception of the Fourth Epoch of the Formative Age
   static final ce19860102 = Message(
     id: '19860102_001',
+    number: 1,
     title: 'The Bahá’ís of the World',
     date: Date(1986, 1, 2),
     badiDate: BadiDate(year: 142, month: 16, day: 3),
@@ -5681,6 +5995,7 @@ class Messages {
   /// Message to the Conference of the Continental Counsellors
   static final ce19851227 = Message(
     id: '19851227_001',
+    number: 1,
     title: 'To the Conference of the Continental Boards of Counsellors',
     date: Date(1985, 12, 27),
     badiDate: BadiDate(year: 142, month: 15, day: 16),
@@ -5697,6 +6012,7 @@ class Messages {
   /// Marking the adoption of a resolution in support of Iranian Bahá’ís by the United Nations General Assembly
   static final ce19851217 = Message(
     id: '19851217_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1985, 12, 17),
     badiDate: BadiDate(year: 142, month: 15, day: 6),
@@ -5714,6 +6030,7 @@ class Messages {
   /// Regarding the appointment of Continental Boards of Counsellors
   static final ce19851024 = Message(
     id: '19851024_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1985, 10, 24),
     badiDate: BadiDate(year: 142, month: 12, day: 9),
@@ -5730,6 +6047,7 @@ class Messages {
   /// The Promise of World Peace
   static final ce198510 = PromiseOfWorldPeaceMessage(
     id: '19851001_001',
+    number: 1,
     title: 'To the Peoples of the World',
     date: Date(1985, 10, 1),
     badiDate: BadiDate(year: 142, month: 11, day: 5),
@@ -5746,6 +6064,7 @@ class Messages {
   /// Regarding the execution of two Bahá’ís in Iran and pressure facing Bahá’í students in that country
   static final ce19850919 = Message(
     id: '19850919_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1985, 9, 19),
     badiDate: BadiDate(year: 142, month: 10, day: 12),
@@ -5763,6 +6082,7 @@ class Messages {
   /// Regarding the development of local and national Bahá’í funds
   static final ce19850807 = Message(
     id: '19850807_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1985, 8, 7),
     badiDate: BadiDate(year: 142, month: 8, day: 7),
@@ -5779,6 +6099,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Dr. Martin Luther King Jr. day
   static final ce19850805 = Message(
     id: '19850805_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1985, 8, 5),
     badiDate: BadiDate(year: 142, month: 8, day: 5),
@@ -5796,6 +6117,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the election of delegates to National Bahá’í Conventions
   static final ce19850721 = Message(
     id: '19850721_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1985, 7, 21),
     badiDate: BadiDate(year: 142, month: 7, day: 9),
@@ -5813,6 +6135,7 @@ class Messages {
   /// Regarding the duty of youth to strive for excellence
   static final ce19850508 = Message(
     id: '19850508_001',
+    number: 1,
     title: 'To the Bahá’í Youth of the World',
     date: Date(1985, 5, 8),
     badiDate: BadiDate(year: 142, month: 3, day: 11),
@@ -5827,10 +6150,11 @@ class Messages {
 
   /// Riḍván 1985 (142 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1985
-  static final ce19850420 = RidvanMessage(
+  static final ce19850421 = RidvanMessage(
     id: '19850421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1985, 4, 20),
+    date: Date(1985, 4, 21),
     badiDate: BadiDate(year: 142, month: 2, day: 13),
     summary: 'Riḍván Message 1985',
     url:
@@ -5839,20 +6163,21 @@ class Messages {
 
   /// Riḍván 1985 (142 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1985
-  static final be1420213 = ce19850420;
+  static final be1420213 = ce19850421;
 
   /// Riḍván 1985 (142 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1985
-  static final ridvan142 = ce19850420;
+  static final ridvan142 = ce19850421;
 
   /// Riḍván 1985 (142 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1985
-  static final ridvan1985 = ce19850420;
+  static final ridvan1985 = ce19850421;
 
   /// 11 Apr 1985 (3 Jalál 142 B.E.): [To an individual]
   /// Written on behalf of the Universal House of Justice, regarding the attainment of the age of spiritual maturity at the age of fifteen
   static final ce19850411 = Message(
     id: '19850411_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1985, 4, 11),
     badiDate: BadiDate(year: 142, month: 2, day: 3),
@@ -5870,6 +6195,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding human suffering, the reconstruction of society, and the places the Manifestations of God have appeared
   static final ce19850314 = Message(
     id: '19850314_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1985, 3, 14),
     badiDate: BadiDate(year: 141, month: 19, day: 13),
@@ -5887,6 +6213,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the Lesser Peace and the Supreme Tribunal mentioned in the Bahá’í Writings
   static final ce19850131 = Message(
     id: '19850131_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1985, 1, 31),
     badiDate: BadiDate(year: 141, month: 17, day: 13),
@@ -5904,6 +6231,7 @@ class Messages {
   /// Marking the International Year of Peace
   static final ce19850123 = Message(
     id: '19850123_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1985, 1, 23),
     badiDate: BadiDate(year: 141, month: 17, day: 5),
@@ -5920,6 +6248,7 @@ class Messages {
   /// Regarding the adoption of an oppressive measure by the Iranian Government
   static final ce19850103 = Message(
     id: '19850103_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1985, 1, 3),
     badiDate: BadiDate(year: 141, month: 16, day: 4),
@@ -5937,6 +6266,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding its power of elucidation
   static final ce19841025 = Message(
     id: '19841025_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1984, 10, 25),
     badiDate: BadiDate(year: 141, month: 12, day: 10),
@@ -5954,6 +6284,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the roles of parents within the Bahá’í family
   static final ce19840823 = Message(
     id: '19840823_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1984, 8, 23),
     badiDate: BadiDate(year: 141, month: 9, day: 4),
@@ -5971,6 +6302,7 @@ class Messages {
   /// Regarding the roles of the individual and the institutions in upholding the laws and standards of the Faith
   static final ce19840812 = Message(
     id: '19840812_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1984, 8, 12),
     badiDate: BadiDate(year: 141, month: 8, day: 12),
@@ -5988,6 +6320,7 @@ class Messages {
   /// Regarding the application of the law of Huqúqu’lláh to Bahá’ís of the West
   static final ce19840806 = Message(
     id: '19840806_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1984, 8, 6),
@@ -6006,6 +6339,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the subject of marriage and the relationship between husband and wife
   static final ce19840725 = Message(
     id: '19840725_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1984, 7, 25),
     badiDate: BadiDate(year: 141, month: 7, day: 13),
@@ -6023,6 +6357,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the purpose of religion and the some distinguishing features of the current Dispensation
   static final ce19840612 = Message(
     id: '19840612_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1984, 6, 12),
     badiDate: BadiDate(year: 141, month: 5, day: 8),
@@ -6040,6 +6375,7 @@ class Messages {
   /// Regarding the situation of the Bahá’ís in Iran
   static final ce19840521 = Message(
     id: '19840521_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1984, 5, 21),
     badiDate: BadiDate(year: 141, month: 4, day: 5),
@@ -6056,6 +6392,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the use of torture to extract false confessions from Iranian Bahá’ís
   static final ce19840513 = Message(
     id: '19840513_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1984, 5, 13),
     badiDate: BadiDate(year: 141, month: 3, day: 16),
@@ -6071,10 +6408,11 @@ class Messages {
 
   /// Riḍván 1984 (141 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1984
-  static final ce19840420 = RidvanMessage(
+  static final ce19840421 = RidvanMessage(
     id: '19840421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1984, 4, 20),
+    date: Date(1984, 4, 21),
     badiDate: BadiDate(year: 141, month: 2, day: 13),
     summary: 'Riḍván Message 1984',
     url:
@@ -6083,20 +6421,21 @@ class Messages {
 
   /// Riḍván 1984 (141 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1984
-  static final be1410213 = ce19840420;
+  static final be1410213 = ce19840421;
 
   /// Riḍván 1984 (141 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1984
-  static final ridvan141 = ce19840420;
+  static final ridvan141 = ce19840421;
 
   /// Riḍván 1984 (141 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1984
-  static final ridvan1984 = ce19840420;
+  static final ridvan1984 = ce19840421;
 
   /// 3 Jan 1984 (4 Sharaf 140 B.E.): To the Bahá’í Youth of the World
   /// Marking International Youth Year
   static final ce19840103 = Message(
     id: '19840103_001',
+    number: 1,
     title: 'To the Bahá’í Youth of the World',
     date: Date(1984, 1, 3),
     badiDate: BadiDate(year: 140, month: 16, day: 4),
@@ -6113,6 +6452,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the service of Bahá’í youth in voluntary nonsectarian organizations
   static final ce19831213 = Message(
     id: '19831213_001',
+    number: 1,
     title:
         'To the National Spiritual Assemblies of the Bahá’ís of Alaska, Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, the Hawaiian Islands, Iceland, Ireland, Italy, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom and the United States',
     date: Date(1983, 12, 13),
@@ -6131,6 +6471,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the response of individuals in the United States to the persecution of Iranian Bahá’ís
   static final ce19831207 = Message(
     id: '19831207_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1983, 12, 7),
@@ -6149,6 +6490,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding continued persecution of the Bahá’ís of Iran
   static final ce19831107 = Message(
     id: '19831107_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1983, 11, 7),
     badiDate: BadiDate(year: 140, month: 13, day: 4),
@@ -6166,6 +6508,7 @@ class Messages {
   /// Regarding the participation of Bahá’ís in social and economic development efforts and the establishment of the Office of Social and Economic Development at the Bahá’í World Centre
   static final ce19831020 = Message(
     id: '19831020_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1983, 10, 20),
     badiDate: BadiDate(year: 140, month: 12, day: 5),
@@ -6183,6 +6526,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the open letter submitted to Iranian Authorities from the National Spiritual Assembly of Iran
   static final ce19831019 = Message(
     id: '19831019_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1983, 10, 19),
     badiDate: BadiDate(year: 140, month: 12, day: 4),
@@ -6200,6 +6544,7 @@ class Messages {
   /// Regarding the banning of the Bahá’í administration in Iran
   static final ce19830913 = Message(
     id: '19830913_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1983, 9, 13),
     badiDate: BadiDate(year: 140, month: 10, day: 6),
@@ -6216,6 +6561,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding subjects such as the spiritual climate of Europe and requisites for spiritual growth
   static final ce19830901 = Message(
     id: '19830901_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Norway',
     date: Date(1983, 9, 1),
     badiDate: BadiDate(year: 140, month: 9, day: 13),
@@ -6233,6 +6579,7 @@ class Messages {
   /// Message to the European Youth Conference in Innsbruck
   static final ce19830704 = Message(
     id: '19830704_001',
+    number: 1,
     title: 'To the European Youth Conference in Innsbruck',
     date: Date(1983, 7, 4),
     badiDate: BadiDate(year: 140, month: 6, day: 11),
@@ -6249,6 +6596,7 @@ class Messages {
   /// Summons to vindicate youth martyred in Iran
   static final ce19830623 = Message(
     id: '19830623_001',
+    number: 1,
     title: 'To Bahá’í Youth Throughout the World',
     date: Date(1983, 6, 23),
     badiDate: BadiDate(year: 140, month: 5, day: 19),
@@ -6265,6 +6613,7 @@ class Messages {
   /// Regarding the execution of ten Bahá’í women in Shiraz
   static final ce19830619 = Message(
     id: '19830619_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1983, 6, 19),
     badiDate: BadiDate(year: 140, month: 5, day: 15),
@@ -6281,6 +6630,7 @@ class Messages {
   /// Regarding the evolution of the International Teaching Centre and its responsibilities
   static final ce19830519 = Message(
     id: '19830519_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the World',
     date: Date(1983, 5, 19),
     badiDate: BadiDate(year: 140, month: 4, day: 3),
@@ -6296,10 +6646,11 @@ class Messages {
 
   /// Riḍván 1983 (140 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1983
-  static final ce19830420 = RidvanMessage(
+  static final ce19830421 = RidvanMessage(
     id: '19830421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1983, 4, 20),
+    date: Date(1983, 4, 21),
     badiDate: BadiDate(year: 140, month: 2, day: 13),
     summary: 'Riḍván Message 1983',
     url:
@@ -6308,20 +6659,21 @@ class Messages {
 
   /// Riḍván 1983 (140 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1983
-  static final be1400213 = ce19830420;
+  static final be1400213 = ce19830421;
 
   /// Riḍván 1983 (140 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1983
-  static final ridvan140 = ce19830420;
+  static final ridvan140 = ce19830421;
 
   /// Riḍván 1983 (140 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1983
-  static final ridvan1983 = ce19830420;
+  static final ridvan1983 = ce19830421;
 
   /// 2 Feb 1983 (15 Sulṭán 139 B.E.): To all National Spiritual Assemblies
   /// Regarding the occupation of the Seat of the Universal House of Justice
   static final ce19830202 = Message(
     id: '19830202_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1983, 2, 2),
     badiDate: BadiDate(year: 139, month: 17, day: 15),
@@ -6339,6 +6691,7 @@ class Messages {
   /// Message to the International Conference in Canberra, Australia
   static final ce19820902b = Message(
     id: '19820902_001',
+    number: 1,
     title:
         'To the Friends gathered in the Asian-Australasian Bahá’í Conference in Canberra',
     date: Date(1982, 9, 2),
@@ -6356,6 +6709,7 @@ class Messages {
   /// Message to the International Conference in Montreal, Canada
   static final ce19820902 = Message(
     id: '19820902_002',
+    number: 2,
     title:
         'To the Friends gathered at the Bahá’í International Conference in Montreal',
     date: Date(1982, 9, 2),
@@ -6373,6 +6727,7 @@ class Messages {
   /// Message to the International Conference in Lagos, Nigeria
   static final ce19820819 = Message(
     id: '19820819_001',
+    number: 1,
     title:
         'To the Friends gathered at the Bahá’í International Conference at Lagos',
     date: Date(1982, 8, 19),
@@ -6390,6 +6745,7 @@ class Messages {
   /// Message to the International Conference in Quito, Ecuador
   static final ce19820806 = Message(
     id: '19820806_001',
+    number: 1,
     title:
         'To the Followers of Bahá’u’lláh gathered at the International Conference in Quito, Ecuador',
     date: Date(1982, 8, 6),
@@ -6407,6 +6763,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding several issues related to confidentiality
   static final ce19820802 = Message(
     id: '19820802_001',
+    number: 1,
     title: '[To a National Spiritual Assembly]',
     date: Date(1982, 8, 2),
     badiDate: BadiDate(year: 139, month: 8, day: 2),
@@ -6424,6 +6781,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the station of ‘Abdu’l‑Bahá and language used by the Central Figures
   static final ce19820603 = Message(
     id: '19820603_001',
+    number: 1,
     title: '[To individuals]',
     date: Date(1982, 6, 3),
     badiDate: BadiDate(year: 139, month: 4, day: 18),
@@ -6441,6 +6799,7 @@ class Messages {
   /// Message to the International Conference in Dublin, Ireland
   static final ce19820602 = Message(
     id: '19820602_001',
+    number: 1,
     title: 'To the Friends gathered at the International Conference in Dublin',
     date: Date(1982, 6, 2),
     badiDate: BadiDate(year: 139, month: 4, day: 17),
@@ -6455,10 +6814,11 @@ class Messages {
 
   /// Riḍván 1982 (139 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1982
-  static final ce19820420 = RidvanMessage(
+  static final ce19820421 = RidvanMessage(
     id: '19820421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1982, 4, 20),
+    date: Date(1982, 4, 21),
     badiDate: BadiDate(year: 139, month: 2, day: 13),
     summary: 'Riḍván Message 1982',
     url:
@@ -6467,20 +6827,21 @@ class Messages {
 
   /// Riḍván 1982 (139 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1982
-  static final be1390213 = ce19820420;
+  static final be1390213 = ce19820421;
 
   /// Riḍván 1982 (139 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1982
-  static final ridvan139 = ce19820420;
+  static final ridvan139 = ce19820421;
 
   /// Riḍván 1982 (139 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1982
-  static final ridvan1982 = ce19820420;
+  static final ridvan1982 = ce19820421;
 
   /// 9 Mar 1982 (8 ‘Alá’ 138 B.E.): To all National Spiritual Assemblies
   /// Regarding the mounting cruelties facing the Iranian Bahá’ís and the steadfastness of their response
   static final ce19820309 = Message(
     id: '19820309_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1982, 3, 9),
     badiDate: BadiDate(year: 138, month: 19, day: 8),
@@ -6498,6 +6859,7 @@ class Messages {
   /// Regarding the ongoing persecution of the Iranian Bahá’í community and the nature of sacrifice, conveying the actions taken in defense of this community
   static final ce19820126 = Message(
     id: '19820126_001',
+    number: 1,
     title: 'The Bahá’ís of the World',
     date: Date(1982, 1, 26),
     badiDate: BadiDate(year: 138, month: 17, day: 8),
@@ -6515,6 +6877,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding questions raised about sharing Bahá’í beliefs, participation in social and economic development activities, and the significance of the Covenant
   static final ce19820103 = Message(
     id: '19820103_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1982, 1, 3),
     badiDate: BadiDate(year: 138, month: 16, day: 4),
@@ -6532,6 +6895,7 @@ class Messages {
   /// Regarding the execution of eight members of the Iranian National Spiritual Assembly
   static final ce19811228 = Message(
     id: '19811228_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1981, 12, 28),
     badiDate: BadiDate(year: 138, month: 15, day: 17),
@@ -6549,6 +6913,7 @@ class Messages {
   /// Regarding a report on the campaign of arrests of members of the Iranian Bahá’í community
   static final ce19811022 = Message(
     id: '19811022_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1981, 10, 22),
     badiDate: BadiDate(year: 138, month: 12, day: 7),
@@ -6566,6 +6931,7 @@ class Messages {
   /// Conveying news of the deteriorating situation of the Bahá’ís in Iran
   static final ce19811017 = Message(
     id: '19811017_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1981, 10, 17),
     badiDate: BadiDate(year: 138, month: 12, day: 2),
@@ -6583,6 +6949,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding certain tests and difficulties within the Bahá’í community
   static final ce19810722 = Message(
     id: '19810722_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1981, 7, 22),
     badiDate: BadiDate(year: 138, month: 7, day: 10),
@@ -6600,6 +6967,7 @@ class Messages {
   /// Conveying news of the imminent obliteration of the site of the House of the Báb
   static final ce19810527 = Message(
     id: '19810527_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1981, 5, 27),
     badiDate: BadiDate(year: 138, month: 4, day: 11),
@@ -6617,6 +6985,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding a number of issues related to the Seven Year Plan of the worldwide Bahá’í community
   static final ce19810417 = Message(
     id: '19810417_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1981, 4, 17),
     badiDate: BadiDate(year: 138, month: 2, day: 9),
@@ -6634,6 +7003,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding a number of issues related to the deployment of pioneers, traveling teachers, and upcoming international conferences
   static final ce19810416 = Message(
     id: '19810416_001',
+    number: 1,
     title: 'To all Continental Pioneer Committees',
     date: Date(1981, 4, 16),
     badiDate: BadiDate(year: 138, month: 2, day: 8),
@@ -6651,6 +7021,7 @@ class Messages {
   /// Regarding the second phase of the Seven Year Plan of the worldwide Bahá’í community
   static final ce19810301 = Message(
     id: '19810301_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1981, 3, 1),
     badiDate: BadiDate(year: 137, month: 0, day: 4),
@@ -6668,6 +7039,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding a number of themes related to family life
   static final ce19801228 = Message(
     id: '19801228_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of New Zealand',
     date: Date(1980, 12, 28),
     badiDate: BadiDate(year: 137, month: 15, day: 17),
@@ -6685,6 +7057,7 @@ class Messages {
   /// Message to Counsellors’ Convocations on the five continents
   static final ce19801222 = Message(
     id: '19801222_001',
+    number: 1,
     title: 'To gatherings of Counsellors in all countries',
     date: Date(1980, 12, 22),
     badiDate: BadiDate(year: 137, month: 15, day: 11),
@@ -6701,6 +7074,7 @@ class Messages {
   /// Regarding the development of the institution of the Continental Board of the Counsellors and its geographical distribution
   static final ce19801103 = Message(
     id: '19801103_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1980, 11, 3),
     badiDate: BadiDate(year: 137, month: 12, day: 19),
@@ -6718,6 +7092,7 @@ class Messages {
   /// Regarding a number of developments related to Bahá’í Properties in the Holy Land
   static final ce19800924 = Message(
     id: '19800924_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1980, 9, 24),
     badiDate: BadiDate(year: 137, month: 10, day: 17),
@@ -6735,6 +7110,7 @@ class Messages {
   /// Regarding the worldwide response to the persecution of the Bahá’í community in Iran
   static final ce19800923 = Message(
     id: '19800923_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1980, 9, 23),
     badiDate: BadiDate(year: 137, month: 10, day: 16),
@@ -6752,6 +7128,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the execution of seven Bahá’ís in Iran and an article published in defense of that community
   static final ce19800911 = Message(
     id: '19800911_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1980, 9, 11),
     badiDate: BadiDate(year: 137, month: 10, day: 4),
@@ -6769,6 +7146,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding a publication attacking the Faith
   static final ce19800507 = Message(
     id: '19800507_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Germany',
     date: Date(1980, 5, 7),
     badiDate: BadiDate(year: 137, month: 3, day: 10),
@@ -6784,10 +7162,11 @@ class Messages {
 
   /// Naw-Rúz 1980 (137 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 1980
-  static final ce19800320 = NawRuzMessage(
+  static final ce19800321 = NawRuzMessage(
     id: '19800321_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1980, 3, 20),
+    date: Date(1980, 3, 21),
     badiDate: BadiDate(year: 137, month: 1, day: 1),
     summary: 'Naw-Rúz Message 1980',
     url:
@@ -6796,20 +7175,21 @@ class Messages {
 
   /// Naw-Rúz 1980 (137 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 1980
-  static final be1370101 = ce19800320;
+  static final be1370101 = ce19800321;
 
   /// Naw-Rúz 1980 (137 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 1980
-  static final nawRuz137 = ce19800320;
+  static final nawRuz137 = ce19800321;
 
   /// Naw-Rúz 1980 (137 B.E.): To the Bahá’ís of the World
   /// Naw-Rúz Message 1980
-  static final nawRuz1980 = ce19800320;
+  static final nawRuz1980 = ce19800321;
 
   /// 10 Feb 1980 (4 Mulk 136 B.E.): To the dear Iranian believers resident in other countries throughout the world
   /// Regarding the responsibilities of the Iranian believers
   static final ce19800210 = Message(
     id: '19800210_001',
+    number: 1,
     title:
         'To the dear Iranian believers resident in other countries throughout the world',
     date: Date(1980, 2, 10),
@@ -6827,6 +7207,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding common accusations against the Iranian Bahá’í community
   static final ce19791017 = Message(
     id: '19791017_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1979, 10, 17),
     badiDate: BadiDate(year: 136, month: 12, day: 2),
@@ -6844,6 +7225,7 @@ class Messages {
   /// Regarding the demolition of the House of the Báb
   static final ce19790909 = Message(
     id: '19790909_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 9, 9),
     badiDate: BadiDate(year: 136, month: 10, day: 2),
@@ -6860,6 +7242,7 @@ class Messages {
   /// Conveying the decision regarding Counsellors’ terms of service
   static final ce19790629 = Message(
     id: '19790629_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 6, 29),
     badiDate: BadiDate(year: 136, month: 6, day: 6),
@@ -6876,6 +7259,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the increasing dangers facing Iranian Bahá’í community
   static final ce19790615 = Message(
     id: '19790615_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 6, 15),
     badiDate: BadiDate(year: 136, month: 5, day: 11),
@@ -6893,6 +7277,7 @@ class Messages {
   /// Calling for prayers on behalf of the Bahá’ís of Iran
   static final ce19790523 = Message(
     id: '19790523_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 5, 23),
     badiDate: BadiDate(year: 136, month: 4, day: 7),
@@ -6905,46 +7290,13 @@ class Messages {
   /// Calling for prayers on behalf of the Bahá’ís of Iran
   static final be1360407 = ce19790523;
 
-  /// 10 May 1979 (13 Jamál 136 B.E.): To National Spiritual Assemblies
-  /// Regarding the seizure of the House of the Báb
-  static final ce19790510 = Message(
-    id: '19790310_001',
-    title: 'To National Spiritual Assemblies',
-    date: Date(1979, 5, 10),
-    badiDate: BadiDate(year: 136, month: 3, day: 13),
-    summary: 'Regarding the seizure of the House of the Báb',
-    url:
-        'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19790310_001/1',
-  );
-
-  /// 10 May 1979 (13 Jamál 136 B.E.): To National Spiritual Assemblies
-  /// Regarding the seizure of the House of the Báb
-  static final be1360313 = ce19790510;
-
-  /// 8 May 1979 (11 Jamál 136 B.E.): To the National Spiritual Assembly of the Bahá’ís of the United States
-  /// Regarding a number of meetings with Bahá’ís in North America and Europe
-  static final ce19790508 = Message(
-    id: '19790308_001',
-    title:
-        'To the National Spiritual Assembly of the Bahá’ís of the United States',
-    date: Date(1979, 5, 8),
-    badiDate: BadiDate(year: 136, month: 3, day: 11),
-    summary:
-        'Regarding a number of meetings with Bahá’ís in North America and Europe',
-    url:
-        'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19790308_001/1',
-  );
-
-  /// 8 May 1979 (11 Jamál 136 B.E.): To the National Spiritual Assembly of the Bahá’ís of the United States
-  /// Regarding a number of meetings with Bahá’ís in North America and Europe
-  static final be1360311 = ce19790508;
-
   /// Naw-Rúz 1979 (136 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Seven Year Plan of the worldwide Bahá’í community
-  static final ce19790320b = NawRuzMessage(
+  static final ce19790321b = NawRuzMessage(
     id: '19790321_002',
+    number: 2,
     title: 'To the Bahá’ís of the World',
-    date: Date(1979, 3, 20),
+    date: Date(1979, 3, 21),
     badiDate: BadiDate(year: 136, month: 1, day: 1),
     summary:
         'Marking the launch of the Seven Year Plan of the worldwide Bahá’í community',
@@ -6954,22 +7306,23 @@ class Messages {
 
   /// Naw-Rúz 1979 (136 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Seven Year Plan of the worldwide Bahá’í community
-  static final be1360101b = ce19790320b;
+  static final be1360101b = ce19790321b;
 
   /// Naw-Rúz 1979 (136 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Seven Year Plan of the worldwide Bahá’í community
-  static final nawRuz136b = ce19790320b;
+  static final nawRuz136b = ce19790321b;
 
   /// Naw-Rúz 1979 (136 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Seven Year Plan of the worldwide Bahá’í community
-  static final nawRuz1979b = ce19790320b;
+  static final nawRuz1979b = ce19790321b;
 
   /// Naw-Rúz 1979 (136 B.E.): To National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the goals of the Seven Year Plan of the worldwide Bahá’í community
-  static final ce19790320 = NawRuzMessage(
+  static final ce19790321 = NawRuzMessage(
     id: '19790321_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
-    date: Date(1979, 3, 20),
+    date: Date(1979, 3, 21),
     badiDate: BadiDate(year: 136, month: 1, day: 1),
     summary:
         'Written on behalf of the Universal House of Justice, regarding the goals of the Seven Year Plan of the worldwide Bahá’í community',
@@ -6979,20 +7332,57 @@ class Messages {
 
   /// Naw-Rúz 1979 (136 B.E.): To National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the goals of the Seven Year Plan of the worldwide Bahá’í community
-  static final be1360101 = ce19790320;
+  static final be1360101 = ce19790321;
 
   /// Naw-Rúz 1979 (136 B.E.): To National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the goals of the Seven Year Plan of the worldwide Bahá’í community
-  static final nawRuz136 = ce19790320;
+  static final nawRuz136 = ce19790321;
 
   /// Naw-Rúz 1979 (136 B.E.): To National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the goals of the Seven Year Plan of the worldwide Bahá’í community
-  static final nawRuz1979 = ce19790320;
+  static final nawRuz1979 = ce19790321;
+
+  /// 10 Mar 1979 (9 ‘Alá’ 135 B.E.): To National Spiritual Assemblies
+  /// Regarding the seizure of the House of the Báb
+  static final ce19790310 = Message(
+    id: '19790310_001',
+    number: 1,
+    title: 'To National Spiritual Assemblies',
+    date: Date(1979, 3, 10),
+    badiDate: BadiDate(year: 135, month: 19, day: 9),
+    summary: 'Regarding the seizure of the House of the Báb',
+    url:
+        'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19790310_001/1',
+  );
+
+  /// 10 Mar 1979 (9 ‘Alá’ 135 B.E.): To National Spiritual Assemblies
+  /// Regarding the seizure of the House of the Báb
+  static final be1351909 = ce19790310;
+
+  /// 8 Mar 1979 (7 ‘Alá’ 135 B.E.): To the National Spiritual Assembly of the Bahá’ís of the United States
+  /// Regarding a number of meetings with Bahá’ís in North America and Europe
+  static final ce19790308 = Message(
+    id: '19790308_001',
+    number: 1,
+    title:
+        'To the National Spiritual Assembly of the Bahá’ís of the United States',
+    date: Date(1979, 3, 8),
+    badiDate: BadiDate(year: 135, month: 19, day: 7),
+    summary:
+        'Regarding a number of meetings with Bahá’ís in North America and Europe',
+    url:
+        'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19790308_001/1',
+  );
+
+  /// 8 Mar 1979 (7 ‘Alá’ 135 B.E.): To the National Spiritual Assembly of the Bahá’ís of the United States
+  /// Regarding a number of meetings with Bahá’ís in North America and Europe
+  static final be1351907 = ce19790308;
 
   /// 26 Feb 1979 (1 Ayyám-i-Há 135 B.E.): To all National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding false accusations against Iranian Bahá’í community
   static final ce19790226 = Message(
     id: '19790226_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 2, 26),
     badiDate: BadiDate(year: 135, month: 0, day: 1),
@@ -7010,6 +7400,7 @@ class Messages {
   /// Reporting incidences of persecution against the Iranian Bahá’í community
   static final ce19790112 = Message(
     id: '19790112_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1979, 1, 12),
     badiDate: BadiDate(year: 135, month: 16, day: 13),
@@ -7027,6 +7418,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding Bahá’í scholarship, the need for pre-publication review of doctoral theses, enclosing comments from the Research department at the Bahá’í World Centre
   static final ce19790103 = Message(
     id: '19790103_001',
+    number: 1,
     title:
         'To the Participants in the Bahá’í Studies Seminar held in Cambridge on 30 September and 1 October 1978',
     date: Date(1979, 1, 3),
@@ -7045,6 +7437,7 @@ class Messages {
   /// Regarding the peril facing the Bahá’í community and Holy Places in Iran
   static final ce19781215 = Message(
     id: '19781215_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1978, 12, 15),
     badiDate: BadiDate(year: 135, month: 15, day: 4),
@@ -7062,6 +7455,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, responding to a request for guidance about how to direct the course of one’s life
   static final ce19781011 = Message(
     id: '19781011_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1978, 10, 11),
     badiDate: BadiDate(year: 135, month: 11, day: 15),
@@ -7077,10 +7471,11 @@ class Messages {
 
   /// Riḍván 1978 (135 B.E.): To the International Bahá’í Convention
   /// Riḍván Message 1978
-  static final ce19780420 = RidvanMessage(
+  static final ce19780421 = RidvanMessage(
     id: '19780421_001',
+    number: 1,
     title: 'To the International Bahá’í Convention',
-    date: Date(1978, 4, 20),
+    date: Date(1978, 4, 21),
     badiDate: BadiDate(year: 135, month: 2, day: 13),
     summary: 'Riḍván Message 1978',
     url:
@@ -7089,20 +7484,21 @@ class Messages {
 
   /// Riḍván 1978 (135 B.E.): To the International Bahá’í Convention
   /// Riḍván Message 1978
-  static final be1350213 = ce19780420;
+  static final be1350213 = ce19780421;
 
   /// Riḍván 1978 (135 B.E.): To the International Bahá’í Convention
   /// Riḍván Message 1978
-  static final ridvan135 = ce19780420;
+  static final ridvan135 = ce19780421;
 
   /// Riḍván 1978 (135 B.E.): To the International Bahá’í Convention
   /// Riḍván Message 1978
-  static final ridvan1978 = ce19780420;
+  static final ridvan1978 = ce19780421;
 
   /// 27 Mar 1978 (7 Bahá 135 B.E.): To all National Spiritual Assemblies
   /// Written on behalf of the Universal House of Justice, regarding the relationships between administrative institutions
   static final ce19780327 = Message(
     id: '19780327_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1978, 3, 27),
     badiDate: BadiDate(year: 135, month: 1, day: 7),
@@ -7120,6 +7516,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the response of humanity to the summons of Bahá’u’lláh and the reconstruction of society
   static final ce19770821 = Message(
     id: '19770821_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1977, 8, 21),
     badiDate: BadiDate(year: 134, month: 9, day: 2),
@@ -7137,6 +7534,7 @@ class Messages {
   /// Riḍván Message 1977
   static final ce19770324 = Message(
     id: '19770324_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1977, 3, 24),
     badiDate: BadiDate(year: 134, month: 1, day: 4),
@@ -7153,6 +7551,7 @@ class Messages {
   /// Regarding the consolidation of Local Spiritual Assemblies
   static final ce19770306 = Message(
     id: '19770306_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1977, 3, 6),
     badiDate: BadiDate(year: 133, month: 19, day: 5),
@@ -7169,6 +7568,7 @@ class Messages {
   /// Message to the International Teaching Conference, Mérida, Mexico
   static final ce19770201 = Message(
     id: '19770201_001',
+    number: 1,
     title:
         'To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Mérida, Mexico',
     date: Date(1977, 2, 1),
@@ -7186,6 +7586,7 @@ class Messages {
   /// Message to the International Teaching Conference, Auckland, New Zealand
   static final ce19770101b = Message(
     id: '19770101_001',
+    number: 1,
     title:
         'To the Friends assembled at the International Teaching Conference in Auckland',
     date: Date(1977, 1, 1),
@@ -7204,6 +7605,7 @@ class Messages {
   /// Message to the International Teaching Conference, Bahia, Brazil
   static final ce19770101 = Message(
     id: '19770101_002',
+    number: 2,
     title:
         'To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Bahia, Brazil',
     date: Date(1977, 1, 1),
@@ -7221,6 +7623,7 @@ class Messages {
   /// Regarding a proposal for an international educational institution and the necessity of consolidation of local communities and Assemblies
   static final ce19761202 = Message(
     id: '19761202_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1976, 12, 2),
@@ -7239,6 +7642,7 @@ class Messages {
   /// Message to the International Teaching Conference, Hong Kong
   static final ce19761101 = Message(
     id: '19761101_001',
+    number: 1,
     title:
         'To the Friends assembled at the International Teaching Conference in Hong Kong',
     date: Date(1976, 11, 1),
@@ -7256,6 +7660,7 @@ class Messages {
   /// Message to the International Teaching Conference, Nairobi, Kenya
   static final ce19760926 = Message(
     id: '19760926_001',
+    number: 1,
     title: 'To the Friends gathered at the International Conference in Nairobi',
     date: Date(1976, 9, 26),
     badiDate: BadiDate(year: 133, month: 10, day: 19),
@@ -7272,6 +7677,7 @@ class Messages {
   /// Message to the International Teaching Conference, Paris, France
   static final ce19760801 = Message(
     id: '19760801_001',
+    number: 1,
     title:
         'To the Friends assembled at the International Teaching Conference in Paris',
     date: Date(1976, 8, 1),
@@ -7289,6 +7695,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding involvement in politics and the eradication of injustice
   static final ce19760707 = Message(
     id: '19760707_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1976, 7, 7),
     badiDate: BadiDate(year: 133, month: 6, day: 14),
@@ -7306,6 +7713,7 @@ class Messages {
   /// Message to the International Teaching Conference, Anchorage, Alaska
   static final ce19760701b = Message(
     id: '19760701_001',
+    number: 1,
     title:
         'To the Friends assembled at the International Teaching Conference in Anchorage',
     date: Date(1976, 7, 1),
@@ -7324,6 +7732,7 @@ class Messages {
   /// Message to the International Teaching Conference, Helsinki, Finland
   static final ce19760701 = Message(
     id: '19760701_002',
+    number: 2,
     title:
         'To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Helsinki',
     date: Date(1976, 7, 1),
@@ -7342,6 +7751,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, conveying news of appointments to Continental Boards of Counsellors and Auxiliary Boards
   static final ce19760324 = Message(
     id: '19760324_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1976, 3, 24),
     badiDate: BadiDate(year: 133, month: 1, day: 4),
@@ -7359,6 +7769,7 @@ class Messages {
   /// Naw-Rúz Message 1976
   static final ce19760318 = Message(
     id: '19760318_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1976, 3, 18),
     badiDate: BadiDate(year: 132, month: 19, day: 17),
@@ -7375,6 +7786,7 @@ class Messages {
   /// Regarding a number of laws in the Kitáb-i-Aqdas and the confinement of the membership of the Universal House of Justice to men
   static final ce19750724 = Message(
     id: '19750724_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1975, 7, 24),
     badiDate: BadiDate(year: 132, month: 7, day: 12),
@@ -7392,6 +7804,7 @@ class Messages {
   /// Regarding the construction of the Seat of the Universal House of Justice
   static final ce19750605 = Message(
     id: '19750605_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the World',
     date: Date(1975, 6, 5),
     badiDate: BadiDate(year: 132, month: 5, day: 1),
@@ -7409,6 +7822,7 @@ class Messages {
   /// Regarding a number of subjects related to the Five Year Plan of the worldwide Bahá’í community
   static final ce19750525 = Message(
     id: '19750525_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 5, 25),
     badiDate: BadiDate(year: 132, month: 4, day: 9),
@@ -7426,6 +7840,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the submission of physical letters of Shoghi Effendi to the Bahá’í World Centre
   static final ce19750514 = Message(
     id: '19750514_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 5, 14),
     badiDate: BadiDate(year: 132, month: 3, day: 17),
@@ -7443,6 +7858,7 @@ class Messages {
   /// Riḍván Message 1975
   static final ce19750404 = Message(
     id: '19750404_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 4, 4),
     badiDate: BadiDate(year: 132, month: 1, day: 15),
@@ -7459,6 +7875,7 @@ class Messages {
   /// Regarding a plan for international collaboration in the field of traveling teaching
   static final ce19750325 = Message(
     id: '19750325_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 3, 25),
     badiDate: BadiDate(year: 132, month: 1, day: 5),
@@ -7476,6 +7893,7 @@ class Messages {
   /// Written on behalf of the Universal House of Justice, regarding the significance of the House of ‘Abdu’lláh Páshá
   static final ce19750304 = Message(
     id: '19750304_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 3, 4),
     badiDate: BadiDate(year: 131, month: 19, day: 3),
@@ -7493,6 +7911,7 @@ class Messages {
   /// Regarding the acquisition of the House of ‘Abdu’lláh Páshá
   static final ce19750114 = Message(
     id: '19750114_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 1, 14),
     badiDate: BadiDate(year: 131, month: 16, day: 15),
@@ -7509,6 +7928,7 @@ class Messages {
   /// Regarding the development of Bahá’í administrative institutions in Africa
   static final ce19750106 = Message(
     id: '19750106_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1975, 1, 6),
     badiDate: BadiDate(year: 131, month: 16, day: 7),
@@ -7526,6 +7946,7 @@ class Messages {
   /// Regarding the alleviation of material suffering and the construction of a New World Order
   static final ce19741119 = Message(
     id: '19741119_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Italy',
     date: Date(1974, 11, 19),
     badiDate: BadiDate(year: 131, month: 13, day: 16),
@@ -7543,6 +7964,7 @@ class Messages {
   /// Regarding the Lesser Peace and concern about an approaching global calamity
   static final ce19740729 = Message(
     id: '19740729_001',
+    number: 1,
     title:
         'The National Spiritual Assembly of the Bahá’ís of the United States',
     date: Date(1974, 7, 29),
@@ -7561,6 +7983,7 @@ class Messages {
   /// Regarding a revision of the functions of Continental Pioneer Committees
   static final ce19740722 = Message(
     id: '19740722_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1974, 7, 22),
     badiDate: BadiDate(year: 131, month: 7, day: 10),
@@ -7578,6 +8001,7 @@ class Messages {
   /// Regarding the laws of the Kitáb-i-Aqdas not binding in the West
   static final ce19740609 = Message(
     id: '19740609_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Iceland',
     date: Date(1974, 6, 9),
     badiDate: BadiDate(year: 131, month: 5, day: 5),
@@ -7594,6 +8018,7 @@ class Messages {
   /// Regarding laws of the Kitáb-i-Aqdas concerning men and women
   static final ce19740428 = Message(
     id: '19740428_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1974, 4, 28),
     badiDate: BadiDate(year: 131, month: 3, day: 1),
@@ -7608,10 +8033,11 @@ class Messages {
 
   /// Naw-Rúz 1974 (131 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Five Year Plan of the worldwide Bahá’í community
-  static final ce19740320b = NawRuzMessage(
+  static final ce19740321b = NawRuzMessage(
     id: '19740321_002',
+    number: 2,
     title: 'To the Bahá’ís of the World',
-    date: Date(1974, 3, 20),
+    date: Date(1974, 3, 21),
     badiDate: BadiDate(year: 131, month: 1, day: 1),
     summary:
         'Marking the launch of the Five Year Plan of the worldwide Bahá’í community',
@@ -7621,22 +8047,23 @@ class Messages {
 
   /// Naw-Rúz 1974 (131 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Five Year Plan of the worldwide Bahá’í community
-  static final be1310101b = ce19740320b;
+  static final be1310101b = ce19740321b;
 
   /// Naw-Rúz 1974 (131 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Five Year Plan of the worldwide Bahá’í community
-  static final nawRuz131b = ce19740320b;
+  static final nawRuz131b = ce19740321b;
 
   /// Naw-Rúz 1974 (131 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Five Year Plan of the worldwide Bahá’í community
-  static final nawRuz1974b = ce19740320b;
+  static final nawRuz1974b = ce19740321b;
 
   /// Naw-Rúz 1974 (131 B.E.): To all National Spiritual Assemblies
   /// Regarding a number of issues related to the goals of the Five Year Plan of the worldwide Bahá’í community
-  static final ce19740320 = NawRuzMessage(
+  static final ce19740321 = NawRuzMessage(
     id: '19740321_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
-    date: Date(1974, 3, 20),
+    date: Date(1974, 3, 21),
     badiDate: BadiDate(year: 131, month: 1, day: 1),
     summary:
         'Regarding a number of issues related to the goals of the Five Year Plan of the worldwide Bahá’í community',
@@ -7646,20 +8073,21 @@ class Messages {
 
   /// Naw-Rúz 1974 (131 B.E.): To all National Spiritual Assemblies
   /// Regarding a number of issues related to the goals of the Five Year Plan of the worldwide Bahá’í community
-  static final be1310101 = ce19740320;
+  static final be1310101 = ce19740321;
 
   /// Naw-Rúz 1974 (131 B.E.): To all National Spiritual Assemblies
   /// Regarding a number of issues related to the goals of the Five Year Plan of the worldwide Bahá’í community
-  static final nawRuz131 = ce19740320;
+  static final nawRuz131 = ce19740321;
 
   /// Naw-Rúz 1974 (131 B.E.): To all National Spiritual Assemblies
   /// Regarding a number of issues related to the goals of the Five Year Plan of the worldwide Bahá’í community
-  static final nawRuz1974 = ce19740320;
+  static final nawRuz1974 = ce19740321;
 
   /// 7 Feb 1974 (1 Mulk 130 B.E.): To all National Spiritual Assemblies
   /// Conveying news of the acceptance of the design for the Seat of the Universal House of Justice
   static final ce19740207 = Message(
     id: '19740207_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1974, 2, 7),
     badiDate: BadiDate(year: 130, month: 18, day: 1),
@@ -7677,6 +8105,7 @@ class Messages {
   /// Conveying the decision regarding the extension of the Gardens at Bahjí
   static final ce19731204 = Message(
     id: '19731204_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1973, 12, 4),
     badiDate: BadiDate(year: 130, month: 14, day: 12),
@@ -7694,6 +8123,7 @@ class Messages {
   /// Regarding the development of the institution of the Auxiliary Boards
   static final ce19731007 = Message(
     id: '19731007_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1973, 10, 7),
     badiDate: BadiDate(year: 130, month: 11, day: 11),
@@ -7711,6 +8141,7 @@ class Messages {
   /// Regarding the duties of the International Teaching Centre and the expansion of the Continental Boards of Counsellors
   static final ce19730608 = Message(
     id: '19730608_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1973, 6, 8),
     badiDate: BadiDate(year: 130, month: 5, day: 4),
@@ -7728,6 +8159,7 @@ class Messages {
   /// Marking the establishment of the International Teaching Centre
   static final ce19730605 = Message(
     id: '19730605_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1973, 6, 5),
     badiDate: BadiDate(year: 130, month: 5, day: 1),
@@ -7744,6 +8176,7 @@ class Messages {
   /// Regarding the acceptance of the Faith by His Highness Malietoa Tanumafili II of Western Samoa
   static final ce19730507 = Message(
     id: '19730507_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1973, 5, 7),
     badiDate: BadiDate(year: 130, month: 3, day: 10),
@@ -7759,10 +8192,11 @@ class Messages {
 
   /// Riḍván 1973 (130 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1973
-  static final ce19730420 = RidvanMessage(
+  static final ce19730421 = RidvanMessage(
     id: '19730421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1973, 4, 20),
+    date: Date(1973, 4, 21),
     badiDate: BadiDate(year: 130, month: 2, day: 13),
     summary: 'Riḍván Message 1973',
     url:
@@ -7771,20 +8205,21 @@ class Messages {
 
   /// Riḍván 1973 (130 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1973
-  static final be1300213 = ce19730420;
+  static final be1300213 = ce19730421;
 
   /// Riḍván 1973 (130 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1973
-  static final ridvan130 = ce19730420;
+  static final ridvan130 = ce19730421;
 
   /// Riḍván 1973 (130 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1973
-  static final ridvan1973 = ce19730420;
+  static final ridvan1973 = ce19730421;
 
   /// 15 Mar 1973 (14 ‘Alá’ 129 B.E.): To all National Spiritual Assemblies
   /// Regarding the purchase of the Mansion of Mazra‘ih
   static final ce19730315 = Message(
     id: '19730315_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1973, 3, 15),
     badiDate: BadiDate(year: 129, month: 19, day: 14),
@@ -7801,6 +8236,7 @@ class Messages {
   /// Marking the adoption of the Constitution of the Universal House of Justice
   static final ce19721126 = Message(
     id: '19721126_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1972, 11, 26),
     badiDate: BadiDate(year: 129, month: 14, day: 4),
@@ -7818,6 +8254,7 @@ class Messages {
   /// Regarding the embryonic nature of Local Spiritual Assemblies
   static final ce19720730 = Message(
     id: '19720730_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Bolivia',
     date: Date(1972, 7, 30),
     badiDate: BadiDate(year: 129, month: 7, day: 18),
@@ -7834,6 +8271,7 @@ class Messages {
   /// Regarding prejudice and the need for Bahá’ís to interact in a spirit of unity and fellowship
   static final ce19720713 = Message(
     id: '19720713_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1972, 7, 13),
     badiDate: BadiDate(year: 129, month: 7, day: 1),
@@ -7851,6 +8289,7 @@ class Messages {
   /// Regarding the decision to build the Seat of the Universal House of Justice
   static final ce19720607 = Message(
     id: '19720607_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1972, 6, 7),
     badiDate: BadiDate(year: 129, month: 5, day: 3),
@@ -7868,6 +8307,7 @@ class Messages {
   /// Regarding the nature and functioning of the Continental Boards of Counsellors
   static final ce19720424 = Message(
     id: '19720424_001',
+    number: 1,
     title:
         'To the Continental Boards of Counsellors and National Spiritual Assemblies',
     date: Date(1972, 4, 24),
@@ -7884,10 +8324,11 @@ class Messages {
 
   /// Riḍván 1972 (129 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1972
-  static final ce19720420 = RidvanMessage(
+  static final ce19720421 = RidvanMessage(
     id: '19720421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1972, 4, 20),
+    date: Date(1972, 4, 21),
     badiDate: BadiDate(year: 129, month: 2, day: 13),
     summary: 'Riḍván Message 1972',
     url:
@@ -7896,20 +8337,21 @@ class Messages {
 
   /// Riḍván 1972 (129 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1972
-  static final be1290213 = ce19720420;
+  static final be1290213 = ce19720421;
 
   /// Riḍván 1972 (129 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1972
-  static final ridvan129 = ce19720420;
+  static final ridvan129 = ce19720421;
 
   /// Riḍván 1972 (129 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1972
-  static final ridvan1972 = ce19720420;
+  static final ridvan1972 = ce19720421;
 
   /// 1 Sep 1971 (13 Asmá’ 128 B.E.): To the Friends of God assembled in the Conference of the North Pacific Ocean
   /// Message to the North Pacific Oceanic Conference
   static final ce19710901b = Message(
     id: '19710901_002',
+    number: 2,
     title:
         'To the Friends of God assembled in the Conference of the North Pacific Ocean',
     date: Date(1971, 9, 1),
@@ -7927,6 +8369,7 @@ class Messages {
   /// Message to the North Atlantic Conference
   static final ce19710901 = Message(
     id: '19710901_001',
+    number: 1,
     title:
         'To the Friends assembled in the North Atlantic Conference in Reykjavik',
     date: Date(1971, 9, 1),
@@ -7944,6 +8387,7 @@ class Messages {
   /// Marking the Fiftieth Anniversary of the Ascension of ‘Abdu’l‑Bahá
   static final ce19710712 = Message(
     id: '19710712_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1971, 7, 12),
     badiDate: BadiDate(year: 128, month: 6, day: 19),
@@ -7961,6 +8405,7 @@ class Messages {
   /// Message to the Caribbean Conference
   static final ce19710501b = Message(
     id: '19710501_001',
+    number: 1,
     title: 'To the Friends of God gathered in the Caribbean Conference',
     date: Date(1971, 5, 1),
     badiDate: BadiDate(year: 128, month: 3, day: 4),
@@ -7977,6 +8422,7 @@ class Messages {
   /// Message to the South Pacific Oceanic Conference
   static final ce19710501 = Message(
     id: '19710501_002',
+    number: 2,
     title:
         'To the Friends of God assembled in the Conference of the South Pacific Ocean',
     date: Date(1971, 5, 1),
@@ -7992,10 +8438,11 @@ class Messages {
 
   /// Riḍván 1971 (128 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1971
-  static final ce19710420 = RidvanMessage(
+  static final ce19710421 = RidvanMessage(
     id: '19710421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1971, 4, 20),
+    date: Date(1971, 4, 21),
     badiDate: BadiDate(year: 128, month: 2, day: 13),
     summary: 'Riḍván Message 1971',
     url:
@@ -8004,20 +8451,21 @@ class Messages {
 
   /// Riḍván 1971 (128 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1971
-  static final be1280213 = ce19710420;
+  static final be1280213 = ce19710421;
 
   /// Riḍván 1971 (128 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1971
-  static final ridvan128 = ce19710420;
+  static final ridvan128 = ce19710421;
 
   /// Riḍván 1971 (128 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1971
-  static final ridvan1971 = ce19710420;
+  static final ridvan1971 = ce19710421;
 
   /// 1 Jan 1971 (2 Sharaf 127 B.E.): To the Friends of God assembled in the Oceanic Conference in Singapore, Malaysia
   /// Message to the Oceanic Conference of the South China Seas, Singapore
   static final ce19710101b = Message(
     id: '19710101_002',
+    number: 2,
     title:
         'To the Friends of God assembled in the Oceanic Conference in Singapore, Malaysia',
     date: Date(1971, 1, 1),
@@ -8036,6 +8484,7 @@ class Messages {
   /// Message to the Monrovia Conference
   static final ce19710101 = Message(
     id: '19710101_001',
+    number: 1,
     title:
         'To the Friends of God assembled in the Conference in Monrovia, Liberia',
     date: Date(1971, 1, 1),
@@ -8053,6 +8502,7 @@ class Messages {
   /// Message to Bolivia and Mauritius Conferences
   static final ce19700801 = Message(
     id: '19700801_001',
+    number: 1,
     title:
         'To the Continental Conference in La Paz, Bolivia, and the Oceanic Conference in Rose-Hill, Mauritius',
     date: Date(1970, 8, 1),
@@ -8068,10 +8518,11 @@ class Messages {
 
   /// Riḍván 1970 (127 B.E.): To all National Spiritual Assemblies
   /// Riḍván Message 1970
-  static final ce19700420 = RidvanMessage(
+  static final ce19700421 = RidvanMessage(
     id: '19700421_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
-    date: Date(1970, 4, 20),
+    date: Date(1970, 4, 21),
     badiDate: BadiDate(year: 127, month: 2, day: 13),
     summary: 'Riḍván Message 1970',
     url:
@@ -8080,20 +8531,21 @@ class Messages {
 
   /// Riḍván 1970 (127 B.E.): To all National Spiritual Assemblies
   /// Riḍván Message 1970
-  static final be1270213 = ce19700420;
+  static final be1270213 = ce19700421;
 
   /// Riḍván 1970 (127 B.E.): To all National Spiritual Assemblies
   /// Riḍván Message 1970
-  static final ridvan127 = ce19700420;
+  static final ridvan127 = ce19700421;
 
   /// Riḍván 1970 (127 B.E.): To all National Spiritual Assemblies
   /// Riḍván Message 1970
-  static final ridvan1970 = ce19700420;
+  static final ridvan1970 = ce19700421;
 
   /// 6 Mar 1970 (5 ‘Alá’ 126 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
   /// Regarding a number of themes related to Bahá’í consultation
   static final ce19700306 = Message(
     id: '19700306_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Canada',
     date: Date(1970, 3, 6),
     badiDate: BadiDate(year: 126, month: 19, day: 5),
@@ -8110,6 +8562,7 @@ class Messages {
   /// Regarding a number of themes related Bahá’í involvement in politics
   static final ce19700208 = Message(
     id: '19700208_001',
+    number: 1,
     title: 'To National Spiritual Assemblies in Africa',
     date: Date(1970, 2, 8),
     badiDate: BadiDate(year: 126, month: 18, day: 2),
@@ -8127,6 +8580,7 @@ class Messages {
   /// Regarding the relationship between the Guardianship and the Universal House of Justice
   static final ce19691207 = Message(
     id: '19691207_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1969, 12, 7),
     badiDate: BadiDate(year: 126, month: 14, day: 15),
@@ -8144,6 +8598,7 @@ class Messages {
   /// Regarding the worsening condition of society and the need to spread the Bahá’í teachings
   static final ce19691116 = Message(
     id: '19691116_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1969, 11, 16),
     badiDate: BadiDate(year: 126, month: 13, day: 13),
@@ -8161,6 +8616,7 @@ class Messages {
   /// Regarding the work of Continental Boards of Counsellors and the Auxiliary Board
   static final ce19691001 = Message(
     id: '19691001_001',
+    number: 1,
     title:
         'To the Continental Boards of Counsellors and National Spiritual Assemblies',
     date: Date(1969, 10, 1),
@@ -8179,6 +8635,7 @@ class Messages {
   /// Regarding self-defense and individual conduct in the face of civil disorder
   static final ce19690526 = Message(
     id: '19690526_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of Canada',
     date: Date(1969, 5, 26),
     badiDate: BadiDate(year: 126, month: 4, day: 10),
@@ -8194,10 +8651,11 @@ class Messages {
 
   /// Riḍván 1969 (126 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1969
-  static final ce19690420 = RidvanMessage(
+  static final ce19690421 = RidvanMessage(
     id: '19690421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1969, 4, 20),
+    date: Date(1969, 4, 21),
     badiDate: BadiDate(year: 126, month: 2, day: 13),
     summary: 'Riḍván Message 1969',
     url:
@@ -8206,20 +8664,21 @@ class Messages {
 
   /// Riḍván 1969 (126 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1969
-  static final be1260213 = ce19690420;
+  static final be1260213 = ce19690421;
 
   /// Riḍván 1969 (126 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1969
-  static final ridvan126 = ce19690420;
+  static final ridvan126 = ce19690421;
 
   /// Riḍván 1969 (126 B.E.): To the Bahá’ís of the World
   /// Riḍván Message 1969
-  static final ridvan1969 = ce19690420;
+  static final ridvan1969 = ce19690421;
 
   /// 9 Oct 1968 (13 Mashíyyat 125 B.E.): To the Bahá’í Youth in Every Land
   /// Regarding a number of factors related to service and study
   static final ce19681009 = Message(
     id: '19681009_001',
+    number: 1,
     title: 'To the Bahá’í Youth in Every Land',
     date: Date(1968, 10, 9),
     badiDate: BadiDate(year: 125, month: 11, day: 13),
@@ -8236,6 +8695,7 @@ class Messages {
   /// Message to the First Oceanic Conference, Palermo, Sicily
   static final ce19680801 = Message(
     id: '19680801_001',
+    number: 1,
     title:
         'To the Hands of the Cause of God and the Bahá’í Friends assembled in Palermo, Sicily, at the First Bahá’í Oceanic Conference',
     date: Date(1968, 8, 1),
@@ -8253,6 +8713,7 @@ class Messages {
   /// Marking the establishment of the Continental Boards of Counsellors
   static final ce19680624 = Message(
     id: '19680624_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1968, 6, 24),
     badiDate: BadiDate(year: 125, month: 6, day: 1),
@@ -8270,6 +8731,7 @@ class Messages {
   /// Conveying the decision to establish the Continental Boards of Counsellors
   static final ce19680621 = Message(
     id: '19680621_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1968, 6, 21),
     badiDate: BadiDate(year: 125, month: 5, day: 17),
@@ -8287,6 +8749,7 @@ class Messages {
   /// Conveying some of the themes from the second International Bahá’í Convention
   static final ce19680509 = Message(
     id: '19680509_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1968, 5, 9),
     badiDate: BadiDate(year: 125, month: 3, day: 12),
@@ -8304,6 +8767,7 @@ class Messages {
   /// Regarding a number of questions related to politics
   static final ce19671208 = Message(
     id: '19671208_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1967, 12, 8),
     badiDate: BadiDate(year: 124, month: 14, day: 16),
@@ -8320,6 +8784,7 @@ class Messages {
   /// Marking the Third Phase of the Nine Year Plan of the worldwide Bahá’í community
   static final ce19671015 = Message(
     id: '19671015_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1967, 10, 15),
     badiDate: BadiDate(year: 124, month: 11, day: 19),
@@ -8337,6 +8802,7 @@ class Messages {
   /// Regarding a number of themes related to proclamation of the Bahá’í Faith
   static final ce19670702 = Message(
     id: '19670702_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1967, 7, 2),
     badiDate: BadiDate(year: 124, month: 6, day: 9),
@@ -8352,10 +8818,11 @@ class Messages {
 
   /// Riḍván 1967 (124 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1967
-  static final ce19670420 = RidvanMessage(
+  static final ce19670421 = RidvanMessage(
     id: '19670421_001',
+    number: 1,
     title: 'The Bahá’ís of the World',
-    date: Date(1967, 4, 20),
+    date: Date(1967, 4, 21),
     badiDate: BadiDate(year: 124, month: 2, day: 13),
     summary: 'Riḍván Message 1967',
     url:
@@ -8364,20 +8831,21 @@ class Messages {
 
   /// Riḍván 1967 (124 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1967
-  static final be1240213 = ce19670420;
+  static final be1240213 = ce19670421;
 
   /// Riḍván 1967 (124 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1967
-  static final ridvan124 = ce19670420;
+  static final ridvan124 = ce19670421;
 
   /// Riḍván 1967 (124 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1967
-  static final ridvan1967 = ce19670420;
+  static final ridvan1967 = ce19670421;
 
   /// 10 Jun 1966 (6 Núr 123 B.E.): To the Bahá’í Youth in every Land
   /// Regarding the importance of studying the Sacred Writings, teaching the Faith, and preparing for one’s later years
   static final ce19660610 = Message(
     id: '19660610_001',
+    number: 1,
     title: 'To the Bahá’í Youth in every Land',
     date: Date(1966, 6, 10),
     badiDate: BadiDate(year: 123, month: 5, day: 6),
@@ -8395,6 +8863,7 @@ class Messages {
   /// Regarding a number of themes related to the Guardianship and the Universal House of Justice
   static final ce19660527 = Message(
     id: '19660527_001',
+    number: 1,
     title: '[To an individual]',
     date: Date(1966, 5, 27),
     badiDate: BadiDate(year: 123, month: 4, day: 11),
@@ -8410,10 +8879,11 @@ class Messages {
 
   /// Riḍván 1966 (123 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1966
-  static final ce19660420 = RidvanMessage(
+  static final ce19660421 = RidvanMessage(
     id: '19660421_001',
+    number: 1,
     title: 'The Bahá’ís of the World',
-    date: Date(1966, 4, 20),
+    date: Date(1966, 4, 21),
     badiDate: BadiDate(year: 123, month: 2, day: 13),
     summary: 'Riḍván Message 1966',
     url:
@@ -8422,20 +8892,21 @@ class Messages {
 
   /// Riḍván 1966 (123 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1966
-  static final be1230213 = ce19660420;
+  static final be1230213 = ce19660421;
 
   /// Riḍván 1966 (123 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1966
-  static final ridvan123 = ce19660420;
+  static final ridvan123 = ce19660421;
 
   /// Riḍván 1966 (123 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1966
-  static final ridvan1966 = ce19660420;
+  static final ridvan1966 = ce19660421;
 
   /// 2 Feb 1966 (15 Sulṭán 122 B.E.): To all National Spiritual Assemblies Engaged in Mass Teaching Work
   /// Regarding the acceleration of the process of mass teaching
   static final ce19660202 = Message(
     id: '19660202_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies Engaged in Mass Teaching Work',
     date: Date(1966, 2, 2),
     badiDate: BadiDate(year: 122, month: 17, day: 15),
@@ -8452,6 +8923,7 @@ class Messages {
   /// Regarding the observance of Bahá’í Holy Days
   static final ce19660128 = Message(
     id: '19660128_001',
+    number: 1,
     title: 'To National Spiritual Assemblies',
     date: Date(1966, 1, 28),
     badiDate: BadiDate(year: 122, month: 17, day: 10),
@@ -8466,10 +8938,11 @@ class Messages {
 
   /// Riḍván 1965 (122 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1965
-  static final ce19650420 = RidvanMessage(
+  static final ce19650421 = RidvanMessage(
     id: '19650421_001',
+    number: 1,
     title: 'The Bahá’ís of the World',
-    date: Date(1965, 4, 20),
+    date: Date(1965, 4, 21),
     badiDate: BadiDate(year: 122, month: 2, day: 13),
     summary: 'Riḍván Message 1965',
     url:
@@ -8478,20 +8951,21 @@ class Messages {
 
   /// Riḍván 1965 (122 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1965
-  static final be1220213 = ce19650420;
+  static final be1220213 = ce19650421;
 
   /// Riḍván 1965 (122 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1965
-  static final ridvan122 = ce19650420;
+  static final ridvan122 = ce19650421;
 
   /// Riḍván 1965 (122 B.E.): The Bahá’ís of the World
   /// Riḍván Message 1965
-  static final ridvan1965 = ce19650420;
+  static final ridvan1965 = ce19650421;
 
   /// 9 Mar 1965 (8 ‘Alá’ 121 B.E.): The National Spiritual Assembly of the Bahá’ís of the Netherlands
   /// Regarding the election and infallibility of the Universal House of Justice
   static final ce19650309 = Message(
     id: '19650309_001',
+    number: 1,
     title: 'The National Spiritual Assembly of the Bahá’ís of the Netherlands',
     date: Date(1965, 3, 9),
     badiDate: BadiDate(year: 121, month: 19, day: 8),
@@ -8509,6 +8983,7 @@ class Messages {
   /// Regarding the development of the institution of the Hands of the Cause of God
   static final ce19641101b = Message(
     id: '19641101_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1964, 11, 1),
     badiDate: BadiDate(year: 121, month: 12, day: 17),
@@ -8526,6 +9001,7 @@ class Messages {
   /// Regarding the relationship between the Hands of the Cause of God and National Spiritual Assemblies
   static final ce19641101 = Message(
     id: '19641101_002',
+    number: 2,
     title: 'To National Spiritual Assemblies of the Bahá’í World',
     date: Date(1964, 11, 1),
     badiDate: BadiDate(year: 121, month: 12, day: 17),
@@ -8543,6 +9019,7 @@ class Messages {
   /// Regarding the subject of universal participation
   static final ce19640901 = Message(
     id: '19640901_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
     date: Date(1964, 9, 1),
     badiDate: BadiDate(year: 121, month: 9, day: 13),
@@ -8559,6 +9036,7 @@ class Messages {
   /// Regarding the subject of mass teaching
   static final ce19640713 = Message(
     id: '19640713_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1964, 7, 13),
     badiDate: BadiDate(year: 121, month: 7, day: 1),
@@ -8575,6 +9053,7 @@ class Messages {
   /// Marking the dedication of the Mother Temple of Europe in Langenhain, Germany
   static final ce19640701 = Message(
     id: '19640701_001',
+    number: 1,
     title:
         'To the beloved of God gathered in the European Teaching Conference called on the occasion of the dedication of the Mother Temple of Europe',
     date: Date(1964, 7, 1),
@@ -8589,27 +9068,29 @@ class Messages {
   /// Marking the dedication of the Mother Temple of Europe in Langenhain, Germany
   static final be1210608 = ce19640701;
 
-  /// 1 Apr 1964 (12 Bahá 121 B.E.): To the Bahá’ís of the World
+  /// 21 Apr 1964 (13 Jalál 121 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Nine Year Plan of the worldwide Bahá’í community
-  static final ce19640401 = Message(
+  static final ce19640421 = Message(
     id: '19640421_001',
+    number: 1,
     title: 'To the Bahá’ís of the World',
-    date: Date(1964, 4, 1),
-    badiDate: BadiDate(year: 121, month: 1, day: 12),
+    date: Date(1964, 4, 21),
+    badiDate: BadiDate(year: 121, month: 2, day: 13),
     summary:
         'Marking the launch of the Nine Year Plan of the worldwide Bahá’í community',
     url:
         'https://www.bahai.org/library/authoritative-texts/the-universal-house-of-justice/messages/19640421_001/1',
   );
 
-  /// 1 Apr 1964 (12 Bahá 121 B.E.): To the Bahá’ís of the World
+  /// 21 Apr 1964 (13 Jalál 121 B.E.): To the Bahá’ís of the World
   /// Marking the launch of the Nine Year Plan of the worldwide Bahá’í community
-  static final be1210112 = ce19640401;
+  static final be1210213 = ce19640421;
 
   /// 18 Dec 1963 (7 Masá’il 120 B.E.): To the Bahá’ís of East and West
   /// Regarding the Bahá’í Funds
   static final ce19631218 = Message(
     id: '19631218_001',
+    number: 1,
     title: 'To the Bahá’ís of East and West',
     date: Date(1963, 12, 18),
     badiDate: BadiDate(year: 120, month: 15, day: 7),
@@ -8626,6 +9107,7 @@ class Messages {
   /// Regarding Auxiliary Board Members serving on National Spiritual Assemblies
   static final ce19631125 = Message(
     id: '19631125_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1963, 11, 25),
     badiDate: BadiDate(year: 120, month: 14, day: 3),
@@ -8643,6 +9125,7 @@ class Messages {
   /// Regarding the relationship between the Hands of the Cause of God and National Spiritual Assemblies
   static final ce19631119 = Message(
     id: '19631119_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1963, 11, 19),
     badiDate: BadiDate(year: 120, month: 13, day: 16),
@@ -8660,6 +9143,7 @@ class Messages {
   /// Regarding the continuation of the Guardianship
   static final ce19631006 = Message(
     id: '19631006_001',
+    number: 1,
     title: 'To all National Spiritual Assemblies',
     date: Date(1963, 10, 6),
     badiDate: BadiDate(year: 120, month: 11, day: 10),
@@ -8676,6 +9160,7 @@ class Messages {
   /// Conveying news of the Nine Year Plan of the worldwide Bahá’í community
   static final ce19631001 = Message(
     id: '19631001_001',
+    number: 1,
     title: 'To the Followers of Bahá’u’lláh throughout the World',
     date: Date(1963, 10, 1),
     badiDate: BadiDate(year: 120, month: 11, day: 5),
@@ -8693,6 +9178,7 @@ class Messages {
   /// Regarding the destruction of the ‘Ishqábád Temple
   static final ce19630825 = Message(
     id: '19630825_001',
+    number: 1,
     title: 'To the National Spiritual Assemblies of the Bahá’í World',
     date: Date(1963, 8, 25),
     badiDate: BadiDate(year: 120, month: 9, day: 6),
@@ -8709,6 +9195,7 @@ class Messages {
   /// Message to all National Conventions
   static final ce19630507 = Message(
     id: '19630507_001',
+    number: 1,
     title: 'To the annual National Conventions of the Bahá’í World',
     date: Date(1963, 5, 7),
     badiDate: BadiDate(year: 120, month: 3, day: 10),
@@ -8725,6 +9212,7 @@ class Messages {
   /// Statement to the first Bahá’í World Congress
   static final ce19630430 = Message(
     id: '19630430_001',
+    number: 1,
     title: '[To the First Bahá’í World Congress]',
     date: Date(1963, 4, 30),
     badiDate: BadiDate(year: 120, month: 3, day: 3),
@@ -8748,19 +9236,19 @@ class Messages {
     Date(1963, 11, 19): {ce19631119},
     Date(1963, 11, 25): {ce19631125},
     Date(1963, 12, 18): {ce19631218},
-    Date(1964, 4, 1): {ce19640401},
+    Date(1964, 4, 21): {ce19640421},
     Date(1964, 7, 1): {ce19640701},
     Date(1964, 7, 13): {ce19640713},
     Date(1964, 9, 1): {ce19640901},
     Date(1964, 11, 1): {ce19641101, ce19641101b},
     Date(1965, 3, 9): {ce19650309},
-    Date(1965, 4, 20): {ce19650420},
+    Date(1965, 4, 21): {ce19650421},
     Date(1966, 1, 28): {ce19660128},
     Date(1966, 2, 2): {ce19660202},
-    Date(1966, 4, 20): {ce19660420},
+    Date(1966, 4, 21): {ce19660421},
     Date(1966, 5, 27): {ce19660527},
     Date(1966, 6, 10): {ce19660610},
-    Date(1967, 4, 20): {ce19670420},
+    Date(1967, 4, 21): {ce19670421},
     Date(1967, 7, 2): {ce19670702},
     Date(1967, 10, 15): {ce19671015},
     Date(1967, 12, 8): {ce19671208},
@@ -8769,35 +9257,35 @@ class Messages {
     Date(1968, 6, 24): {ce19680624},
     Date(1968, 8, 1): {ce19680801},
     Date(1968, 10, 9): {ce19681009},
-    Date(1969, 4, 20): {ce19690420},
+    Date(1969, 4, 21): {ce19690421},
     Date(1969, 5, 26): {ce19690526},
     Date(1969, 10, 1): {ce19691001},
     Date(1969, 11, 16): {ce19691116},
     Date(1969, 12, 7): {ce19691207},
     Date(1970, 2, 8): {ce19700208},
     Date(1970, 3, 6): {ce19700306},
-    Date(1970, 4, 20): {ce19700420},
+    Date(1970, 4, 21): {ce19700421},
     Date(1970, 8, 1): {ce19700801},
     Date(1971, 1, 1): {ce19710101, ce19710101b},
-    Date(1971, 4, 20): {ce19710420},
+    Date(1971, 4, 21): {ce19710421},
     Date(1971, 5, 1): {ce19710501, ce19710501b},
     Date(1971, 7, 12): {ce19710712},
     Date(1971, 9, 1): {ce19710901, ce19710901b},
-    Date(1972, 4, 20): {ce19720420},
+    Date(1972, 4, 21): {ce19720421},
     Date(1972, 4, 24): {ce19720424},
     Date(1972, 6, 7): {ce19720607},
     Date(1972, 7, 13): {ce19720713},
     Date(1972, 7, 30): {ce19720730},
     Date(1972, 11, 26): {ce19721126},
     Date(1973, 3, 15): {ce19730315},
-    Date(1973, 4, 20): {ce19730420},
+    Date(1973, 4, 21): {ce19730421},
     Date(1973, 5, 7): {ce19730507},
     Date(1973, 6, 5): {ce19730605},
     Date(1973, 6, 8): {ce19730608},
     Date(1973, 10, 7): {ce19731007},
     Date(1973, 12, 4): {ce19731204},
     Date(1974, 2, 7): {ce19740207},
-    Date(1974, 3, 20): {ce19740320, ce19740320b},
+    Date(1974, 3, 21): {ce19740321, ce19740321b},
     Date(1974, 4, 28): {ce19740428},
     Date(1974, 6, 9): {ce19740609},
     Date(1974, 7, 22): {ce19740722},
@@ -8826,22 +9314,22 @@ class Messages {
     Date(1977, 3, 24): {ce19770324},
     Date(1977, 8, 21): {ce19770821},
     Date(1978, 3, 27): {ce19780327},
-    Date(1978, 4, 20): {ce19780420},
+    Date(1978, 4, 21): {ce19780421},
     Date(1978, 10, 11): {ce19781011},
     Date(1978, 12, 15): {ce19781215},
     Date(1979, 1, 3): {ce19790103},
     Date(1979, 1, 12): {ce19790112},
     Date(1979, 2, 26): {ce19790226},
-    Date(1979, 3, 20): {ce19790320, ce19790320b},
-    Date(1979, 5, 8): {ce19790508},
-    Date(1979, 5, 10): {ce19790510},
+    Date(1979, 3, 8): {ce19790308},
+    Date(1979, 3, 10): {ce19790310},
+    Date(1979, 3, 21): {ce19790321, ce19790321b},
     Date(1979, 5, 23): {ce19790523},
     Date(1979, 6, 15): {ce19790615},
     Date(1979, 6, 29): {ce19790629},
     Date(1979, 9, 9): {ce19790909},
     Date(1979, 10, 17): {ce19791017},
     Date(1980, 2, 10): {ce19800210},
-    Date(1980, 3, 20): {ce19800320},
+    Date(1980, 3, 21): {ce19800321},
     Date(1980, 5, 7): {ce19800507},
     Date(1980, 9, 11): {ce19800911},
     Date(1980, 9, 23): {ce19800923},
@@ -8860,7 +9348,7 @@ class Messages {
     Date(1982, 1, 3): {ce19820103},
     Date(1982, 1, 26): {ce19820126},
     Date(1982, 3, 9): {ce19820309},
-    Date(1982, 4, 20): {ce19820420},
+    Date(1982, 4, 21): {ce19820421},
     Date(1982, 6, 2): {ce19820602},
     Date(1982, 6, 3): {ce19820603},
     Date(1982, 8, 2): {ce19820802},
@@ -8868,7 +9356,7 @@ class Messages {
     Date(1982, 8, 19): {ce19820819},
     Date(1982, 9, 2): {ce19820902, ce19820902b},
     Date(1983, 2, 2): {ce19830202},
-    Date(1983, 4, 20): {ce19830420},
+    Date(1983, 4, 21): {ce19830421},
     Date(1983, 5, 19): {ce19830519},
     Date(1983, 6, 19): {ce19830619},
     Date(1983, 6, 23): {ce19830623},
@@ -8881,7 +9369,7 @@ class Messages {
     Date(1983, 12, 7): {ce19831207},
     Date(1983, 12, 13): {ce19831213},
     Date(1984, 1, 3): {ce19840103},
-    Date(1984, 4, 20): {ce19840420},
+    Date(1984, 4, 21): {ce19840421},
     Date(1984, 5, 13): {ce19840513},
     Date(1984, 5, 21): {ce19840521},
     Date(1984, 6, 12): {ce19840612},
@@ -8895,7 +9383,7 @@ class Messages {
     Date(1985, 1, 31): {ce19850131},
     Date(1985, 3, 14): {ce19850314},
     Date(1985, 4, 11): {ce19850411},
-    Date(1985, 4, 20): {ce19850420},
+    Date(1985, 4, 21): {ce19850421},
     Date(1985, 5, 8): {ce19850508},
     Date(1985, 7, 21): {ce19850721},
     Date(1985, 8, 5): {ce19850805},
@@ -8910,7 +9398,7 @@ class Messages {
     Date(1986, 2, 5): {ce19860205},
     Date(1986, 2, 25): {ce19860225},
     Date(1986, 3, 17): {ce19860317},
-    Date(1986, 4, 20): {ce19860420},
+    Date(1986, 4, 21): {ce19860421},
     Date(1986, 5, 12): {ce19860512},
     Date(1986, 5, 25): {ce19860525},
     Date(1986, 10, 12): {ce19861012},
@@ -8921,7 +9409,7 @@ class Messages {
     Date(1987, 3, 9): {ce19870309},
     Date(1987, 3, 10): {ce19870310},
     Date(1987, 3, 25): {ce19870325},
-    Date(1987, 4, 20): {ce19870420},
+    Date(1987, 4, 21): {ce19870421},
     Date(1987, 4, 30): {ce19870430},
     Date(1987, 6, 15): {ce19870615},
     Date(1987, 6, 19): {ce19870619},
@@ -8934,14 +9422,14 @@ class Messages {
     Date(1987, 12, 14): {ce19871214},
     Date(1988, 1, 14): {ce19880114},
     Date(1988, 2, 4): {ce19880204},
-    Date(1988, 4, 20): {ce19880420},
+    Date(1988, 4, 21): {ce19880421},
     Date(1988, 5, 31): {ce19880531},
     Date(1988, 6, 16): {ce19880616},
     Date(1988, 7, 25): {ce19880725},
     Date(1988, 9, 30): {ce19880930},
     Date(1988, 12, 13): {ce19881213},
     Date(1988, 12, 29): {ce19881229},
-    Date(1989, 4, 20): {ce19890420},
+    Date(1989, 4, 21): {ce19890421},
     Date(1989, 6, 22): {ce19890622},
     Date(1989, 7, 10): {ce19890710},
     Date(1989, 8, 27): {ce19890827},
@@ -8952,12 +9440,13 @@ class Messages {
     Date(1990, 1, 23): {ce19900123},
     Date(1990, 2, 8): {ce19900208},
     Date(1990, 2, 12): {ce19900212},
-    Date(1990, 4, 20): {ce19900420, ce19900420b},
+    Date(1990, 4, 20): {ce19900420},
+    Date(1990, 4, 21): {ce19900421},
     Date(1990, 5, 24): {ce19900524},
     Date(1990, 11, 21): {ce19901121},
     Date(1991, 1, 2): {ce19910102},
     Date(1991, 4, 3): {ce19910403},
-    Date(1991, 4, 20): {ce19910420},
+    Date(1991, 4, 21): {ce19910421},
     Date(1991, 5, 1): {ce19910501},
     Date(1991, 6, 20): {ce19910620},
     Date(1991, 10, 28): {ce19911028},
@@ -8966,7 +9455,7 @@ class Messages {
     Date(1991, 11, 26): {ce19911126},
     Date(1991, 12, 9): {ce19911209},
     Date(1992, 4, 8): {ce19920408},
-    Date(1992, 4, 20): {ce19920420},
+    Date(1992, 4, 21): {ce19920421},
     Date(1992, 6, 7): {ce19920607},
     Date(1992, 6, 24): {ce19920624},
     Date(1992, 6, 25): {ce19920625},
@@ -8980,7 +9469,7 @@ class Messages {
     Date(1992, 11, 26): {ce19921126},
     Date(1993, 1, 24): {ce19930124},
     Date(1993, 3, 5): {ce19930305},
-    Date(1993, 4, 20): {ce19930420},
+    Date(1993, 4, 21): {ce19930421},
     Date(1993, 6, 24): {ce19930624},
     Date(1993, 6, 30): {ce19930630},
     Date(1993, 7, 1): {ce19930701},
@@ -8989,28 +9478,28 @@ class Messages {
     Date(1993, 10, 19): {ce19931019},
     Date(1994, 1, 4): {ce19940104},
     Date(1994, 3, 11): {ce19940311},
-    Date(1994, 4, 20): {ce19940420},
+    Date(1994, 4, 21): {ce19940421},
     Date(1994, 5, 17): {ce19940517},
     Date(1994, 5, 19): {ce19940519},
     Date(1994, 7, 25): {ce19940725},
     Date(1994, 8, 1): {ce19940801},
     Date(1994, 12, 15): {ce19941215},
-    Date(1995, 4, 20): {ce19950420},
+    Date(1995, 4, 21): {ce19950421},
     Date(1995, 4, 27): {ce19950427},
     Date(1995, 5, 19): {ce19950519},
     Date(1995, 12, 26): {ce19951226, ce19951226b},
     Date(1995, 12, 31): {ce19951231},
     Date(1996, 3, 14): {ce19960314},
-    Date(1996, 4, 20): {
-      ce19960420,
-      ce19960420b,
-      ce19960420c,
-      ce19960420d,
-      ce19960420e,
-      ce19960420f,
-      ce19960420g,
-      ce19960420h,
-      ce19960420i
+    Date(1996, 4, 21): {
+      ce19960421,
+      ce19960421b,
+      ce19960421c,
+      ce19960421d,
+      ce19960421e,
+      ce19960421f,
+      ce19960421g,
+      ce19960421h,
+      ce19960421i
     },
     Date(1996, 4, 22): {ce19960422},
     Date(1996, 5, 13): {ce19960513},
@@ -9019,17 +9508,17 @@ class Messages {
     Date(1996, 8, 6): {ce19960806},
     Date(1996, 8, 18): {ce19960818},
     Date(1996, 9, 16): {ce19960916},
-    Date(1997, 3, 20): {ce19970320},
+    Date(1997, 3, 1): {ce19970301},
     Date(1997, 3, 24): {ce19970324},
     Date(1997, 3, 30): {ce19970330},
-    Date(1997, 4, 20): {ce19970420},
+    Date(1997, 4, 21): {ce19970421},
     Date(1997, 5, 30): {ce19970530},
     Date(1997, 8, 11): {ce19970811},
     Date(1997, 8, 18): {ce19970818},
     Date(1998, 1, 6): {ce19980106, ce19980106b},
     Date(1998, 2, 17): {ce19980217},
     Date(1998, 3, 4): {ce19980304},
-    Date(1998, 4, 20): {ce19980420},
+    Date(1998, 4, 21): {ce19980421},
     Date(1998, 5, 3): {ce19980503},
     Date(1998, 5, 21): {ce19980521},
     Date(1998, 6, 1): {ce19980601},
@@ -9051,7 +9540,7 @@ class Messages {
     Date(1999, 4, 6): {ce19990406},
     Date(1999, 4, 7): {ce19990407},
     Date(1999, 4, 15): {ce19990415},
-    Date(1999, 4, 20): {ce19990420},
+    Date(1999, 4, 21): {ce19990421},
     Date(1999, 5, 4): {ce19990504},
     Date(1999, 6, 30): {ce19990630},
     Date(1999, 7, 4): {ce19990704, ce19990704b},
@@ -9066,7 +9555,7 @@ class Messages {
     Date(2000, 2, 23): {ce20000223},
     Date(2000, 3, 12): {ce20000312},
     Date(2000, 4, 16): {ce20000416},
-    Date(2000, 4, 20): {ce20000420},
+    Date(2000, 4, 21): {ce20000421},
     Date(2000, 5, 16): {ce20000516},
     Date(2000, 7, 12): {ce20000712},
     Date(2000, 7, 18): {ce20000718},
@@ -9080,30 +9569,30 @@ class Messages {
     Date(2001, 1, 16): {ce20010116},
     Date(2001, 2, 8): {ce20010208},
     Date(2001, 4, 19): {ce20010419},
-    Date(2001, 4, 20): {ce20010420},
+    Date(2001, 4, 21): {ce20010421},
     Date(2001, 5, 24): {ce20010524},
     Date(2001, 6, 28): {ce20010628},
     Date(2002, 1, 17): {ce20020117},
     Date(2002, 4, 1): {ce20020401},
-    Date(2002, 4, 20): {ce20020420},
+    Date(2002, 4, 21): {ce20020421},
     Date(2003, 1, 17): {ce20030117},
-    Date(2003, 4, 20): {ce20030420},
+    Date(2003, 4, 21): {ce20030421},
     Date(2003, 11, 26): {ce20031126},
     Date(2004, 1, 12): {ce20040112},
-    Date(2004, 4, 20): {ce20040420},
-    Date(2005, 4, 20): {ce20050420},
+    Date(2004, 4, 21): {ce20040421},
+    Date(2005, 4, 21): {ce20050421},
     Date(2005, 12, 27): {ce20051227},
     Date(2005, 12, 28): {ce20051228},
     Date(2005, 12, 31): {ce20051231},
     Date(2006, 3, 22): {ce20060322},
-    Date(2006, 4, 20): {ce20060420},
+    Date(2006, 4, 21): {ce20060421},
     Date(2006, 12, 21): {ce20061221},
     Date(2007, 3, 25): {ce20070325},
-    Date(2007, 4, 20): {ce20070420},
+    Date(2007, 4, 21): {ce20070421},
     Date(2007, 9, 9): {ce20070909},
     Date(2007, 11, 26): {ce20071126},
     Date(2007, 12, 25): {ce20071225},
-    Date(2008, 4, 20): {ce20080420},
+    Date(2008, 4, 21): {ce20080421},
     Date(2008, 5, 12): {ce20080512},
     Date(2008, 5, 19): {ce20080519},
     Date(2008, 6, 3): {ce20080603},
@@ -9117,7 +9606,7 @@ class Messages {
     Date(2009, 3, 18): {ce20090318},
     Date(2009, 3, 21): {ce20090321},
     Date(2009, 3, 26): {ce20090326},
-    Date(2009, 4, 20): {ce20090420},
+    Date(2009, 4, 21): {ce20090421},
     Date(2009, 5, 14): {ce20090514},
     Date(2009, 5, 17): {ce20090517},
     Date(2009, 5, 19): {ce20090519},
@@ -9129,27 +9618,27 @@ class Messages {
     Date(2010, 1, 22): {ce20100122},
     Date(2010, 3, 21): {ce20100321},
     Date(2010, 4, 2): {ce20100402},
-    Date(2010, 4, 20): {ce20100420},
+    Date(2010, 4, 21): {ce20100421},
     Date(2010, 8, 29): {ce20100829},
     Date(2010, 12, 28): {ce20101228},
     Date(2011, 1, 1): {ce20110101},
     Date(2011, 3, 21): {ce20110321},
     Date(2011, 4, 12): {ce20110412},
-    Date(2011, 4, 20): {ce20110420},
+    Date(2011, 4, 21): {ce20110421},
     Date(2011, 5, 14): {ce20110514},
     Date(2011, 6, 17): {ce20110617},
     Date(2011, 12, 12): {ce20111212},
     Date(2012, 3, 1): {ce20120301},
-    Date(2012, 3, 20): {ce20120320},
-    Date(2012, 4, 20): {ce20120420},
+    Date(2012, 3, 21): {ce20120321},
+    Date(2012, 4, 21): {ce20120421},
     Date(2012, 5, 11): {ce20120511},
     Date(2012, 6, 27): {ce20120627},
     Date(2012, 11, 26): {ce20121126},
     Date(2013, 1, 2): {ce20130102},
     Date(2013, 2, 8): {ce20130208},
     Date(2013, 3, 2): {ce20130302},
-    Date(2013, 3, 20): {ce20130320},
-    Date(2013, 4, 20): {ce20130420},
+    Date(2013, 3, 21): {ce20130321},
+    Date(2013, 4, 21): {ce20130421},
     Date(2013, 5, 1): {ce20130501},
     Date(2013, 5, 10): {ce20130510},
     Date(2013, 6, 27): {ce20130627},
@@ -9158,27 +9647,27 @@ class Messages {
     Date(2013, 7, 24): {ce20130724},
     Date(2013, 8, 27): {ce20130827},
     Date(2013, 12, 5): {ce20131205},
-    Date(2014, 4, 20): {ce20140420},
+    Date(2014, 4, 21): {ce20140421},
     Date(2014, 7, 10): {ce20140710},
     Date(2014, 8, 1): {ce20140801},
-    Date(2015, 4, 20): {ce20150420},
+    Date(2015, 4, 21): {ce20150421},
     Date(2015, 10, 9): {ce20151009},
     Date(2015, 12, 29): {ce20151229},
     Date(2016, 1, 2): {ce20160102},
     Date(2016, 2, 21): {ce20160221},
     Date(2016, 3, 26): {ce20160326, ce20160326b},
-    Date(2016, 4, 19): {ce20160419},
+    Date(2016, 4, 20): {ce20160420},
     Date(2016, 10, 14): {ce20161014},
     Date(2016, 11, 25): {ce20161125},
     Date(2017, 3, 1): {ce20170301},
-    Date(2017, 4, 19): {ce20170419},
+    Date(2017, 4, 20): {ce20170420},
     Date(2017, 4, 27): {ce20170427},
     Date(2017, 9, 1): {ce20170901},
     Date(2017, 10, 1): {ce20171001},
     Date(2017, 10, 31): {ce20171031},
     Date(2017, 11, 29): {ce20171129},
     Date(2017, 12, 27): {ce20171227},
-    Date(2018, 4, 20): {ce20180420},
+    Date(2018, 4, 21): {ce20180421},
     Date(2018, 7, 22): {ce20180722},
     Date(2018, 11, 9): {ce20181109},
     Date(2018, 11, 26): {ce20181126},
@@ -9189,11 +9678,11 @@ class Messages {
     Date(2019, 11, 8): {ce20191108},
     Date(2019, 12, 1): {ce20191201},
     Date(2020, 3, 19): {ce20200319},
-    Date(2020, 4, 19): {ce20200419},
+    Date(2020, 4, 20): {ce20200420},
     Date(2020, 7, 22): {ce20200722},
     Date(2020, 11, 25): {ce20201125},
     Date(2021, 4, 2): {ce20210402},
-    Date(2021, 4, 19): {ce20210419},
+    Date(2021, 4, 20): {ce20210420},
     Date(2021, 5, 23): {ce20210523},
     Date(2021, 11, 8): {ce20211108},
     Date(2021, 11, 13): {ce20211113},
@@ -9206,11 +9695,11 @@ class Messages {
     Date(2022, 1, 4): {ce20220104},
     Date(2022, 4, 8): {ce20220408},
     Date(2022, 4, 14): {ce20220414},
-    Date(2022, 4, 20): {ce20220420},
+    Date(2022, 4, 21): {ce20220421},
     Date(2022, 7, 4): {ce20220704},
     Date(2022, 11, 1): {ce20221101},
     Date(2023, 3, 25): {ce20230325},
-    Date(2023, 4, 20): {ce20230420},
+    Date(2023, 4, 30): {ce20230430},
     Date(2023, 11, 28): {ce20231128},
     Date(2024, 4, 19): {ce20240419},
     Date(2024, 5, 25): {ce20240525},
@@ -9227,7 +9716,7 @@ class Messages {
     BadiDate(year: 120, month: 13, day: 16): {be1201316},
     BadiDate(year: 120, month: 14, day: 3): {be1201403},
     BadiDate(year: 120, month: 15, day: 7): {be1201507},
-    BadiDate(year: 121, month: 1, day: 12): {be1210112},
+    BadiDate(year: 121, month: 2, day: 13): {be1210213},
     BadiDate(year: 121, month: 6, day: 8): {be1210608},
     BadiDate(year: 121, month: 7, day: 1): {be1210701},
     BadiDate(year: 121, month: 9, day: 13): {be1210913},
@@ -9311,9 +9800,9 @@ class Messages {
     BadiDate(year: 135, month: 16, day: 4): {be1351604},
     BadiDate(year: 135, month: 16, day: 13): {be1351613},
     BadiDate(year: 135, month: 0, day: 1): {be1350001},
+    BadiDate(year: 135, month: 19, day: 7): {be1351907},
+    BadiDate(year: 135, month: 19, day: 9): {be1351909},
     BadiDate(year: 136, month: 1, day: 1): {be1360101, be1360101b},
-    BadiDate(year: 136, month: 3, day: 11): {be1360311},
-    BadiDate(year: 136, month: 3, day: 13): {be1360313},
     BadiDate(year: 136, month: 4, day: 7): {be1360407},
     BadiDate(year: 136, month: 5, day: 11): {be1360511},
     BadiDate(year: 136, month: 6, day: 6): {be1360606},
@@ -9432,7 +9921,7 @@ class Messages {
     BadiDate(year: 146, month: 18, day: 2): {be1461802},
     BadiDate(year: 146, month: 18, day: 6): {be1461806},
     BadiDate(year: 147, month: 2, day: 12): {be1470212},
-    BadiDate(year: 147, month: 2, day: 13): {be1470213b},
+    BadiDate(year: 147, month: 2, day: 13): {be1470213},
     BadiDate(year: 147, month: 4, day: 8): {be1470408},
     BadiDate(year: 147, month: 13, day: 18): {be1471318},
     BadiDate(year: 147, month: 16, day: 3): {be1471603},
@@ -9499,7 +9988,7 @@ class Messages {
     BadiDate(year: 153, month: 8, day: 6): {be1530806},
     BadiDate(year: 153, month: 8, day: 18): {be1530818},
     BadiDate(year: 153, month: 10, day: 9): {be1531009},
-    BadiDate(year: 154, month: 1, day: 1): {be1540101},
+    BadiDate(year: 153, month: 0, day: 4): {be1530004},
     BadiDate(year: 154, month: 1, day: 4): {be1540104},
     BadiDate(year: 154, month: 1, day: 10): {be1540110},
     BadiDate(year: 154, month: 2, day: 13): {be1540213},
@@ -9663,12 +10152,12 @@ class Messages {
     BadiDate(year: 175, month: 13, day: 6): {be1751306},
     BadiDate(year: 175, month: 14, day: 4): {be1751404},
     BadiDate(year: 175, month: 16, day: 19): {be1751619},
-    BadiDate(year: 176, month: 2, day: 13): {be1760213},
+    BadiDate(year: 176, month: 2, day: 12): {be1760212},
     BadiDate(year: 176, month: 3, day: 10): {be1760310},
     BadiDate(year: 176, month: 11, day: 5): {be1761105},
     BadiDate(year: 176, month: 13, day: 5): {be1761305},
     BadiDate(year: 176, month: 14, day: 9): {be1761409},
-    BadiDate(year: 177, month: 1, day: 1): {be1770101},
+    BadiDate(year: 176, month: 19, day: 19): {be1761919},
     BadiDate(year: 177, month: 2, day: 13): {be1770213},
     BadiDate(year: 177, month: 7, day: 11): {be1770711},
     BadiDate(year: 177, month: 14, day: 4): {be1771404},
@@ -9690,9 +10179,9 @@ class Messages {
     BadiDate(year: 179, month: 6, day: 11): {be1790611},
     BadiDate(year: 179, month: 12, day: 17): {be1791217},
     BadiDate(year: 180, month: 1, day: 5): {be1800105},
-    BadiDate(year: 180, month: 2, day: 13): {be1800213},
+    BadiDate(year: 180, month: 3, day: 3): {be1800303},
     BadiDate(year: 180, month: 14, day: 6): {be1801406},
-    BadiDate(year: 181, month: 2, day: 13): {be1810213},
+    BadiDate(year: 181, month: 2, day: 12): {be1810212},
     BadiDate(year: 181, month: 4, day: 10): {be1810410},
   });
 
@@ -9704,10 +10193,10 @@ class Messages {
     nawRuz136,
     nawRuz136b,
     nawRuz137,
-    nawRuz154,
+    nawRuz153,
     nawRuz169,
     nawRuz170,
-    nawRuz177,
+    nawRuz176,
   });
 
   /// All Selected Riḍván Universal House of Justice Messages
@@ -9730,7 +10219,7 @@ class Messages {
     ridvan144,
     ridvan145,
     ridvan146,
-    ridvan147b,
+    ridvan147,
     ridvan148,
     ridvan149,
     ridvan150,

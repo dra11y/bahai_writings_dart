@@ -27,20 +27,23 @@ class Date implements Comparable<Date> {
   final int month;
   final int day;
 
-  /// Returns midnight on the [DateTime] of `this`.
+  /// Returns midnight local on the [DateTime] of `this`.
   DateTime get dateTime => DateTime(year, month, day);
+
+  /// Returns midnight UTC on the [DateTime] of `this`.
+  DateTime get utc => DateTime.utc(year, month, day);
 
   /// NOTE! Effectively adds the `duration` to midnight of `this`.
   Date add(Duration duration) => dateTime.add(duration).date;
 
   /// NOTE! Effectively computes the difference between midnights of `this` and `other`.
-  Duration difference(Date other) => dateTime.difference(other.dateTime);
+  Duration difference(Date other) => dateTime.difference(other.utc);
 
-  bool isAfter(Date other) => dateTime.isAfter(other.dateTime);
+  bool isAfter(Date other) => dateTime.isAfter(other.utc);
 
   bool isOn(Date other) => this == other;
 
-  bool isBefore(Date other) => dateTime.isBefore(other.dateTime);
+  bool isBefore(Date other) => dateTime.isBefore(other.utc);
 
   /// NOTE! Effectively subtracts the `duration` from midnight of `this`.
   Date subtract(Duration duration) => dateTime.subtract(duration).date;

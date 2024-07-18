@@ -3,6 +3,7 @@ part of 'writings_base.dart';
 class Message extends MessageBase with MessageContentMixin {
   Message({
     required super.id,
+    required super.number,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -14,6 +15,7 @@ class Message extends MessageBase with MessageContentMixin {
 class RidvanMessage extends MessageBase with MessageContentMixin {
   RidvanMessage({
     required super.id,
+    required super.number,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -25,6 +27,7 @@ class RidvanMessage extends MessageBase with MessageContentMixin {
 class NawRuzMessage extends MessageBase with MessageContentMixin {
   NawRuzMessage({
     required super.id,
+    required super.number,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -36,6 +39,7 @@ class NawRuzMessage extends MessageBase with MessageContentMixin {
 class PromiseOfWorldPeaceMessage extends MessageBase with MessageContentMixin {
   PromiseOfWorldPeaceMessage({
     required super.id,
+    required super.number,
     required super.title,
     required super.date,
     required super.badiDate,
@@ -50,6 +54,7 @@ class PromiseOfWorldPeaceMessage extends MessageBase with MessageContentMixin {
 sealed class MessageBase implements WritingsBase {
   const MessageBase({
     required this.id,
+    required this.number,
     required this.title,
     required this.date,
     required this.badiDate,
@@ -58,6 +63,8 @@ sealed class MessageBase implements WritingsBase {
   }) : sortTitle = title;
 
   final String id;
+
+  final int number;
 
   @override
   final String title;
@@ -70,7 +77,7 @@ sealed class MessageBase implements WritingsBase {
         RidvanMessage() => 'Riḍván ${date.year} (${badiDate.year} B.E.)',
         NawRuzMessage() => 'Naw-Rúz ${date.year} (${badiDate.year} B.E.)',
         PromiseOfWorldPeaceMessage() =>
-          DateFormat('MMMM yyyy').format(date.dateTime),
+          DateFormat('MMMM yyyy').format(date.utc),
         Message() => '${date.dMMMyyyy()} (${badiDate.dMMMMyyyBE()})',
       };
 
@@ -117,6 +124,7 @@ sealed class MessageBase implements WritingsBase {
   String toCode() => [
         '$runtimeType(',
         "    id: '$id',",
+        "    number: $number,",
         "    title: '${title.escapeSingle()}',",
         '    date: ${date.toCode()},',
         '    badiDate: ${badiDate.toCode()},',

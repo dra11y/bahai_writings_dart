@@ -1,6 +1,6 @@
 name: bahai_writings
 description: Statically referenced Sacred Writings and Authoritative Guidance of the Bahá’í Faith, from the Works of Bahá’u’lláh, The Báb, ‘Abdu’l-Bahá, Shoghi Effendi, and the Universal House of Justice
-version: 0.1.0+20240525b
+version: 0.1.0+20240525c
 repository: https://github.com/dra11y/bahai_writings_dart
 
 environment:

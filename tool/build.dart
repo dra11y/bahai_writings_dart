@@ -256,7 +256,7 @@ Future<void> main() async {
   final changelogFile = File('CHANGELOG.md');
   final changelog = parseChangelog(changelogFile.readAsStringSync());
 
-  String buildId = DateFormat('yyyyMMdd').format(latest.dateTime);
+  String buildId = DateFormat('yyyyMMdd').format(latest.utc);
   final String newBaseVersion =
       '${sv.major}.${bumpMinor ? sv.minor + 1 : sv.minor}.${sv.patch}+$buildId';
   String newVersion = newBaseVersion;

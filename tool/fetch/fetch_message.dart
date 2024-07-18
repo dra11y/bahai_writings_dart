@@ -20,7 +20,19 @@ Future<String> fetchMessage(MessageBase message) async {
   final BeautifulSoup bs = BeautifulSoup(body);
   final main = bs.body!.find('div')!;
   final md = html2md
-      .convert(main.element!)
+      .convert(
+        main.element!,
+        rules: [
+          html2md.Rule(
+            'cite',
+            filterFn: (node) {
+              logger.warn('nodeName = ${node.nodeName}');
+              return node.nodeName == 'cite';
+            },
+            replacement: (content, node) => '**$content**',
+          ),
+        ],
+      )
       .replaceAll(r'\', r'\\')
       .replaceAll(r'$', r'\$');
   return md;

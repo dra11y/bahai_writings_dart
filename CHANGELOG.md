@@ -1,6 +1,497 @@
 # Changelog
 (See notes on [Versioning](#versioning).)
 
+## 0.1.0+20240525c - 2024-07-18
+### Added
+- Message: 25 May 2024 (10 ‘Aẓamat 181 B.E.): To the Friends Gathered in Port Moresby, Papua New Guinea, for the Dedication of the House of Worship
+- RidvanMessage: Riḍván 2024 (181 B.E.): To the Bahá’ís of the World
+- Message: 28 Nov 2023 (6 Qawl 180 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2023 (180 B.E.): To the Bahá’ís of the World
+- Message: 25 Mar 2023 (5 Bahá 180 B.E.): To the Friends Gathered in Kinshasa, Democratic Republic of the Congo, for the Dedication of the House of Worship
+- Message: 1 Nov 2022 (17 ‘Ilm 179 B.E.): To the Followers of Bahá’u’lláh in the Democratic Republic of the Congo
+- Message: 4 Jul 2022 (11 Raḥmat 179 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 2022 (179 B.E.): To the Bahá’ís of the World
+- Message: 14 Apr 2022 (6 Jalál 179 B.E.): To all National Spiritual Assemblies
+- Message: 8 Apr 2022 (19 Bahá 179 B.E.): To all National Spiritual Assemblies
+- Message: 4 Jan 2022 (6 Sharaf 178 B.E.): To the Bahá’ís of the World
+- Message: 3 Jan 2022 (5 Sharaf 178 B.E.): To the Auxiliary Board members throughout the world
+- Message: 1 Jan 2022 (3 Sharaf 178 B.E.): To all National Spiritual Assemblies
+- Message: 30 Dec 2021 (1 Sharaf 178 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 1 Dec 2021 (10 Qawl 178 B.E.): To the Bahá’ís of the World
+- Message: 27 Nov 2021 (6 Qawl 178 B.E.): On the Occasion of the Centenary Commemoration of the Ascension of ‘Abdu’l-Bahá
+- Message: 25 Nov 2021 (4 Qawl 178 B.E.): To the Friends Gathered in the Holy Land to Mark the Centenary Commemoration of the Ascension of ‘Abdu’l-Bahá
+- Message: 13 Nov 2021 (11 Qudrat 178 B.E.): To the Friends Gathered in Tanna, Vanuatu, for the Dedication of the House of Worship
+- Message: 8 Nov 2021 (6 Qudrat 178 B.E.): To all National Spiritual Assemblies
+- Message: 23 May 2021 (8 ‘Aẓamat 178 B.E.): To the Friends Gathered in Matunda Soy, Kenya, for the Dedication of the House of Worship
+- RidvanMessage: Riḍván 2021 (178 B.E.): To the Bahá’ís of the World
+- Message: 2 Apr 2021 (14 Bahá 178 B.E.): To all National Spiritual Assemblies
+- Message: 25 Nov 2020 (4 Qawl 177 B.E.): To the Bahá’ís of the World
+- Message: 22 Jul 2020 (11 Kalimát 177 B.E.): To the Bahá’ís of the United States
+- RidvanMessage: Riḍván 2020 (177 B.E.): To the Bahá’ís of the World
+- NawRuzMessage: Naw-Rúz 2020 (176 B.E.): To the Bahá’ís of the World
+- Message: 1 Dec 2019 (9 Qawl 176 B.E.): To all National Spiritual Assemblies
+- Message: 8 Nov 2019 (5 Qudrat 176 B.E.): To the Bahá’ís of the World
+- Message: 1 Oct 2019 (5 Mashíyyat 176 B.E.): To all who have come to honour the Herald of a new Dawn
+- Message: 7 May 2019 (10 Jamál 176 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 2019 (176 B.E.): To the Bahá’ís of the World
+- Message: 18 Jan 2019 (19 Sharaf 175 B.E.): To the Bahá’ís of the World
+- Message: 26 Nov 2018 (4 Qawl 175 B.E.): To the Bahá’ís of the World
+- Message: 9 Nov 2018 (6 Qudrat 175 B.E.): To the Bahá’ís of the World
+- Message: 22 Jul 2018 (10 Kalimát 175 B.E.): To the Friends Gathered in Norte del Cauca, Colombia, for the Dedication of the House of Worship
+- RidvanMessage: Riḍván 2018 (175 B.E.): To the Bahá’ís of the World
+- Message: 27 Dec 2017 (17 Masá’il 174 B.E.): \[To an individual\]
+- Message: 29 Nov 2017 (8 Qawl 174 B.E.): \[To three individuals\]
+- Message: 31 Oct 2017 (17 ‘Ilm 174 B.E.): To the Bahá’ís of the World
+- Message: 1 Oct 2017 (6 Mashíyyat 174 B.E.): To all who celebrate the Glory of God
+- Message: 1 Sep 2017 (14 Asmá’ 174 B.E.): To the Friends Gathered in Battambang, Cambodia, for the Dedication of the House of Worship
+- Message: 27 Apr 2017 (1 Jamál 174 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 2017 (174 B.E.): To the Bahá’ís of the World
+- Message: 1 Mar 2017 (1 ‘Alá’ 173 B.E.): To the Bahá’ís of the World
+- Message: 25 Nov 2016 (4 Qawl 173 B.E.): To the Bahá’ís of the World
+- Message: 14 Oct 2016 (19 Mashíyyat 173 B.E.): To the Friends Gathered in Santiago, Chile, for the Dedication of the Mother Temple of South America
+- RidvanMessage: Riḍván 2016 (173 B.E.): To the Bahá’ís of the World
+- Message: 26 Mar 2016 (7 Bahá 173 B.E.): To the recipients of ‘Abdu’l-Baha’s Tablets of the Divine Plan, the Bahá’ís of the United States and the Bahá’ís of Canada
+- Message: 26 Mar 2016 (7 Bahá 173 B.E.): To the Bahá’ís of the World
+- Message: 21 Feb 2016 (15 Mulk 172 B.E.): \[To an individual\]
+- Message: 2 Jan 2016 (3 Sharaf 172 B.E.): To the Bahá’ís of the World
+- Message: 29 Dec 2015 (18 Masá’il 172 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 9 Oct 2015 (13 Mashíyyat 172 B.E.): \[To a National Spiritual Assembly\]
+- RidvanMessage: Riḍván 2015 (172 B.E.): To the Bahá’ís of the World
+- Message: 1 Aug 2014 (1 Kamál 171 B.E.): To the Bahá’ís of the World
+- Message: 10 Jul 2014 (17 Raḥmat 171 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2014 (171 B.E.): To the Bahá’ís of the World
+- Message: 5 Dec 2013 (13 Qawl 170 B.E.): To the Bahá’ís of the World
+- Message: 27 Aug 2013 (8 Asmá’ 170 B.E.): To the followers of Bahá’u’lláh in Iran
+- Message: 24 Jul 2013 (12 Kalimát 170 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
+- Message: 17 Jul 2013 (5 Kalimát 170 B.E.): To the Bahá’ís of the World
+- Message: 1 Jul 2013 (8 Raḥmat 170 B.E.): To the participants in the forthcoming 114 youth conferences throughout the world
+- Message: 27 Jun 2013 (4 Raḥmat 170 B.E.): To all National Spiritual Assemblies
+- Message: 10 May 2013 (13 Jamál 170 B.E.): To the followers of Bahá’u’lláh in Iran
+- Message: 1 May 2013 (4 Jamál 170 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2013 (170 B.E.): To the Bahá’ís of the World
+- NawRuzMessage: Naw-Rúz 2013 (170 B.E.): To the followers of Bahá’u’lláh in Iran
+- Message: 2 Mar 2013 (1 ‘Alá’ 169 B.E.): To the Bahá’ís of Iran
+- Message: 8 Feb 2013 (2 Mulk 169 B.E.): To the Bahá’ís of the World
+- Message: 2 Jan 2013 (3 Sharaf 169 B.E.): To the followers of Bahá’u’lláh in Iran
+- Message: 26 Nov 2012 (4 Qawl 169 B.E.): To all National Spiritual Assemblies
+- Message: 27 Jun 2012 (4 Raḥmat 169 B.E.): To all National Spiritual Assemblies
+- Message: 11 May 2012 (14 Jamál 169 B.E.): To the followers of Bahá’u’lláh in Iran
+- RidvanMessage: Riḍván 2012 (169 B.E.): To the Bahá’ís of the World
+- NawRuzMessage: Naw-Rúz 2012 (169 B.E.): To the followers of Bahá’u’lláh in Iran
+- Message: 1 Mar 2012 (5 Ayyám-i-Há 168 B.E.): To the devoted believers of Bahá’u’lláh in the sacred land of Iran
+- Message: 12 Dec 2011 (1 Masá’il 168 B.E.): To all National Spiritual Assemblies
+- Message: 17 Jun 2011 (13 Núr 168 B.E.): To the Believers in the Cradle of the Faith
+- Message: 14 May 2011 (17 Jamál 168 B.E.): To the Believers in the Cradle of the Faith
+- RidvanMessage: Riḍván 2011 (168 B.E.): To the Bahá’ís of the World
+- Message: 12 Apr 2011 (4 Jalál 168 B.E.): To all National Spiritual Assemblies
+- Message: 21 Mar 2011 (1 Bahá 168 B.E.): To the Believers in the Cradle of the Faith
+- Message: 1 Jan 2011 (2 Sharaf 167 B.E.): To the Bahá’ís of the World
+- Message: 28 Dec 2010 (17 Masá’il 167 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 29 Aug 2010 (10 Asmá’ 167 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2010 (167 B.E.): To the Bahá’ís of the World
+- Message: 2 Apr 2010 (13 Bahá 167 B.E.): To the Believers in the Cradle of the Faith
+- Message: 21 Mar 2010 (1 Bahá 167 B.E.): To the Believers in the Cradle of the Faith
+- Message: 22 Jan 2010 (4 Sulṭán 166 B.E.): \[To an individual\]
+- Message: 10 Jan 2010 (11 Sharaf 166 B.E.): To the Believers in the Cradle of the Faith
+- Message: 15 Dec 2009 (4 Masá’il 166 B.E.): To all National Spiritual Assemblies
+- Message: 24 Nov 2009 (2 Qawl 166 B.E.): To the Believers in the Cradle of the Faith
+- Message: 23 Jun 2009 (19 Núr 166 B.E.): To the Bahá’ís of Iran
+- Message: 11 Jun 2009 (7 Núr 166 B.E.): To the Believers in the Cradle of the Faith
+- Message: 19 May 2009 (3 ‘Aẓamat 166 B.E.): To the Believers in the Cradle of the Faith
+- Message: 17 May 2009 (1 ‘Aẓamat 166 B.E.): To all National Spiritual Assemblies
+- Message: 14 May 2009 (17 Jamál 166 B.E.): To the Believers in the Cradle of the Faith
+- RidvanMessage: Riḍván 2009 (166 B.E.): To the Bahá’ís of the World
+- Message: 26 Mar 2009 (6 Bahá 166 B.E.): To the Believers in the Cradle of the Faith
+- Message: 21 Mar 2009 (1 Bahá 166 B.E.): To the Bahá’ís of the World
+- Message: 18 Mar 2009 (17 ‘Alá’ 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 5 Mar 2009 (4 ‘Alá’ 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 9 Feb 2009 (3 Mulk 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 23 Dec 2008 (12 Masá’il 165 B.E.): \[To an individual\]
+- Message: 31 Oct 2008 (16 ‘Ilm 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 20 Oct 2008 (5 ‘Ilm 165 B.E.): To the Bahá’ís of the World
+- Message: 28 Jul 2008 (16 Kalimát 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 20 Jun 2008 (16 Núr 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 3 Jun 2008 (18 ‘Aẓamat 165 B.E.): To the Believers in the Cradle of the Faith
+- Message: 19 May 2008 (3 ‘Aẓamat 165 B.E.): To the steadfast and sorely wronged Followers of Bahá’u’lláh in the sacred land of Iran
+- Message: 12 May 2008 (15 Jamál 165 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 2008 (165 B.E.): To the Bahá’ís of the World
+- Message: 25 Dec 2007 (14 Masá’il 164 B.E.): To the followers of Bahá’u’lláh in the Cradle of the Faith
+- Message: 26 Nov 2007 (4 Qawl 164 B.E.): To the Bahá’ís of the World
+- Message: 9 Sep 2007 (2 ‘Izzat 164 B.E.): To the Bahá’í students deprived of access to higher education in Iran
+- RidvanMessage: Riḍván 2007 (164 B.E.): To the Bahá’ís of the World
+- Message: 25 Mar 2007 (5 Bahá 164 B.E.): To the Bahá’ís of the World
+- Message: 21 Dec 2006 (10 Masá’il 163 B.E.): To the Bahá’ís of Egypt
+- RidvanMessage: Riḍván 2006 (163 B.E.): To the Bahá’ís of the World
+- Message: 22 Mar 2006 (2 Bahá 163 B.E.): To the Iranian believers living outside Iran
+- Message: 31 Dec 2005 (1 Sharaf 162 B.E.): To the Bahá’ís of the World
+- Message: 28 Dec 2005 (17 Masá’il 162 B.E.): To all National Spiritual Assemblies
+- Message: 27 Dec 2005 (16 Masá’il 162 B.E.): To the Conference of the Continental Boards of Counsellors
+- RidvanMessage: Riḍván 2005 (162 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2004 (161 B.E.): To the Bahá’ís of the World
+- Message: 12 Jan 2004 (13 Sharaf 160 B.E.): To the Iranian believers living outside Iran
+- Message: 26 Nov 2003 (4 Qawl 160 B.E.): To the Followers of Bahá’u’lláh in the Cradle of the Faith
+- RidvanMessage: Riḍván 2003 (160 B.E.): To the Bahá’ís of the World
+- Message: 17 Jan 2003 (18 Sharaf 159 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 2002 (159 B.E.): To the Bahá’ís of the World
+- Message: 1 Apr 2002 (12 Bahá 159 B.E.): To the World’s Religious Leaders
+- Message: 17 Jan 2002 (18 Sharaf 158 B.E.): To the Friends Gathered at the Youth Congress in Brazil
+- Message: 28 Jun 2001 (5 Raḥmat 158 B.E.): To the Friends Gathered at Canada’s Second Youth Conference in Sherbrooke (Canada), 28 June – 1 July 2001
+- Message: 24 May 2001 (8 ‘Aẓamat 158 B.E.): To the Believers Gathered for the Events Marking the Completion of the Projects on Mount Carmel
+- RidvanMessage: Riḍván 2001 (158 B.E.): To the Bahá’ís of the World
+- Message: 19 Apr 2001 (11 Jalál 158 B.E.): \[To an individual\]
+- Message: 8 Feb 2001 (2 Mulk 157 B.E.): To all National Spiritual Assemblies
+- Message: 16 Jan 2001 (17 Sharaf 157 B.E.): To the Bahá’ís of the World
+- Message: 14 Jan 2001 (15 Sharaf 157 B.E.): To the Conference Marking the Inauguration of the International Teaching Centre Building
+- Message: 9 Jan 2001 (10 Sharaf 157 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 26 Nov 2000 (4 Qawl 157 B.E.): To all National Spiritual Assemblies
+- Message: 24 Sep 2000 (17 ‘Izzat 157 B.E.): To all National Spiritual Assemblies
+- Message: 9 Aug 2000 (9 Kamál 157 B.E.): To the Friends Gathered at the Youth Congress in Ecuador
+- Message: 27 Jul 2000 (15 Kalimát 157 B.E.): To the Friends Gathered at the Youth Congress in the Dominican Republic
+- Message: 20 Jul 2000 (8 Kalimát 157 B.E.): To the Friends gathered at the Asian International Youth Conference, Karachi, Pakistan, 21–23 July 2000
+- Message: 20 Jul 2000 (8 Kalimát 157 B.E.): To the Friends Gathered at the Youth Conference in Vancouver, 20–24 July 2000
+- Message: 18 Jul 2000 (6 Kalimát 157 B.E.): \[To an individual\]
+- Message: 12 Jul 2000 (19 Raḥmat 157 B.E.): To the Friends Gathered at the Youth Congress in El Salvador
+- Message: 16 May 2000 (19 Jamál 157 B.E.): The National Spiritual Assembly of the Bahá’ís of South Africa
+- RidvanMessage: Riḍván 2000 (157 B.E.): To the Bahá’ís of the World
+- Message: 16 Apr 2000 (8 Jalál 157 B.E.): To the National Spiritual Assembly of the Bahá’ís of Brazil
+- Message: 12 Mar 2000 (11 ‘Alá’ 156 B.E.): To all National Spiritual Assemblies
+- Message: 23 Feb 2000 (17 Mulk 156 B.E.): \[To an individual\]
+- Message: 26 Jan 2000 (8 Sulṭán 156 B.E.): To all National Spiritual Assemblies
+- Message: 19 Jan 2000 (1 Sulṭán 156 B.E.): To the Bahá’ís of the World
+- Message: 8 Jan 2000 (9 Sharaf 156 B.E.): To the Friends Gathered at the Youth Congress in Paraguay
+- Message: 28 Dec 1999 (17 Masá’il 156 B.E.): To the Bahá’ís of the World
+- Message: 26 Nov 1999 (4 Qawl 156 B.E.): To the Bahá’ís of the World
+- Message: 9 Nov 1999 (6 Qudrat 156 B.E.): To all National Spiritual Assemblies
+- Message: 24 Aug 1999 (5 Asmá’ 156 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 5 Aug 1999 (5 Kamál 156 B.E.): \[To a National Spiritual Assembly\]
+- Message: 4 Jul 1999 (11 Raḥmat 156 B.E.): To selected National Spiritual Assemblies
+- Message: 4 Jul 1999 (11 Raḥmat 156 B.E.): To all Bahá’í Publishing Trusts
+- Message: 30 Jun 1999 (7 Raḥmat 156 B.E.): To selected National Spiritual Assemblies
+- Message: 4 May 1999 (7 Jamál 156 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 1999 (156 B.E.): To the Bahá’ís of the World
+- Message: 15 Apr 1999 (7 Jalál 156 B.E.): To selected National Spiritual Assemblies
+- Message: 7 Apr 1999 (18 Bahá 156 B.E.): To all National Spiritual Assemblies
+- Message: 6 Apr 1999 (17 Bahá 156 B.E.): \[To a Local Spiritual Assembly\]
+- Message: 25 Feb 1999 (19 Mulk 155 B.E.): To all National Spiritual Assemblies
+- Message: 2 Feb 1999 (15 Sulṭán 155 B.E.): To the European Bahá’í Youth Council
+- Message: 14 Dec 1998 (3 Masá’il 155 B.E.): To selected National Spiritual Assemblies
+- Message: 1 Dec 1998 (9 Qawl 155 B.E.): To selected National Spiritual Assemblies
+- Message: 6 Oct 1998 (10 Mashíyyat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 1 Oct 1998 (5 Mashíyyat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 29 Sep 1998 (3 Mashíyyat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 24 Sep 1998 (17 ‘Izzat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 27 Aug 1998 (8 Asmá’ 155 B.E.): \[To an individual\]
+- Message: 12 Aug 1998 (12 Kamál 155 B.E.): \[To an individual\]
+- Message: 4 Aug 1998 (4 Kamál 155 B.E.): To selected National Spiritual Assemblies
+- Message: 22 Jul 1998 (10 Kalimát 155 B.E.): To National Spiritual Assemblies
+- Message: 2 Jul 1998 (9 Raḥmat 155 B.E.): To all National Spiritual Assemblies
+- Message: 16 Jun 1998 (12 Núr 155 B.E.): \[To two individuals\]
+- Message: 10 Jun 1998 (6 Núr 155 B.E.): The International Teaching Centre
+- Message: 1 Jun 1998 (16 ‘Aẓamat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 21 May 1998 (5 ‘Aẓamat 155 B.E.): To selected National Spiritual Assemblies
+- Message: 3 May 1998 (6 Jamál 155 B.E.): To the Conference of the Continental Counsellors
+- RidvanMessage: Riḍván 1998 (155 B.E.): To the Bahá’ís of the World
+- Message: 4 Mar 1998 (3 ‘Alá’ 154 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 17 Feb 1998 (11 Mulk 154 B.E.): \[To a Local Spiritual Assembly\]
+- Message: 6 Jan 1998 (7 Sharaf 154 B.E.): \[To an individual\]
+- Message: 6 Jan 1998 (7 Sharaf 154 B.E.): To the friends gathered at the Latin American Youth Congress in Chile
+- Message: 18 Aug 1997 (18 Kamál 154 B.E.): To all National Spiritual Assemblies
+- Message: 11 Aug 1997 (11 Kamál 154 B.E.): To National Spiritual Assemblies
+- Message: 30 May 1997 (14 ‘Aẓamat 154 B.E.): To National Spiritual Assemblies
+- RidvanMessage: Riḍván 1997 (154 B.E.): To the Bahá’ís of the World
+- Message: 30 Mar 1997 (10 Bahá 154 B.E.): To all National Spiritual Assemblies in Africa
+- Message: 24 Mar 1997 (4 Bahá 154 B.E.): The National Spiritual Assembly of the Bahá’ís of Côte d’Ivoire
+- NawRuzMessage: Naw-Rúz 1997 (153 B.E.): To the Lovers of the Most Great Beauty, beloved and faithful Friends
+- Message: 16 Sep 1996 (9 ‘Izzat 153 B.E.): The National Spiritual Assembly of the Bahá’ís of Austria
+- Message: 18 Aug 1996 (18 Kamál 153 B.E.): \[To an individual\]
+- Message: 6 Aug 1996 (6 Kamál 153 B.E.): To the Bahá’ís of the World
+- Message: 1 Jul 1996 (8 Raḥmat 153 B.E.): \[To an individual\]
+- Message: 14 Jun 1996 (10 Núr 153 B.E.): \[To an individual\]
+- Message: 13 May 1996 (16 Jamál 153 B.E.): \[To an individual\]
+- Message: 22 Apr 1996 (14 Jalál 153 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in the Andaman and Nicobar Islands, Bangladesh, India, Nepal and Sri Lanka
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Western and Central Asia
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in North America: Alaska, Canada, Greenland and the United States
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Latin America and the Caribbean
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Europe
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Cambodia, Hong Kong, Lao People’s Democratic Republic, Macau, Malaysia, Mongolia, Myanmar, Singapore, Taiwan, Thailand, and Vietnam
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Australia, the Cook Islands, the Eastern Caroline Islands, the Fiji Islands, French Polynesia, the Hawaiian Islands, Indonesia, Japan, Kiribati, Korea, the Mariana Islands, the Marshall Islands, New Caledonia and the Loyalty Islands, New Zealand, Papua New Guinea, the Philippines, Samoa, the Solomon Islands, Tonga, Tuvalu, Vanuatu, and the Western Caroline Islands
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Followers of Bahá’u’lláh in Africa
+- RidvanMessage: Riḍván 1996 (153 B.E.): To the Bahá’ís of the World
+- Message: 14 Mar 1996 (13 ‘Alá’ 152 B.E.): \[To an individual\]
+- Message: 31 Dec 1995 (1 Sharaf 152 B.E.): To the Bahá’ís of the World
+- Message: 26 Dec 1995 (15 Masá’il 152 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 26 Dec 1995 (15 Masá’il 152 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 19 May 1995 (3 ‘Aẓamat 152 B.E.): \[To an individual\]
+- Message: 27 Apr 1995 (19 Jalál 152 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 1995 (152 B.E.): To the Bahá’ís of the World
+- Message: 15 Dec 1994 (4 Masá’il 151 B.E.): \[To an individual\]
+- Message: 1 Aug 1994 (1 Kamál 151 B.E.): \[To an individual\]
+- Message: 25 Jul 1994 (13 Kalimát 151 B.E.): \[To a National Spiritual Assembly\]
+- Message: 19 May 1994 (3 ‘Aẓamat 151 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 17 May 1994 (1 ‘Aẓamat 151 B.E.): To the youth gathered at the five Regional Bahá’í Youth Conferences in Barcelona, Berlin, Bucharest, Saint Petersburg, and Wolverhampton
+- RidvanMessage: Riḍván 1994 (151 B.E.): To the Bahá’ís of the World
+- Message: 11 Mar 1994 (10 ‘Alá’ 150 B.E.): \[To an individual\]
+- Message: 4 Jan 1994 (5 Sharaf 150 B.E.): To all National Spiritual Assemblies
+- Message: 19 Oct 1993 (4 ‘Ilm 150 B.E.): \[To an individual\]
+- Message: 2 Sep 1993 (14 Asmá’ 150 B.E.): \[To a National Spiritual Assembly\]
+- Message: 4 Jul 1993 (11 Raḥmat 150 B.E.): \[To an individual\]
+- Message: 1 Jul 1993 (8 Raḥmat 150 B.E.): \[To an individual\]
+- Message: 30 Jun 1993 (7 Raḥmat 150 B.E.): \[To an individual\]
+- Message: 24 Jun 1993 (1 Raḥmat 150 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 1993 (150 B.E.): To the Bahá’ís of the World
+- Message: 5 Mar 1993 (4 ‘Alá’ 149 B.E.): To the Bahá’ís of the World
+- Message: 24 Jan 1993 (6 Sulṭán 149 B.E.): \[To an individual\]
+- Message: 26 Nov 1992 (4 Qawl 149 B.E.): To the Bahá’ís of the World
+- Message: 23 Nov 1992 (1 Qawl 149 B.E.): To the followers of Bahá’u’lláh attending the second Bahá’í World Congress
+- Message: 28 Oct 1992 (13 ‘Ilm 149 B.E.): \[To two individuals\]
+- Message: 15 Oct 1992 (19 Mashíyyat 149 B.E.): \[To an individual\]
+- Message: 30 Sep 1992 (4 Mashíyyat 149 B.E.): To selected National Spiritual Assemblies
+- Message: 30 Sep 1992 (4 Mashíyyat 149 B.E.): To all National Spiritual Assemblies
+- Message: 10 Sep 1992 (3 ‘Izzat 149 B.E.): To selected National Spiritual Assemblies
+- Message: 7 Sep 1992 (19 Asmá’ 149 B.E.): To selected National Spiritual Assemblies
+- Message: 3 Sep 1992 (15 Asmá’ 149 B.E.): To selected National Spiritual Assemblies
+- Message: 25 Jun 1992 (2 Raḥmat 149 B.E.): To selected National Spiritual Assemblies
+- Message: 24 Jun 1992 (1 Raḥmat 149 B.E.): To selected National Spiritual Assemblies
+- Message: 7 Jun 1992 (3 Núr 149 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 1992 (149 B.E.): To the Bahá’ís of the World
+- Message: 8 Apr 1992 (19 Bahá 149 B.E.): To all National Spiritual Assemblies
+- Message: 9 Dec 1991 (17 Qawl 148 B.E.): The National Spiritual Assembly of the Bahá’ís of Australia
+- Message: 26 Nov 1991 (4 Qawl 148 B.E.): To the Followers of Bahá’u’lláh throughout the World
+- Message: 18 Nov 1991 (15 Qudrat 148 B.E.): To the Followers of Bahá’u’lláh in Every Land
+- Message: 30 Oct 1991 (15 ‘Ilm 148 B.E.): To Selected National Spiritual Assemblies
+- Message: 28 Oct 1991 (13 ‘Ilm 148 B.E.): \[To an individual\]
+- Message: 20 Jun 1991 (16 Núr 148 B.E.): To the Bahá’ís of the World
+- Message: 1 May 1991 (4 Jamál 148 B.E.): \[To two individuals\]
+- RidvanMessage: Riḍván 1991 (148 B.E.): To the Bahá’ís of the World
+- Message: 3 Apr 1991 (14 Bahá 148 B.E.): To all National Spiritual Assemblies
+- Message: 2 Jan 1991 (3 Sharaf 147 B.E.): \[To an individual\]
+- Message: 21 Nov 1990 (18 Qudrat 147 B.E.): To the Friends gathered at the Moscow Conference
+- Message: 24 May 1990 (8 ‘Aẓamat 147 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 1990 (147 B.E.): To the Bahá’ís of the World
+- Message: 20 Apr 1990 (12 Jalál 147 B.E.): To all National Spiritual Assemblies
+- Message: 12 Feb 1990 (6 Mulk 146 B.E.): To the Bahá’ís of the World
+- Message: 8 Feb 1990 (2 Mulk 146 B.E.): To the Followers of Bahá’u’lláh throughout the World
+- Message: 23 Jan 1990 (5 Sulṭán 146 B.E.): To all National Spiritual Assemblies
+- Message: 20 Nov 1989 (17 Qudrat 146 B.E.): The National Spiritual Assembly of the Bahá’ís of Guyana
+- Message: 9 Nov 1989 (6 Qudrat 146 B.E.): The National Spiritual Assembly of the Bahá’ís of the Hawaiian Islands
+- Message: 25 Sep 1989 (18 ‘Izzat 146 B.E.): \[To an individual\]
+- Message: 28 Aug 1989 (9 Asmá’ 146 B.E.): To all National Spiritual Assemblies
+- Message: 27 Aug 1989 (8 Asmá’ 146 B.E.): To the Followers of Bahá’u’lláh
+- Message: 10 Jul 1989 (17 Raḥmat 146 B.E.): To all National Spiritual Assemblies
+- Message: 22 Jun 1989 (18 Núr 146 B.E.): \[To a National Spiritual Assembly\]
+- RidvanMessage: Riḍván 1989 (146 B.E.): To the Bahá’ís of the World
+- Message: 29 Dec 1988 (18 Masá’il 145 B.E.): To the Followers of Bahá’u’lláh in the United States of America
+- Message: 13 Dec 1988 (2 Masá’il 145 B.E.): To all National Spiritual Assemblies
+- Message: 30 Sep 1988 (4 Mashíyyat 145 B.E.): To all National Spiritual Assemblies
+- Message: 25 Jul 1988 (13 Kalimát 145 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
+- Message: 16 Jun 1988 (12 Núr 145 B.E.): To all National Spiritual Assemblies
+- Message: 31 May 1988 (15 ‘Aẓamat 145 B.E.): The National Spiritual Assembly of the Bahá’ís of New Zealand
+- RidvanMessage: Riḍván 1988 (145 B.E.): To the Bahá’ís of the World
+- Message: 4 Feb 1988 (17 Sulṭán 144 B.E.): To all National Spiritual Assemblies
+- Message: 14 Jan 1988 (15 Sharaf 144 B.E.): The National Spiritual Assembly of the Bahá’ís of the Mariana Islands
+- Message: 14 Dec 1987 (3 Masá’il 144 B.E.): To selected National Spiritual Assemblies
+- Message: 22 Oct 1987 (7 ‘Ilm 144 B.E.): To all National Spiritual Assemblies
+- Message: 31 Aug 1987 (12 Asmá’ 144 B.E.): To the Followers of Bahá’u’lláh throughout the world
+- Message: 20 Aug 1987 (1 Asmá’ 144 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
+- Message: 15 Jul 1987 (3 Kalimát 144 B.E.): \[To a National Spiritual Assembly\]
+- Message: 28 Jun 1987 (5 Raḥmat 144 B.E.): The National Spiritual Assembly of the Bahá’ís of New Zealand
+- Message: 21 Jun 1987 (17 Núr 144 B.E.): The National Spiritual Assembly of the Bahá’ís of Finland
+- Message: 19 Jun 1987 (15 Núr 144 B.E.): The National Spiritual Assembly of the Bahá’ís of Germany
+- Message: 15 Jun 1987 (11 Núr 144 B.E.): \[To two individuals\]
+- Message: 30 Apr 1987 (3 Jamál 144 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 1987 (144 B.E.): To the Bahá’ís of the World
+- Message: 25 Mar 1987 (5 Bahá 144 B.E.): To all National Spiritual Assemblies
+- Message: 10 Mar 1987 (9 ‘Alá’ 143 B.E.): \[To an individual\]
+- Message: 9 Mar 1987 (8 ‘Alá’ 143 B.E.): \[To an individual\]
+- Message: 26 Nov 1986 (4 Qawl 143 B.E.): \[To a National Spiritual Assembly\]
+- Message: 6 Nov 1986 (3 Qudrat 143 B.E.): \[To an individual\]
+- Message: 29 Oct 1986 (14 ‘Ilm 143 B.E.): To the meeting of the Senior Officers of the United Nations Office and the Office of Public Information
+- Message: 27 Oct 1986 (12 ‘Ilm 143 B.E.): \[To an individual\]
+- Message: 12 Oct 1986 (16 Mashíyyat 143 B.E.): To all National Spiritual Assemblies
+- Message: 25 May 1986 (9 ‘Aẓamat 143 B.E.): To the Bahá’ís of the World
+- Message: 12 May 1986 (15 Jamál 143 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 1986 (143 B.E.): To the Bahá’ís of the World
+- Message: 17 Mar 1986 (16 ‘Alá’ 142 B.E.): \[To an individual\]
+- Message: 25 Feb 1986 (19 Mulk 142 B.E.): To all National Spiritual Assemblies
+- Message: 5 Feb 1986 (18 Sulṭán 142 B.E.): To all National Spiritual Assemblies
+- Message: 5 Jan 1986 (6 Sharaf 142 B.E.): \[To an individual\]
+- Message: 2 Jan 1986 (3 Sharaf 142 B.E.): The Bahá’ís of the World
+- Message: 27 Dec 1985 (16 Masá’il 142 B.E.): To the Conference of the Continental Boards of Counsellors
+- Message: 17 Dec 1985 (6 Masá’il 142 B.E.): To all National Spiritual Assemblies
+- Message: 24 Oct 1985 (9 ‘Ilm 142 B.E.): To the Bahá’ís of the World
+- PromiseOfWorldPeaceMessage: October 1985: To the Peoples of the World
+- Message: 19 Sep 1985 (12 ‘Izzat 142 B.E.): To all National Spiritual Assemblies
+- Message: 7 Aug 1985 (7 Kamál 142 B.E.): To National Spiritual Assemblies
+- Message: 5 Aug 1985 (5 Kamál 142 B.E.): To National Spiritual Assemblies
+- Message: 21 Jul 1985 (9 Kalimát 142 B.E.): To all National Spiritual Assemblies
+- Message: 8 May 1985 (11 Jamál 142 B.E.): To the Bahá’í Youth of the World
+- RidvanMessage: Riḍván 1985 (142 B.E.): To the Bahá’ís of the World
+- Message: 11 Apr 1985 (3 Jalál 142 B.E.): \[To an individual\]
+- Message: 14 Mar 1985 (13 ‘Alá’ 141 B.E.): \[To an individual\]
+- Message: 31 Jan 1985 (13 Sulṭán 141 B.E.): \[To an individual\]
+- Message: 23 Jan 1985 (5 Sulṭán 141 B.E.): To all National Spiritual Assemblies
+- Message: 3 Jan 1985 (4 Sharaf 141 B.E.): To all National Spiritual Assemblies
+- Message: 25 Oct 1984 (10 ‘Ilm 141 B.E.): \[To an individual\]
+- Message: 23 Aug 1984 (4 Asmá’ 141 B.E.): \[To an individual\]
+- Message: 12 Aug 1984 (12 Kamál 141 B.E.): \[To an individual\]
+- Message: 6 Aug 1984 (6 Kamál 141 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 25 Jul 1984 (13 Kalimát 141 B.E.): \[To an individual\]
+- Message: 12 Jun 1984 (8 Núr 141 B.E.): \[To an individual\]
+- Message: 21 May 1984 (5 ‘Aẓamat 141 B.E.): To all National Spiritual Assemblies
+- Message: 13 May 1984 (16 Jamál 141 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 1984 (141 B.E.): To the Bahá’ís of the World
+- Message: 3 Jan 1984 (4 Sharaf 140 B.E.): To the Bahá’í Youth of the World
+- Message: 13 Dec 1983 (2 Masá’il 140 B.E.): To the National Spiritual Assemblies of the Bahá’ís of Alaska, Australia, Austria, Belgium, Canada, Denmark, Finland, France, Germany, the Hawaiian Islands, Iceland, Ireland, Italy, Luxembourg, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom and the United States
+- Message: 7 Dec 1983 (15 Qawl 140 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 7 Nov 1983 (4 Qudrat 140 B.E.): To all National Spiritual Assemblies
+- Message: 20 Oct 1983 (5 ‘Ilm 140 B.E.): To the Bahá’ís of the World
+- Message: 19 Oct 1983 (4 ‘Ilm 140 B.E.): To all National Spiritual Assemblies
+- Message: 13 Sep 1983 (6 ‘Izzat 140 B.E.): To all National Spiritual Assemblies
+- Message: 1 Sep 1983 (13 Asmá’ 140 B.E.): The National Spiritual Assembly of the Bahá’ís of Norway
+- Message: 4 Jul 1983 (11 Raḥmat 140 B.E.): To the European Youth Conference in Innsbruck
+- Message: 23 Jun 1983 (19 Núr 140 B.E.): To Bahá’í Youth Throughout the World
+- Message: 19 Jun 1983 (15 Núr 140 B.E.): To all National Spiritual Assemblies
+- Message: 19 May 1983 (3 ‘Aẓamat 140 B.E.): To the Followers of Bahá’u’lláh throughout the World
+- RidvanMessage: Riḍván 1983 (140 B.E.): To the Bahá’ís of the World
+- Message: 2 Feb 1983 (15 Sulṭán 139 B.E.): To all National Spiritual Assemblies
+- Message: 2 Sep 1982 (14 Asmá’ 139 B.E.): To the Friends gathered in the Asian-Australasian Bahá’í Conference in Canberra
+- Message: 2 Sep 1982 (14 Asmá’ 139 B.E.): To the Friends gathered at the Bahá’í International Conference in Montreal
+- Message: 19 Aug 1982 (19 Kamál 139 B.E.): To the Friends gathered at the Bahá’í International Conference at Lagos
+- Message: 6 Aug 1982 (6 Kamál 139 B.E.): To the Followers of Bahá’u’lláh gathered at the International Conference in Quito, Ecuador
+- Message: 2 Aug 1982 (2 Kamál 139 B.E.): \[To a National Spiritual Assembly\]
+- Message: 3 Jun 1982 (18 ‘Aẓamat 139 B.E.): \[To individuals\]
+- Message: 2 Jun 1982 (17 ‘Aẓamat 139 B.E.): To the Friends gathered at the International Conference in Dublin
+- RidvanMessage: Riḍván 1982 (139 B.E.): To the Bahá’ís of the World
+- Message: 9 Mar 1982 (8 ‘Alá’ 138 B.E.): To all National Spiritual Assemblies
+- Message: 26 Jan 1982 (8 Sulṭán 138 B.E.): The Bahá’ís of the World
+- Message: 3 Jan 1982 (4 Sharaf 138 B.E.): \[To an individual\]
+- Message: 28 Dec 1981 (17 Masá’il 138 B.E.): To National Spiritual Assemblies
+- Message: 22 Oct 1981 (7 ‘Ilm 138 B.E.): To all National Spiritual Assemblies
+- Message: 17 Oct 1981 (2 ‘Ilm 138 B.E.): To all National Spiritual Assemblies
+- Message: 22 Jul 1981 (10 Kalimát 138 B.E.): \[To an individual\]
+- Message: 27 May 1981 (11 ‘Aẓamat 138 B.E.): To all National Spiritual Assemblies
+- Message: 17 Apr 1981 (9 Jalál 138 B.E.): To all National Spiritual Assemblies
+- Message: 16 Apr 1981 (8 Jalál 138 B.E.): To all Continental Pioneer Committees
+- Message: 1 Mar 1981 (4 Ayyám-i-Há 137 B.E.): To the Bahá’ís of the World
+- Message: 28 Dec 1980 (17 Masá’il 137 B.E.): The National Spiritual Assembly of the Bahá’ís of New Zealand
+- Message: 22 Dec 1980 (11 Masá’il 137 B.E.): To gatherings of Counsellors in all countries
+- Message: 3 Nov 1980 (19 ‘Ilm 137 B.E.): To the Bahá’ís of the World
+- Message: 24 Sep 1980 (17 ‘Izzat 137 B.E.): To the Bahá’ís of the World
+- Message: 23 Sep 1980 (16 ‘Izzat 137 B.E.): To all National Spiritual Assemblies
+- Message: 11 Sep 1980 (4 ‘Izzat 137 B.E.): To all National Spiritual Assemblies
+- Message: 7 May 1980 (10 Jamál 137 B.E.): The National Spiritual Assembly of the Bahá’ís of Germany
+- NawRuzMessage: Naw-Rúz 1980 (137 B.E.): To the Bahá’ís of the World
+- Message: 10 Feb 1980 (4 Mulk 136 B.E.): To the dear Iranian believers resident in other countries throughout the world
+- Message: 17 Oct 1979 (2 ‘Ilm 136 B.E.): To National Spiritual Assemblies
+- Message: 9 Sep 1979 (2 ‘Izzat 136 B.E.): To all National Spiritual Assemblies
+- Message: 29 Jun 1979 (6 Raḥmat 136 B.E.): To all National Spiritual Assemblies
+- Message: 15 Jun 1979 (11 Núr 136 B.E.): To all National Spiritual Assemblies
+- Message: 23 May 1979 (7 ‘Aẓamat 136 B.E.): To all National Spiritual Assemblies
+- NawRuzMessage: Naw-Rúz 1979 (136 B.E.): To the Bahá’ís of the World
+- NawRuzMessage: Naw-Rúz 1979 (136 B.E.): To National Spiritual Assemblies
+- Message: 10 Mar 1979 (9 ‘Alá’ 135 B.E.): To National Spiritual Assemblies
+- Message: 8 Mar 1979 (7 ‘Alá’ 135 B.E.): To the National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 26 Feb 1979 (1 Ayyám-i-Há 135 B.E.): To all National Spiritual Assemblies
+- Message: 12 Jan 1979 (13 Sharaf 135 B.E.): To all National Spiritual Assemblies
+- Message: 3 Jan 1979 (4 Sharaf 135 B.E.): To the Participants in the Bahá’í Studies Seminar held in Cambridge on 30 September and 1 October 1978
+- Message: 15 Dec 1978 (4 Masá’il 135 B.E.): To National Spiritual Assemblies
+- Message: 11 Oct 1978 (15 Mashíyyat 135 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 1978 (135 B.E.): To the International Bahá’í Convention
+- Message: 27 Mar 1978 (7 Bahá 135 B.E.): To all National Spiritual Assemblies
+- Message: 21 Aug 1977 (2 Asmá’ 134 B.E.): \[To an individual\]
+- Message: 24 Mar 1977 (4 Bahá 134 B.E.): To all National Spiritual Assemblies
+- Message: 6 Mar 1977 (5 ‘Alá’ 133 B.E.): To National Spiritual Assemblies
+- Message: 1 Feb 1977 (14 Sulṭán 133 B.E.): To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Mérida, Mexico
+- Message: 1 Jan 1977 (2 Sharaf 133 B.E.): To the Friends assembled at the International Teaching Conference in Auckland
+- Message: 1 Jan 1977 (2 Sharaf 133 B.E.): To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Bahia, Brazil
+- Message: 2 Dec 1976 (10 Qawl 133 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 1 Nov 1976 (17 ‘Ilm 133 B.E.): To the Friends assembled at the International Teaching Conference in Hong Kong
+- Message: 26 Sep 1976 (19 ‘Izzat 133 B.E.): To the Friends gathered at the International Conference in Nairobi
+- Message: 1 Aug 1976 (1 Kamál 133 B.E.): To the Friends assembled at the International Teaching Conference in Paris
+- Message: 7 Jul 1976 (14 Raḥmat 133 B.E.): \[To an individual\]
+- Message: 1 Jul 1976 (8 Raḥmat 133 B.E.): To the Friends assembled at the International Teaching Conference in Anchorage
+- Message: 1 Jul 1976 (8 Raḥmat 133 B.E.): To the Followers of Bahá’u’lláh gathered at the International Teaching Conference in Helsinki
+- Message: 24 Mar 1976 (4 Bahá 133 B.E.): To all National Spiritual Assemblies
+- Message: 18 Mar 1976 (17 ‘Alá’ 132 B.E.): To all National Spiritual Assemblies
+- Message: 24 Jul 1975 (12 Kalimát 132 B.E.): \[To an individual\]
+- Message: 5 Jun 1975 (1 Núr 132 B.E.): To the Followers of Bahá’u’lláh throughout the World
+- Message: 25 May 1975 (9 ‘Aẓamat 132 B.E.): To all National Spiritual Assemblies
+- Message: 14 May 1975 (17 Jamál 132 B.E.): To all National Spiritual Assemblies
+- Message: 4 Apr 1975 (15 Bahá 132 B.E.): To all National Spiritual Assemblies
+- Message: 25 Mar 1975 (5 Bahá 132 B.E.): To all National Spiritual Assemblies
+- Message: 4 Mar 1975 (3 ‘Alá’ 131 B.E.): To all National Spiritual Assemblies
+- Message: 14 Jan 1975 (15 Sharaf 131 B.E.): To all National Spiritual Assemblies
+- Message: 6 Jan 1975 (7 Sharaf 131 B.E.): To all National Spiritual Assemblies
+- Message: 19 Nov 1974 (16 Qudrat 131 B.E.): The National Spiritual Assembly of the Bahá’ís of Italy
+- Message: 29 Jul 1974 (17 Kalimát 131 B.E.): The National Spiritual Assembly of the Bahá’ís of the United States
+- Message: 22 Jul 1974 (10 Kalimát 131 B.E.): To all National Spiritual Assemblies
+- Message: 9 Jun 1974 (5 Núr 131 B.E.): The National Spiritual Assembly of the Bahá’ís of Iceland
+- Message: 28 Apr 1974 (1 Jamál 131 B.E.): \[To an individual\]
+- NawRuzMessage: Naw-Rúz 1974 (131 B.E.): To the Bahá’ís of the World
+- NawRuzMessage: Naw-Rúz 1974 (131 B.E.): To all National Spiritual Assemblies
+- Message: 7 Feb 1974 (1 Mulk 130 B.E.): To all National Spiritual Assemblies
+- Message: 4 Dec 1973 (12 Qawl 130 B.E.): To all National Spiritual Assemblies
+- Message: 7 Oct 1973 (11 Mashíyyat 130 B.E.): To the Bahá’ís of the World
+- Message: 8 Jun 1973 (4 Núr 130 B.E.): To the Bahá’ís of the World
+- Message: 5 Jun 1973 (1 Núr 130 B.E.): To all National Spiritual Assemblies
+- Message: 7 May 1973 (10 Jamál 130 B.E.): To the Bahá’ís of the World
+- RidvanMessage: Riḍván 1973 (130 B.E.): To the Bahá’ís of the World
+- Message: 15 Mar 1973 (14 ‘Alá’ 129 B.E.): To all National Spiritual Assemblies
+- Message: 26 Nov 1972 (4 Qawl 129 B.E.): To all National Spiritual Assemblies
+- Message: 30 Jul 1972 (18 Kalimát 129 B.E.): The National Spiritual Assembly of the Bahá’ís of Bolivia
+- Message: 13 Jul 1972 (1 Kalimát 129 B.E.): To all National Spiritual Assemblies
+- Message: 7 Jun 1972 (3 Núr 129 B.E.): To all National Spiritual Assemblies
+- Message: 24 Apr 1972 (16 Jalál 129 B.E.): To the Continental Boards of Counsellors and National Spiritual Assemblies
+- RidvanMessage: Riḍván 1972 (129 B.E.): To the Bahá’ís of the World
+- Message: 1 Sep 1971 (13 Asmá’ 128 B.E.): To the Friends of God assembled in the Conference of the North Pacific Ocean
+- Message: 1 Sep 1971 (13 Asmá’ 128 B.E.): To the Friends assembled in the North Atlantic Conference in Reykjavik
+- Message: 12 Jul 1971 (19 Raḥmat 128 B.E.): To all National Spiritual Assemblies
+- Message: 1 May 1971 (4 Jamál 128 B.E.): To the Friends of God gathered in the Caribbean Conference
+- Message: 1 May 1971 (4 Jamál 128 B.E.): To the Friends of God assembled in the Conference of the South Pacific Ocean
+- RidvanMessage: Riḍván 1971 (128 B.E.): To the Bahá’ís of the World
+- Message: 1 Jan 1971 (2 Sharaf 127 B.E.): To the Friends of God assembled in the Oceanic Conference in Singapore, Malaysia
+- Message: 1 Jan 1971 (2 Sharaf 127 B.E.): To the Friends of God assembled in the Conference in Monrovia, Liberia
+- Message: 1 Aug 1970 (1 Kamál 127 B.E.): To the Continental Conference in La Paz, Bolivia, and the Oceanic Conference in Rose-Hill, Mauritius
+- RidvanMessage: Riḍván 1970 (127 B.E.): To all National Spiritual Assemblies
+- Message: 6 Mar 1970 (5 ‘Alá’ 126 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
+- Message: 8 Feb 1970 (2 Mulk 126 B.E.): To National Spiritual Assemblies in Africa
+- Message: 7 Dec 1969 (15 Qawl 126 B.E.): \[To an individual\]
+- Message: 16 Nov 1969 (13 Qudrat 126 B.E.): To the Bahá’ís of the World
+- Message: 1 Oct 1969 (5 Mashíyyat 126 B.E.): To the Continental Boards of Counsellors and National Spiritual Assemblies
+- Message: 26 May 1969 (10 ‘Aẓamat 126 B.E.): The National Spiritual Assembly of the Bahá’ís of Canada
+- RidvanMessage: Riḍván 1969 (126 B.E.): To the Bahá’ís of the World
+- Message: 9 Oct 1968 (13 Mashíyyat 125 B.E.): To the Bahá’í Youth in Every Land
+- Message: 1 Aug 1968 (1 Kamál 125 B.E.): To the Hands of the Cause of God and the Bahá’í Friends assembled in Palermo, Sicily, at the First Bahá’í Oceanic Conference
+- Message: 24 Jun 1968 (1 Raḥmat 125 B.E.): To the Bahá’ís of the World
+- Message: 21 Jun 1968 (17 Núr 125 B.E.): To all National Spiritual Assemblies
+- Message: 9 May 1968 (12 Jamál 125 B.E.): To all National Spiritual Assemblies
+- Message: 8 Dec 1967 (16 Qawl 124 B.E.): \[To an individual\]
+- Message: 15 Oct 1967 (19 Mashíyyat 124 B.E.): To all National Spiritual Assemblies
+- Message: 2 Jul 1967 (9 Raḥmat 124 B.E.): To all National Spiritual Assemblies
+- RidvanMessage: Riḍván 1967 (124 B.E.): The Bahá’ís of the World
+- Message: 10 Jun 1966 (6 Núr 123 B.E.): To the Bahá’í Youth in every Land
+- Message: 27 May 1966 (11 ‘Aẓamat 123 B.E.): \[To an individual\]
+- RidvanMessage: Riḍván 1966 (123 B.E.): The Bahá’ís of the World
+- Message: 2 Feb 1966 (15 Sulṭán 122 B.E.): To all National Spiritual Assemblies Engaged in Mass Teaching Work
+- Message: 28 Jan 1966 (10 Sulṭán 122 B.E.): To National Spiritual Assemblies
+- RidvanMessage: Riḍván 1965 (122 B.E.): The Bahá’ís of the World
+- Message: 9 Mar 1965 (8 ‘Alá’ 121 B.E.): The National Spiritual Assembly of the Bahá’ís of the Netherlands
+- Message: 1 Nov 1964 (17 ‘Ilm 121 B.E.): To the Bahá’ís of the World
+- Message: 1 Nov 1964 (17 ‘Ilm 121 B.E.): To National Spiritual Assemblies of the Bahá’í World
+- Message: 1 Sep 1964 (13 Asmá’ 121 B.E.): To the Bahá’ís of the World
+- Message: 13 Jul 1964 (1 Kalimát 121 B.E.): To all National Spiritual Assemblies
+- Message: 1 Jul 1964 (8 Raḥmat 121 B.E.): To the beloved of God gathered in the European Teaching Conference called on the occasion of the dedication of the Mother Temple of Europe
+- Message: 21 Apr 1964 (13 Jalál 121 B.E.): To the Bahá’ís of the World
+- Message: 18 Dec 1963 (7 Masá’il 120 B.E.): To the Bahá’ís of East and West
+- Message: 25 Nov 1963 (3 Qawl 120 B.E.): To all National Spiritual Assemblies
+- Message: 19 Nov 1963 (16 Qudrat 120 B.E.): To all National Spiritual Assemblies
+- Message: 6 Oct 1963 (10 Mashíyyat 120 B.E.): To all National Spiritual Assemblies
+- Message: 1 Oct 1963 (5 Mashíyyat 120 B.E.): To the Followers of Bahá’u’lláh throughout the World
+- Message: 25 Aug 1963 (6 Asmá’ 120 B.E.): To the National Spiritual Assemblies of the Bahá’í World
+- Message: 7 May 1963 (10 Jamál 120 B.E.): To the annual National Conventions of the Bahá’í World
+- Message: 30 Apr 1963 (3 Jamál 120 B.E.): \[To the First Bahá’í World Congress\]
+
 ## 0.1.0+20240525b - 2024-07-17
 ### Added
 - Message: 25 May 2024 (10 ‘Aẓamat 181 B.E.): To the Friends Gathered in Port Moresby, Papua New Guinea, for the Dedication of the House of Worship

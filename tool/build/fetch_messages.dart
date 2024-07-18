@@ -7,7 +7,6 @@ import 'package:bahai_writings/src/models/date.dart';
 import 'package:bahai_writings/src/models/writings_base.dart';
 import 'package:beautiful_soup_dart/beautiful_soup.dart';
 import 'package:http/http.dart' as http;
-import 'package:intl/intl.dart';
 
 import '../logger.dart';
 
@@ -43,8 +42,8 @@ Future<List<MessageBase>> fetchMessages() async {
   logger.success('Parse HTML OK.');
   logger.info('Finding messages ...');
   final rows = table.findAll('tr', class_: 'document-row');
-  final DateFormat dateFormat = DateFormat('d MMMM yyyy');
-  final DateFormat monthFormat = DateFormat('MMMM yyyy');
+  // final DateFormat dateFormat = DateFormat('d MMMM yyyy');
+  // final DateFormat monthFormat = DateFormat('MMMM yyyy');
   final datePattern = RegExp(
     r'Naw-Rúz ((?<nawRuzCE>\d{4})|(?<nawRuzBE>\d{3}))'
     r'|Riḍván ((?<ridvanCE>\d{4})|(?<ridvanBE>\d{3}))'
@@ -56,7 +55,25 @@ Future<List<MessageBase>> fetchMessages() async {
 
   final List<MessageBase> messages = [];
 
+  final idPattern =
+      RegExp(r'(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})_(?<index>\d{3})');
+
   for (final (i, row) in rows.indexed) {
+    final idMatch = idPattern.firstMatch(row.id);
+    if (idMatch == null) {
+      throw Exception('No id match for row $i: ${row.outerHtml}');
+    }
+    for (final name in idMatch.groupNames) {
+      if (idMatch.namedGroup(name) == null) {
+        throw Exception(
+            'row $i id: ${row.id} failed to match for group: "$name"');
+      }
+    }
+    final Date date = DateTime.parse(
+            '${idMatch.namedGroup('year')!}-${idMatch.namedGroup('month')!}-${idMatch.namedGroup('day')!}')
+        .date;
+    final BadiDate badiDate = BadiDate.fromDate(date.utc);
+    final number = int.parse(idMatch.namedGroup('index')!);
     final dateCol = row.find('td', class_: 'col-date')!;
     final title = row.find('td', class_: 'col-to')!.text;
     final summary = row.find('td', class_: 'col-summary')!.text;
@@ -74,60 +91,24 @@ Future<List<MessageBase>> fetchMessages() async {
         continue;
       }
 
-      final Date date;
-      final BadiDate badiDate;
-      final _MessageType type;
-
-      switch (name) {
-        case 'nawRuzCE':
-          type = _MessageType.nawRuz;
-          final ce = int.parse(text);
-          badiDate = BadiDate(year: ce - 1843, month: 1, day: 1);
-          date = badiDate.startDateTime.date;
-        case 'nawRuzBE':
-          type = _MessageType.nawRuz;
-          final be = int.parse(text);
-          badiDate = BadiDate(year: be, month: 1, day: 1);
-          date = badiDate.startDateTime.date;
-        case 'ridvanCE':
-          type = _MessageType.ridvan;
-          final ce = int.parse(text);
-          badiDate = BadiDate(year: ce - 1843, month: 2, day: 13);
-          date = badiDate.startDateTime.date;
-        case 'ridvanBE':
-          type = _MessageType.ridvan;
-          final be = int.parse(text);
-          badiDate = BadiDate(year: be, month: 2, day: 13);
-          date = badiDate.startDateTime.date;
-        case 'date':
-          type = _MessageType.message;
-          final dateTime = dateFormat.parse(text);
-          date = dateTime.date;
-          badiDate = BadiDate.fromDate(dateTime);
-
-        /// The Promise of World Peace
-        case 'month':
-          type = title.contains('Peoples of the World')
-              ? _MessageType.pwp
-              : _MessageType.message;
-          final dateTime = monthFormat.parse(text);
-          date = dateTime.date;
-          badiDate = BadiDate.fromDate(dateTime);
-
-        /// TODO: Handle BadiDate parsing for potential future outliers
-        /// This one seems to be a Naw Ruz message:
-        case 'baha154':
-          type = _MessageType.nawRuz;
-          badiDate = BadiDate(year: 154, month: 1, day: 1);
-          date = badiDate.startDateTime.date;
-        default:
-          throw UnimplementedError();
-      }
+      final _MessageType type = switch (name) {
+        'nawRuzCE' => _MessageType.nawRuz,
+        'nawRuzBE' => _MessageType.nawRuz,
+        'ridvanCE' => _MessageType.ridvan,
+        'ridvanBE' => _MessageType.ridvan,
+        'date' => _MessageType.message,
+        'month' => title.contains('Peoples of the World')
+            ? _MessageType.pwp
+            : _MessageType.message,
+        'baha154' => _MessageType.nawRuz,
+        _ => throw UnimplementedError(),
+      };
 
       switch (type) {
         case _MessageType.nawRuz:
           messages.add(NawRuzMessage(
               id: row.id,
+              number: number,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -136,6 +117,7 @@ Future<List<MessageBase>> fetchMessages() async {
         case _MessageType.ridvan:
           messages.add(RidvanMessage(
               id: row.id,
+              number: number,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -144,6 +126,7 @@ Future<List<MessageBase>> fetchMessages() async {
         case _MessageType.message:
           messages.add(Message(
               id: row.id,
+              number: number,
               title: title,
               date: date,
               badiDate: badiDate,
@@ -152,6 +135,7 @@ Future<List<MessageBase>> fetchMessages() async {
         case _MessageType.pwp:
           messages.add(PromiseOfWorldPeaceMessage(
               id: row.id,
+              number: number,
               title: title,
               date: date,
               badiDate: badiDate,
