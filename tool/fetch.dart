@@ -11,8 +11,8 @@ import 'logger.dart';
 Future<void> main() async {
   final List<String> libraryUrls = [];
   final Map<int, Set<String>> ids = {};
-  // for (int year = Messages.firstCE.year; year <= Messages.lastCE.year; year++) {
-  for (int year = 1988; year == 1988; year++) {
+  for (int year = Messages.firstCE.year; year <= Messages.lastCE.year; year++) {
+    // for (int year = 1997; year == 1997; year++) {
     logger.info('Fetching available $year UHJ Messages content ...');
     final boy = Date(year, 1, 1);
     ids[year] = {};

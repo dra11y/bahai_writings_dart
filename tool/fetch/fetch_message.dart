@@ -26,7 +26,7 @@ Future<String> fetchMessage(MessageBase message) async {
           html2md.Rule(
             'cite',
             filterFn: (node) {
-              logger.warn('nodeName = ${node.nodeName}');
+              // logger.warn('nodeName = ${node.nodeName}');
               return node.nodeName == 'cite';
             },
             replacement: (content, node) => '**$content**',
